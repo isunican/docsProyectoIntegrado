@@ -1,15 +1,10 @@
-======================================================================
- Normas de Evaluación de las Actividades de Scrum
-======================================================================
-
-Todo: Escribir Normas
-
-----------
- Rúbricas
-----------
+=======================
+ Métodos de Desarrollo
+=======================
 
 .. toctree::
 
-  rubricaSprintPlanningMeetingI
-  rubricaSprintPlanningMeetingII
-  rubricaDailyScrumMeeting
+  normasDeEvaluacion
+  Sprint Planning Meeting I <rubricaSprintPlanningMeetingI>
+  Sprint Planning Meeting II <rubricaSprintPlanningMeetingII>
+  Daily Scrum Meeting <rubricaDailyScrumMeeting>

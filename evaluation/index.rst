@@ -1,9 +1,10 @@
 ===================================
- Normas de Evaluación y Rúbricas
+ Normas y Criterios de Evaluación
 ===================================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Índice:
+   :maxdepth: 2
 
-   scrum/indexRubricasScrum
+   Métodos de Desarrollo <scrum/indexRubricasScrum>
+   Calidad y Auditoría <calidad/index>
+   Procesos de Ingeniería Sw <procesos/index>

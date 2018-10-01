@@ -3,9 +3,7 @@
 ===============================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Índice:
+   :maxdepth: 3
 
-   self 
    politicaCfg
    estructuraRepositorios
