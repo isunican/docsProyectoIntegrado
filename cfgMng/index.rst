@@ -3,7 +3,6 @@
 ===============================
 
 .. toctree::
-   :maxdepth: 3
 
    politicaCfg
    estructuraRepositorios

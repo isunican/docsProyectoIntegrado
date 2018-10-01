@@ -3,7 +3,6 @@
 ===================================
 
 .. toctree::
-   :maxdepth: 2
 
    Métodos de Desarrollo <scrum/indexRubricasScrum>
    Calidad y Auditoría <calidad/index>

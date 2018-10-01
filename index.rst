@@ -4,11 +4,11 @@
    contain the root `toctree` directive.
 
 =============================================
- PISUC
+ PIISUC
 =============================================
-----------------------------------------------------------------------
- Proyecto Integrado de Ingeniería del Sw de la Universid de Cantabria
-----------------------------------------------------------------------
+-------------------------------------------------------------------------
+ Proyecto Integrado de Ingeniería del Sw de la Universidad de Cantabria
+--------------------------------------------------------------------------
 
 Este documento contiene diferentes tipos de materiales relacionados con el
 proyecto integrado que actualmente se desarrolla entre las asignaturas de
@@ -17,7 +17,7 @@ todas ellas pertenecientes a la intensificación en Ingeniería del Software del
 Grado en Ingeniería Informática de la Universidad de Cantabria.
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    :caption: Índice
 
    scrum/index
