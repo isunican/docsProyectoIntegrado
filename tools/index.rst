@@ -46,6 +46,30 @@ Acciones Requeridas
 
 Cada alumnos deberá instalar Git en su computadora personal y comprobar que éste funciona correctamente. Además se recomienda encarecidamente que haya realizado los tutoriales impartidos en la asignatura de Métodos de Desarrollo.
 
+GitHub
+=======
+
+`GitHub <https://github.com/>`_ es un popular sistema de alojamiento en la web de repositorios Git. GitHub ofrece además una serie de facilidades para la gestión de los proyectos asociados a cada repositorio que aloja. Por ejemplo,
+Github ofrece una serie de facilidades para la gestión de peticiones de mantenimiunto asociadas a un determinado repositorio, o la posibilidad de interconexión automática de los repositorios con sistemas de integración continua.
+
+GitHub permite a cualquier persona crear y alojar de manera gratuita un repositorio Git en su sistema, siempre y cuando dicho repositorio sea público. Si se quiere que dicho repositorio sea privado, habría que pagar entonces por el alojamiento. No obstante, GitHub tiene un paquete académico, denominado  `Student Pack <https://education.github.com/pack>`_ que permite a aquellos alumnos que se inscriban en él crear repositorios privados, además de otras numerosas ventajas.
+
+Acciones Requeridas
+--------------------
+
+Cada alumno deberá disponer de una cuenta en GitHub.
+
+Además, antes del inicio del proyecto, un miembro del grupo, que ejercerá como administrador GitHub, creará un repositorio inicial de pruebas y añadirá a dicho repositorio como colaboradores al resto de los miembros del grupo. Cada miembro del grupo deberá comprobar que es capaz de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
+
+Finalmente, el administrador GitHub creará un repositorio inicial privado que sirva para el desarrollo del proyecto, con un nombre significativo con respecto a su grupo, y añadirá como colaboradores al resto de mimebros de su equipo.
+
+Recursos
+---------
+
+  * `Cómo registrarse en GitHub <../misc/notAvailable.html>`_.
+  * `Cómo crear un repositorio privado en GitHub <../misc/notAvailablenotAvailable.html>`_.
+  * `Cómo añadir colaboradores a un repositorio GitHub <../misc/notAvailablenotAvailable.html>`_.
+
 SourceTree/GitKraken
 =====================
 
@@ -61,12 +85,7 @@ Recursos
 
   * `Gestión de repositorios Git con SourceTree <../misc/notAvailable.html>`_
 
-GitHub
-=======
 
-Sistema que permite la creación y alojamiento de repositorios Git. Por defecto han de ser públicos, pero los estudiantes pueden solicitar el Student Pack, el cual permite la creación de repositorios públicos.
-
-Acción Requerida: Si se ha decidido utilizar GitHub como sistema para alojar el repositorio centralizado del proyecto,todos los miembros del grupo deberán poseer una cuenta de GitHub. Además, un miembro del grupo, que ejercerá como administrador, creará un repositorio inicial para el proyecto. Además, el administrador deberá otorgar permisos de lectura y escritura dentro de este repositorio al resto de sus compañero de equipo.
 
 Android Studio
 ===============
