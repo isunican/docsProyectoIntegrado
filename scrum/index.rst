@@ -3,7 +3,6 @@
 ===================
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Índice:
 
+   Actividades Scrum <actividadesScrum>
    definicionCompletado

@@ -3,13 +3,22 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-==========================================
- Proyecto Integrado de Ingeniería del Sw
-==========================================
+=======
+PIISUC
+=======
+-----------------------------------------------------------------------------
+Proyecto Integrado de Ingeniería del Software de la Universidad de Cantabria
+-----------------------------------------------------------------------------
+
+Este documento contiene diferentes tipos de materiales relacionados con el
+proyecto integrado que actualmente se desarrolla entre las asignaturas de
+*Métodos de Desarrollo*, *Calidad y Auditoría* y *Procesos de Ingeniería del Sofware*,
+todas ellas pertenecientes a la intensificación en Ingeniería del Software del
+Grado en Ingeniería Informática de la Universidad de Cantabria.
 
 .. toctree::
    :maxdepth: 1
-   :caption: Índice:
+   :caption: Índice
 
    scrum/index
    cfgMng/index
@@ -18,3 +27,15 @@
    evaluation/index
    tools/index
    faqs/index
+
+Sobre el Proyecto
+===================
+
+.. todo:: Copiar y pegar de la descripción de la actividad del proyecto Scrum.
+
+Autores
+=========
+
+| Pablo Sánchez Barreiro
+| Carlos Blanco Bueno
+| Patricia López Martínez
