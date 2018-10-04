@@ -160,13 +160,28 @@ Recursos
 Magic Draw
 ============
 
-Herramienta para la creación de modelos UML. El equipo docente puede proporcionar licencias gratuitas para los alumnos.
+`Magic Draw <https://www.nomagic.com/products/magicdraw>`_ es una herramienta para la creación de modelos UML. En comparación con otras herramientas es bastante ligera, cómoda y fácil de utilizar. MagicDraw e suna herramienta de pago para la que disponemos de licencia académica, la cual estará disponible a través de los cursos de Moodle de cada una de las asignaturas que conforman el proyecto integrado.
 
-Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno.
+Acción Requerida
+-----------------
 
-Advanced Rest Client /Postman
-==========================================
+MagicDraw deberá estar instalado y funcionando correctamente en la computadora personal de cada alumno antes del comienzo del proyecto.
 
-App para Chrome que permite generar de forma cómoda e intuitiva peticiones HTTP.
+.. warning:: Actualmente dispobemos de licencia para la versión Personal Edition 18.0, por lo que los alumnos deberán descargarse dicha versión.
 
-Acción Requerida: Debe estar instalada y funcionando correctamente en la computadora personal de cada alumno que desee utilizarla.
+Recursos
+---------
+
+  * `Cómo descargar la versión correcta de MagicDraw <../misc/notAvailable.html>`_
+
+Advanced Rest Client
+=====================
+
+.. note:: La utilización de esta herramienta es opcional, aunque la utilización de una herramienta de este tipo puede ayudar a reducir la carga de trabajo asociada al desarrollo del proyecto.
+
+`Advanced Rest Client <https://install.advancedrestclient.com/#/install>`_ es una sencilla app para Chrome que permite generar de forma cómoda e intuitiva peticiones HTTP y observar sus resultados. Puede resultar de utilidad para ver qué esá retornando la fuente externa de datos con la que se trabajará durante el proyecto.
+
+Acción Requerida
+-----------------
+
+Los alumnos que opten por la utilización de esta herramienta deberán instalarla antes del comienzo del proyecto y verificar su correcto funcionamiento.
