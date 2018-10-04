@@ -15,6 +15,8 @@ ScrumDesk
   * Monitorización de las tareas mediante tablero *Kanban*.
   * Visualización del estado actual de un proyecto mediante *Burndown Chart*.
 
+ScrumDesk es una herramienta de pago para la que disponemos de una licencia académica que nos permite utilizarla gratuitamente.
+
 Acciones Requeridas
 --------------------
 
@@ -35,6 +37,9 @@ Recursos
   * `Cómo registrarse en ScrumDesk <../misc/notAvailable.html>`_.
   * `Cómo crear un proyecto en ScrumDesk <../misc/notAvailablenotAvailable.html>`_.
   * `Cómo añadir miembros a un proyecto Scrumdesk <../misc/notAvailablenotAvailable.html>`_.
+
+Slack
+======
 
 Git
 ====
@@ -99,33 +104,39 @@ Recursos
 Android Studio
 ===============
 
-Entorno de Desarrollo Integrado (IDE) para la programación de aplicaciones Android.
+`Android Studio <https://developer.android.com/studio/>`_ es un entorno de desarrollo integrado (IDE) más comúnmente utilizado para el desarrollo de aplicaciones Android. Incluye características propias del desarrollo de este tipo de aplicaciones como diseñadores de interfaces gráficas o ejecución de las aplicaciones en un emulador.
 
-Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno. Además, se debe haber comprobado que es posible comunicarse con el repositorio remoto que se haya elegido para alojar el proyecto.
+Acción Requerida
+-----------------
 
-Analizador SonarQube para proyectos Android (enlace)
-=====================================================
+Cada alumno deberá instalar Android Studio en su computadora antes del comienzo del desarrollo del proyecto. Además, deberá comprobarse que dicha instalación funciona correctamente y el alumno es capaz de compilar, ejecutar y empaquetar una aplicación Android básica.
+
+Analizador SonarQube para proyectos Android
+============================================
 
 Herramienta cliente para el análisis de calidad de producto software de proyectos Android.
 
 Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno, de forma que se permita lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud.
 
-Complemento SonarLint para Android Studio (enlace)
-===================================================
+Complemento SonarLint para Android Studio
+===========================================
 
 Complemento que permite analizar la calidad de producto de proyectos Android Studio en base a un conjunto de reglas de calidad definidas en la organización.
 Acción Requerida: Debe estar instalado y sincronizado con el servidor de la organización en SonarCloud en la computadora personal de cada alumno.
 
+Ninja Mock
+===========
 
-Magic Draw (enlace)
-====================
+
+Magic Draw
+===========
 
 Herramienta para la creación de modelos UML. El equipo docente puede proporcionar licencias gratuitas para los alumnos.
 
 Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno.
 
-Advanced Rest Client (enlace) (opcional)
------------------------------------------
+Advanced Rest Client /Postman
+==========================================
 
 App para Chrome que permite generar de forma cómoda e intuitiva peticiones HTTP.
 
