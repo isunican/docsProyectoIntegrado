@@ -41,6 +41,13 @@ Recursos
 Slack
 ======
 
+`Slack <https://slack.com/>`_ es una herramienta para la facilitar la comunicación dentro de un equipo de trabajo. Slack sigue un estilo de comunicación parecido al de los chats, favorenciendo la comunicación remota, distribuida y asíncrona. Slack es ampliamente utilizado a nivel profesional, ofrece la posibilidad de integración con múltiples herramientas comúnmente utilizadas dentro del mundo del desarrollo software (e.g., Slack, Travis o Trello, entre otros).
+
+Acciones Requeridas
+--------------------
+
+.. todo:: ver como se registra uno en Slack y cómo se crea un espacio de trabajo.
+
 Git
 ====
 
@@ -104,7 +111,7 @@ Recursos
 Android Studio
 ===============
 
-`Android Studio <https://developer.android.com/studio/>`_ es un entorno de desarrollo integrado (IDE) más comúnmente utilizado para el desarrollo de aplicaciones Android. Incluye características propias del desarrollo de este tipo de aplicaciones como diseñadores de interfaces gráficas o ejecución de las aplicaciones en un emulador.
+`Android Studio <https://developer.android.com/studio/>`_ es un entorno de desarrollo integrado (IDE) más comúnmente utilizado para el desarrollo de aplicaciones Android. Incluye funcionalidades específicas para el desarrollo de este tipo de aplicaciones tales como diseñadores de interfaces gráficas móviles o ejecución de las aplicaciones en  emuladores.
 
 Acción Requerida
 -----------------
@@ -116,20 +123,42 @@ Analizador SonarQube para proyectos Android
 
 Herramienta cliente para el análisis de calidad de producto software de proyectos Android.
 
-Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno, de forma que se permita lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud.
+Acción Requerida
+------------------
+
+Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno, de forma que se permita lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud.
 
 Complemento SonarLint para Android Studio
 ===========================================
 
 Complemento que permite analizar la calidad de producto de proyectos Android Studio en base a un conjunto de reglas de calidad definidas en la organización.
-Acción Requerida: Debe estar instalado y sincronizado con el servidor de la organización en SonarCloud en la computadora personal de cada alumno.
+
+Acción Requerida
+-----------------
+
+Debe estar instalado y sincronizado con el servidor de la organización en SonarCloud en la computadora personal de cada alumno.
 
 Ninja Mock
 ===========
 
+.. note:: La utilización de esta herramienta es opcional. Se aceptarán durante el desarrollo del proyecto *mockups* realizados con cualquier otra herramienta que sea capaz de crear prototipos básicos de una interfaz de usuario, así como diseños de mockups realizados sobre papel y posteriormente escaneados.
+
+`Ninja Mock <https://ninjamock.com/>`_ es una herramienta web para el diseño de *mockups*. Ninja Mock goza de cierta popularidad para el diseño de prototipos de interfaces de usuario, siendo además muy intutitivo y fácil de utilizar. NinjaMock ofrece una versión gratuita con una serie de funcionalidades básicas que son suficientes para el desarrollo del proyecto integrado.
+
+Acciones Requeridas
+--------------------
+
+Los miembros de los equipos que decidan utilizar NinjaMock deberán abrirse una cuenta en dicha aplicación. Además, un miembro del equipo, que ejercerá de administrador de NinjaMock, será el responsable de crear un proyecto y añadir al resto de miembros del equipo a dicho proyecto.
+
+Recursos
+---------
+
+  * `Crear una cuenta en Ninja Mock <../misc/notAvailable.html>`_
+  * `Crear un proyecto en Ninja Mock <../misc/notAvailable.html>`_
+  * `Inivitar a un usuario a un proyecto <../misc/notAvailable.html>`_
 
 Magic Draw
-===========
+============
 
 Herramienta para la creación de modelos UML. El equipo docente puede proporcionar licencias gratuitas para los alumnos.
 
