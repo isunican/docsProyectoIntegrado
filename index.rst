@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-  Proyecto Integrado de Ingeniería del Sw
-===================================================================
+==========================================
+ Proyecto Integrado de Ingeniería del Sw
+==========================================
 
 .. toctree::
    :maxdepth: 1
@@ -15,5 +16,5 @@
    quality/index
    tests/index
    evaluation/index
-   misc/index
+   tools/index
    faqs/index
