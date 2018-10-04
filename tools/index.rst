@@ -70,6 +70,17 @@ Recursos
   * `Cómo crear un repositorio privado en GitHub <../misc/notAvailablenotAvailable.html>`_.
   * `Cómo añadir colaboradores a un repositorio GitHub <../misc/notAvailablenotAvailable.html>`_.
 
+Travis
+=======
+
+`Travis <https://travis-ci.org/>`_ es un entorno de integración continua muy popular dentro la comunidad de desarrollo de software libre. Travis se integra con GitHub y
+permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, es necesario contratar algún plan de pago. No obstante, aquellos alumnos que estén registrados en el programa `Student Pack <https://education.github.com/pack>`_ de GitHub tienen la posibilidad de utilizar GitHub sobre repositorios privados.
+
+Acciones Requeridas
+--------------------
+
+.. todo:: Perguntar a Carlos.
+
 SourceTree/GitKraken
 =====================
 
@@ -85,8 +96,6 @@ Recursos
 
   * `Gestión de repositorios Git con SourceTree <../misc/notAvailable.html>`_
 
-
-
 Android Studio
 ===============
 
@@ -95,21 +104,21 @@ Entorno de Desarrollo Integrado (IDE) para la programación de aplicaciones Andr
 Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno. Además, se debe haber comprobado que es posible comunicarse con el repositorio remoto que se haya elegido para alojar el proyecto.
 
 Analizador SonarQube para proyectos Android (enlace)
------------------------------------------------------
+=====================================================
 
 Herramienta cliente para el análisis de calidad de producto software de proyectos Android.
 
 Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno, de forma que se permita lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud.
 
 Complemento SonarLint para Android Studio (enlace)
----------------------------------------------------
+===================================================
 
 Complemento que permite analizar la calidad de producto de proyectos Android Studio en base a un conjunto de reglas de calidad definidas en la organización.
 Acción Requerida: Debe estar instalado y sincronizado con el servidor de la organización en SonarCloud en la computadora personal de cada alumno.
 
 
 Magic Draw (enlace)
---------------------
+====================
 
 Herramienta para la creación de modelos UML. El equipo docente puede proporcionar licencias gratuitas para los alumnos.
 
