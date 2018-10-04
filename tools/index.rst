@@ -15,8 +15,8 @@ ScrumDesk
   * Monitorización de las tareas mediante tablero *Kanban*.
   * Visualización del estado actual de un proyecto mediante *Burndown Chart*.
 
-Acción Requerida
------------------
+Acciones Requeridas
+--------------------
 
 Scrumdesk es una herramienta web, por lo que no es necesario instalar nada. Cada alumno deberá simplemente abrirse una cuenta en ScrumDesk. Para poder hacer uso de la licencia académica de la cual disponemos, cada alumno, al abrir su cuenta, deberá incorporarse a la organización ``University of Cantabria``.
 
@@ -32,33 +32,44 @@ Además, antes del inicio del proyecto, un miembro del equipo, que ejercerá de 
 Recursos
 ---------
 
-  * `Cómo registrarse en ScrumDesk <http://>`_.
-  * `Cómo crear un proyecto en ScrumDesk <http://>`_.
-  * `Cómo añadir miembros a un proyecto Scrumdesk <http://>`_.
+  * `Cómo registrarse en ScrumDesk <../misc/notAvailable.html>`_.
+  * `Cómo crear un proyecto en ScrumDesk <../misc/notAvailablenotAvailable.html>`_.
+  * `Cómo añadir miembros a un proyecto Scrumdesk <../misc/notAvailablenotAvailable.html>`_.
 
 Git
 ====
 
-Git es un popular sistema de control de versiones. La instalación básica de Git permite utilizar dicho sistema de control de versiones desde línea de comandos.
+`Git <https://git-scm.com/>`_ es un popular sistema de control de versiones, ampliamente utilizado en la actualidad. La instalación de Git permite utilizar dicho control de versiones sólo desde línea de comandos, siendo necesario instalarse un cliente gráfico si se quiere utilizar Git en modo ventana y no en modo consola.
 
-Acción Requerida: Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno. Además, se debe haber comprobado que es posible comunicarse con el repositorio remoto que se haya elegido para alojar el proyecto.
+Acciones Requeridas
+--------------------
 
-SourceTree (enlace) (opcional)
---------------------------------
+Cada alumnos deberá instalar Git en su computadora personal y comprobar que éste funciona correctamente. Además se recomienda encarecidamente que haya realizado los tutoriales impartidos en la asignatura de Métodos de Desarrollo.
 
-Popular cliente Git que permite utilizar el famoso sistema de control de versiones desde una cómoda interfaz gráfica. Está disponible para Windows y Mac. No existe ninguna interfaz gráfica de Git para Linux que goce de gran popularidad, por lo que no se realiza recomendación de ninguna herramienta concreta de este tipo para dicho sistema operativo.
+SourceTree/GitKraken
+=====================
 
-Acción Requerida: Si se desea usarlo, debe estar instalado y funcionando correctamente en la computadora personal de cada alumno.
+.. note:: La utilización de estas herramientas es opcional, no siendo estrictamente necesarias para el desarrollo del proyecto. No obstante, se recomienda su instalación y utilización ya que facilitan enormenente ciertas tareas relacionadas con la gestión de repositorios Git, como la visualización de su estructura de ramificación.
+
+`SourceTree <https://www.sourcetreeapp.com/>`_ y
+`GitKraken <https://www.gitkraken.com/>`_ son dos clientes gráficos altamente populares para la gestión de repositorios Git. Ambos clientes ofrecen versiones gratuitas cuyas funcionalidades son suficientes para el desarrollo del proyecto.
+
+SourceTree es la opción preferida de muchos desarrolladores por su intuitividad y simpleza. SourceTree ofrece versiones para Windows y Mac, pero no para Linux, por lo que aquellos alumnos que quieran trabajar desde Linux y quieran utilizar un cliente gráfico de Git, deberán utilizar GitKraken.
+
+Recursos
+---------
+
+  * `Gestión de repositorios Git con SourceTree <../misc/notAvailable.html>`_
 
 GitHub
--------
+=======
 
 Sistema que permite la creación y alojamiento de repositorios Git. Por defecto han de ser públicos, pero los estudiantes pueden solicitar el Student Pack, el cual permite la creación de repositorios públicos.
 
 Acción Requerida: Si se ha decidido utilizar GitHub como sistema para alojar el repositorio centralizado del proyecto,todos los miembros del grupo deberán poseer una cuenta de GitHub. Además, un miembro del grupo, que ejercerá como administrador, creará un repositorio inicial para el proyecto. Además, el administrador deberá otorgar permisos de lectura y escritura dentro de este repositorio al resto de sus compañero de equipo.
 
-Android Studio (enlace)
-------------------------
+Android Studio
+===============
 
 Entorno de Desarrollo Integrado (IDE) para la programación de aplicaciones Android.
 
