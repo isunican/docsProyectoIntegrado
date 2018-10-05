@@ -56,7 +56,7 @@ Git
 Acciones Requeridas
 --------------------
 
-Cada alumnos deberá instalar Git en su computadora personal y comprobar que éste funciona correctamente. Además se recomienda encarecidamente que haya realizado los tutoriales impartidos en la asignatura de Métodos de Desarrollo.
+Cada alumno deberá instalar Git en su computadora personal y comprobar que éste funciona correctamente. Además se recomienda encarecidamente que haya realizado los tutoriales impartidos en la asignatura de Métodos de Desarrollo.
 
 GitHub
 =======
@@ -69,18 +69,16 @@ GitHub permite a cualquier persona crear y alojar de manera gratuita un reposito
 Acciones Requeridas
 --------------------
 
-Cada alumno deberá disponer de una cuenta en GitHub.
+Cada alumno deberá disponer de una cuenta en GitHub y proporcionar su nombre de usuario a los docentes.
 
-Además, antes del inicio del proyecto, un miembro del grupo, que ejercerá como administrador GitHub, creará un repositorio inicial de pruebas y añadirá a dicho repositorio como colaboradores al resto de los miembros del grupo. Cada miembro del grupo deberá comprobar que es capaz de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
-
-Finalmente, el administrador GitHub creará un repositorio inicial privado que sirva para el desarrollo del proyecto, con un nombre significativo con respecto a su grupo, y añadirá como colaboradores al resto de mimebros de su equipo.
+Antes del inicio del proyecto, los docentes crearán un repositorio inicial para cada grupo dentro de la organización `isunican <https://github.com/isunican>`_.
+Los docentes añadirán a cada repositorio como colaboradores a los miembros del grupo, teniendo cada alumno únicamente que comprobar que es capaz de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
 Recursos
 ---------
 
   * `Cómo registrarse en GitHub <../misc/notAvailable.html>`_.
-  * `Cómo crear un repositorio privado en GitHub <../misc/notAvailablenotAvailable.html>`_.
-  * `Cómo añadir colaboradores a un repositorio GitHub <../misc/notAvailablenotAvailable.html>`_.
+
 
 Travis
 =======
@@ -91,7 +89,10 @@ permite su utilización gratuita y sin restricciones sobre repositorios público
 Acciones Requeridas
 --------------------
 
-.. todo:: Perguntar a Carlos.
+Los docentes proporcionarán la configuración necesaria para realizar la integración contínua del repositorio inicial. Esto incluye la parte de configuración del servidor y el fichero local de configuración ``.travis.yml``.
+
+Los alumnos deberán comprobar que se realiza la integración contínua de su proyecto inical de forma satisfactoria. Para ello deberán subir algún cambio al repositorio github (en la rama ``master`` o ``develop``) y comprobar la integración en la organiación de Travis `isunican <https://travis-ci.org/isunican>`_.
+
 
 SourceTree/GitKraken
 =====================
@@ -118,25 +119,26 @@ Acción Requerida
 
 Cada alumno deberá instalar Android Studio en su computadora antes del comienzo del desarrollo del proyecto. Además, deberá comprobarse que dicha instalación funciona correctamente y el alumno es capaz de compilar, ejecutar y empaquetar una aplicación Android básica.
 
-Analizador SonarQube para proyectos Android
+SonarQube para proyectos Android
 ============================================
 
-Herramienta cliente para el análisis de calidad de producto software de proyectos Android.
+Herramienta para el análisis de calidad de producto software de proyectos Android. Cuenta con una parte servidor alojada en `sonarcloud <https://sonarcloud.io>`_  donde consultar el resultado de los informes y con una parte cliente donde podremos lanzar el análisis de nuestro proyecto subiendo el resultado al servidor. Además existen complementos como SonarLint que permiten integrar en nuestro IDE el análisis y gestión de las incidencias de calidad, pudiendo además sincronizar dicho complemento con nuestro servidor de modo que se utilicen las reglas definidas en nuestra organización. 
 
-Acción Requerida
+.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el elumno lance el analizador desde terminal, ya que en el proceso de integración contínua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
+
+
+Acciones Requeridas
 ------------------
 
-Debe estar instalado y funcionando correctamente en la computadora personal de cada alumno, de forma que se permita lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud.
+* Los alumnos deberán ser capaces de lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud. Para ello, en el proyecto inicial se les propocionará el fichero ``gradle.build`` con la configuración necesaria, de modo que únicamente deberán ejecutar el comando ``gradlew.bat sonarqube`` o ``./gradlew sonarqube`` en la raíz del proyecto.
 
-Complemento SonarLint para Android Studio
-===========================================
+.. note:: Para hacer que el informe de sonar incluya la cobertura de pruebas habrá que lanzar antes ``gradlew.bat test`` para que genere los ficheros correspondientes. El resto de parámetros de configuración necesarios ya estan incluidos en el fichero ``gradle.build``.
 
-Complemento que permite analizar la calidad de producto de proyectos Android Studio en base a un conjunto de reglas de calidad definidas en la organización.
+* Los alumnos deberán comprobar que en el servidor SonarCloud, dentro de la organización `isuc <https://sonarcloud.io/organizations/isuc/projects>`_, aparece el informe del análisis que han lanzado.
 
-Acción Requerida
------------------
+* Los alumnos deberán tener instalado el complemento SonarLint para Android Studio y tener configurada la conexión con nuestro servidor de SonarCloud de modo que se utilicen las reglas de calidad definidas en nuestra organización.
 
-Debe estar instalado y sincronizado con el servidor de la organización en SonarCloud en la computadora personal de cada alumno.
+
 
 Ninja Mock
 ===========
