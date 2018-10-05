@@ -26,6 +26,7 @@ Podemos optar por instalar nuestro propio servidor utilizando las fuentes oficia
 
 Configuración del cliente
 ===============================
+
 El analizador desde el cliente puede lanzarse desde línea de comandos o como parte del proceso de integración contínua. En ambos casos, la configuración necesaria para lanzar dichos análisis está proporcionada en el proyecto inicial aunque a continuación se detalla.
 
 Tal y como puede observarse en el fichero de configuración ``gradle.build``, se hace uso del `complemento oficial de SonarQube para gradle <https://plugins.gradle.org/plugin/org.sonarqube>`_ y de una serie de propiedades que establecen datos como la url del servidor, la organización, en nombre y clave del proyecto y un token de autorización.
@@ -55,9 +56,6 @@ build.gradle
 
 .. note:: Para hacer que el informe de sonar incluya la cobertura de pruebas se utilizará el complemento ``jacoco``. Habrá que lanzar ``gradlew.bat test`` antes que ``gradlew.bat sonarqube`` para que genere los ficheros correspondientes a los informes de cobertura, que mediante un parámetro de configuración indicamos para que se transmitan al servidor.
 
-
-
-
 Complemento SonarLint para Android Studio
 -----------------------------------------
 
@@ -68,10 +66,12 @@ Para instalarlo la forma más sencilla es desde Preferencias -> Plugins -> Brows
 Para la conexión con el servidor habrá que ir a Preferences -> Other Settings ->
 
 *	SonarLint General Settings
-Permitirá agregar el servidor SonarCloud o propio, meter nuestra clave y seleccionar nuestra organización (dichos valores aparecen en el fichero ``gradle.build``).
+
+  Permitirá agregar el servidor SonarCloud o propio, meter nuestra clave y seleccionar nuestra organización (dichos valores aparecen en el fichero ``gradle.build``).
 
 *	SonarLint Project Settings
-Una vez realizado el paso anterior podremos seleccionar un proyecto en concreto.
+
+  Una vez realizado el paso anterior podremos seleccionar un proyecto en concreto.
 
 Tras la configuración, podremos ejecutar análisis para un único fichero o el proyecto completo, mediante el menú contextual del proyecto (botón derecho) dentro de las opciones de SonarLint.
 
@@ -90,7 +90,10 @@ Por lo tanto, los pasos que deberá realizar son:
 
 *	Tras el análisis deberá decidir qué incidencias arreglar y hacerlo en el código. El complemento SonarLint facilita esta tarea. Tras hacer las mejoras se resubirá el análisis a SonarCloud para observar la situación actual, realizando este proceso hasta alcanzar la calidad exigida.
 
-El proceso se documentará en un informe que deberá estar en el repositorio del grupo y además ser entregado en Moodle. Este informe incluirá:
+Informe de Calidad
+===================
+
+El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y además ser entregado en Moodle. Este informe incluirá:
 
 *	Los resultados del análisis inicial, indicando la situación actual y dónde están los principales problemas de calidad.
 
