@@ -2,7 +2,7 @@
  Herramientas
 ==============
 
-Esta página contiene una lista de las herramientas que se utilizarán para el desarorllo del proyecto integrado; así como las intrucciones necesarias para su instalación y configuración. Por cada herramienta se proporciona una breve descripción de la misma y se detalla las acciones que el alumno deberá realizar para configurar dicha herramienta de cara a la correcta realización del proyecto.
+Esta página contiene una lista de las herramientas que se utilizarán para el desarrollo del proyecto integrado; así como las intrucciones necesarias para su instalación y configuración. Por cada herramienta se proporciona una breve descripción de la misma y se detalla las acciones que el alumno deberá realizar para configurar dicha herramienta de cara a la correcta realización del proyecto.
 
 ScrumDesk
 ==========
@@ -22,7 +22,7 @@ Acciones Requeridas
 
 Scrumdesk es una herramienta web, por lo que no es necesario instalar nada. Cada alumno deberá simplemente abrirse una cuenta en ScrumDesk. Para poder hacer uso de la licencia académica de la cual disponemos, cada alumno, al abrir su cuenta, deberá incorporarse a la organización ``University of Cantabria``.
 
-.. warning:: El nombre de la organización es ``University of Cantabria``, en inglés y no ``Universidad de Cantabria`` (en castellano).
+.. warning:: El nombre de la organización es ``University of Cantabria``, en inglés y no ``Universidad de Cantabria``, en castellano.
 
 Además, antes del inicio del proyecto, un miembro del equipo, que ejercerá de administrador de Scrumdesk, deberá:
 
@@ -122,13 +122,13 @@ Cada alumno deberá instalar Android Studio en su computadora antes del comienzo
 SonarQube para proyectos Android
 ============================================
 
-Herramienta para el análisis de calidad de producto software de proyectos Android. Cuenta con una parte servidor alojada en `sonarcloud <https://sonarcloud.io>`_  donde consultar el resultado de los informes y con una parte cliente donde podremos lanzar el análisis de nuestro proyecto subiendo el resultado al servidor. Además existen complementos como SonarLint que permiten integrar en nuestro IDE el análisis y gestión de las incidencias de calidad, pudiendo además sincronizar dicho complemento con nuestro servidor de modo que se utilicen las reglas definidas en nuestra organización. 
+Herramienta para el análisis de calidad de producto software de proyectos Android. Cuenta con una parte servidor alojada en `sonarcloud <https://sonarcloud.io>`_  donde consultar el resultado de los informes y con una parte cliente donde podremos lanzar el análisis de nuestro proyecto subiendo el resultado al servidor. Además existen complementos como SonarLint que permiten integrar en nuestro IDE el análisis y gestión de las incidencias de calidad, pudiendo además sincronizar dicho complemento con nuestro servidor de modo que se utilicen las reglas definidas en nuestra organización.
 
-.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el elumno lance el analizador desde terminal, ya que en el proceso de integración contínua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
+.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el alumno lance el analizador desde terminal, ya que en el proceso de integración contínua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
 
 
 Acciones Requeridas
-------------------
+--------------------
 
 * Los alumnos deberán ser capaces de lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud. Para ello, en el proyecto inicial se les propocionará el fichero ``gradle.build`` con la configuración necesaria, de modo que únicamente deberán ejecutar el comando ``gradlew.bat sonarqube`` o ``./gradlew sonarqube`` en la raíz del proyecto.
 
