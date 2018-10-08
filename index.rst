@@ -25,11 +25,7 @@ Grado en Ingeniería Informática de la Universidad de Cantabria.
 Sobre el Proyecto
 ===================
 
-
 .. todo:: Escribir una mini intro que justifique por qué se hace el proyecto integrado.
-
-
-
 
 Autores
 =========
