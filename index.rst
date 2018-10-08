@@ -3,12 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-=======
-PIISUC
-=======
------------------------------------------------------------------------------
-Proyecto Integrado de Ingeniería del Software de la Universidad de Cantabria
------------------------------------------------------------------------------
 
 Este documento contiene diferentes tipos de materiales relacionados con el
 proyecto integrado que actualmente se desarrolla entre las asignaturas de
@@ -31,7 +25,11 @@ Grado en Ingeniería Informática de la Universidad de Cantabria.
 Sobre el Proyecto
 ===================
 
-.. todo:: Copiar y pegar de la descripción de la actividad del proyecto Scrum.
+
+.. todo:: Escribir una mini intro que justifique por qué se hace el proyecto integrado.
+
+
+
 
 Autores
 =========
