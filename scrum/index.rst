@@ -4,6 +4,7 @@
 
 .. toctree::
    :caption: Actividades y Elementos Scrum
+   :maxdepth: 3
 
    self
    Actividades Scrum <actividadesScrum>
@@ -14,18 +15,22 @@
 ================
 
 Las metodologías de desarrollo ágiles, a lo largo de la última década, han ido
-adquiriendo gran popularidad, hasta convertirse en las metodologías principalmente
-utilizadas por un amplio número de empresas del sector. Ejemplos de empresas
-referentes en la aplicación de metodologías ágiles son, por ejemplo, Amazon,
+adquiriendo gran popularidad, hasta convertirse en las principalmente
+utilizadas por un amplio número de empresas del sector. Ejemplos de empresas que
+actualmente están aplicando  metodologías ágiles son, por ejemplo, Amazon,
 Netflix o Spotify.
 
-La principal razón del éxito de estas metodologías ágiles radica en que éstas,
+.. todo:: Añadir enlaces a artículos donde se describa cómo cada empresa trabaja con Scrum.
+
+.. todo:: Revisar desde aquí hacia abajo.
+
+La principal razón del éxito de las metodologías ágiles radica en que,
 a diferencia de las metodologías tradicionales, fuertemente planificadas y más
 rígidas, permiten explotar de manera muy adecuada una cualidad propia e
 intrínseca de los productos software, que es su alta maleabilidad o facilidad
 de cambio. El software, a diferencia de otros productos de ingeniería como
 puentes o túneles, no implica la adopción de ciertas decisiones de carácter
-irreversible y puede modificarse durante prácticamente cualquier fase de su
+irreversible y, por tanto, puede modificarse durante prácticamente cualquier fase de su
 desarrollo sin incurrir en grandes gastos materiales.
 
 Por ejemplo, el dueño de un producto software podría decidir, durante el

@@ -21,6 +21,7 @@ Grado en Ingeniería Informática de la Universidad de Cantabria.
    evaluation/index
    tools/index
    faqs/index
+   misc/index
 
 Sobre el Proyecto
 ===================
@@ -33,3 +34,5 @@ Autores
 | Pablo Sánchez Barreiro
 | Carlos Blanco Bueno
 | Patricia López Martínez
+| Julio Medina Pasaje
+| Alejandro Pérez Ruiz
