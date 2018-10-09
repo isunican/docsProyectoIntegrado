@@ -7,7 +7,7 @@ Esta página describe las actividades que se deberán realizar para el desarroll
 Actividades de preparación de los sprints
 =============================================
 
-1. Constitución de los equipos
+Constitución de los equipos
 --------------------------------
 
 **Descripción de la Actividad**
@@ -33,7 +33,7 @@ Como resultado de esta actividad, cada equipo deberá entregar su correspondient
 
 Esta actividad se evaluará como realizada o no realizada. La evaluación como no realizada conlleva una penalización de 100 puntos en la calificación final del proyecto.
 
-2. Initial Product Backlog Refinement
+Initial Product Backlog Refinement
 ---------------------------------------
 
 **Descripción de la Actividad**
