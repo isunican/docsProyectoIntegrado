@@ -1,0 +1,7 @@
+============
+ Miscelánea
+============
+
+.. toctree::
+
+   pactoEquipo
