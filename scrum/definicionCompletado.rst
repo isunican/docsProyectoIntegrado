@@ -15,7 +15,7 @@ El desarrollo de una historia de usuario, u otro elemento del backlog, se consid
 #. La rama correspondiente a la historia de usuario implementada se ha integrado en la rama ``develop``.
 #. Se ha comprobado que, tras integrar la historia de usuario en la rama ``develop``, el producto completo sigue superando todos los test de aceptación.
 #. Se ha verificado que la implementación creada, una vez unida al resto del producto, satisface los criterios de calidad de producto definidos por la organización.
-#. Se ha generado el correspondiente `informe de calidad <../quality/index.html>`_.
+#. Se ha generado el correspondiente `informe de calidad <../quality/index.html#informe-de-calidad>`_.
 #. Se ha actualizado el manual de usuario de la aplicación para que refleje la nueva historia de usuario implementada.
 #. Se ha generado un fichero .apk  que contiene el producto completo desarrollado hasta el momento más la nueva historia de usuario creada. Este .apk debería poder ser hecho público si el Product Owner así lo desease.
 #. La nueva versión del producto está integrada en la rama ``master`` y convenientemente etiquetada.
