@@ -65,13 +65,9 @@ Para instalarlo la forma más sencilla es desde Preferencias -> Plugins -> Brows
 
 Para la conexión con el servidor habrá que ir a Preferences -> Other Settings ->
 
-*	SonarLint General Settings
+*	SonarLint General Settings. Permitirá agregar el servidor SonarCloud o propio, meter nuestra clave y seleccionar nuestra organización (dichos valores aparecen en el fichero ``gradle.build``).
 
-  Permitirá agregar el servidor SonarCloud o propio, meter nuestra clave y seleccionar nuestra organización (dichos valores aparecen en el fichero ``gradle.build``).
-
-*	SonarLint Project Settings
-
-  Una vez realizado el paso anterior podremos seleccionar un proyecto en concreto.
+*	SonarLint Project Settings. Una vez realizado el paso anterior podremos seleccionar un proyecto en concreto.
 
 Tras la configuración, podremos ejecutar análisis para un único fichero o el proyecto completo, mediante el menú contextual del proyecto (botón derecho) dentro de las opciones de SonarLint.
 

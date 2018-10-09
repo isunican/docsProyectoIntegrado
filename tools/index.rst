@@ -27,16 +27,14 @@ Scrumdesk es una herramienta web, por lo que no es necesario instalar nada. Cada
 Además, antes del inicio del proyecto, un miembro del equipo, que ejercerá de administrador de Scrumdesk, deberá:
 
   #. Crear un proyecto que se llame igual que el equipo al que pertenece;
-  #. Añadir todos los miembros del correspondiente equipo (con el rol de Scrum Master).
-  #. Añadir el *Product Owner* asignado a su equipo.
-  #. El profesor responsable de la asignatura de Métodos de Desarrollo.
+  #. Añadir todos los miembros del correspondiente equipo (con el rol de ``Scrum Master``).
+  #. Añadir el *Product Owner* asignado a su equipo (con el rol de ``Product Owner``).
+  #. El profesor responsable de la asignatura de Métodos de Desarrollo (con el rol de ``Product Owner``).
 
 Recursos
 ---------
 
-  * `Cómo registrarse en ScrumDesk <../misc/notAvailable.html>`_.
-  * `Cómo crear un proyecto en ScrumDesk <../misc/notAvailablenotAvailable.html>`_.
-  * `Cómo añadir miembros a un proyecto Scrumdesk <../misc/notAvailablenotAvailable.html>`_.
+  * `Cómo añadir miembros a un proyecto Scrumdesk <https://youtu.be/AHn4nkAC7ig>`_.
 
 Slack
 ======
@@ -46,7 +44,9 @@ Slack
 Acciones Requeridas
 --------------------
 
-.. todo:: ver como se registra uno en Slack y cómo se crea un espacio de trabajo.
+Un miembro de cada equipo Scrum, que ejercerá como *adimistrador Slack* deberá crear un *espacio de trabajo* propio en dicha herrramienta y añadir a dicho espacio de trabajo al resto de  miembros de su equipo.
+
+.. note:: El equipo docente de la asignatura recomienda la utilización de Slack como  herramienta de comunicación remota al ser ésta la de mayor aceptación a nivel empresarial. No obstante, si todo el equipo de trabajo estuviese de acuerdo, pueden utilizarse alternativas como `Discord <https://discordapp.com/>`_.
 
 Git
 ====
@@ -71,14 +71,8 @@ Acciones Requeridas
 
 Cada alumno deberá disponer de una cuenta en GitHub y proporcionar su nombre de usuario a los docentes.
 
-Antes del inicio del proyecto, los docentes crearán un repositorio inicial para cada grupo dentro de la organización `isunican <https://github.com/isunican>`_.
-Los docentes añadirán a cada repositorio como colaboradores a los miembros del grupo, teniendo cada alumno únicamente que comprobar que es capaz de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
-
-Recursos
----------
-
-  * `Cómo registrarse en GitHub <../misc/notAvailable.html>`_.
-
+Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican <https://github.com/isunican>`_.
+El propio equipo docente añadirá a cada repositorio como colaboradores a los miembros del correspondiente *Scrum Team*, siendo por tanto la única responsabilidad de los alumnos  comprobar que son capaces de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
 Travis
 =======
@@ -93,7 +87,6 @@ Los docentes proporcionarán la configuración necesaria para realizar la integr
 
 Los alumnos deberán comprobar que se realiza la integración contínua de su proyecto inical de forma satisfactoria. Para ello deberán subir algún cambio al repositorio github (en la rama ``master`` o ``develop``) y comprobar la integración en la organiación de Travis `isunican <https://travis-ci.org/isunican>`_.
 
-
 SourceTree/GitKraken
 =====================
 
@@ -104,10 +97,11 @@ SourceTree/GitKraken
 
 SourceTree es la opción preferida de muchos desarrolladores por su intuitividad y simpleza. SourceTree ofrece versiones para Windows y Mac, pero no para Linux, por lo que aquellos alumnos que quieran trabajar desde Linux y quieran utilizar un cliente gráfico de Git, deberán utilizar GitKraken.
 
-Recursos
----------
+..
+    Recursos
+    ---------
 
-  * `Gestión de repositorios Git con SourceTree <../misc/notAvailable.html>`_
+    * `Gestión de repositorios Git con SourceTree <../misc/notAvailable.html>`_
 
 Android Studio
 ===============
@@ -120,12 +114,11 @@ Acción Requerida
 Cada alumno deberá instalar Android Studio en su computadora antes del comienzo del desarrollo del proyecto. Además, deberá comprobarse que dicha instalación funciona correctamente y el alumno es capaz de compilar, ejecutar y empaquetar una aplicación Android básica.
 
 SonarQube para proyectos Android
-============================================
+=================================
 
 Herramienta para el análisis de calidad de producto software de proyectos Android. Cuenta con una parte servidor alojada en `sonarcloud <https://sonarcloud.io>`_  donde consultar el resultado de los informes y con una parte cliente donde podremos lanzar el análisis de nuestro proyecto subiendo el resultado al servidor. Además existen complementos como SonarLint que permiten integrar en nuestro IDE el análisis y gestión de las incidencias de calidad, pudiendo además sincronizar dicho complemento con nuestro servidor de modo que se utilicen las reglas definidas en nuestra organización.
 
 .. note:: Durante el desarrollo del proyecto integrado, no será necesario que el alumno lance el analizador desde terminal, ya que en el proceso de integración contínua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
-
 
 Acciones Requeridas
 --------------------
@@ -137,8 +130,6 @@ Acciones Requeridas
 * Los alumnos deberán comprobar que en el servidor SonarCloud, dentro de la organización `isuc <https://sonarcloud.io/organizations/isuc/projects>`_, aparece el informe del análisis que han lanzado.
 
 * Los alumnos deberán tener instalado el complemento SonarLint para Android Studio y tener configurada la conexión con nuestro servidor de SonarCloud de modo que se utilicen las reglas de calidad definidas en nuestra organización.
-
-
 
 Ninja Mock
 ===========
@@ -152,12 +143,13 @@ Acciones Requeridas
 
 Los miembros de los equipos que decidan utilizar NinjaMock deberán abrirse una cuenta en dicha aplicación. Además, un miembro del equipo, que ejercerá de administrador de NinjaMock, será el responsable de crear un proyecto y añadir al resto de miembros del equipo a dicho proyecto.
 
-Recursos
----------
+..
+    Recursos
+    ---------
 
-  * `Crear una cuenta en Ninja Mock <../misc/notAvailable.html>`_
-  * `Crear un proyecto en Ninja Mock <../misc/notAvailable.html>`_
-  * `Inivitar a un usuario a un proyecto <../misc/notAvailable.html>`_
+    * `Crear una cuenta en Ninja Mock <../misc/notAvailable.html>`_
+    * `Crear un proyecto en Ninja Mock <../misc/notAvailable.html>`_
+    * `Inivitar a un usuario a un proyecto <../misc/notAvailable.html>`_
 
 Magic Draw
 ============
@@ -171,10 +163,10 @@ MagicDraw deberá estar instalado y funcionando correctamente en la computadora 
 
 .. warning:: Actualmente dispobemos de licencia para la versión Personal Edition 18.0, por lo que los alumnos deberán descargarse dicha versión.
 
-Recursos
----------
+.. Recursos
+.. ---------
 
-  * `Cómo descargar la versión correcta de MagicDraw <../misc/notAvailable.html>`_
+..  * `Cómo descargar la versión correcta de MagicDraw <../misc/notAvailable.html>`_
 
 Advanced Rest Client
 =====================
