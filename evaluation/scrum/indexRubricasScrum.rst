@@ -17,11 +17,13 @@ Para que un alumno pueda poder obtener los puntos otorgados al grupo por la real
 
 Los casos correspondientes a circunstancias excepcionales, como que el alumno no pueda asistir a un *Planning Poker* porque haya sido citado a declarar como testigo en sede  judicial, se analizarán y tratarán de manera individual, procurando encontrar una solución adecuada y razonable para cada uno de ellos. No obstante, merece la pena resaltar que los casos excepcionales deberían ser, como su nombre indica, extrañas e infrecuentes excepciones, y no escenarios habituales y cotidianos.
 
+Además, descatar que se velará porque cada miembro del equipo mantenga una actitud de colaboración y respeto con el resto de sus compañeros. La falta de respeto por parte de un miembro del equipo, o la falta de colaboración con sus compañeros, durante el desarrollo de una actividad supondrá automáticamente una calificación de cero puntos en todos los elementos evaluables asociados a dicha actividad.
+
 En el siguiente apartado se listan todos los elementos evaluables que se consideran durante el desarrollo del proyecto integrado en lo concerniente a la asignatura de *Métodos de Desarrollo*, así como el valor en puntos de cada uno de ellos. La suma en puntos de todas las actividades evaluables es de 1000. La calificación final del alumno se obtendrá diviendo los puntos obtenidos en el proyecto por 100.
 
 El último elemento evaluable ``Test sobre metodologías ágiles`` se evaluará y calificará de manera individualizada mediante la realización de una pequeña prueba escrita una vez finalizado el desarrollo del proyecto. Dicho test tendrá entre 8 y 10 cuestiones cortas que implicarán la elaboración de un razonamiento por parte del proyecto. Dichas cuestiones serán tanto sobre fundamentos de las metodologías ágiles como de situaciones que puedan darse, o se hayan dado, durante el desarrollo del proyecto. Un ejemplo del primer caso sería la pregunta *¿Cómo implementa Scrum el principio Lean de minimizar los desperdicios?*; mientras que en el segundo caso podrían formularse cuestiones como *¿Cómo habría que actuar si durante una Sprint Review se detecta un bug?*
 
-Los objetivos de esta prueba son dos: (1) verificar que el alumno entiende los fundamentos de las metodologías ágiles, y sabe por qué hace las cosas de una manera determinada y las ventajas e incovenientes que ello comporta; y, (2) corroborar que el alumno ha estado participando activamente en el proyecto y no viviendo a costa del trabajo de sus compañeros. Por tanto, si se obtuviese una calificación inferior a 3 en esta prueba se entendería que no se puede corroborar este último punto, lo que supondría el suspenso automático del proyecto integrado. Si se llegase a esta situación, se analizaría cada caso en cuestión para decidir las condiciones concretas de recuperación de esta actividad. 
+Los objetivos de esta prueba son dos: (1) verificar que el alumno entiende los fundamentos de las metodologías ágiles, y sabe por qué hace las cosas de una manera determinada y las ventajas e incovenientes que ello comporta; y, (2) corroborar que el alumno ha estado participando activamente en el proyecto y no viviendo a costa del trabajo de sus compañeros. Por tanto, si se obtuviese una calificación inferior a 3 en esta prueba se entendería que no se puede corroborar este último punto, lo que supondría el suspenso automático del proyecto integrado. Si se llegase a esta situación, se analizaría cada caso en cuestión para decidir las condiciones concretas de recuperación de esta actividad.
 
 Por cada elemento evaluable se proporciona un procedimiento de evaluación individualizado, donde se detalla el procedimiento que se seguirá para evaluar y calificar dicho elemento; si la calificación obtenida será individual o común al grupo; y, por último, las actividades del proyecto donde se concederán sus puntos.
 
@@ -39,7 +41,7 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+--------------------------------------------+------------+
 | 04 | Ortografía, Gramática y Maquetación        |         60 |
 +----+--------------------------------------------+------------+
-| 05 | Completitud del Product Backlog            |         40 |
+| 05 | Conformidad del Product Backlog            |         40 |
 +----+--------------------------------------------+------------+
 | 06 | Especificación de las Historias de Usuario |         40 |
 +----+--------------------------------------------+------------+

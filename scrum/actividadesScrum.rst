@@ -53,7 +53,7 @@ La no realización de esta actividad por parte de un equipo supone el suspenso a
   * Capacidad de Liderazgo.
   * Capacidad de Comunicación.
   * Ortografía, Gramática y Maquetación.
-  * Completitud del Product Backlog.
+  * Conformidad del Product Backlog.
   * Especificación de las Historias de Usuario.
 
 Además, aquellos equipos que elaboren un diagrama de objetivos podrán obtener una bonificación extra en la calificación de la asignatura de hasta 15 puntos, en función de la calidad del diagrama de objetivos entregado.
