@@ -58,7 +58,7 @@ La no realización de esta actividad por parte de un equipo supone el suspenso a
 
 Además, aquellos equipos que elaboren un diagrama de objetivos podrán obtener una bonificación extra en la calificación de la asignatura de hasta 15 puntos, en función de la calidad del diagrama de objetivos entregado.
 
-Actividades dentro  un sprint Scrum
-====================================
+Actividades dentro de un sprint Scrum
+======================================
 
 .. todo:: Pendiente de completar.
