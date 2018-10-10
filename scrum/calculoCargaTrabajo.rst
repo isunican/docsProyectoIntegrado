@@ -2,15 +2,19 @@
  Miscelánea
 =============
 
-Cómo estimar una Historia de Usuario en puntos
-===============================================
+Cómo estimar una *historia de usuario* en puntos
+=================================================
 
-.. todo:: COMPLETAR
+Para poder estimar las historias de usuario en punto, se considerará que una *historia de usuario básica*, aquélla que corresponde a una operación CRUD simple, tendrá un valor de 5 puntos. Una CRUD simple sería un alta del conjunto de datos de una clase sin muchos campos, para evitar un exceso de validaciones, o una acción equivalenete a mostrar los datos almacenados en una tabla por pantalla, sin demasiados adornos en dicha tabla.
 
-Cómo calcular la velocidad inicial de un *Scrum Team*
-======================================================
+Cómo calcular la velocidad de un equipo de un *Scrum Team*
+===========================================================
 
+La velocidad de los equipos se establecerá inicialmente en 12 puntos, y se ajustará para las siguientes iteraciones en función de los resultados de cada *sprint*. Merece la pena recordar que esta velocidad es un límite máximo de la capacidad de trabajo que puede aceptar un equipo, no siendo necesario saturarla. Es decir, un equipo podría, en un determinado sprint, realizar trabajo por valor de 10 puntos, sin suponer eso problema alguno.
 
+Además, en el caso de que haya días festivos durante la realización de un sprint, deberá descontarse la parte correspondiente a ese día festivo de la valorcidad de equipo para ese sprint en concreto; ya que los festivos, al igual que los fines de semana, son para descansar y no para trabajar.
+
+Por ejemplo, si un *sprint* contuviese un día festivo, dado que un *sprint* tiene 10 días laborales, la *velocidad de equipo* para ese sprint debe reducirse en un 10%. Es decir, si la velocidad de equipo fuese de 20 puntos, para el *sprint* que contiene un día festivo sería de 18 puntos, un 10% menos.
 
 Cómo calcular la carga de trabajo de un equipo
 ===============================================
@@ -29,7 +33,6 @@ En resumen, para definir la carga de trabajo de un equipos para un *sprint*, con
 
 Para aquellos alumnos que no estén matriculados en la totalidad de las asignaturas del proyecto, sólo se computarán las horas correspondientes a las asignaturas en las que éstos estén matriculados. Por ejemplo, si algún alumno estuviese matriculado sólo en la asignatura de *Calidad y Auditoría*, su carga de trabajo sería de 8 horas por semana. En cualquier caso, se recomienda confirmar estas circunstancias excepcionales con el equipo docente asociado al proyecto integrado.
 
-
 Además, en el caso de que haya días festivos durante la realización de un sprint, deberá descontarse la parte correspondiente a ese día festivo de la carga total de trabajo de ese *sprint*, ya que los festivos, al igual que los fines de semana, son para descansar y no para trabajar.
 
-Por ejemplo, si un *sprint* contiene un día festivo, dado que un *sprint* tiene 10 días laborales, la carga de trabajo del primer sprint debe reducirse en un 10%. Por tanto, para el primer sprint, la carga de trabajo de los miembros de cada equipo debe decrementarse en 3.6 horas, que, para evitar decimales, se redondean a 4. Por tanto, la carga final de trabajo de cada alumno será de 32 horas durante el ese sprint.
+Por ejemplo, si un *sprint* contiene un día festivo, dado que un *sprint* tiene 10 días laborales, la carga de trabajo de ese sprint debe reducirse en un 10%. Por tanto, asumiendo que la carga de trabajo de un mimebo del equipo sea 36, esa carga debe decrementarse en 3.6 horas, que, para evitar decimales, se redondearían a 4. Por tanto, la carga final de trabajo de cada alumno sería de 32 horas para el *sprint* conteniendo el día festivo.
