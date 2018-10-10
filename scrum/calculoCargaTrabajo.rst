@@ -10,6 +10,11 @@ Cómo estimar una Historia de Usuario en puntos
 Cómo calcular la velocidad inicial de un *Scrum Team*
 ======================================================
 
+
+
+Cómo calcular la carga de trabajo de un equipo
+===============================================
+
 La carga o capacidad de trabajo de cada miembro de un equipo Scrum será, con carácter general, de 36 horas. Dicha cifra es el resultado de los siguientes cómputos.
 
 De acuerdo con la normativa de los créditos ECTS (*European Credit Transfer System*), 1 crédito equivalen 25 horas de trabajo, tanto presencial como autónomo. Por otro lado, un crédito tiene asociadas 10 horas de clase presenciales, por lo que 1 crédito ECTS son 10 horas presenciales de clase y 15 horas de trabajo autónomo (incluyendo evaluaciones y tutorías).
@@ -28,8 +33,3 @@ Para aquellos alumnos que no estén matriculados en la totalidad de las asignatu
 Además, en el caso de que haya días festivos durante la realización de un sprint, deberá descontarse la parte correspondiente a ese día festivo de la carga total de trabajo de ese *sprint*, ya que los festivos, al igual que los fines de semana, son para descansar y no para trabajar.
 
 Por ejemplo, si un *sprint* contiene un día festivo, dado que un *sprint* tiene 10 días laborales, la carga de trabajo del primer sprint debe reducirse en un 10%. Por tanto, para el primer sprint, la carga de trabajo de los miembros de cada equipo debe decrementarse en 3.6 horas, que, para evitar decimales, se redondean a 4. Por tanto, la carga final de trabajo de cada alumno será de 32 horas durante el ese sprint.
-
-Cómo calcular la carga de trabajo de un equipo
-===============================================
-
-.. todo:: COMPLETAR
