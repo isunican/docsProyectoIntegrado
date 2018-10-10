@@ -7,10 +7,15 @@ Cómo estimar una *historia de usuario* en puntos
 
 Para poder estimar las historias de usuario en punto, se considerará que una *historia de usuario básica*, aquélla que corresponde a una operación CRUD simple, tendrá un valor de 5 puntos. Una CRUD simple sería un alta del conjunto de datos de una clase sin muchos campos, para evitar un exceso de validaciones, o una acción equivalenete a mostrar los datos almacenados en una tabla por pantalla, sin demasiados adornos en dicha tabla.
 
-Cómo calcular la velocidad de un equipo de un *Scrum Team*
-===========================================================
+Tomando ese valor de referencia, el resto de *historias de usuario* se estiman en comparación con este valor de referencia.
+Por ejemplo, si hubiese que realizar un alta de un conjunto de datos muy extenso, o que implicase el chequeo de múltiples restricciones, podría asignársele a dicha historia de usuario un valor de 8 puntos de esfuerzo, o incluso si las restricciones fuesen muy complejas, hasta de 13.
 
-La velocidad de los equipos se establecerá inicialmente en 12 puntos, y se ajustará para las siguientes iteraciones en función de los resultados de cada *sprint*. Merece la pena recordar que esta velocidad es un límite máximo de la capacidad de trabajo que puede aceptar un equipo, no siendo necesario saturarla. Es decir, un equipo podría, en un determinado sprint, realizar trabajo por valor de 10 puntos, sin suponer eso problema alguno.
+Merece la pena recordar que si el *Scrum Team* no tiene los conocimientos técnicos necesarios para realizar una historia de usuario, o no tiene la información suficiente para estimarla, debe asignarse a dicha historia un valor de esfuerzo de infinito. Por ejemplo, si hubiese una historia de usario que fuese *trazar una ruta en Google Maps* y el *Scrum Team* nunca ha trabajado con dicha *Google Maps*, dicha historia de usuario debe tener como valor de esfuerzo infinito.
+
+Velocidad inicial de los *Scrum Team*
+======================================
+
+La velocidad de los equipos, para el desarrollo del proyecto integrado, se establecerá inicialmente en 12 puntos, y se ajustará para las siguientes iteraciones en función de los resultados de cada *sprint*. Merece la pena recordar que esta velocidad es un límite máximo de la capacidad de trabajo que puede aceptar un equipo, no siendo necesario saturarla. Es decir, un equipo podría, en un determinado sprint, realizar trabajo por valor de 10 puntos, sin suponer eso problema alguno.
 
 Además, en el caso de que haya días festivos durante la realización de un sprint, deberá descontarse la parte correspondiente a ese día festivo de la valorcidad de equipo para ese sprint en concreto; ya que los festivos, al igual que los fines de semana, son para descansar y no para trabajar.
 
