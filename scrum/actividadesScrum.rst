@@ -64,7 +64,7 @@ Actividades dentro de un sprint Scrum
 Sprint Planning Meeting I
 --------------------------
 
-: Fecha y Hora: Primer Lunes de cada sprint, de 8:30 a 9:30.
+:Fecha y Hora: Primer Lunes de cada sprint, de 8:30 a 9:30.
 
 ** Descripción de la Actividad**
 
@@ -77,7 +77,7 @@ Una vez realizada la selección de elementos que conformará el *Sprint Backlog*
 **Elementos a Entregar**
 
 Como resultado de esta actividad cada equipo deberá producir un *Sprint Backlog* para el desarrollo del correspondiente sprint.
-Las historias de usuario incluidas en ese *Sprint Backlog* deben estar ya complementamente especificadas, incluyendo obligatoriamente todos los tests de aceptación que sean necesarios; y, opcionalmente, toda la informacion recogida durante la negociacion con el *Product Owner*, como *mock-ups*, que se considere de utilidad para su desarrollo.
+Dicho *Sprint Backlog* tendrá que estar en la herramienta *ScrumDesk* y listo para su evaluación a las 14:00 horas del mismo día en el que se relice la actividad. Las historias de usuario incluidas en ese *Sprint Backlog* deben estar ya complementamente especificadas, incluyendo obligatoriamente todos los tests de aceptación que sean necesarios; y, opcionalmente, toda la informacion recogida durante la negociacion con el *Product Owner*, como *mock-ups*, que se considere relevante para su desarrollo.
 
 **Procedimiento de Evaluación**
 
@@ -93,3 +93,40 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Negociación de Historias de Usuario
 
 Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto,   la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a actividades de ese sprint.
+
+Sprint Planning Meeting II
+---------------------------
+
+:Fecha y Hora: Primer Lunes de cada sprint, de 9:30 a 10:30
+
+**Descripción de la Actividad**
+
+Una vez definido el *Sprint Backlog* cada equipo descompondrá sus elementos en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado <definicionCompletado.html>`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. A continuación, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
+
+  * se satisfagan las restricciones impuestas por el proyecto integrado;
+  * la carga de trabajo de cada uno de los miembros del equipo resulte lo más equilibrada posible;
+  * se facilite el trabajo concurrente durante el desarrollo del sprint.
+
+.. warning:: La estimación de las tareas en horas debe realizarse utilizando una escala discreta de espacio creciente, tal como la escala de fibonacci modificada [0, 0.5, 1, 2, 3, 5, 8, 13, 20, 50, 100].
+
+**Elementos a Entregar**
+
+Como resultado de esta actividad cada equipo deberá producir un conjunto de tareas a realizar, las cuales constituirán la planificación del sprint. Dicho descomposición en tareas tendrá que estar incluida en la herramienta *ScrumDesk* y lista para su evaluación a las 14:00 horas del mismo día en el que se relice la actividad.
+
+**Procedimiento de Evaluación**
+
+Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
+
+  * Capacidad de Liderazgo.
+  * Ortografía, Gramática y Maquetación.
+  * Planificación de Tareas.
+  * Ejecución del Planning Poker.
+
+Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto,   la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a actividades de ese sprint.
+
+
+.. :Fecha y Hora: Primer Lunes de cada sprint, de 9:30 a 10:30
+
+.. **Descripción de la Actividad**
+.. **Elementos a Entregar**
+.. **Procedimiento de Evaluación**
