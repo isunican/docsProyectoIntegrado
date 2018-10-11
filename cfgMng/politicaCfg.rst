@@ -87,22 +87,20 @@ Trabajos en la ``release branch``
 Esquema de Versionado
 ----------------------
 
-Toda versión se identificará con tres números separados por puntos, conforme al patrón ``XX.YY.ZZ``, donde
+Toda versión se identificará con tres números separados por puntos, conforme al patrón ``XX.YY.ZZ``, donde cada número posee el siguiente significado:
 
-XX    Representa el número de versión principal de un producto.
+XX
+  Un producto cambiará de versión principal cuando el conjunto de cambios que aporta con respecto a la versión principal anterior es bastante significativo desde el punto de vista del cliente.
 
-      Un producto cambiará de versión principal cuando el conjunto de cambios que aporta con respecto a la versión principal anterior es bastante significativo desde el punto de vista del cliente.
+  Por ejemplo, un cambio estético completo en la interfaz del producto podría implicar un cambio de versión principal.
 
-      Por ejemplo, un cambio estético completo en la interfaz del producto podría implicar un cambio de versión principal.
+  Los cambios de versiones principales suelen requerir un número de *sprints* considerable y una cuidadosa planificación a largo plazo.
 
-      Los cambios de versiones principales suelen requerir un número de *sprints* considerable y una cuidadosa planificación a largo plazo.
+YY
+  Representa el número de *versión secundaria* o subversión de un producto. Una *versión secundaria* dentro de una versión principal difiere de la versión secundario anterior, dentro de esa misma versión principal, en un número de funcionalidades pequeño.
 
-YY    Representa el número de versión secundaria de un producto.
-
-      Una versión secundaria dentro de una versión principal difiere de la versión secundario anterior, dentro de esa misma versión principal, en un conjunto reducido de funcionalidades pequeño.
-
-ZZ    Representa la actualización de una versión concreta del producto software con un
-      conjunto de parches para solucionar una serie de *bugs* identificados en esa versión.
+ZZ
+ Representa una actualización de una versión concreta ``XX.YY`` del producto software con un conjunto determinado de parches que solucionan una serie de *bugs* identificados en esa versión tras haber sido puesta en funcionamiento.
 
 Dentro del proyecto integrado se comenzará con la versión ``00.00`` del producto y al finalizar cada sprint se deberá incrementar el número de versión secundaria del producto.
 
