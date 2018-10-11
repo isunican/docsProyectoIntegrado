@@ -47,7 +47,7 @@ Como resultado de esta actividad se deberá generar un *Product Backlog* inicial
 
 **Procedimiento de Evaluación**
 
-La no realización de esta actividad por parte de un equipo supone el suspenso automático del proyecto. Dentro de esta actividad se evaluarán y calificaran los siguientes ítems:
+La no realización de esta actividad por parte de un equipo supone el suspenso automático del proyecto. Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
   * Relación con el Product Owner.
   * Capacidad de Liderazgo.
@@ -61,4 +61,35 @@ Además, aquellos equipos que elaboren un diagrama de objetivos podrán obtener 
 Actividades dentro de un sprint Scrum
 ======================================
 
-.. todo:: Pendiente de completar.
+Sprint Planning Meeting I
+--------------------------
+
+: Fecha y Hora: Primer Lunes de cada sprint, de 8:30 a 9:30.
+
+** Descripción de la Actividad**
+
+Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* que se incluirán dentro del desarrollo de ese sprint. Esta selección debe realizarse de manera que se maximize el valor del trabajado generado dentro de las restricciones impuestas por la *velocidad de equipo*.
+
+Una vez realizada la selección de elementos que conformará el *Sprint Backlog*, el *Scrum Team* deberá de extraer del *Product Owner* toda la información que necesite para su correcto desarrollo. Hay que tener cuenta que para que el desarollo de los sprints sea sostenible, la metodología *Scrum* no permite modificar el contenido del *Sprint Backlog* durante el desarrollo de un sprint, ni que sus elementos se renegocien. Por tanto, en esta actividad deben quedar perfectamente definidos todos los aspectos necesarios para el desarrollo de los elementos seleccionados.
+
+.. warning:: Se recomienda prestar especial atención en esta actividad a la definición de los test de aceptación para cada historia de usuario seleccionada. Estos tests deben incluir escenarios tanto de éxito como alternativos, excepcionales y de no éxito.
+
+**Elementos a Entregar**
+
+Como resultado de esta actividad cada equipo deberá producir un *Sprint Backlog* para el desarrollo del correspondiente sprint.
+Las historias de usuario incluidas en ese *Sprint Backlog* deben estar ya complementamente especificadas, incluyendo obligatoriamente todos los tests de aceptación que sean necesarios; y, opcionalmente, toda la informacion recogida durante la negociacion con el *Product Owner*, como *mock-ups*, que se considere de utilidad para su desarrollo.
+
+**Procedimiento de Evaluación**
+
+Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
+
+  * Relación con el Product Owner.
+  * Capacidad de Liderazgo.
+  * Capacidad de Comunicación.
+  * Ortografía, Gramática y Maquetación.
+  * Conformidad del Product Backlog.
+  * Especificación de las Historias de Usuario.
+  * Creación del Sprint Backlog
+  * Negociación de Historias de Usuario
+
+Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto,   la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a actividades de ese sprint.
