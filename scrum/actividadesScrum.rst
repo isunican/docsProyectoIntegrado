@@ -124,6 +124,27 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
 Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto,   la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a actividades de ese sprint.
 
+Daily Scrum Meeting
+---------------------
+
+:Fecha y Hora: Diario (salvo inicio y fin de cada sprint), 8:30 – 8:45
+
+Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin del sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
+
+El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior; qué va a hacer hoy; y qué dificultades está atravesando actualmente. Además, el equipo deberá idear un plan para solventar dichas dificultades. Para ello, los miembros del grupo intervendrán por orden y expondrán, sin interrupción por parte de otros mimebros, qué hicieron ayer, qué harán hoy y qué problemas tienen para desarrollar su trabajo. Al final de todas las intervenciones se debatirán las acciones de coordinación entre miembros del grupo que se consideren necesarias.
+
+La celebracíón del *Daily Scrum Meeting* se realizará fuera del aula y de pie, de acuerdo con las recomendaciones de la metodología *Scrum*.
+
+**Elementos a Entregar**
+
+Como resultado de esta actividad no se debe entregar nada. Serán los miembros del equipo docente lo que acudan periódicamente a la ejecución de esta actividad para evaluarla.
+
+**Procedimiento de Evaluación**
+
+Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
+
+  * Capacidad de Liderazgo.
+  * Ejecución de los Daily Scrum Meeting
 
 .. :Fecha y Hora: Primer Lunes de cada sprint, de 9:30 a 10:30
 
