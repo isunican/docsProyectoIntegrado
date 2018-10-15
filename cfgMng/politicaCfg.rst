@@ -39,7 +39,7 @@ Reglas de Gestión de la Configuracion
 .. note::
     Estas reglas asumen que las ramas ``master`` y ``develop`` existen en el repositorio centralizado del equipo.
 
-#. Cada elemento de un *product backlog* deberá desarrollarse en una ``feature branch`` independiente. Por tanto, al comienzo de cada sprint, se deberá crear una ``feature branch`` por cada elemento contenido dentro del *Sprint Backlog*.
+#. Cada elemento de un *product backlog* deberá desarrollarse en una ``feature branch`` independiente. Por tanto, al comienzo de cada sprint, se deberá crear una ``feature branch`` por cada elemento a desarrollar dentro de ese sprint, es decir, por cada elemento contenido dentro del *sprint backlog*.
 #. Los trabajos correspondientes a cada elemento del *Sprint Backlog* se realizarán en su correspondiente ``feature branch``. Una ``feature branch`` podrá ser subramificada tanto como se desee a criterio de cada *Scrum Team*.
 #. De acuerdo con los *esquemas de integración continua*, cada ``feature branch`` deberá ser integrada en ``develop`` periódicamente. Ninguna ``feature branch`` que esté recibiendo trabajo puede pasar más de dos días sin que haya sido integrada en ``develop``. El proceso de integración de una ``feature branch`` en develop se realizará siguiendo el procedimiento para la `integración de una feature branch en develop`_.
 #. Cuando una ``feature branch`` esté completa, se creará un *Pull Request* para solicitar una integración más formal de dicha rama en ``develop``. El proceso de integración de este *Pull Request* en develop se realizará siguiendo el procedimiento para la `integración de un Pull Request en develop`_.
