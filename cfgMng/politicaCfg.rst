@@ -16,18 +16,14 @@ De acuerdo con dicho esquema de ramificación, existirán en el repositorio de c
   Constituye la rama principal del proyecto y debe contener únicamente versiones del producto software, con todos sus artefactos asociados, que estén completamente listas para pasar a producción, es decir, ser puestas en funcionamiento real. La cabeza ``HEAD`` de dicha rama debe contener la última versión estable del producto, que debe estar lista para ser puesta en funcionamiento en cuanto el *Product Owner* lo indique.
 
 ``develop``
-  Constituye una *rama de integración* en la cual los desarrolladores irán volcando el trabajo realizado de manera que, conforme a un *esquema de integración continua*, se pueda verificar periodicamente que no existen problemas de integración entre los cambios realizados en paralelo por diferente miembros del equipo de trabajo.
-
-.. Therefore, each time when changes are merged back into master, this is a new production  release by definition. We tend to be very strict at this, so that theoretically, we could use a Git hook script to automatically build and roll-out our software to our production servers everytime there was a commit on master.
-
-.. https://www.scrumdesk.com/start/manual-for-scrumdesk-start/predefined-backlog-item-types/
+  Constituye una *rama de integración* en la cual los desarrolladores irán volcando el trabajo realizado de manera que, conforme a un *esquema de integración continua*, se pueda verificar periodicamente que no existen problemas de integración entre los cambios realizados en paralelo por diferentes miembros del equipo de trabajo.
 
 **Ramas Secundarias**
 
 ``feature branches``
   Se utilizan para realizar el desarrollo de un elemento del *Product Backlog* como puede ser una *historia de usuario* o un *ticket de mantenimiento*. Todos los cambios que se tengan que realizar para implementar dicho elemento se llevarán a cabo dentro de una de estas ramas, que se tratará de mantener tan independiente como sea posible de otras ``feature branches``.
 
-  Cada ``feature branch`` que se cree deberá tener como nombre ``feature/featureID-featureName``, donde ``featureID`` es el identificador numérico adjudicado por *ScrumDesk* al correspondiente item del *Sprint Backlog* y `<featureName`` es un nombre corto que se le dará a la rama para que su identificación sea menos críptica.
+  Cada ``feature branch`` que se cree deberá tener como nombre ``feature/featureID-featureName``, donde ``featureID`` es el identificador numérico adjudicado por *ScrumDesk* al correspondiente item del *Sprint Backlog* y ``featureName`` es un nombre corto que se le dará a la rama para que su identificación sea menos críptica.
 
 ``release branches``
   Se utilizan para preparar una futura versión de producto que estará lista para ser puesta en producción. Su objetivo es permitir la realización pequeñas tareas relacionadas con la creación de una nueva versión oprativa del producto, como la generación de un ejecutable o el desarrollo de un nuevo instalador.
@@ -59,8 +55,8 @@ Las integraciones de una ``feature branch`` en ``develop`` se realizarán de acu
 
 #. Antes de realizar una integración de una ``feature branch`` en ``develop`` hay que verificar que el último commit de esta rama esté marcado como ``Success`` por el entorno de integración continua, *Travis* en nuestro caso.
 #. La fusión de una ``feature branch`` en ``develop`` deberá ser siempre recursiva, es decir, generar un nuevo *commit de merge* [#f1]_.
-#. Si la fusión generase conflictos, estos deberán resolverse de manera consensuada con el resto del equipo. Además, una vez resuelto los conflictos, los diferentes miembros del equipo deberán actualizar los archivos conflictivos en sus correspondientes ``feature branches``, de manera que se eviten nuevos futuros conflictivos [#f2]_.
-#. Siempre que se integre nuevo trabajo en la rama ``develop`` del repositorio centralizado se ejecutará automáticamente el entorno de integración continua *Travis*. al final de su ejecución, *Travis* marcará el correspondiente *commit* como ``Sucess`` o ``Failure``.
+#. Si la fusión generase conflictos, estos deberán resolverse de manera consensuada con el resto del equipo. Además, una vez resueltos los conflictos, los diferentes miembros del equipo deberán actualizar los archivos conflictivos en sus correspondientes ``feature branches``, de manera que se eviten nuevos futuros conflictivos [#f2]_.
+#. Siempre que se integre nuevo trabajo en la rama ``develop`` del repositorio centralizado se ejecutará automáticamente el entorno de integración continua *Travis*. Al final de su ejecución, *Travis* marcará el correspondiente *commit* como ``Sucess`` o ``Failure``.
 
    a. Si el resultado es ``Sucess``, todo el trabajo existente en ``develop`` está libre de problemas de integración y el proceso se puede dar por terminado.
    b. Si el resultado es ``Failure``, existen problemas de integración que deben ser solucionados. En este caso, la rama ``develop`` queda bloqueada, no pudiendo recibir nuevas integraciones hasta que se solucionen dichos problemas de integración.
@@ -77,9 +73,9 @@ La integración del *Pull Request* de una ``feature branch`` en ``develop`` se r
 Trabajos en la ``release branch``
 ----------------------------------
 
-#. Generar las versiones en pdf de todos los informes solicitados.
-#. Generar las imágenes .png de todos los modelos solicitados.
-#. Generar las imágenes .png correspondientes a los *mock-ups* elaborados, si los hubiere.
+#. Generar las versiones ``.pdf`` de todos los informes solicitados.
+#. Generar las imágenes ``.png`` de todos los modelos solicitados.
+#. Generar las imágenes ``.png`` correspondientes a los *mock-ups* elaborados, si los hubiere.
 #. Revisar ortografía de todos los documentos creados así como de la interfaz gráfica del producto.
 #. Generar el correspondiente fichero *apk*.
 #. Instalar el producto en diferentes terminales y verificar su correcto funcionamiento.
@@ -104,4 +100,4 @@ ZZ
 
 Dentro del proyecto integrado se comenzará con la versión ``00.00`` del producto y al finalizar cada sprint se deberá incrementar el número de versión secundaria del producto.
 
-.. [#f1] Para forzar a que una fusión sea siempre recursiva, se debe especificar el parámetro ``--no-ff`` a la hora de ejecutar el comando de ``merge``, de manera que aunque sea posible realizar la fusión por *fast-forward*, ésta sea realice de manera recursiva.
+.. [#f1] Para forzar a que una fusión sea siempre recursiva, se debe especificar el parámetro ``--no-ff`` a la hora de ejecutar el comando de ``merge``, de manera que aunque sea posible realizar la fusión por *fast-forward*, ésta se realice de manera recursiva.
