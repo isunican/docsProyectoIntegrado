@@ -76,25 +76,23 @@ Tras la configuración, podremos ejecutar análisis para un único fichero o el 
 Análisis de la calidad de producto
 ========================================
 
-Durante el desarrollo del proyecto integrado se realizarán Sprints en los que se desarrollarán historias de usuario. Para cada historia de usuario se nombrará un responsable de calidad que deberá realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales establecidos, es decir, que pase de forma satisfactoria el quality gate.
+Durante el proyecto integrado se realizarán Sprints en los que se desarrollarán historias de usuario. Para cada historia de usuario se nombrará un responsable de calidad que deberá realizar las acciones necesarias para que la codificación cumpla con los umbrales establecidos, es decir, que pase de forma satisfactoria el quality gate.
 
-Por lo tanto, los pasos que deberá realizar son:
+El proceso que ha de seguir el responsable de calidad de una historia de usuario será el siguiente:
 
-*	Tomar el código desarrollado y subir el análisis al servidor SonarCloud, dentro de la organización isuc, con el id de su proyecto y su clave.
+* Los desarrolladores de esa historia de usuario irán implementandola en una determinada rama y realizando integraciones con la rama develop. Al realizar dicha integración, travis lanzará un análisis de sonar cuyo resultado se alojará en el servidor de sonarcloud de isuc.
 
-*	Observar los resultados del análisis, comprobando si ha pasado o no el quality gate establecido y que además, en la medida de lo posible, obtenga clasificación A en los 3 apartados: reliability (bugs), security (vulnerabilities) y maintainability (code smells).
+* El responsable de la calidad de esa historia, deberá observar el resultado del análisis y si pasa o no las normas de calidad de la organización. En caso de no pasarlas, establecerá el plan de acción a llevar a cabo (la serie de issues que deberán corregirse) y se lo comunicará a los desarrolladores de esa historia de usuario, los cuales deberán realizarlo. En caso de pasar las normas de calidad, el responsable de calidad decidirá si hay aspectos que desea mejorar y pasará el plan de acción a los desarrolladores.
 
-*	Tras el análisis deberá decidir qué incidencias arreglar y hacerlo en el código. El complemento SonarLint facilita esta tarea. Tras hacer las mejoras se resubirá el análisis a SonarCloud para observar la situación actual, realizando este proceso hasta alcanzar la calidad exigida.
+* En siguientes integraciones con la rama develop se procederá de igual forma, vigilando siempre que se satisfagan los criterios de calidad de la organización.
+
+* Finalmente, al integrar todas las ramas de las historias de usuario en desarrollo en develop y al crear una release en master, travis lanzará sonar y deberemos comprobar que se mantiene la satisfacción de los criterios de calidad de la organización.
+
 
 Informe de Calidad
 ===================
 
-El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y además ser entregado en Moodle. Este informe incluirá:
+El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará el autor del mismo y la historia de usuario a la que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
 
-*	Los resultados del análisis inicial, indicando la situación actual y dónde están los principales problemas de calidad.
+El informe indicará cómo ha sido la evolución de la calidad en la rama que implementa la historia de usuario de la cual es responsable. Es decir, cada vez que se integre la rama en develop, travis lanzará sonar y el responsable de calidad deberá indicar en el informe qué observó y qué plan de acciones correctivas estableció.
 
-*	Las acciones que se han decidido llevar a cabo para mejorar la calidad y el motivo razonado de su elección.
-
-*	Los resultados del análisis final, indicando la situación actual la cuál ha de cumplir los criterios de calidad exigidos.
-
-El informe indicará el autor del mismo y la historia de usuario a la que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
