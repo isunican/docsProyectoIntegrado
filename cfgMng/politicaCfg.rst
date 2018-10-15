@@ -16,7 +16,7 @@ De acuerdo con dicho esquema de ramificación, existirán en el repositorio de c
   Constituye la rama principal del proyecto y debe contener únicamente versiones del producto software, con todos sus artefactos asociados, que estén completamente listas para pasar a producción, es decir, ser puestas en funcionamiento real. La cabeza ``HEAD`` de dicha rama debe contener la última versión estable del producto, que debe estar lista para ser puesta en funcionamiento en cuanto el *Product Owner* lo indique.
 
 ``develop``
-  Constituye una *rama de integración* en la cual los desarrolladores irán volcando el trabajo realizado de manera que, conforme a un *esquema de integración continua*, se pueda verificar periodicamente que no existen problemas de integración entre los cambios realizados en paralelo por diferentes miembros del equipo de trabajo.
+  Constituye una *rama de integración* en la cual los desarrolladores irán volcando el trabajo realizado de manera que, conforme a un *esquema de integración continua*, se pueda verificar periódicamente que no existen problemas de integración entre los cambios realizados en paralelo por diferentes miembros del equipo de trabajo.
 
 **Ramas Secundarias**
 
@@ -26,7 +26,7 @@ De acuerdo con dicho esquema de ramificación, existirán en el repositorio de c
   Cada ``feature branch`` que se cree deberá tener como nombre ``feature/featureID-featureName``, donde ``featureID`` es el identificador numérico adjudicado por *ScrumDesk* al correspondiente item del *Sprint Backlog* y ``featureName`` es un nombre corto que se le dará a la rama para que su identificación sea menos críptica.
 
 ``release branches``
-  Se utilizan para preparar una futura versión de producto que estará lista para ser puesta en producción. Su objetivo es permitir la realización pequeñas tareas relacionadas con la creación de una nueva versión oprativa del producto, como la generación de un ejecutable o el desarrollo de un nuevo instalador.
+  Se utilizan para preparar una futura versión de producto que estará lista para ser puesta en producción. Su objetivo es permitir la realización de pequeñas tareas relacionadas con la creación de una nueva versión operativa del producto, como la generación de un ejecutable o el desarrollo de un nuevo instalador.
 
 ``hotfix branches`` [#f0]_
   Se utilizan para solucionar *bugs* críticos detectados en versiones en producción del producto que se está desarrollando que necesitan ser solucionados urgentemente. Todo el trabajo que sea necesario realizar para eliminar dicho *bug* se realizará dentro de una de estas ramas.
@@ -93,7 +93,7 @@ XX
   Los cambios de versiones principales suelen requerir un número de *sprints* considerable y una cuidadosa planificación a largo plazo.
 
 YY
-  Representa el número de *versión secundaria* o subversión de un producto. Una *versión secundaria* dentro de una versión principal difiere de la versión secundario anterior, dentro de esa misma versión principal, en un número de funcionalidades pequeño.
+  Representa el número de *versión secundaria* o subversión de un producto. Una *versión secundaria* dentro de una versión principal difiere de la versión secundaria anterior, dentro de esa misma versión principal, en un número de funcionalidades pequeño.
 
 ZZ
  Representa una actualización de una versión concreta ``XX.YY`` del producto software con un conjunto determinado de parches que solucionan una serie de *bugs* identificados en esa versión tras haber sido puesta en funcionamiento.
