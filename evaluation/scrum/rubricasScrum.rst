@@ -280,3 +280,27 @@ Para asignar puntos a este elemento se valorarán principalmente los tres primer
 Además, la creación de una descomposición de tareas que no permita satisfacer la *definición de completado* supondrá la obtención de cero puntos en este apartado. Igualmente, la creación de una carga de trabajo muy desequilibrada entre los miembros de un equipo, o la existencia de errores sintácticos en la especificación de tareas, impedirá la obtención de más de un tercio de los puntos asignados a este ítem.
 
 .. [#f0] Un ejemplo de tarea repetitiva y bien conocida sería *integrar feature branch en master*, que es una tarea cuyo objetivo y procedimiento está ya perfectamente definido en las normas de la gestión de la configuración.
+
+Ejecución del Planning Poker
+==============================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 60                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting II         |
++--------------+------------------------------------+
+
+Para evaluar este ítem, se verificarán los siguientes puntos:
+
+  #.  El equipo está en posesión el material necesario para poder ejecutar la técnica correctamente, es decir de una *baraja de planning poker*.
+  #. La actividad se desarrolla de acuerdo a las normas de la técnica de Planning Poker.
+  #. Los desacuerdos en las estimaciones se discuten brevemente entre los responsables de las estimaciones dispares.
+  #. Tanto las presentaciones de elementos como las discusiones de estimaciones dispares son breves y concisas, sin entrar en detalles irrelevantes.
+  #. Los diferentes miembros del equipo mantiene una actitud negociadora y no se enrocan en opiniones particulares.
+  #. En general, la actividad se realiza de forma eficiente y productiva.
+  #. Las estimaciones realizadas poseen valores razonables. Para definir el margen de lo razonable se tendrá en cuenta tanto que son estimaciones como que han sido realizadas por alumnos con una limitada experiencia en desarrollo sw de estas características.
+
+El incumplimiento del primer punto por parte de algún miembro del grupo supondrá automáticamente una calificación de cero puntos en este ítem para todo el equipo.
+El incumplimiento claro del punto 2 también conllevará una calificación de cero puntos en este elemento evaluable.
