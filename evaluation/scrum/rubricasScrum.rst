@@ -235,3 +235,48 @@ En concreto, se verificará que:
 El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
 
 En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
+
+Planificación de Tareas
+========================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 30                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting II         |
++--------------+------------------------------------+
+
+Para evaluar este ítem se evaluarán tres aspctos del mismo por separado:
+
+  #. Corrección de la descomposición en tareas realizada.
+  #. Corrección sintáctica y semántica de las tareas creadas.
+  #. Equilibro de la carga de trabajo entre los diferentes miembros del equipo.
+  #. Productividad de la asignación de tareas.
+
+Para evaluar la *corrección de la descomposición en tareas realizada* se verificará que:
+
+  a. Cada elemento de la *definición de completado* tiene al menos una tarea asociada.
+  b. Ninguna tarea puede ser descompuesta fácilmente en subtareas independientes.
+
+Para evaluar la *corrección sintáctica y semántica* de las tareas creadas se verificará que:
+
+  a. Cada tarea tiene un nombre.
+  b. El nombre sea significativo.
+  c. Cada tarea tiene una estimación asociada.
+  d. Cada tarea está asignada a un miembro del equipo.
+  e. Cuando la tarea no es repetitiva y bien conocida [#f0]_, la tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma.
+  f. En el caso de las tareas con descripción, dicha descripción es correcta desde un punto de vista técnico.
+
+Para evaluar el *equilibrio de la carga de trabajo* simplemente se verificará que la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros.
+
+Por último, para evaluar la *productividad de la asignación de tareas* se verificará que dicha asignación permita a los miembros del equipo trabajar de manera concurrente sin mayores problemas. Se deberán evitar en espacil dos tipos de situaciones:
+
+  a. Que existan miembros ociosos en determinadas fases del desarrollo del sprint. Por ejemplo, que alguien no tenga apenas tareas que realizar en la segunda semana de un sprint.
+  b. Que se generen cuellos de botella innecesarios. Es decir, que la mayor parte de los miembros del equipo estén esperando a la finalización de una determinada tarea.
+
+Para asignar puntos a este elemento se valorarán principalmente los tres primeros apartados, siendo la *productividad de la asignación de tareas* sólo necesaria para obtener sumas de puntos cercanas al total de los asignados a este ítem.
+
+Además, la creación de una descomposición de tareas que no permita satisfacer la *definición de completado* supondrá la obtención de cero puntos en este apartado. Igualmente, la creación de una carga de trabajo muy desequilibrada entre los miembros de un equipo, o la existencia de errores sintácticos en la especificación de tareas, impedirá la obtención de más de un tercio de los puntos asignados a este ítem.
+
+.. [#f0] Un ejemplo de tarea repetitiva y bien conocida sería *integrar feature branch en master*, que es una tarea cuyo objetivo y procedimiento está ya perfectamente definido en las normas de la gestión de la configuración.
