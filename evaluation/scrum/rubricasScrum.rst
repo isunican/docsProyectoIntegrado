@@ -210,3 +210,28 @@ Los puntos asociados a este ítem se otorgarán en función del grado de cumplim
   * No existe una selección de elementos alternativa que, ajustándose a la velocidad del equipo, permita obtener una suma mayor para el valor de negocio.
 
 El incumplimiento de cualquiera de los dos primeros puntos supondrá una calificación de cero puntos. En caso de que se viole el tercer punto de forma clara, el equipo obtendrá una calificación inferior a un tercio de los puntos asignados a este ítem.
+
+Negociación de las Historias de Usuario
+========================================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 40                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+En este item se evaluará que las historias de usuario hayan sido especificadas y escritas en colaboración  con el *Product Owner*.
+
+En concreto, se verificará que:
+
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de dicha historia de usuario.
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* los criterios de confirmación de cada historia de usuario.
+  #. El *Scrum Team* equipo de trabajo haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que al *Product Owner* pudiese inicialmente haber obviado.
+  #. No exista ningún elemento dentro de la descripción de la historia de usuario que sean decisión propia del equipo de trabajo y no hayan sido consultados con el *Product Owner*.
+  #. El *Product Owner* esté conforme con los diferentes elementos anotados en la historia de usuario.
+
+El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
+
+En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
