@@ -90,8 +90,6 @@ En este apartado se evaluará si el equipo es capaz de explicar al *Product Owne
 
 Además, se valorará que las intervenciones de los diferentes miembros del equipo sean breves, concisas y precisas.
 
-
-
 Ortografía, Gramática y Maquetación
 ====================================
 
@@ -113,7 +111,7 @@ Para la evaluación de este elementos se comprobará que los diferentes artefact
 
 Para poder obtener al menos la mitad de los puntos de este elemento, no deben existir más de 3 errores ortográficos, gramaticales, tipográficos o de formato en los artefactos entregados.
 
-Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecencia de los fallos detectados.
+Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
 
 Conformidad del Product Backlog generado
 =========================================
@@ -162,7 +160,7 @@ Especificación de las Historias de Usuario
 |              | Backlog Refinement                 |
 +--------------+------------------------------------+
 
-En este apartado se evaluará que las historias de usuario creadas dentro del* Product Backlog* estén especificadas de manera correcta, tanto a nivel sintáctico como semánticos.
+En este apartado se evaluará que las historias de usuario creadas dentro del *Product Backlog* estén especificadas de manera correcta, tanto a nivel sintáctico como semánticos.
 A nivel sintáctico se verificará que cada historia de usuario contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A nivel semántico se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
 
 Para la verificación de los **aspectos sintácticos** se comprobará que:
@@ -193,3 +191,116 @@ Para la verificación de los **aspectos semánticos** se comprobará que:
 Para poder obtener al menos la mitad de los puntos de este elemento, no debe existir ningún error de tipo sintáctico en las historias de usuario creadas, y no más de un error semántico por cada historia de usuario.
 
 Además, se valorará positivamente que cada historia de usuario tenga asignado su valor para el `modelo de Kano <https://www.scrumdesk.com/how-to-kano-model-helps-in-agile-product-backlog-prioritization/>`_.
+
+Creación del Sprint Backlog
+============================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 15                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+Los puntos asociados a este ítem se otorgarán en función del grado de cumplimiento de los siguientes elementos:
+
+  * La selección de elementos realizada cuenta con la aprobacióny conformidad del *Product Owner*.
+  * La suma de los elementos seleccionados se ajusta a la *velocidad del equipo*.
+  * No existe una selección de elementos alternativa que, ajustándose a la velocidad del equipo, permita obtener una suma mayor para el valor de negocio.
+
+El incumplimiento de cualquiera de los dos primeros puntos supondrá una calificación de cero puntos. En caso de que se viole el tercer punto de forma clara, el equipo obtendrá una calificación inferior a un tercio de los puntos asignados a este ítem.
+
+Negociación de las Historias de Usuario
+========================================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 40                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+En este item se evaluará que las historias de usuario hayan sido especificadas y escritas en colaboración  con el *Product Owner*.
+
+En concreto, se verificará que:
+
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de dicha historia de usuario.
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* los criterios de confirmación de cada historia de usuario.
+  #. El *Scrum Team* equipo de trabajo haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que al *Product Owner* pudiese inicialmente haber obviado.
+  #. No exista ningún elemento dentro de la descripción de la historia de usuario que sean decisión propia del equipo de trabajo y no hayan sido consultados con el *Product Owner*.
+  #. El *Product Owner* esté conforme con los diferentes elementos anotados en la historia de usuario.
+
+El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
+
+En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
+
+Planificación de Tareas
+========================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 30                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting II         |
++--------------+------------------------------------+
+
+Para evaluar este ítem se evaluarán tres aspctos del mismo por separado:
+
+  #. Corrección de la descomposición en tareas realizada.
+  #. Corrección sintáctica y semántica de las tareas creadas.
+  #. Equilibro de la carga de trabajo entre los diferentes miembros del equipo.
+  #. Productividad de la asignación de tareas.
+
+Para evaluar la *corrección de la descomposición en tareas realizada* se verificará que:
+
+  a. Cada elemento de la *definición de completado* tiene al menos una tarea asociada.
+  b. Ninguna tarea puede ser descompuesta fácilmente en subtareas independientes.
+
+Para evaluar la *corrección sintáctica y semántica* de las tareas creadas se verificará que:
+
+  a. Cada tarea tiene un nombre.
+  b. El nombre sea significativo.
+  c. Cada tarea tiene una estimación asociada.
+  d. Cada tarea está asignada a un miembro del equipo.
+  e. Cuando la tarea no es repetitiva y bien conocida [#f0]_, la tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma.
+  f. En el caso de las tareas con descripción, dicha descripción es correcta desde un punto de vista técnico.
+
+Para evaluar el *equilibrio de la carga de trabajo* simplemente se verificará que la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros.
+
+Por último, para evaluar la *productividad de la asignación de tareas* se verificará que dicha asignación permita a los miembros del equipo trabajar de manera concurrente sin mayores problemas. Se deberán evitar en espacil dos tipos de situaciones:
+
+  a. Que existan miembros ociosos en determinadas fases del desarrollo del sprint. Por ejemplo, que alguien no tenga apenas tareas que realizar en la segunda semana de un sprint.
+  b. Que se generen cuellos de botella innecesarios. Es decir, que la mayor parte de los miembros del equipo estén esperando a la finalización de una determinada tarea.
+
+Para asignar puntos a este elemento se valorarán principalmente los tres primeros apartados, siendo la *productividad de la asignación de tareas* sólo necesaria para obtener sumas de puntos cercanas al total de los asignados a este ítem.
+
+Además, la creación de una descomposición de tareas que no permita satisfacer la *definición de completado* supondrá la obtención de cero puntos en este apartado. Igualmente, la creación de una carga de trabajo muy desequilibrada entre los miembros de un equipo, o la existencia de errores sintácticos en la especificación de tareas, impedirá la obtención de más de un tercio de los puntos asignados a este ítem.
+
+.. [#f0] Un ejemplo de tarea repetitiva y bien conocida sería *integrar feature branch en master*, que es una tarea cuyo objetivo y procedimiento está ya perfectamente definido en las normas de la gestión de la configuración.
+
+Ejecución del Planning Poker
+==============================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 60                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting II         |
++--------------+------------------------------------+
+
+Para evaluar este ítem, se verificarán los siguientes puntos:
+
+  #.  El equipo está en posesión el material necesario para poder ejecutar la técnica correctamente, es decir de una *baraja de planning poker*.
+  #. La actividad se desarrolla de acuerdo a las normas de la técnica de Planning Poker.
+  #. Los desacuerdos en las estimaciones se discuten brevemente entre los responsables de las estimaciones dispares.
+  #. Tanto las presentaciones de elementos como las discusiones de estimaciones dispares son breves y concisas, sin entrar en detalles irrelevantes.
+  #. Los diferentes miembros del equipo mantiene una actitud negociadora y no se enrocan en opiniones particulares.
+  #. En general, la actividad se realiza de forma eficiente y productiva.
+  #. Las estimaciones realizadas poseen valores razonables. Para definir el margen de lo razonable se tendrá en cuenta tanto que son estimaciones como que han sido realizadas por alumnos con una limitada experiencia en desarrollo sw de estas características.
+
+El incumplimiento del primer punto por parte de algún miembro del grupo supondrá automáticamente una calificación de cero puntos en este ítem para todo el equipo.
+El incumplimiento claro del punto 2 también conllevará una calificación de cero puntos en este elemento evaluable.
