@@ -90,8 +90,6 @@ En este apartado se evaluará si el equipo es capaz de explicar al *Product Owne
 
 Además, se valorará que las intervenciones de los diferentes miembros del equipo sean breves, concisas y precisas.
 
-
-
 Ortografía, Gramática y Maquetación
 ====================================
 
@@ -113,7 +111,7 @@ Para la evaluación de este elementos se comprobará que los diferentes artefact
 
 Para poder obtener al menos la mitad de los puntos de este elemento, no deben existir más de 3 errores ortográficos, gramaticales, tipográficos o de formato en los artefactos entregados.
 
-Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecencia de los fallos detectados.
+Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
 
 Conformidad del Product Backlog generado
 =========================================
@@ -162,7 +160,7 @@ Especificación de las Historias de Usuario
 |              | Backlog Refinement                 |
 +--------------+------------------------------------+
 
-En este apartado se evaluará que las historias de usuario creadas dentro del* Product Backlog* estén especificadas de manera correcta, tanto a nivel sintáctico como semánticos.
+En este apartado se evaluará que las historias de usuario creadas dentro del *Product Backlog* estén especificadas de manera correcta, tanto a nivel sintáctico como semánticos.
 A nivel sintáctico se verificará que cada historia de usuario contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A nivel semántico se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
 
 Para la verificación de los **aspectos sintácticos** se comprobará que:
@@ -193,3 +191,22 @@ Para la verificación de los **aspectos semánticos** se comprobará que:
 Para poder obtener al menos la mitad de los puntos de este elemento, no debe existir ningún error de tipo sintáctico en las historias de usuario creadas, y no más de un error semántico por cada historia de usuario.
 
 Además, se valorará positivamente que cada historia de usuario tenga asignado su valor para el `modelo de Kano <https://www.scrumdesk.com/how-to-kano-model-helps-in-agile-product-backlog-prioritization/>`_.
+
+Creación del Sprint Backlog
+============================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 15                                 |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+Los puntos asociados a este ítem se otorgarán en función del grado de cumplimiento de los siguientes elementos:
+
+  * La selección de elementos realizada cuenta con la aprobacióny conformidad del *Product Owner*.
+  * La suma de los elementos seleccionados se ajusta a la *velocidad del equipo*.
+  * No existe una selección de elementos alternativa que, ajustándose a la velocidad del equipo, permita obtener una suma mayor para el valor de negocio.
+
+El incumplimiento de cualquiera de los dos primeros puntos supondrá una calificación de cero puntos. En caso de que se viole el tercer punto de forma clara, el equipo obtendrá una calificación inferior a un tercio de los puntos asignados a este ítem.
