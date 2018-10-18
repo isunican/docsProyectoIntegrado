@@ -99,3 +99,9 @@ Esta carpeta contendrá los archivos binarios necesarios para instalar la versi�
 
 Carpeta ``AndroidProject``
 ===========================
+
+Este directorio contendrá el código fuente de la aplicación, incluyendo tambiñen el código correspondiente a los casos de prueba.
+
+Esta carpeta se organizará en subcarpetas y paquetes de acuerdo a los convenios habituales de Java y Android. En cualquier caso, cada elemento del patrón *Modelo-Vista-Presentador (MVP)* se alojará en un paquete separado.
+
+En los paquetes destinados a alojar los test, se aconseja alojar en paquetes separados los tests unitarios y los de aceptación.
