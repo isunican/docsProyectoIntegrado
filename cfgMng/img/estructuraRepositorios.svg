@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Generado por Microsoft Visio, SVG Export EstructuraRepositorio.svg Página-1 -->
+<!-- Generado por Microsoft Visio, SVG Export estructuraRepositorios.svg Página-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="6.50648in" height="8.57341in"
 		viewBox="0 0 468.467 617.285" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
@@ -585,11 +585,11 @@
 		</g>
 		<g id="shape191-334" v:mID="191" v:groupContext="shape" transform="translate(255.493,-461.005)">
 			<title>Hoja.191</title>
-			<desc>Android Project</desc>
+			<desc>AndroidProject</desc>
 			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
 			<v:textRect cx="46.063" cy="606.656" width="92.13" height="21.2598"/>
 			<rect x="0" y="596.026" width="92.126" height="21.2598" class="st2"/>
-			<text x="7.82" y="610.26" class="st3" v:langID="3082"><v:paragraph v:horizAlign="1"/><v:tabList/>Android Project</text>		</g>
+			<text x="9.18" y="610.26" class="st3" v:langID="3082"><v:paragraph v:horizAlign="1"/><v:tabList/>AndroidProject</text>		</g>
 		<g id="shape192-337" v:mID="192" v:groupContext="shape" transform="translate(263.997,-435.493)">
 			<title>Hoja.192</title>
 			<desc>App/src</desc>
