@@ -47,36 +47,50 @@ Como mínimo, esta carpeta deberá contener un:
   #. Un modelo de dominio, representado como un diagrama de clases UML, con las entitidades que constituyen el *modelo* de la aplicación.
   #. Un modelo que describa la arquitectura de la aplicación, resaltando las conexiones entre las clases de la *vista*, el *modelo*, y el *presentador*; mediante un diagrama de clases UML.
 
-Ambos modelos se almacenarán como imágenes en formato ``.png``. El nombre del fichero alojando el modelo de dominio será ``DomainModel.png``. El nombre del fichero alojando el modelo arquitectónico será ``AppArchitecture.png``.
+Ambos modelos se almacenarán como imágenes en formato ``.png``. El nombre del fichero alojando el modelo de dominio será ``DomainModel.png`` y el nombre del fichero correspondiente al modelo arquitectónico será ``AppArchitecture.png``.
 
-En caso de que el equipo haya generado un modelo de objetivos, deberá alojarlo en esta carpeta como una o más imágenes en formato png, y usando como nombre para dichas imágenes GoalModelXX.png, donde XX se sustituirán por unos identificadores numéricos autoincrementados comenzando en 0.
+En caso de que el equipo haya generado un modelo de objetivos, deberá alojarlo en esta carpeta como un conjunto de imágenes en formato ``.png``. Cada imagen tendrá como nombre ``GoalModelXX.png``, donde ``XX`` se sustituirá por un identificador numérico autoincrementado comenzando en 0.
 
-2.3 Tutorials.
+Carpeta ``Tutorials``
+======================
+
 Esta carpeta poseerá todo el material relacionado con el manual de usuario de la aplicación. Para elaborar el manual de usuario, se puede seguir cualquiera de las tres estrategias que se describen a continuación:
 
-Generar un manual de usuario clásico.
-Elaborar una página web de ayuda donde la ayuda para cada historia de usuario se describa una una página HTML diferente.
-Crear una serie de videotutoriales, uno por cada historia de usuario, que ilustren el funcionamiento de la aplicación.
-En cada caso deben generarse los documentos que se describen en los siguientes subapartados.
+  #. Generar un manual de usuario clásico en formato ``pdf``.
+  #. Elaborar una página web de ayuda donde la ayuda para cada historia de usuario se describa en una página HTML diferente.
+  #. Crear una serie de videotutoriales, uno por cada historia de usuario, que ilustren el funcionamiento de la aplicación.
 
-Opción A. Manual Clásico
-En este caso la carpeta tutorials contendrá un único documento denominado userManual.pdf, el cual contendrá el manual de usuario de la aplicación, organizado de la manera que el alumno considere más conveniente.
+Manual de Usuario Clásico
+--------------------------
 
-Opción B. Manual de Usuario versión HTML.
-En este caso existirá una página de inicio para el manual, denominada index.html, y que estará situada en la carpeta tutorials. Esta página contendrá simplemente una lista de enlaces, uno por cada historia de usuario. Dentro de cada enlace, en una página separada, se mostrará la ayuda que corresponda a dicha historia de usuario.
+En este caso la carpeta ``Tutorials`` contendrá un único documento denominado ``userManual.pdf``. Este documento  contendrá el manual de usuario de la aplicación, organizado de la manera que cada equipo considere más conveniente.
 
-La página correspondiente a cada historia de usuario se alojará dentro de una subcarpeta de tutorials cuyo nombre seguirá el patrón US<id>-<Name> (ver Mockups). Por último, destacar que dentro de la carpeta tutorials y de las subcarpetas correspondientes a cada historia de usuario, podrán existir además archivos de otros tipos, tales como hojas de estilo o imágenes, necesarios para la elaboración de la web. En cualquier caso, se recomienda elaborar una web sencilla, sin demasiados colores ni elementos gráficos.
+Manual de Usuario HTML
+-----------------------
 
-Opción C. Videotutoriales
-En este caso se elaborará un pequeño videotutorial por cada historia de usuario implementada. El vídeo correspondiente a cada historia de usuario se alojará dentro de una subcarpeta de tutorials cuyo nombre seguirá el patrón US<id>-<Name> (ver Mockups). Como formato para los vídeos se puede escoger aquél que el equipo considere más adecuado, pero se recomienda utilizar formatos sencillos que no impliquen la instalación de exóticos juegos de codecs.
+En este caso existirá una página de inicio para el manual, denominada ``index.html``, que estará situada en la carpeta tutorials. Esta página contendrá simplemente una lista de enlaces que apuntarán a las páginas de ayuda para cada historia de usuario desarrollada.
 
-2.4 Test Plans.
-Esta carpeta contendrá los planes de prueba creados para cada historia de usuario. Los planes de prueba deberán estar en formato pdf, y nombrados conformes al patrón US<id>-<Name>-TestPlan.pdf, donde id es el identificador de la historia de usuario en la correspondiente herramienta de gestión de proyectos, y Name el nombre de dicha historia de usuario.
+La página correspondiente a cada historia de usuario se alojará dentro de una subcarpeta de tutorials cuyo nombre seguirá el patrón ``US<id>-<Name>``, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
 
-2.5 Quality Reports
-Esta carpeta alojará los informes de calidad generados para cada historia de usuario. Los planes de prueba deberán estar en formato pdf, y nombrados conformes al patrón US<id>-<Name>-QAReport.pdf, donde id es el identificador de la historia de usuario en la correspondiente herramienta de gestión de proyectos, y Name el nombre de dicha historia de usuario.
+Por último, destacar que dentro de la carpeta ``Tutorials`` y de las subcarpetas correspondientes a cada historia de usuario, podrán existir además archivos de otros tipos, tales como hojas de estilo o imágenes, necesarios para la elaboración de cada página web.
+
+Videotutoriales
+----------------
+
+En este caso se elaborará un pequeño videotutorial por cada historia de usuario desarrollada. El vídeotutorial correspondiente a cada historia de usuario se alojará dentro de una subcarpeta de ``Tutorials`` cuyo nombre seguirá el patrón ``US<id>-<Name>``, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
+
+Como formato para los vídeos se puede escoger aquél que cada *Scrum Team* considere como más adecuado. En cualquier caso, se recomienda utilizar formatos sencillos que no impliquen la instalación de exóticos juegos de *codecs*.
 
 
+Carpeta ``Test Plans``
+========================
+
+Esta carpeta contendrá toda la documentación relacionada con las pruebas sw diseñadas, implementadas y ejecutadas durante el desarrollo de cada historia de usuario. Por cada historia de usuario desarrollada se generarán dos documentos relacionados con las pruebas sw: el *plan de pruebas* y el *informe de pruebas*. Ambos documentos deberán estar en formato ``pdf``. El *plan de pruebas* tendrá como nombre ``US<id>-<Name>-TestPlan.pdf``, mientras que el del *informe de pruebas será ``US<id>-<Name>-TestReport.pdf``, donde, en ambos casos, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
+
+Carpeta ``Quality Reports``
+============================
+
+Esta carpeta alojará los informes de calidad generados para cada historia de usuario desarrollada. Los planes de prueba deberán estar en formato ``pdf``, y nombrados conformes al patrón ``US<id>-<Name>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
 
 Carpeta ``Releases``
 =====================
