@@ -95,5 +95,7 @@ Esta carpeta alojará los informes de calidad generados para cada historia de us
 Carpeta ``Releases``
 =====================
 
+Esta carpeta contendrá los archivos binarios necesarios para instalar la versión del producto generada al final de cada sprint. En nuestro caso concreto, dicho archivo será un fichero ``apk`` que el Product Owner deberá poder instalar en su dispositivo móvil si así lo desease. Cada fichero ``apk`` generado al final de un sprint se nombrará con acuerdo al patrón ``<AppName><XX.YY.ZZ>-yy/mm/dd.apk``, donde ``AppName`` es el nombre de la aplicación desarrollada, ``XX.YY.ZZ`` el número de versión de acuerdo con el esquema de versionado del proyecto integrado, e ``yy/mm/dd`` la fecha, en formato anglosajón, correspondiente a la *Product Review* del sprint donde se generó dicho ``apk``.
+
 Carpeta ``AndroidProject``
 ===========================
