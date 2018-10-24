@@ -6,7 +6,7 @@ Algunas tareas realizadas en el proyecto integrado serán evaluadas como parte d
 
 Informe de calidad
 ==================================================
-Al finalizar el proyecto integrado, cada alumno habrá sido el responsable de la calidad de al menos una historia de usuario, realizando los informes de calidad correspondientes. La evaluación de dicho trabajo corresponde dentro de la asignatura con la parte de calidad de producto.
+Al finalizar el proyecto integrado, cada alumno habrá participado como responsable de la calidad de al menos un Sprint, realizando los informes de calidad correspondientes. La evaluación de dicho trabajo corresponde dentro de la asignatura con la parte de calidad de producto.
 
 Auditoría
 ==================================================
