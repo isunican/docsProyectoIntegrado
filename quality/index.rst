@@ -95,3 +95,7 @@ Informe de Calidad
 El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará los autores del mismo y el Sprint al que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
 
 El informe indicará cómo ha sido la evolución de la calidad en el desarrollo del Sprint. Es decir, cada vez que se integre la rama en develop, travis lanzará sonar y los responsables de calidad deberán indicar en el informe qué observaron y qué plan de acciones correctivas establecieron.
+
+A continuación puede observarse un ejemplo de informe de calidad:
+
+.. image:: EjemploInformeCalidad.png
