@@ -412,3 +412,44 @@ Completitud del Análisis de Retrospectiva
 En este ítem se evaluará que como resultado de las dinámicas de grupo se haya generado un número razonable de aspectos tanto positivos como negativos relacionados con los métodos de trabajo de cada *Scrum Team*.
 
 Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de cero. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
+
+Completitud del Análisis de Retrospectiva
+===========================================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Puntos       | 20                                  |
++--------------+-------------------------------------+
+| Actividades  | Sprint Retrospective                |
++--------------+-------------------------------------+
+
+En este ítem se evaluará que como resultado de las dinámicas de grupo se haya generado un número razonable de aspectos tanto positivos como negativos relacionados con los métodos de trabajo de cada *Scrum Team*.
+
+Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de cero. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
+
+Plan de Mejora Contínua
+========================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Puntos       | 30                                  |
++--------------+-------------------------------------+
+| Actividades  | Sprint Retrospective                |
++--------------+-------------------------------------+
+
+En este ítem se evaluará que por cada elemento identificado como positivo o negativo, exista un plan de acción que permita eliminar, minimizar, potenciar o consolidar dicho elemento, de acuerdo a su naturaleza. Se valorará además también la efectividad de cada plan de acción creado.
+
+Manual de Usuario
+==================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Puntos       | 15                                  |
++--------------+-------------------------------------+
+| Actividades  | Product Review                      |
++--------------+-------------------------------------+
+
+Para calificar este ítem se verificará que cada historia de usuario implementada tenga su correspondiente entrada en el manual de usuario. Se evaluará que cada entrada se entienda con facilidad y resulte realmente de ayuda al usuario no experto en la aplicación, además de la calidad estética del manual creado. 
