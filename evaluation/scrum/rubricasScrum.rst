@@ -113,7 +113,7 @@ Para poder obtener al menos la mitad de los puntos de este elemento, no deben ex
 
 Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
 
-Conformidad del Product Backlog generado
+Conformidad del Product Backlog Generado
 =========================================
 
 +--------------+------------------------------------+
@@ -137,6 +137,7 @@ Tras realizar cualquier actividad que implique la modificación del *Product Bac
   * El criterio de confirmación de cada historia de usuario negociada incluye tanto un criterio de confirmación para el escenario de éxito como para escenarios alternativos y escenarios excepcionales habituales.
 
   Se deberán crear al menos escenarios excepcionales para los siguientes supuestos:
+
       * entradas no válidas;
       * pérdidas de conexión de red;
       * bases de datos no operativas.
@@ -339,8 +340,8 @@ La calificación de esta actividad vendrá determinada por el grado de satisfacc
   #. Se ha ideado o esbozado algún plan tanto para solventar los obstáculos encontrados como para mitigar los riesgos identificados.
   #. La actividad se ha desarrollado de manera breve y sintética.
 
-Gestión de tareas y tablero Kanban
-======================================
+Gestión de Tareas y Tablero Kanban
+===================================
 
 +--------------+-------------------------------------+
 | Calificación | Individual                          |
@@ -356,7 +357,7 @@ La calificación de esta actividad vendrá determinada por el grado de satisfacc
   #. El alumno es capaz de interpretar el estado actual del tablero Kanban.
 
 Interpretación Sprint Burndown Chart
-======================================
+=====================================
 
 +--------------+-------------------------------------+
 | Calificación | Individual                          |
@@ -413,7 +414,7 @@ En este ítem se evaluará que como resultado de las dinámicas de grupo se haya
 
 Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de cero. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
 
-Plan de Mejora Contínua
+Plan de Mejora Continua
 ========================
 
 +--------------+-------------------------------------+
