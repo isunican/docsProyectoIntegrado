@@ -304,3 +304,18 @@ Para evaluar este ítem, se verificarán los siguientes puntos:
 
 El incumplimiento del primer punto por parte de algún miembro del grupo supondrá automáticamente una calificación de cero puntos en este ítem para todo el equipo.
 El incumplimiento claro del punto 2 también conllevará una calificación de cero puntos en este elemento evaluable.
+
+Gestión de la Configuración
+==============================
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Puntos       | 60                                 |
++--------------+------------------------------------+
+| Actividades  | Finalización del Sprint            |
++--------------+------------------------------------+
+
+Para evaluar este ítem, se verificará que el grupo no haya violado ninguna de las normas para la gestión de la configuración proporcionadas para el desarrollo del proyecto integrado. El incumplimiento de una única norma podrá suponer una penalización sustancial de puntos, en espeecial cuando sean normas de fácil cumplimiento.
+
+*Norma de fácil cumplimiento* es por ejemplo que un determinado archivo tenga que tener un nombre específico. El incumplimiento de una norma de este estilo impedirá al grupo obtener más de un tercio de los puntos asignados a este ítem, mientras que la violación de dos normas de este tipo supondrá la obtención de cero puntos en este ítem.
