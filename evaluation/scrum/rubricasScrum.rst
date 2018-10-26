@@ -384,3 +384,16 @@ En este ítem se evaluará en primer lugar que todos los elementos incluidos en 
 Si un elemento incluido en el *Sprint Backlog* hubiese sido completamente ignorado, la calificación de este apartado será automáticamente de cero puntos, salvo excepciones muy puntuales debidamente justificadas.
 
 El incumplimiento de la definición de completado de, por al menos, un elemento del *Sprint Backlog* supondrá una calificación de menos de la mitad de los puntos otorgados a este ítem.
+
+Satisfacción del Product Owner
+===============================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                       |
++--------------+-------------------------------------+
+| Puntos       | 90                                  |
++--------------+-------------------------------------+
+| Actividades  | Product Review                      |
++--------------+-------------------------------------+
+
+En este apartado se evaluará la adecuación del producto realizado a las expectativas y deseos iniciales del *Product Owner*. Se valorará también el esfuerzo realizado por el equipo de trabajo para adecuar el producto a las preferencias del *Product Owner* en base a los comentarios recibidos en los sprints anteriores.
