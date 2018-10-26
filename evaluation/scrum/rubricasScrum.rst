@@ -397,3 +397,18 @@ Satisfacción del Product Owner
 +--------------+-------------------------------------+
 
 En este apartado se evaluará la adecuación del producto realizado a las expectativas y deseos iniciales del *Product Owner*. Se valorará también el esfuerzo realizado por el equipo de trabajo para adecuar el producto a las preferencias del *Product Owner* en base a los comentarios recibidos en los sprints anteriores.
+
+Completitud del Análisis de Retrospectiva
+===========================================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Puntos       | 20                                  |
++--------------+-------------------------------------+
+| Actividades  | Sprint Retrospective                |
++--------------+-------------------------------------+
+
+En este ítem se evaluará que como resultado de las dinámicas de grupo se haya generado un número razonable de aspectos tanto positivos como negativos relacionados con los métodos de trabajo de cada *Scrum Team*.
+
+Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de cero. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
