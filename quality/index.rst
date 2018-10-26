@@ -76,23 +76,26 @@ Tras la configuración, podremos ejecutar análisis para un único fichero o el 
 Análisis de la calidad de producto
 ========================================
 
-Durante el proyecto integrado se realizarán Sprints en los que se desarrollarán historias de usuario. Para cada historia de usuario se nombrará un responsable de calidad que deberá realizar las acciones necesarias para que la codificación cumpla con los umbrales establecidos, es decir, que pase de forma satisfactoria el quality gate.
+Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollarán historias de usuario. Para cada Sprint se nombrarán dos responsables de calidad que deberán realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales de calidad establecidos, es decir, que pase de forma satisfactoria el *quality gate*.
 
-El proceso que ha de seguir el responsable de calidad de una historia de usuario será el siguiente:
+El proceso que han de seguir los **responsables de calidad** de un *Sprint* será el siguiente:
 
-* Los desarrolladores de esa historia de usuario irán implementandola en una determinada rama y realizando integraciones con la rama develop. Al realizar dicha integración, travis lanzará un análisis de sonar cuyo resultado se alojará en el servidor de sonarcloud de isuc.
+* Dentro del trabajo de cada *Sprint*, los desarrolladores desarrollarán varias historias de usuario que irán implementando en una determinada rama y realizando integraciones con la rama ``develop``. Al realizar cada integración en ``develop``, travis lanzará un análisis de sonar cuyo resultado se alojará en el servidor de *SonarCloud* de *isuc*.
 
-* El responsable de la calidad de esa historia, deberá observar el resultado del análisis y si pasa o no las normas de calidad de la organización. En caso de no pasarlas, establecerá el plan de acción a llevar a cabo (la serie de issues que deberán corregirse) y se lo comunicará a los desarrolladores de esa historia de usuario, los cuales deberán realizarlo. En caso de pasar las normas de calidad, el responsable de calidad decidirá si hay aspectos que desea mejorar y pasará el plan de acción a los desarrolladores.
+* Los responsables de la calidad del *Sprint* deberán observar el ``resultado del análisis`` para detectar si pasa o no las normas de calidad de la organización. Posteriormente, definirán un ``plan de acción`` a llevar a cabo (la serie de issues que deberán corregirse) para que el proyecto pase las normas de calidad de la organización. En caso de pasar las normas de calidad, los responsables de calidad decidirán si hay aspectos que desean mejorar de forma preventiva.
+
+* Los responsables de calidad comunicarán a los desarrolladores el plan de acción a realizar y ellos deberán solventarlos.
 
 * En siguientes integraciones con la rama develop se procederá de igual forma, vigilando siempre que se satisfagan los criterios de calidad de la organización.
-
-* Finalmente, al integrar todas las ramas de las historias de usuario en desarrollo en develop y al crear una release en master, travis lanzará sonar y deberemos comprobar que se mantiene la satisfacción de los criterios de calidad de la organización.
 
 
 Informe de Calidad
 ===================
 
-El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará el autor del mismo y la historia de usuario a la que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
+El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará los autores del mismo y el Sprint al que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
 
-El informe indicará cómo ha sido la evolución de la calidad en la rama que implementa la historia de usuario de la cual es responsable. Es decir, cada vez que se integre la rama en develop, travis lanzará sonar y el responsable de calidad deberá indicar en el informe qué observó y qué plan de acciones correctivas estableció.
+El informe indicará cómo ha sido la evolución de la calidad en el desarrollo del Sprint. Es decir, cada vez que se integre la rama en develop, travis lanzará sonar y los responsables de calidad deberán indicar en el informe qué observaron y qué plan de acciones correctivas establecieron.
 
+A continuación puede observarse un ejemplo de informe de calidad:
+
+.. image:: EjemploInformeCalidad.png
