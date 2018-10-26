@@ -169,7 +169,11 @@ Daily Scrum Meeting
 
 Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin del sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
 
-El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior; qué va a hacer hoy; y qué dificultades está atravesando actualmente. Además, el equipo deberá idear un plan para solventar dichas dificultades. Para ello, los miembros del grupo intervendrán por orden y expondrán, sin interrupción por parte de otros mimebros, qué hicieron ayer, qué harán hoy y qué problemas tienen para desarrollar su trabajo. Al final de todas las intervenciones se debatirán las acciones de coordinación entre miembros del grupo que se consideren necesarias.
+El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior; qué va a hacer hoy; y qué dificultades está atravesando actualmente. Además, el equipo deberá idear un plan para solventar dichas dificultades.
+
+Para realizar correctamente un *Daily Scrum Meeting*, a petición del moderador, primero interviene cada miembro del equipo. Durante cada intervención, el correspondiente miembro describe brevemente primero qué hizo ayer; luego qué piensa hacer hoy; y por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar estos obstáculos y minimizar los riesgos detectados.
+
+Se recomienda, de acuerdo con las directrices de Scrum, que los *Daily Scrum Meeting* se celebren fuera del aula y con todos los mimebros del equipo de pie.  
 
 **Elementos a Entregar**
 
