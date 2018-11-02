@@ -29,4 +29,4 @@ Cada grupo debe definir sus criterios para organizar el código correspondiente 
 ``R`` Reporte de pruebas
 =========================
 
-Al terminar cada sprint se redactará un documento que recoja el reporte de pruebas de cada historia de usuario realizada, el cual describe la ejecución del plan de pruebas para la historia de usuario. Indicando los responsables (autores y/o ejecutores) de cada documento o artefacto, los fallos encontrados y las soluciones dadas a los mismos.
+Al terminar cada sprint se redactará un documento que recoja el reporte de pruebas de cada historia de usuario realizada, el cual describe la ejecución del plan de pruebas para la historia de usuario. Indicando los responsables (autores y/o ejecutores) de cada documento o artefacto, los fallos encontrados y las soluciones dadas a los mismos. Se entiende que este documento está complementado con el modelo arquitectónico (AppArchitecture.png) y eventualmente el del dominio (DomainModel.png) entregados en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/objectos/métodos) allí descritas.
