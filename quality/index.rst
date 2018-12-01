@@ -99,3 +99,10 @@ El informe indicará cómo ha sido la evolución de la calidad en el desarrollo 
 A continuación puede observarse un ejemplo de informe de calidad:
 
 .. image:: EjemploInformeCalidad.png
+
+
+
+Análisis de la calidad de proceso
+========================================
+
+aaa
