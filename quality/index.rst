@@ -105,4 +105,14 @@ A continuación puede observarse un ejemplo de informe de calidad:
 Análisis de la calidad de proceso
 ========================================
 
-aaa
+La forma en la que se ha realizado el producto (el proceso) representa otra dimensión de la calidad del software que debe ser analizada. La calidad de proceso está relacionada con la forma en la que se ha realizado, incluyendo especialmente aspectos metodológicos como la realización de diagramas, aplicación de técnicas, etc.
+
+Existe cierta controversia en cuanto a si una buena calidad de proceso influye favorablemente en la obtención de una buena calidad de producto. Pensemos por ejemplo en la realización de un diagrama de clases (proceso) y si esto va a suponer que tengamos menos errores, vulnerabilidades, etc. en el código (producto interna). Existen defensores de ambas posiciones.
+
+Dentro del proyecto integrado, se ha seguido una metodología concreta que abarca gestión de la configuración (ramas, integración, etc.), pruebas (plan, unitarias, integración. etc.), calidad de producto (proceso seguido, informes, etc.), documentación (diagramas, manuales, etc.), etc.
+
+Una vez finalizados los sprints del proyecto integrado se precederá a un análisis de calidad del proceso seguido. Para ello distinguiremos dos etapas:
+
+- Creación de una lista de comprobación. En esta fase, cada grupo deberá analizar la metodología seguida y pensar qué aspectos deberían comprobarse para saber si se ha aplicado correctamente el proceso solicitado. Con estos elementos confeccionará una lista de comprobación que servirá para auditar proyectos de este tipo.
+
+- Auditorías cruzadas. Utilizando la lista de comprobación definida en la fase anterior, cada grupo realizará una auditoría del proceso seguido por otro grupo distinto. 
