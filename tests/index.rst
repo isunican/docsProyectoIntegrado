@@ -20,3 +20,4 @@ Nomenclatura y organización de las clases de prueba
   * <NombreClase>ITest.java si la clase prueba una clase completa utilizando una estrategia de integración incremental.
   * <NombreEscenario>ITest.java si la clase prueba un determinado escenario de ejecución utilizando una estrategia de integración funcional.
 * Las clases de prueba correspondientes a pruebas de interfaz de usuario se almacenarán en la carpeta androidTest y llevarán por nombre <NombreEscenario>UITest.java.
+git 
