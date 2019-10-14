@@ -2,10 +2,10 @@
  Estructura de los Repositorios
 ================================
 
-Para favorecer la gestión de los diferentes artefactos creados durante la ejecución del proyecto, los repositorios de cada proyecto deberán seguir la estructura que se muestra en la Figura 1. De acuerdo con dicha figura, cada repositorio  contendrá tres carpetas o directorios principales: ``Docs``, ``Releases`` y ``AndroidProject``. Cada uno de estos directorios almacenará el siguiente contenido.
+Para favorecer la gestión de los diferentes artefactos creados durante la ejecución del proyecto, los repositorios asociados a cada proyecto deberán seguir la estructura que se muestra en la Figura 1. De acuerdo con dicha figura, cada repositorio  contendrá tres carpetas o directorios principales: ``Docs``, ``Releases`` y ``AndroidProject``. Cada uno de estos directorios almacenará el siguiente contenido.
 
 ``Docs``
-  Contendrá todos la documentación técnica generada durante el desarrollo del proyecto.
+  Contendrá toda la documentación técnica generada durante el desarrollo del proyecto.
 
 ``Releases``
   Almacenará los diferentes ejecutables generados al final de cada sprint.
@@ -44,7 +44,7 @@ Esta carpeta contendrá todos los modelos generados durante el desarrollo de la 
 
 Como mínimo, esta carpeta deberá contener:
 
-  #. Un modelo de dominio, representado como un diagrama de clases UML, con las entitidades que constituyen el *modelo* de la aplicación.
+  #. Un modelo de dominio, representado como un diagrama de clases UML, con las entidades que constituyen el *modelo* de la aplicación.
   #. Un modelo que describa la arquitectura de la aplicación, resaltando las conexiones entre las clases de la *vista*, el *modelo*, y el *presentador*; mediante un diagrama de clases UML.
 
 Ambos modelos se almacenarán como imágenes en formato ``.png``. El fichero correspondiente al modelo de dominio deberá llamarse ``DomainModel.png``, mientras que el modelo arquitectónico tendrá como nombre ``AppArchitecture.png``.
@@ -93,7 +93,7 @@ Esta carpeta contendrá toda la documentación relacionada con las pruebas asoci
 Carpeta ``Quality Reports``
 ----------------------------
 
-Esta carpeta alojará los informes de calidad generados para cada historia de usuario desarrollada. Los planes de prueba deberán estar en formato ``pdf``, y nombrados conformes al patrón ``US<id>-<Name>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
+Esta carpeta alojará los informes de calidad generados para cada historia de usuario desarrollada. Los informes de calidad deberán estar en formato ``pdf``, y nombrados conformes al patrón ``US<id>-<Name>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
 
 Carpeta ``Releases``
 =====================
