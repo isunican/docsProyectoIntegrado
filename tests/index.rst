@@ -15,6 +15,7 @@ Los niveles de prueba a aplicar son los siguientes:
 
 Nomenclatura y organización de las clases de prueba
 ===================================================
+
 Las clases de prueba correspondientes a pruebas unitarias:
 * Se almacenan en la carpeta test dentro del mismo paquete que la clase bajo prueba.
 * Se denominan <NombreClase>Test.java.
@@ -27,4 +28,4 @@ Las clases de prueba correspondientes a pruebas de integración:
 
 Las clases de prueba correspondientes a pruebas de interfaz de usuario:
 * Se almacenarán en la carpeta androidTest.
-* Llevarán por nombre <NombreEscenario>UITest.java. 
+* Llevarán por nombre <NombreEscenario>UITest.java.
