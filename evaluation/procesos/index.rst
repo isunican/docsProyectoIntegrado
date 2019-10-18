@@ -1,32 +1,46 @@
 ==================================================================================
- Normas y Criterios de Evaluaci√≥n para la asignatura de Procesos de Ingenier√≠a Sw
+ Normas y Criterios de EvaluaciÛn para la asignatura de Procesos de IngenierÌa Sw
 ==================================================================================
 
-La evaluaci√≥n del trabajo en el proyecto integrado, en cuanto a la asignatura de Procesos de Ingenier√≠a Software se refiere, comprende dos partes: un 50% corresponde al trabajo del grupo en su conjunto y el otro 50% refleja el esfuerzo personal de cada alumno.
+La evaluaciÛn del trabajo en el proyecto integrado, en cuanto a la asignatura de Procesos de IngenierÌa Software se refiere, comprende dos partes: un 50% corresponde al trabajo del grupo en su conjunto y el otro 50% refleja el esfuerzo personal de cada alumno.
 
-El trabajo en pruebas del software en cada sprint comprende los planes de prueba ``P``, la implementaci√≥n y ejecuci√≥n de las pruebas ``E`` y el reporte final ``R``.
-Estas tres actividades se realizar√°n para todas las historias de usuario implementadas y se evaluar√°n seg√∫n los siguientes pesos ponderados ``P`` 40%, ``E`` 40% y ``R`` 20%. A lo largo del desarrollo de cada sprint el grupo puede pedir asesor√≠a al profesor para mejorar su trabajo y al terminar recibir√° indicadores cualitativos a considerar as√≠ como una calificaci√≥n global. La calificaci√≥n final ser√° un indicador de la calidad del trabajo en los sprints y la evoluci√≥n del grupo a lo largo del desarrollo del proyecto. Para la evaluaci√≥n personal de cada alumno, al terminar todos los sprints cada uno deber√° haberse hecho cargo de la especificaci√≥n de al menos el plan de pruebas de una historia de usuario, as√≠ como la codificaci√≥n y realizaci√≥n de al menos dos pruebas unitarias o bien de una unitaria y otra de integraci√≥n o bien de una prueba de alguno de estos dos tipos y el reporte de pruebas de alguna de las historias de usuario.
+El trabajo en pruebas del software en cada sprint comprende los planes de prueba ``P`` y la implementaciÛn y ejecuciÛn de las pruebas ``E``.
+Estas dos actividades se realizar·n para todas las historias de usuario implementadas y se evaluar·n seg˙n los siguientes pesos ponderados ``P`` 50% y ``E`` 50%. 
+
+A lo largo del desarrollo de cada sprint el grupo puede pedir asesorÌa al profesor para mejorar su trabajo y al terminar recibir· indicadores cualitativos a considerar asÌ como una calificaciÛn global. Esta calificaciÛn final ser· un indicador de la calidad del trabajo en los sprints y la evoluciÛn del grupo a lo largo del desarrollo del proyecto. 
+
+Para la evaluaciÛn personal de cada alumno, al terminar todos los sprints cada uno deber· haberse hecho cargo de, al menos:
+
+* La especificaciÛn del plan de pruebas de una historia de usuario.
+* La codificaciÛn y ejecuciÛn de dos pruebas unitarias.
+* La codificaciÛn y ejecuciÛn de una prueba de interfaz de usuario.
+
+Se podr· optar a mejorar la calificaciÛn personal mediante la realizaciÛn de m·s pruebas unitarias o de interfaz de usuario.
 
 ``P`` Planes de Prueba
 ========================
 
-Cada Historia de Usuario ha de contar con un Plan de Pruebas, el cual incluir√°:
+Cada Historia de Usuario ha de contar con un Plan de Pruebas, que incluir·:
 
- #. La especificaci√≥n de las pruebas de aceptaci√≥n acordadas con el *Product Owner*.
+ #. La especificaciÛn de las pruebas de aceptaciÛn acordadas con el *Product Owner*.
  #. Los casos de prueba concretos que se derivan del mismo (etiquetados convenientemente).
- #. La especificaci√≥n de las pruebas de integraci√≥n (y de ser el caso el orden de realizaci√≥n de las mismas).
- #. La especificaci√≥n de las pruebas unitarias para los componentes/m√≥dulos/clases/m√©todos involucrados. 
- #. Un breve texto que describa el cronograma de ejecuci√≥n planificado.
+ #. La especificaciÛn de las pruebas de interfaz de usuario.
+ #. La especificaciÛn de las pruebas de integraciÛn.
+ #. La especificaciÛn de las pruebas unitarias definidas para las clases/mÈtodos involucrados (al menos dos). 
+ #. Un breve texto que describa el cronograma de ejecuciÛn planificado.
+ #. Un reporte final que describa el resultado de la ejecuciÛn de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas), los fallos encontrados y las soluciones dadas a los mismos. 
 
-Una versi√≥n inicial de este documento se valida con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias pueden no estar totalmente definidas, pues puede no conocerse todav√≠a la arquitectura a utilizar para implementar la historia de usuario. La versi√≥n final, con el plan de pruebas completo, se entrega al final de cada sprint. 
+Este documento se complementa, y por tanto, debe ser totalmente coherente con los modelos arquitectÛnico (AppArchitecture.png) y de dominio (DomainModel.png) entregados en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/mÈtodos) allÌ descritas.
 
-``E`` Implementaci√≥n y ejecuci√≥n de las pruebas
+Una versiÛn inicial de este documento se valida con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias pueden no estar totalmente definidas, pues puede no conocerse todavÌa la arquitectura a utilizar para implementar la historia de usuario. La versiÛn final, con el plan de pruebas completo, se entrega al final de cada sprint. 
+
+``E`` ImplementaciÛn y ejecuciÛn de las pruebas
 ================================================
 
-Cada grupo debe definir sus criterios para organizar el c√≥digo correspondiente a las pruebas unitarias y de integraci√≥n. Es importante que sean f√°cilmente identificables el/los caso/s de prueba que cada test implementa. Se exige que cada historia de usuario tenga codificados y ejecutados al menos dos casos de prueba para tests unitarios y uno para test de integraci√≥n
+Es responsabilidad de cada grupo seguir los criterios indicados para la organizaciÛn del cÛdigo correspondiente a pruebas, siendo muy importante que sean f·cilmente identificables el/los caso/s de prueba que cada test implementa.
+
+Se exige que cada historia de usuario tenga codificados y ejecutados al menos dos tests unitarios y uno de interfaz de usuario.
 
 
-``R`` Reporte de pruebas
-=========================
 
-Al terminar cada sprint se redactar√° un documento que recoja el reporte de pruebas de cada historia de usuario realizada, el cual describe la ejecuci√≥n del plan de pruebas para la historia de usuario. Indicando los responsables (autores y/o ejecutores) de cada documento o artefacto, los fallos encontrados y las soluciones dadas a los mismos. Se entiende que este documento est√° complementado con el modelo arquitect√≥nico (AppArchitecture.png) y eventualmente el del dominio (DomainModel.png) entregados en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/objectos/m√©todos) all√≠ descritas.
+
