@@ -7,12 +7,15 @@ Introducción
 
 La aplicación Android desarrollada como proyecto integrado de las asignaturas de intensificación de Ingeniería del Software, ha de satisfacer unos umbrales de calidad mínimos. Por lo tanto, dentro de las tareas a realizar habrá que analizar la calidad de producto y llevar a cabo las correcciones necesarias para que cumpla los criterios de calidad.
 
-La manera de proceder será por historia de usuario, de modo que para cada una se designará un responsable de calidad. Dicho responsable deberá tomar el código implementado para dicha historia, realizar el análisis de calidad, interpretarlo y en caso de no cumplir los criterios de calidad exigidos, realizar las correcciones necesarias y volver a realizar el análisis.
-
 Como herramienta utilizaremos SonarQube, que realiza análisis estático del código fuente detectando aspectos como código clonado, concordancia con estándares de programación, búsqueda de bugs o cobertura de pruebas. A cada uno de estos aspectos detectados, le asigna un valor de tiempo llamado “deuda técnica”, que podríamos definir como el coste y los intereses a pagar por hacer mal las cosas (el sobre esfuerzo a pagar por mantener un software mal hecho). Hay que tener en cuenta que sólo una parte de esta deuda es intrínseca al código y podemos medirla mediante analizadores, y que también puede venir asociada a aspectos relacionados con el proceso, arquitectura, diseño, tecnologías, etc.
 
 Dispondremos de un servidor donde alojar los informes de los análisis de nuestro proyecto. Este servidor corresponde a la organización isuc de  `SonarCloud <https://sonarcloud.io/organizations/isuc/projects>`_ y en él están configurados los umbrales de calidad y el conjunto de reglas a usar en nuestros proyectos Android.
 Por otro lado, en el cliente podremos lanzar el análisis de SonarQube mediante línea de comandos o de forma automatizada dentro del proceso de integración contínua. Además, dispondremos del complemento SonarLint para Android Studio que permitirá enlazar con la configuración de nuestro servidor y así gestionar las incidencias de forma cómoda desde nuestro IDE.
+
+
+La manera de proceder será por sprint, de modo que para cada uno se designará una pareja de responsables de calidad. Dichos responsables deberán observar los análisis que aparecen en SonarCloud tras cada integración y observar si se cumplen o no los criterios de calidad exigidos.
+
+Por cada análisis observado (cada integración), deberán analizar los datos y definir un plan de acciones que deberán realizar los desarrolladores para mejorar la calidad del código. Si el análisis indicaba que no se cumplen los criterios de calidad, el plan deberán incluir las acciones necesarias para pasarlo. Y en caso de que directamente se cumplan los criterios, el plan deberá inclir acciones preventivas para corregir los errores más importantes. 
 
 
 Configuración del servidor
@@ -76,7 +79,7 @@ Tras la configuración, podremos ejecutar análisis para un único fichero o el 
 Análisis de la calidad de producto
 ========================================
 
-Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollarán historias de usuario. Para cada Sprint se nombrarán dos responsables de calidad que deberán realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales de calidad establecidos, es decir, que pase de forma satisfactoria el *quality gate*.
+Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollarán varias historias de usuario. Para cada Sprint se nombrarán dos responsables de calidad que deberán realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales de calidad establecidos, es decir, que pase de forma satisfactoria el *quality gate*.
 
 El proceso que han de seguir los **responsables de calidad** de un *Sprint* será el siguiente:
 
