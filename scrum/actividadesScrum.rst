@@ -188,7 +188,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Product Backlog Refinement
 ----------------------------
 
-:Fecha y Hora: Segundo Lunes del Sprint, 8:30 - 9:30
+:Fecha y Hora: Segundo Lunes del Sprint, 9:30 - 10:30
 
 **Descripción de la Actividad**
 
@@ -214,7 +214,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Sprint Review
 --------------
 
-:Fecha y Hora: Segundo Jueves del Sprint, 8:30-9:30
+:Fecha y Hora: Segundo Jueves del Sprint, 9:30-10:30
 
 **Descripción de la Actividad**
 
@@ -246,7 +246,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Sprint Retrospective
 ---------------------
 
-:Fecha y Hora: Segundo Jueves del Sprint, 8:30-9:30
+:Fecha y Hora: Segundo Jueves del Sprint, 10:30-11:30
 
 **Descripción de la Actividad**
 
