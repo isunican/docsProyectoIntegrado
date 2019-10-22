@@ -126,7 +126,7 @@ La celebracíón del *Daily Scrum Meeting* se realizará fuera del aula y de pie
 
 Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto,   la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a actividades de ese sprint.
 
-Desarrollo, Gestión y Seguimiento del Sprint
+Gestión y Seguimiento del Sprint
 ---------------------------------------------
 
 :Fecha y Hora: Diario.
@@ -165,31 +165,30 @@ El tercer ítem se evaluará de manera global para cada equipo, atendiendo a la 
 Daily Scrum Meeting
 ---------------------
 
-:Fecha y Hora: Diario (salvo inicio y fin de cada sprint), 8:30 – 8:45
+:Fecha y Hora: Diario (salvo inicio y fin de cada sprint), 9:30 – 9:45
 
-Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin del sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
+Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin de dicho sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
 
-El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior; qué va a hacer hoy; y qué dificultades está atravesando actualmente. Además, el equipo deberá idear un plan para solventar dichas dificultades.
+El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior, qué va a hacer hoy, y, qué dificultades está atravesando actualmente. En caso de encontrar dificultades, el equipo deberá idear un plan para solventar dichas dificultades.
 
-Para realizar correctamente un *Daily Scrum Meeting*, a petición del moderador, primero interviene cada miembro del equipo. Durante cada intervención, el correspondiente miembro describe brevemente primero qué hizo ayer; luego qué piensa hacer hoy; y por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar estos obstáculos y minimizar los riesgos detectados.
+Para realizar correctamente un *Daily Scrum Meeting*, bajo la dirección del moderador, primero interviene cada miembro del equipo. Cada mimebro del equipo, durante su intervención, deberá describir brevemente primero qué hizo ayer, luego qué piensa hacer hoy, y, por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar o inimizar los obstáculos y riesgos detectados.
 
 Se recomienda, de acuerdo con las directrices de Scrum, que los *Daily Scrum Meeting* se celebren fuera del aula y con todos los miembros del equipo de pie.
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad no se debe entregar nada. Serán los miembros del equipo docente lo que acudan periódicamente a la ejecución de esta actividad para evaluarla.
+Como resultado de esta actividad no se deberá entregar nada. Serán los miembros del equipo docente lo que acudan periódicamente a la ejecución de esta actividad para evaluarla.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Capacidad de Liderazgo.
   * Ejecución de los Daily Scrum Meeting
 
 Product Backlog Refinement
 ----------------------------
 
-:Fecha y Hora: Segundo Lunes del sprint, 8:30 - 9:30
+:Fecha y Hora: Segundo Lunes del Sprint, 8:30 - 9:30
 
 **Descripción de la Actividad**
 
