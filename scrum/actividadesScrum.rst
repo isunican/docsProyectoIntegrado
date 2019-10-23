@@ -192,13 +192,15 @@ Product Backlog Refinement
 
 **Descripción de la Actividad**
 
-Durante el desarrollo de cada sprint, y de cara a preparar el *Product Backlog* para el próximo *Sprint Planning Meeting I*, cada *Scrum Team*, con la colaboración de su correspondiente *Product Owner*, revisará el estado actual del *Product Backlog*. Durante esta actividad, en base a la experiencia adquirida, se podrán añadir, modificar y eliminar elementos del *Product Backlog*. Además, se deberá revisar y modificar si fuese necesario los puntos de esfuerzo y valores de negocio asignados a cada elemento del *Product Backlog*. Tras la realización de esta reunión, el *Product Backlog* debería quedar listo para poder ejecutar el siguiente *Sprint Planning Meeting*, salvo por la inclusión de los posibles *tickets de mantenimiento* que pudiesen surgir tras la *Product Review* del presente sprint.
+Durante el desarrollo de cada sprint, y de cara a preparar el *Product Backlog* para el próximo *Sprint Planning Meeting I*, cada *Scrum Team*, con la colaboración de su correspondiente *Product Owner*, revisará el estado actual del *Product Backlog*. Durante esta actividad, en base a la experiencia adquirida, se podrán añadir, modificar y eliminar elementos del *Product Backlog*. Además, se deberá revisar y modificar si fuese necesario los puntos de esfuerzo y valores de negocio asignados a cada elemento del *Product Backlog*. Tras la realización de esta reunión, el *Product Backlog* debería quedar listo para poder ejecutar el siguiente *Sprint Planning Meeting I*, salvo por la inclusión de los posibles *tickets de mantenimiento* que pudiesen surgir tras la *Product Review* del presente sprint.
 
-.. warning:: Merece la pena destacar que esta reunión no está destinada a resolver dudas sobre las historias de usuario que se estén desarrollando en ese momento.
+.. warning:: Merece la pena destacar que esta reunión no está destinada a resolver dudas sobre las historias de usuario que se estén desarrollando en ese momento, sino a actualizar el Product Backlog.
+
+.. alert:: El *Product Backlog Refinement* es el único momento de un sprint, junto con la *Product Review* en el cual se pueden modificar los elementos del *Product Backlog*.
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad cada equipo deberá producir un *Product Backlog* revisado que pueda ser utilizado para el siguiente *Sprint Planning Meeting I*. Dicho *Product Backlog* tendrá que estar alamacenado en la herramienta *ScrumDesk* y listo para su evaluación a las 14:00 horas del mismo día en el que se realice esta actividad.
+Como resultado de esta actividad, cada equipo deberá generar un *Product Backlog* revisado, que pueda ser utilizado para el siguiente *Sprint Planning Meeting I*. Dicho *Product Backlog* tendrá que disponible en *ScrumDesk* y listo para su evaluación a las 14:00 horas del mismo día en el que se realice esta actividad.
 
 **Procedimiento de Evaluación**
 
