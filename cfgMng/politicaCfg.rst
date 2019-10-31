@@ -60,7 +60,7 @@ Las integraciones de una ``feature branch`` en ``develop`` se realizarán de acu
 #. La nueva rama ``develop``, con la ``feature branch`` integrada, deberá subirse al repositorio remoto. Al detectarse un nuevo *commit* en ``develop``, se ejecutará automáticamente el entorno de integración continua *Travis*. Al final de su ejecución, *Travis* marcará el correspondiente *commit* como ``Success`` o ``Failure``.
 
    a. Si el resultado es ``Success``, todo el trabajo existente en ``develop`` está libre de problemas de integración y este proceso se da por terminado.
-   b. Si el resultado es ``Failure``, es porque existen problemas de integración. En este caso, la rama ``develop`` queda bloqueada, no pudiendo recibir nuevas integraciones hasta que se solucionen dichos problemas de integración. Por tanto, se deberá trabajar en la solución de estos problemas con la mayor protitud posible.
+   b. Si el resultado es ``Failure``, es porque existen problemas de integración. En este caso, la rama ``develop`` queda bloqueada, no pudiendo recibir nuevas integraciones hasta que se solucionen dichos problemas de integración. Por tanto, se deberá trabajar en la solución de estos problemas con la mayor prontitud posible.
 
    Para resolver dichos problemas de integración, los responsables de la ``feature branch`` que haya generado el conflicto deberán realizar los cambios que sean necesarios en dicha ``feature branch``. Una vez realizados esos cambios, volverán a repetir este procedimiento desde el punto 3.
 
@@ -84,7 +84,7 @@ Trabajos en la ``release branch``
 #. Generar las versiones ``.pdf`` de todos los informes solicitados.
 #. Generar las imágenes ``.png`` de todos los modelos solicitados.
 #. Generar las imágenes ``.png`` correspondientes a los *mock-ups* elaborados, si los hubiere.
-#. Generar el correspondiente fichero *apk*.
+#. Generar el correspondiente fichero *apk*. Cada fichero *apk* deberá nombrarse conforme al patrón ``<nombreApp>-<GG>-<XX.YY.ZZ>``, donde ``nombreApp`` es el nombre que cada equipo quiera darle a su aplicación; ``GG`` será el número asignado al equipo de trabajo; y, ``XX.YY.ZZ`` es el correspondiente número de versión, que deberá ser conforme al `esquema de versionado`_ del proyecto integrado.
 #. Instalar el producto en diferentes terminales y verificar su correcto funcionamiento.
 
 Esquema de Versionado
