@@ -141,7 +141,7 @@ Para la *gestión del tablero Kanban*, cada miembro del equipo deberá actualiza
 
 Para la *monitorización de la evolución del sprint*, el equipo deberá revisar, al menos una vez al día, el *sprint burndown chart* para, en función de su estado, decidir si es necesario adoptar algún tipo de acción correctora o no.
 
-Para la *gestión de la configuración*, cada miembro del equipo deberá observar escrupulosamente las `reglas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#reglas-de-gestion-de-la-configuracion>`_especificadas para el desarrollo del proyecto integrado.
+Para la *gestión de la configuración*, cada miembro del equipo deberá observar escrupulosamente las `reglas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#reglas-de-gestion-de-la-configuracion>`_ especificadas para el desarrollo del proyecto integrado.
 
 Además, merece la pena destacar que, idealmente, cada miembro del equipo debería trabajar individualmente, en silencio e interaccionando lo mínimo posible con sus compañeros. No obstante, siempre que se trabaja en equipo es necesario llevar a cabo ciertas acciones de coordinación. Estas acciones de coordinación deberán realizarse principalmente dentro de los *Daily Scrum Meeting*. Para la coordinación remota, se aconseja utilizar una herramienta de comunicación asíncrona y/o remota tipo *Slack* o similar.
 
