@@ -243,7 +243,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Cumplimiento de Definición de Completado.
   * Satisfacción del Product Owner.
   * Manual de Usuario.
-  * Plannin Poker (opcional).
+  * Planning Poker (opcional).
 
 .. warning:: La no realización de esta actividad supondrá una calificación de 0 en el correspondiente sprint.
 
