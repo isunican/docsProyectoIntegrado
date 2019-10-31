@@ -271,5 +271,5 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
   * Capacidad de Liderazgo.
   * Ortografía, Gramática y Maquetación.
-  * Completitud del Análisis de la Retrospectiva
-  * Plan de Mejora Continua
+  * Completitud del Análisis de la Retrospectiva.
+  * Plan de Mejora Continua.
