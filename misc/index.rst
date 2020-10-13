@@ -4,7 +4,7 @@
 
 .. toctree::
 
-   pactoEquipo
+   pactosDeEquipo
 
 
 Enlaces de interés
