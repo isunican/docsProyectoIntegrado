@@ -24,11 +24,13 @@ Nomenclatura y organización de las clases de prueba
 Las clases de prueba correspondientes a pruebas unitarias:
 
 * Se almacenan en la carpeta test dentro del mismo paquete que la clase bajo prueba.
+
 * Se denominan <NombreClase>Test.java.
 
 Las clases de prueba correspondientes a pruebas de integración:
 
 * Se almacenan en la carpeta test si no requieren la ejecución del emulador o en la carpeta androidTest en caso contrario. 
+
 * El nombre de la clase de prueba será:
   - <NombreClase>ITest.java si se trata de la prueba de una clase completa (se aplica estrategia de integración incremental). En este caso se almacenará en el mismo paquete que la clase de prueba.
   - <NombreEscenario>ITest.java si la clase prueba un determinado escenario de ejecución de una historia de usuario (se aplica estrategia de integración funcional). En este caso se almacenará en el mismo paquete dónde esté almacenada la vista que lanza el escenario.
@@ -36,4 +38,5 @@ Las clases de prueba correspondientes a pruebas de integración:
 Las clases de prueba correspondientes a pruebas de interfaz de usuario:
 
 * Se almacenarán en la carpeta androidTest.
+
 * Llevarán por nombre <NombreEscenario>UITest.java y se almacenarán en el mismo paquete dónde esté almacenada la vista que lanza el escenario.
