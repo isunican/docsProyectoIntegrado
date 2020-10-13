@@ -16,9 +16,9 @@ En primer lugar, se constituirán los equipos de desarrollo. La formación de ca
 
 .. todo: Poner enlace a lo que es un pacto de equipo.
 
-Una vez constituido, cada equipo de desarrollo deberá elegir un nombre, consensuar un `Pacto de Equipo <../misc/pactoEquipo.html>`_ y firmarlo. Tras la firma de dicho pacto, todos los miembros del equipo se obligan a su cumplimiento. Su incumplimiento significará la expulsión automática del grupo; y, como consecuencia, el suspenso del proyecto integrado [#f1]_.
+Una vez constituido, cada equipo de desarrollo deberá elegir un nombre, consensuar un `Pacto de Equipo <../misc/pactosDeEquipo.html>`_ y firmarlo. Tras la firma de dicho pacto, todos los miembros del equipo se obligan a su cumplimiento. Su incumplimiento significará la expulsión automática del grupo; y, como consecuencia, el suspenso del proyecto integrado [#f1]_.
 
-.. [#f1] En caso de llegar a esta desgradable situación, en cada caso particular se pactarán unas condiciones específicas de recuperación del proyecto integrado de manera que se puedan tanto alcanzar los objetivos de aprendizaje de la asignatura como reutilizar parte del trabajo que se hubiese realizado.
+.. [#f1] En caso de llegar a esta desagradable situación, en cada caso particular se pactarán unas condiciones específicas de recuperación del proyecto integrado de manera que se puedan tanto alcanzar los objetivos de aprendizaje de la asignatura como reutilizar parte del trabajo que se hubiese realizado.
 
 A continuación, cada equipo deberá preparar la infraestructura necesaria para el desarrollo del proyecto. Dicha infraestructura comprende tanto una serie de herramientas que deberán estar instaladas en los equipos de los alumnos, como una serie de herramientas en la nube en las cuales los alumnos deberán abrir la correspondiente cuenta. En la sección de `Herramientas <../tools/index.html>`_ del presente documento se describen todas las herramientas necesarias para el desarrollo del proyecto, qué debe hacer el alumno para instalarlas y cómo debe configurarlas.
 
@@ -64,11 +64,11 @@ Actividades dentro de un sprint Scrum
 Sprint Planning Meeting I
 --------------------------
 
-:Fecha y Hora: Primer Lunes del Sprint, de 9.30 a 10.30.
+:Fecha y Hora: Primer Lunes de cada Sprint, de 14.30 a 16.00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
-Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* a desarrollar en dicho sprint. Esta selección deberá ser aquella que, ajustándose a la *velocidad de equipo*, aporte mayor valor al nuevo producto generado. .
+Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* a desarrollar en dicho sprint. Esta selección deberá ser aquella que, ajustándose a la *velocidad de equipo*, aporte mayor valor al nuevo producto generado.
 
 Una vez realizada la selección de elementos que conformarán el *Sprint Backlog*, el *Scrum Team* deberá conversar con el *Product Owner* para saber con todo detalle cómo han de desarrollar cada uno de los elementos seleccionados. Para que el desarrollo de los sprints sea sostenible, la metodología *Scrum* no permite ni modificar el contenido del *Sprint Backlog* durante el desarrollo de un sprint, ni que sus elementos se renegocien. Por tanto, en esta actividad deben quedar perfectamente definidos todos los elementos que sean necesarios para un correcto desarrollo de los elementos seleccionados.
 
@@ -97,7 +97,7 @@ Si un *Scrum Team* no realizara esta actividad, no tendría material para poder 
 Sprint Planning Meeting II
 ---------------------------
 
-:Fecha y Hora: Primer Lunes del sprint, de 10:30 a 11:30
+:Fecha y Hora: Primer Lunes de cada Sprint, tras el Sprint Planning Meeting I.
 
 **Descripción de la Actividad**
 
@@ -163,7 +163,7 @@ El tercer ítem se evaluará de manera global para cada equipo, atendiendo a la 
 Daily Scrum Meeting
 ---------------------
 
-:Fecha y Hora: Diario (salvo inicio y fin de cada sprint), 9:30 – 9:45
+:Fecha y Hora: Lunes, Miércoles y Viernes (salvo inicio y fin de cada sprint), de 14:30 a 14:45.
 
 Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin de dicho sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
 
@@ -186,7 +186,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Product Backlog Refinement
 ----------------------------
 
-:Fecha y Hora: Segundo Lunes del Sprint, 9:30 - 10:30
+:Fecha y Hora: Segundo Lunes de cada Sprint, 14:30 - 16:00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
@@ -213,7 +213,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Sprint Review
 --------------
 
-:Fecha y Hora: Segundo Viernes del Sprint, 9:30-10:30
+:Fecha y Hora: Segundo Viernes de cada Sprint, 14:30-16:00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
@@ -250,7 +250,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Sprint Retrospective
 ---------------------
 
-:Fecha y Hora: Segundo Viernes del Sprint, 10:30-11:30
+:Fecha y Hora: Segundo Viernes del Sprint, tras finalizar la Product Review.
 
 **Descripción de la Actividad**
 
