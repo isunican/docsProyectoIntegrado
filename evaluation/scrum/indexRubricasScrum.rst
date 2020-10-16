@@ -33,7 +33,7 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+----------------------------------------------+------------+
 | #  | Elemento Evaluable                           | Puntos     |
 +====+==============================================+============+
-| 00 | Relación con el Product Owner                |         60 |
+| 00 | Relación con el Product Owner                |         30 |
 +----+----------------------------------------------+------------+
 | 01 | Capacidad de Liderazgo                       |        100 |
 +----+----------------------------------------------+------------+
@@ -45,7 +45,7 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+----------------------------------------------+------------+
 | 05 | Especificación de las Historias de Usuario   |         40 |
 +----+----------------------------------------------+------------+
-| 06 | Creación del Sprint Backlog                  |         15 |
+| 06 | Creación del Sprint Backlog                  |         20 |
 +----+----------------------------------------------+------------+
 | 07 | Negociación de las Historias de Usuario      |         40 |
 +----+----------------------------------------------+------------+
@@ -53,25 +53,23 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+----------------------------------------------+------------+
 | 09 | Ejecución del Planning Poker                 |         60 |
 +----+----------------------------------------------+------------+
-| 10 | Gestión de la Configuración                  |         60 |
+| 10 | Ejecución de los Daily Scrum Meeting         |         60 |
 +----+----------------------------------------------+------------+
-| 11 | Ejecución de los Daily Scrum Meeting         |         60 |
+| 11 | Gestión de las Tareas y del Tablero Kanban   |         40 |
 +----+----------------------------------------------+------------+
-| 12 | Gestión de las Tareas y del Tablero Kanban   |         40 |
+| 12 | Interpretación Sprint Burndown Chart         |         40 |
 +----+----------------------------------------------+------------+
-| 13 | Interpretación Sprint Burndown Chart         |         40 |
+| 13 | Cumplimiento de Definición de Completado     |         60 |
 +----+----------------------------------------------+------------+
-| 14 | Cumplimiento de Definición de Completado     |         60 |
+| 14 | Gestión de la Configuración                  |         60 |
 +----+----------------------------------------------+------------+
 | 15 | Satisfacción del Product Owner               |         90 |
 +----+----------------------------------------------+------------+
-| 16 | Completitud del Análisis de la Retrospectiva |         20 |
+| 16 | Ejecución de la Retrospectiva                |         60 |
 +----+----------------------------------------------+------------+
-| 17 | Plan de Mejora Continua                      |         30 |
+| 17 | Manual de Usuario                            |         15 |
 +----+----------------------------------------------+------------+
-| 18 | Manual de Usuario                            |         15 |
-+----+----------------------------------------------+------------+
-| 19 | Test sobre Metodologías Ágiles               |         80 |
+| 18 | Test sobre Metodologías Ágiles               |         80 |
 +----+----------------------------------------------+------------+
 
 .. toctree::
