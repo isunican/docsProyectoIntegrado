@@ -306,21 +306,6 @@ Para evaluar este ítem, se verificarán los siguientes puntos:
 El incumplimiento del primer punto por parte de algún miembro del grupo supondrá automáticamente una calificación de cero puntos en este ítem para todo el equipo.
 El incumplimiento claro del punto 2 también conllevará una calificación de cero puntos en este elemento evaluable.
 
-Gestión de la Configuración
-==============================
-
-+--------------+-------------------------------------+
-| Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 60                                  |
-+--------------+-------------------------------------+
-| Actividades  | Desarrollo y Seguimiento del Sprint |
-+--------------+-------------------------------------+
-
-Para evaluar este ítem, se verificará que el grupo no haya violado ninguna de las normas para la gestión de la configuración proporcionadas para el desarrollo del proyecto integrado. El incumplimiento de una única norma podrá suponer una penalización sustancial de puntos, en espeecial cuando sean normas de fácil cumplimiento.
-
-*Norma de fácil cumplimiento* es por ejemplo que un determinado archivo tenga que tener un nombre específico. El incumplimiento de una norma de este estilo impedirá al grupo obtener más de un tercio de los puntos asignados a este ítem, mientras que la violación de dos normas de este tipo supondrá la obtención de cero puntos en este ítem.
-
 Ejecución de los Daily Scrum Meeting
 ======================================
 
@@ -370,7 +355,7 @@ Interpretación Sprint Burndown Chart
 La calificación de esta actividad vendrá determinada por la capacidad del alumno de saber interpretar adecuadamente un *Sprint Burndown Chart* como herramienta de monitorización del estado de desarrollo del proyecto. El alumno deberá demostrar que sabe utilizar las facilidades que *ScrumDesk* proporciona para la generación de *Sprint Burndown Charts*, así como que es capaz de interpretar adecuadamente la evolución de las gráficas y sus valores.
 
 Cumplimiento de Definición de Completado
-==========================================
+=========================================
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
@@ -386,6 +371,21 @@ Si un elemento incluido en el *Sprint Backlog* hubiese sido completamente ignora
 
 El incumplimiento de la definición de completado de, por al menos, un elemento del *Sprint Backlog* supondrá una calificación de menos de la mitad de los puntos otorgados a este ítem.
 
+Gestión de la Configuración
+============================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Puntos       | 60                                  |
++--------------+-------------------------------------+
+| Actividades  | Desarrollo y Seguimiento del Sprint |
++--------------+-------------------------------------+
+
+Para evaluar este ítem, se verificará que el grupo no haya violado ninguna de las normas para la gestión de la configuración proporcionadas para el desarrollo del proyecto integrado. El incumplimiento de una única norma podrá suponer una penalización sustancial de puntos, en espeecial cuando sean normas de fácil cumplimiento.
+
+*Norma de fácil cumplimiento* es por ejemplo que un determinado archivo tenga que tener un nombre específico. El incumplimiento de una norma de este estilo impedirá al grupo obtener más de un tercio de los puntos asignados a este ítem, mientras que la violación de dos normas de este tipo supondrá la obtención de cero puntos en este ítem.
+
 Satisfacción del Product Owner
 ===============================
 
@@ -399,33 +399,22 @@ Satisfacción del Product Owner
 
 En este apartado se evaluará la adecuación del producto realizado a las expectativas y deseos iniciales del *Product Owner*. Se valorará también el esfuerzo realizado por el equipo de trabajo para adecuar el producto a las preferencias del *Product Owner* en base a los comentarios recibidos en los sprints anteriores.
 
-Completitud del Análisis de Retrospectiva
-===========================================
+Ejecución de la Retrospectiva
+==============================
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
 +--------------+-------------------------------------+
-| Puntos       | 20                                  |
+| Puntos       | 60                                  |
 +--------------+-------------------------------------+
 | Actividades  | Sprint Retrospective                |
 +--------------+-------------------------------------+
 
-En este ítem se evaluará que como resultado de las dinámicas de grupo se haya generado un número razonable de aspectos tanto positivos como negativos relacionados con los métodos de trabajo de cada *Scrum Team*.
+En este ítem se evaluará, en primer lugar, que como resultado de las dinámicas de grupo se haya generado un número razonable de aspectos tanto positivos como negativos relacionados con los métodos de trabajo de cada *Scrum Team*.
 
-Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de cero. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
+Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de suspenso. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
 
-Plan de Mejora Continua
-========================
-
-+--------------+-------------------------------------+
-| Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 30                                  |
-+--------------+-------------------------------------+
-| Actividades  | Sprint Retrospective                |
-+--------------+-------------------------------------+
-
-En este ítem se evaluará que por cada elemento identificado como positivo o negativo, exista un plan de acción que permita eliminar, minimizar, potenciar o consolidar dicho elemento, de acuerdo a su naturaleza. Se valorará además también la efectividad de cada plan de acción creado.
+A continuación, se evaluará que por cada elemento identificado como positivo o negativo, exista un plan de acción que permita eliminar o minimizar los aspectos negativos identificados, así como potenciar o consolidar los positivos. Se valorará además también la efectividad de cada plan de acción creado.
 
 Manual de Usuario
 ==================
@@ -439,3 +428,14 @@ Manual de Usuario
 +--------------+-------------------------------------+
 
 Para calificar este ítem se verificará que cada historia de usuario implementada tenga su correspondiente entrada en el manual de usuario. Se evaluará que cada entrada se entienda con facilidad y resulte realmente de ayuda al usuario no experto en la aplicación, además de la calidad estética del manual creado.
+
+Test de Metodologías Ágiles
+============================
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Puntos       | 80                                  |
++--------------+-------------------------------------+
+| Actividades  | Prueba Escrita                      |
++--------------+-------------------------------------+
