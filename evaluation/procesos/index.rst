@@ -1,11 +1,11 @@
-﻿==================================================================================
- Normas y Criterios de Evaluación para la asignatura de Procesos de Ingeniería Sw
-==================================================================================
+﻿=======================================================================================
+ Normas y Criterios de Evaluación para la asignatura de Procesos de Ingeniería Software
+=======================================================================================
 
 La evaluación del trabajo en el proyecto integrado, en cuanto a la asignatura de Procesos de Ingeniería Software se refiere, comprende dos partes: un 40% corresponde al trabajo del grupo en su conjunto y el otro 60% refleja el esfuerzo personal de cada alumno.
 
-El trabajo en pruebas del software en cada sprint comprende los planes de prueba ``P`` y la implementación y ejecución de las pruebas ``E``.
-Estas dos actividades se realizarán para todas las historias de usuario implementadas y se evaluarán según los siguientes pesos ponderados ``P`` 40% y ``E`` 60%. 
+El trabajo en pruebas del software en cada sprint comprende los planes de prueba y la implementación y ejecución de las pruebas.
+Estas dos actividades se realizarán para todas las historias de usuario implementadas y se evaluarán según los siguientes pesos ponderados: plan de pruebas 40% e implementación y ejecución de las pruebas 60%. 
 
 A lo largo del desarrollo de cada sprint el grupo puede pedir asesoría al profesor para mejorar su trabajo y al terminar recibirá indicadores cualitativos a considerar así como una calificación global. Esta calificación final será un indicador de la calidad del trabajo en los sprints y la evolución del grupo a lo largo del desarrollo del proyecto. 
 
@@ -17,25 +17,24 @@ Para la evaluación personal de cada alumno, al terminar todos los sprints cada 
 
 Se podrá optar a mejorar la calificación personal mediante la realización de más pruebas unitarias o de interfaz de usuario.
 
-``P`` Planes de Prueba
-========================
+Planes de Prueba
+================
 
 Cada Historia de Usuario ha de contar con un Plan de Pruebas, que incluirá:
 
  #. La especificación de las pruebas de aceptación acordadas con el *Product Owner*.
  #. Los casos de prueba concretos que se derivan del mismo (etiquetados convenientemente).
  #. La especificación de las pruebas de interfaz de usuario.
- #. La especificación de las pruebas de integración (al menos dos).
- #. La especificación de las pruebas unitarias definidas para las clases/métodos involucrados (al menos dos). 
+ #. La especificación de las pruebas unitarias y de integración definidas para las clases/métodos involucrados (al menos dos de cada). 
  #. Un breve texto que describa el cronograma de ejecución planificado.
- #. Un reporte final que describa el resultado de la ejecución de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas), los fallos encontrados y las soluciones dadas a los mismos. 
+ #. Un reporte final que describa el resultado de la ejecución de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas) y el número de fallos encontrados por cada prueba. 
 
 Este documento se complementa, y por tanto, debe ser totalmente coherente con los modelos arquitectónico (AppArchitecture.png) y de dominio (DomainModel.png) entregados en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
 
 Una versión inicial de este documento se valida con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias pueden no estar totalmente definidas, pues puede no conocerse todavía la arquitectura a utilizar para implementar la historia de usuario. La versión final, con el plan de pruebas completo, se entrega al final de cada sprint. 
 
-``E`` Implementación y ejecución de las pruebas
-================================================
+Implementación y ejecución de las pruebas
+==========================================
 
 Es responsabilidad de cada grupo seguir los criterios indicados para la organización del código correspondiente a pruebas, siendo muy importante que sean fácilmente identificables el/los caso/s de prueba que cada test implementa.
 

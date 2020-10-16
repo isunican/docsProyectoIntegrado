@@ -7,9 +7,8 @@ El desarrollo de una historia de usuario, u otro elemento del backlog, se consid
 #. Se ha creado una implementación para dicha historia de usuario.
 #. Se ha definido un plan de pruebas, incluyendo pruebas unitarias, de integración, de interfaz de usuario y de aceptación, para los elementos que forman parte de la implementación de dicha historia de usuario.
 #. El plan de pruebas ha sido aprobado por el correspondiente comité, compuesto en este caso por los profesores de la asignatura de *Procesos de Ingeniería Sw*.
-#. La implementación creada supera satisfactoriamente las pruebas unitarias contempladas en el plan de pruebas para esa historia de usuario.
-#. La implementación creada supera satisfactoriamente las pruebas de integración contempladas en el plan de pruebas para esa historia de usuario.
-#. La implementación creada supera satisfactoriamente las pruebas de interfaz de usuario contempladas en el plan de pruebas para esa historia de usuario.
+#. La implementación creada supera satisfactoriamente al menos dos de las pruebas unitarias contempladas en el plan de pruebas para esa historia de usuario.
+#. La implementación creada supera satisfactoriamente al menos una de las pruebas de interfaz de usuario contempladas en el plan de pruebas para esa historia de usuario.
 #. La implementación creada supera satisfactoriamente las pruebas de aceptación contempladas en el plan de pruebas para esa historia de usuario.
 #. Si ha habido algún cambio en el esquema de la base de datos de la aplicación, los cambios están reflejados en el modelo conceptual de datos.
 #. Si ha habido cambios relevantes a nivel arquitectónico, estos cambios se han reflejado en el modelo que describe la arquitectura del sistema.
