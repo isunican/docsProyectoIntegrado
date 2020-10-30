@@ -25,8 +25,7 @@ Cada Historia de Usuario ha de contar con un Plan de Pruebas, que incluirá:
  #. La especificación de las pruebas de aceptación acordadas con el *Product Owner*.
  #. Los casos de prueba concretos que se derivan del mismo (etiquetados convenientemente).
  #. La especificación de las pruebas de interfaz de usuario.
- #. La especificación de las pruebas unitarias y de integración definidas para las clases/métodos involucrados (al menos dos de cada). 
- #. Un breve texto que describa el cronograma de ejecución planificado.
+ #. La especificación de las pruebas unitarias definidas para las clases/métodos involucrados (al menos dos). 
  #. Un reporte final que describa el resultado de la ejecución de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas) y el número de fallos encontrados por cada prueba. 
 
 Este documento se complementa, y por tanto, debe ser totalmente coherente con los modelos arquitectónico (AppArchitecture.png) y de dominio (DomainModel.png) entregados en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
