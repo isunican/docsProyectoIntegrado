@@ -69,7 +69,7 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+-----------------------------------------------+------------+
 | 17 | `Manual de Usuario`_                          |         15 |
 +----+-----------------------------------------------+------------+
-| 18 | Test sobre Metodologías Ágiles                |         80 |
+| 18 | `Test sobre Metodologías Ágiles`_             |         80 |
 +----+-----------------------------------------------+------------+
 
 .. toctree::
@@ -96,6 +96,4 @@ Elementos Evaluables de Métodos de Desarrollo
 .. _Satisfacción del Product Owner: ./rubricasScrum.html#satisfaccion-del-product-owner
 .. _Ejecución de la Retrospectiva:
 .. _Manual de Usuario: ./rubricasScrum.html#manual-de-usuario
-
-
-..
+.. _Test sobre Metodologías Ágiles: ./rubricasScrum.html#test-de-metodologias-agiles
