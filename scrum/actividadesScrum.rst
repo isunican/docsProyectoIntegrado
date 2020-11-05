@@ -27,7 +27,7 @@ Además, la herramienta `ScrumDesk <../tools/index.html#scrumdesk>`_ deberá est
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad, cada equipo deberá entregar su correspondiente *Pacto de Equipo* a través de la actividad porporcionada en moodle para ello. Además el equipo docente verificará que ciertos elementos de la infraestructura de desarrollo están adecuadamente creados.
+Como resultado de esta actividad, cada equipo deberá entregar su correspondiente *Pacto de Equipo* a través de la actividad proporcionada en moodle para ello. Además el equipo docente verificará que ciertos elementos de la infraestructura de desarrollo están adecuadamente creados.
 
 **Procedimiento de Evaluación**
 
@@ -89,8 +89,8 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Ortografía, Gramática y Maquetación.
   * Conformidad del Product Backlog.
   * Especificación de las Historias de Usuario.
-  * Creación del Sprint Backlog
-  * Negociación de Historias de Usuario
+  * Creación del Sprint Backlog.
+  * Negociación de Historias de Usuario.
 
 Si un *Scrum Team* no realizara esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implica que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a ese sprint.
 
@@ -101,7 +101,7 @@ Sprint Planning Meeting II
 
 **Descripción de la Actividad**
 
-Una vez definido el *Sprint Backlog* cada equipo descompondrá sus elementos en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado <definicionCompletado.html>`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
+Una vez definido el *Sprint Backlog* cada equipo descompondrá sus elementos en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
 
   * se satisfagan las restricciones impuestas por el proyecto integrado;
   * la carga de trabajo de cada uno de los miembros del equipo resulte lo más equilibrada posible;
@@ -117,7 +117,6 @@ Como resultado de esta actividad cada equipo deberá producir un conjunto de tar
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Capacidad de Liderazgo.
   * Ortografía, Gramática y Maquetación.
   * Planificación de Tareas.
   * Ejecución del Planning Poker.
@@ -208,18 +207,18 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Ortografía, Gramática y Maquetación.
   * Conformidad del Product Backlog.
   * Especificación de las Historias de Usuario.
-  * Planning Poker (opcional)
+  * Planning Poker (opcional).
 
-Sprint Review
+Product Review
 --------------
 
-:Fecha y Hora: Segundo Viernes de cada Sprint, 14:30-16:00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
+:Fecha y Hora: Segundo Viernes de cada Sprint, 14:30-16:30. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
-Durante la *Product Review* cada *Scrum Team* mostrará el trabajo realizado en ese sprint a su correspondiente *Product Owner*. El objetivo debe ser conocer si el producto creado se adecúa realmente a lo esperado por el *Product Owner*; o, por el contrario, es necesario realizar algunas modificaciones.
+Durante la *Product Review* cada *Scrum Team* mostrará el trabajo realizado en ese sprint a su correspondiente *Product Owner*. El objetivo debe ser conocer si el producto creado se adecúa realmente a lo esperado por el *Product Owner*, o, por el contrario, es necesario realizar algunas modificaciones.
 
-Para ello, el *Scrum Team* deberá mostrar cada una de las funcionalidades desarrolladas al *Product Owner* y verificar delante suya su correcto funcionamiento. Además, el *Scrum Team* deberá permitir al *Product Owner* instalar en su propio terminal el producto desarrollado, de manera que pueda experimentar con él si así lo desease.
+Para ello, el *Scrum Team* deberá mostrar cada una de las funcionalidades desarrolladas al *Product Owner* y verificar delante suya su correcto funcionamiento. Además, el *Scrum Team* deberá permitir al *Product Owner* instalar en su propio terminal el producto desarrollado, de manera que pueda probar el producto por sí mismo si así lo desease.
 
 Durante la revisión del producto, el *Product Owner* podrá solicitar todas las explicaciones, tanto técnicas como no técnicas, que considere necesarias sobre el desarrollo del producto. Una vez revisado el producto y aclaradas las dudas que puedan surgir, el *Product Owner* podrá sugerir cambios, que serán debatidos con el *Scrum Team*. Si finalmente el *Product Owner* estima necesario incorporar ciertos cambios,  éstos deberán ser incorporados al *Product Backlog* como *tickets de mantemiento*
 
@@ -227,9 +226,9 @@ Durante la revisión del producto, el *Product Owner* podrá solicitar todas las
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad deberá existir una nueva versión operativa del producto software desarollado. Esta versión operativa incluirá todos los artefactos requeridos por la  `definición de completado <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/scrum/definicionCompletado.html>`_, y estará alojada en el repositorio *Git* de cada equipo, el cual deberá ser conforme a las `normas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#politica-de-gestion-de-la-configuracion>`_ para el desarrollo del proyecto integrado.
+Como resultado de esta actividad deberá existir una nueva versión operativa del producto software desarrollado. Esta versión operativa incluirá todos los artefactos requeridos por la  `definición de completado <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/scrum/definicionCompletado.html>`_, y estará alojada en el repositorio *Git* de cada equipo, el cual deberá ser conforme a las `normas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#politica-de-gestion-de-la-configuracion>`_ para el desarrollo del proyecto integrado.
 
-Además, se deberán incluir en el *Product Backlog* todos los tickets de mantenimiento que hayan podido surgir durante la *Product Review*. Los tickets de mantenimiento actualizados deberán estar listos para su calificación el mismo día en el cual se celebre la *Product Review* a las 16:00.
+Además, se deberán incluir en el *Product Backlog* todos los tickets de mantenimiento que hayan podido surgir durante la *Product Review*.
 
 **Procedimiento de Evaluación**
 
@@ -250,7 +249,7 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 Sprint Retrospective
 ---------------------
 
-:Fecha y Hora: Segundo Viernes del Sprint, tras finalizar la Product Review.
+:Fecha y Hora: Segundo Viernes de cada sprint, tras finalizar la *Product Review*.
 
 **Descripción de la Actividad**
 
@@ -262,14 +261,11 @@ Tras la realización de esta actividad se puede dar el sprint por concluido. Se 
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad cada *Scrum Team* entregará un *plan de mejora continua* con las medidas a adoptar durante el desarrollo del próximo sprint. Este plan, tal como se comentó anteriormente, debe tener acciones tanto para potenciar los aspectos positivos como para mitigar o erradicar los negativos.
-Este *plan de mejora continua* se entregará a través de una actividad de moodle habilitada a tal efecto. Las entregas de este plan se realizarán antes de las 00:00 del Lunes siguiente a la celebración de la *Sprint Retrospective*.
+Como resultado de esta actividad cada *Scrum Team* entregará un *plan de mejora continua* con las medidas a adoptar durante el desarrollo del próximo sprint. Este plan, tal como se comentó anteriormente, debe tener acciones tanto para potenciar los aspectos positivos identificados como para mitigar o erradicar los negativos detectados. Este *plan de mejora continua* se entregará a través de una actividad de moodle habilitada a tal efecto.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Capacidad de Liderazgo.
   * Ortografía, Gramática y Maquetación.
-  * Completitud del Análisis de la Retrospectiva.
-  * Plan de Mejora Continua.
+  * Ejecución de la Retrospectiva.

@@ -44,7 +44,7 @@ Slack/Discord
 Acciones Requeridas
 --------------------
 
-Un miembro de cada equipo Scrum, que ejercerá como *adimistrador Slack/Discord* deberá crear un *espacio de trabajo* propio en Slack, o un servidor en Discord, y añadir a dicho espacio de trabajo o servidor al resto de  miembros de su equipo.
+Un miembro de cada equipo Scrum, que ejercerá como *administrador Slack/Discord* deberá crear un *espacio de trabajo* propio en Slack, o un servidor en Discord, y añadir a dicho espacio de trabajo o servidor al resto de  miembros de su equipo.
 
 
 .. .. note:: El equipo docente de la asignatura recomienda la utilización de Slack como  herramienta de comunicación remota al ser ésta la de mayor aceptación a nivel empresarial. No obstante, si todo el equipo de trabajo estuviese de acuerdo, pueden utilizarse alternativas como `Discord <https://discordapp.com/>`_.
@@ -63,7 +63,7 @@ GitHub
 =======
 
 `GitHub <https://github.com/>`_ es un popular sistema de alojamiento en la web de repositorios Git. GitHub ofrece además una serie de facilidades para la gestión de los proyectos asociados a cada repositorio que aloja. Por ejemplo,
-Github ofrece una serie de facilidades para la gestión de peticiones de mantenimiunto asociadas a un determinado repositorio, o la posibilidad de interconexión automática de los repositorios con sistemas de integración continua.
+Github ofrece una serie de facilidades para la gestión de peticiones de mantenimiento asociadas a un determinado repositorio, o la posibilidad de interconexión automática de los repositorios con sistemas de integración continua.
 
 GitHub permite a cualquier persona crear y alojar de manera gratuita un repositorio Git en su sistema, siempre y cuando dicho repositorio sea público. Si se quiere que dicho repositorio sea privado, habría que pagar entonces por el alojamiento. No obstante, GitHub tiene un paquete académico, denominado  `Student Pack <https://education.github.com/pack>`_ que permite a aquellos alumnos que se inscriban en él crear repositorios privados, además de otras numerosas ventajas.
 
@@ -72,7 +72,7 @@ Acciones Requeridas
 
 Cada alumno deberá disponer de una cuenta en GitHub y proporcionar su nombre de usuario a los docentes.
 
-Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican <https://github.com/isunican>`_.
+Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican`_.
 El propio equipo docente añadirá a cada repositorio como colaboradores a los miembros del correspondiente *Scrum Team*, siendo por tanto la única responsabilidad de los alumnos  comprobar que son capaces de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
 Travis
