@@ -44,6 +44,7 @@ Mecanismo para mejorar la calificación individual obtenida en un sprint
 =======================================================================
 
 Para mejorar la calificación individual obtenida en un sprint existen dos opciones:
+
 * La opción prioritaria consiste en encargarse en otro sprint, y por tanto en otra historia de usuario, de las tareas que hayan obtenido una mala calificación. Es decir, si en un sprint se tiene mala nota en una prueba unitaria, en el siguiente sprint esa persona volvería a encargarse de realizar pruebas unitarias, que serían obviamente distintas, aunque podría darse el caso de volver a encargarse de la mismas pruebas si en la nueva historia de usuario se usa también el mismo código.
 * Si no hubiese suficientes historias de usuario para hacer esto (será lo habitual), la segunda opción consiste en solucionar los problemas detectados en las tareas con baja calificación. Esta opción debería llevarse a cabo sin contar como esfuerzo de los siguientes sprints. Para ello, el modo de proceder será el siguiente:
 
