@@ -80,7 +80,7 @@ El propio equipo docente añadirá a cada repositorio como colaboradores a los m
 GitHub Actions
 =======
 
-`GitHub Actions <https://docs.github.com/en/actions>`_ es un entorno de integración continua proporcionado por GitHub, que permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, es necesario contratar algún plan de pago. No obstante, aquellos alumnos que estén registrados en el programa `Student Pack <https://education.github.com/pack>`_ de GitHub tienen la posibilidad de utilizar GitHub sobre repositorios privados.
+`GitHub Actions <https://docs.github.com/en/actions>`_ es un entorno de integración continua proporcionado por GitHub, que permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, hay un límite de minutos que se pueden utilizar de forma gratuita. A partir de ese límite, es necesario contratar algún plan de pago.
 
 Acciones Requeridas
 --------------------
