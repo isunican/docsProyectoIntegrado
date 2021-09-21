@@ -1,10 +1,11 @@
+Criterios de Evaluación Individualizados
+=========================================
+
 Relación con el Product Owner
-==============================
+-------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-+ Puntos       + 60                                 +
 +--------------+------------------------------------+
 | Actividades  | Initial Product Backlog Refinement |
 +              +------------------------------------+
@@ -28,13 +29,11 @@ El objetivo de este elemento es que el *Product Owner* tenga la sensación de qu
 
 La falta de respeto al *Product Owner* supondrá automáticamente una calificación de cero en este apartado, pudiendo además acarrear una penalización extra adicional.
 
-Capacidad de Liderazgo
-=======================
+Capacidad de Planificación
+---------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 100                                |
 +--------------+------------------------------------+
 | Actividades  | Initial Product Backlog Refinement |
 +              +------------------------------------+
@@ -62,12 +61,10 @@ En este apartado se evaluará que las actividades a realizar estén debidamente 
 El incumplimiento del primer punto supondrá automáticamente una calificación de cero puntos en este apartado; mientras que el incumplimiento del cuarto punto impedirá obtener más de la mitad de los puntos asignados a este elemento.
 
 Capacidad de Comunicación
-==========================
+--------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 60                                 |
 +--------------+------------------------------------+
 | Actividades  | Initial Product Backlog Refinement |
 +              +------------------------------------+
@@ -89,12 +86,10 @@ En este apartado se evaluará si el equipo es capaz de explicar al *Product Owne
 Además, se valorará que las intervenciones de los diferentes miembros del equipo sean breves, concisas y precisas.
 
 Ortografía, Gramática y Maquetación
-====================================
+------------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 60                                 |
 +--------------+------------------------------------+
 | Actividades  | Initial Product Backlog Refinement |
 +              +------------------------------------+
@@ -113,13 +108,11 @@ Para poder obtener al menos la mitad de los puntos de este elemento, no deben ex
 
 Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
 
-Conformidad del Product Backlog Generado
-=========================================
+Completitud del Product Backlog
+--------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 40                                 |
 +--------------+------------------------------------+
 | Actividades  | Initial Product Backlog Refinement |
 +              +------------------------------------+
@@ -148,13 +141,34 @@ Además, qué se entiende por entrada inválida debe estar perfectamente detalla
 
 Por cada violación de la lista de comprobación anterior se disminuirán los puntos otogardos a cada equipos. Además, si seel *Product Owner* echase en falta dentro del *Product Backlog* es esencial para el desarrollo del producto, no se podrán obtener más de la mitad de los puntos asignados a este elemento. Historias de usuario consideradas como básicas serían, por ejemplo, en el caso del desarrollo de una aplicación como *Spotify*, elementos como *Reproducir Música* o *Buscar Artista*.
 
-Especificación de las Historias de Usuario
-============================================
+Negociación de las Historias de Usuario
+-----------------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Puntos       | 40                                 |
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+En este ítem se evaluará que las historias de usuario hayan sido especificadas y escritas en colaboración  con el *Product Owner*.
+
+En concreto, se verificará que:
+
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de dicha historia de usuario.
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* los criterios de confirmación de cada historia de usuario.
+  #. El *Scrum Team* equipo de trabajo haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que al *Product Owner* pudiese inicialmente haber obviado.
+  #. No exista ningún elemento dentro de la descripción de la historia de usuario que sean decisión propia del equipo de trabajo y no hayan sido consultados con el *Product Owner*.
+  #. El *Product Owner* esté conforme con los diferentes elementos anotados en la historia de usuario.
+
+El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
+
+En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
+
+Especificación de las Historias de Usuario
+--------------------------------------------
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
 +--------------+------------------------------------+
 | Actividades  | Initial Product Backlog Refinement |
 +              +------------------------------------+
@@ -195,13 +209,29 @@ Para poder obtener al menos la mitad de los puntos de este elemento, no debe exi
 
 Además, se valorará positivamente que cada historia de usuario tenga asignado su valor para el `modelo de Kano <https://www.scrumdesk.com/how-to-kano-model-helps-in-agile-product-backlog-prioritization/>`_.
 
-Creación del Sprint Backlog
-============================
+Completitud de los Test de Aceptación
+--------------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Puntos       | 15                                 |
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+Especificación de los Tickets de Cambio
+----------------------------------------
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
++--------------+------------------------------------+
+| Actividades  | Sprint Planning Meeting I          |
++--------------+------------------------------------+
+
+Creación del Sprint Backlog
+----------------------------
+
++--------------+------------------------------------+
+| Calificación | Común al grupo                     |
 +--------------+------------------------------------+
 | Actividades  | Sprint Planning Meeting I          |
 +--------------+------------------------------------+
@@ -214,38 +244,11 @@ Los puntos asociados a este ítem se otorgarán en función del grado de cumplim
 
 El incumplimiento de cualquiera de los dos primeros puntos supondrá una calificación de cero puntos. En caso de que se viole el tercer punto de forma clara, el equipo obtendrá una calificación inferior a un tercio de los puntos asignados a este ítem.
 
-Negociación de las Historias de Usuario
-========================================
-
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 40                                 |
-+--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting I          |
-+--------------+------------------------------------+
-
-En este ítem se evaluará que las historias de usuario hayan sido especificadas y escritas en colaboración  con el *Product Owner*.
-
-En concreto, se verificará que:
-
-  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de dicha historia de usuario.
-  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* los criterios de confirmación de cada historia de usuario.
-  #. El *Scrum Team* equipo de trabajo haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que al *Product Owner* pudiese inicialmente haber obviado.
-  #. No exista ningún elemento dentro de la descripción de la historia de usuario que sean decisión propia del equipo de trabajo y no hayan sido consultados con el *Product Owner*.
-  #. El *Product Owner* esté conforme con los diferentes elementos anotados en la historia de usuario.
-
-El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
-
-En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
-
 Planificación de Tareas
-========================
+------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 30                                 |
 +--------------+------------------------------------+
 | Actividades  | Sprint Planning Meeting II         |
 +--------------+------------------------------------+
@@ -285,12 +288,10 @@ Además, la creación de una descomposición de tareas que no permita satisfacer
 .. [#f0] Un ejemplo de tarea repetitiva y bien conocida sería *integrar feature branch en master*, que es una tarea cuyo objetivo y procedimiento está ya perfectamente definido en las normas de la gestión de la configuración.
 
 Ejecución del Planning Poker
-==============================
+------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 60                                 |
 +--------------+------------------------------------+
 | Actividades  | Sprint Planning Meeting II         |
 |              | Product Backlog Refinement         |
@@ -311,12 +312,10 @@ El incumplimiento del primer punto por parte de algún miembro del grupo supondr
 El incumplimiento claro del punto 2 también conllevará una calificación de cero puntos en este elemento evaluable.
 
 Ejecución de los Daily Scrum Meeting
-======================================
+-------------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Puntos       | 60                                 |
 +--------------+------------------------------------+
 | Actividades  | Daily Scrum Meeting                |
 +--------------+------------------------------------+
@@ -329,13 +328,11 @@ La calificación de esta actividad vendrá determinada por el grado de satisfacc
   #. Se ha ideado o esbozado algún plan tanto para solventar los obstáculos encontrados como para mitigar los riesgos identificados.
   #. La actividad se ha desarrollado de manera breve y sintética.
 
-Gestión de Tareas y Tablero Kanban
-===================================
+Gestión de las Tareas y del Tablero Kanban
+-------------------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Individual                          |
-+--------------+-------------------------------------+
-| Puntos       | 40                                  |
 +--------------+-------------------------------------+
 | Actividades  | Desarrollo y Seguimiento del Sprint |
 +--------------+-------------------------------------+
@@ -345,26 +342,22 @@ La calificación de esta actividad vendrá determinada por el grado de satisfacc
   #. El alumno es capaz de mover sus tarjetas dentro de Scrumdesk de acuerdo con las normas de gestión del Tablero Kanban.
   #. El alumno es capaz de interpretar el estado actual del tablero Kanban.
 
-Interpretación Sprint Burndown Chart
-=====================================
+Interpretación del Sprint Burndown Chart
+-----------------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Individual                          |
-+--------------+-------------------------------------+
-| Puntos       | 40                                  |
 +--------------+-------------------------------------+
 | Actividades  | Desarrollo y Seguimiento del Sprint |
 +--------------+-------------------------------------+
 
 La calificación de esta actividad vendrá determinada por la capacidad del alumno de saber interpretar adecuadamente un *Sprint Burndown Chart* como herramienta de monitorización del estado de desarrollo del proyecto. El alumno deberá demostrar que sabe utilizar las facilidades que *ScrumDesk* proporciona para la generación de *Sprint Burndown Charts*, así como que es capaz de interpretar adecuadamente la evolución de las gráficas y sus valores.
 
-Cumplimiento de Definición de Completado
-=========================================
+Cumplimiento de la Definición de Completado
+--------------------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 60                                  |
 +--------------+-------------------------------------+
 | Actividades  | Product Review                      |
 +--------------+-------------------------------------+
@@ -376,12 +369,10 @@ Si un elemento incluido en el *Sprint Backlog* hubiese sido completamente ignora
 El incumplimiento de la definición de completado de, por al menos, un elemento del *Sprint Backlog* supondrá una calificación de menos de la mitad de los puntos otorgados a este ítem.
 
 Gestión de la Configuración
-============================
+----------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 60                                  |
 +--------------+-------------------------------------+
 | Actividades  | Desarrollo y Seguimiento del Sprint |
 +--------------+-------------------------------------+
@@ -391,25 +382,21 @@ Para evaluar este ítem, se verificará que el grupo no haya violado ninguna de 
 *Norma de fácil cumplimiento* es por ejemplo que un determinado archivo tenga que tener un nombre específico. El incumplimiento de una norma de este estilo impedirá al grupo obtener más de un tercio de los puntos asignados a este ítem, mientras que la violación de dos normas de este tipo supondrá la obtención de cero puntos en este ítem.
 
 Satisfacción del Product Owner
-===============================
+-------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 90                                  |
 +--------------+-------------------------------------+
 | Actividades  | Product Review                      |
 +--------------+-------------------------------------+
 
 En este apartado se evaluará la adecuación del producto realizado a las expectativas y deseos iniciales del *Product Owner*. Se valorará también el esfuerzo realizado por el equipo de trabajo para adecuar el producto a las preferencias del *Product Owner* en base a los comentarios recibidos en los sprints anteriores.
 
-Ejecución de la Retrospectiva
-==============================
+Análisis de la Retrospectiva
+------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 60                                  |
 +--------------+-------------------------------------+
 | Actividades  | Sprint Retrospective                |
 +--------------+-------------------------------------+
@@ -421,25 +408,21 @@ Si los resultados de dichas dinámicas de grupo no contuviesen elementos que pue
 A continuación, se evaluará que por cada elemento identificado como positivo o negativo, exista un plan de acción que permita eliminar o minimizar los aspectos negativos identificados, así como potenciar o consolidar los positivos. Se valorará además también la efectividad de cada plan de acción creado.
 
 Manual de Usuario
-==================
+------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 15                                  |
 +--------------+-------------------------------------+
 | Actividades  | Product Review                      |
 +--------------+-------------------------------------+
 
 Para calificar este ítem se verificará que cada historia de usuario implementada tenga su correspondiente entrada en el manual de usuario. Se evaluará que cada entrada se entienda con facilidad y resulte realmente de ayuda al usuario no experto en la aplicación, además de la calidad estética del manual creado.
 
-Test de Metodologías Ágiles
-============================
+Test sobre Metodologías Ágiles
+-------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Puntos       | 80                                  |
 +--------------+-------------------------------------+
 | Actividades  | Prueba Escrita                      |
 +--------------+-------------------------------------+
