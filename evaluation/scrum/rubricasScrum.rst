@@ -1,145 +1,128 @@
 Criterios de Evaluación Individualizados
 =========================================
 
+.. _Initial Product Backlog Refinement: ../../scrum/actividadesScrum.html#id2
+.. _Sprint Planning Meeting I: ../../scrum/actividadesScrum.html#sprint-planning-meeting-i
+.. _Sprint Planning Meeting II: ../../scrum/actividadesScrum.html#sprint-planning-meeting-ii
+.. _Gestión y Seguimiento del Sprint: ../../scrum/actividadesScrum.html#gestion-y-seguimiento-del-sprint
+.. _Daily Scrum Meeting: ../../scrum/actividadesScrum.html#daily-scrum-meeting
+.. _Product Backlog Refinement: ../../scrum/actividadesScrum.html#product-backlog-refinement
+.. _Product Review: ../../scrum/actividadesScrum.html#product-review
+.. _Sprint Retrospective: ../../scrum/actividadesScrum.html#sprint-retrospective
+
 Relación con el Product Owner
 -------------------------------
 
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | Initial Product Backlog Refinement |
-+              +------------------------------------+
-|              | Sprint Planning Meeting I          |
-+              +------------------------------------+
-|              | Backlog Refinement                 |
-+              +------------------------------------+
-|              | Product Review                     |
-+--------------+------------------------------------+
++--------------+---------------------------------------+
+| Calificación | Común al grupo                        |
++--------------+---------------------------------------+
+| Actividades  | `Initial Product Backlog Refinement`_ |
++              +---------------------------------------+
+|              | `Sprint Planning Meeting I`_          |
++              +---------------------------------------+
+|              | `Product Backlog Refinement`_         |
++              +---------------------------------------+
+|              | `Product Review`_                     |
++--------------+---------------------------------------+
 
-Los puntos de este ítem se otorgará en función del grado de cumplimiento de los siguientes elementos:
+Este ítem mide la capacidad de cada grupo de ejercer labores de *comercial* o de *relaciones públicas*. Se evalúa con carácter general que el grupo se preocupe por crear un entorno agradable al *Product Owner* en el cual éste se sienta cómodo y se favorezca la comunicación con el equipo. En general, el *Product Owner* debe tener la sensación de que el equipo de trabajo es profesional, colaborativo y se preocupa por desarrollar un producto que se adecúe a sus necesidades. Además, al *Product Owner* le debe resultar fácil interactuar con el equipo de desarrollo, el cual debe ser capaz de explicar con claridad y efectividad las diferentes cuestiones técnicas que puedan surgir durante el desarrollo del proyecto.
 
-* El equipo de trabajo ha tratado al *Product Owner* con educación y respeto.
-* El equipo de trabajo ha sido puntual y el *Product Owner* no ha debido esperar al equipo de trabajo.
-* El equipo de trabajo ha atendido de buen grado, o ha procurado atender, todas las ideas y sugerencias del *Product Owner*.
-* El equipo de trabajo ha planteado alternativas, opciones y sugerencias al *Product Owner*.
-* El *Product Owner* se haya sentido cómodo dentro del equipo de trabajo.
-* El *Product Owner*  haya tenido facilidades para poder trabajar con el grupo, como acceso a algún sitio donde poder escribir y elaborar bocetos.
+De manera más concreta, los puntos de este ítem se otorgarán en función del grado de cumplimiento de los siguientes elementos:
 
-El objetivo de este elemento es que el *Product Owner* tenga la sensación de que el equipo de trabajo es productivo, profesional, colaborativo, se preocupa por desarrollar un producto que se adecue a sus necesidades y es fácil interactuar con ellos.
+  #. El equipo de trabajo ha tratado al *Product Owner* con educación y respeto.
+  #. El equipo de trabajo ha sido puntual y el *Product Owner* no ha tenido que esperar al equipo de trabajo.
+  #. El *Product Owner* ha tenido facilidades para poder trabajar con el  *Scrum Team*, como acceso adecuado a algún material donde poder escribir y elaborar bocetos.
+  #. El *Product Owner* se ha sentido cómodo y adecuadamente atendido durante la realización de las diferentes actividades donde se precisa su participación.
+  #. El equipo de trabajo ha atendido de buen grado, o ha procurado atender, todas las ideas y sugerencias del *Product Owner*.
+  #. El equipo de trabajo ha planteado al *Product Owner* alternativas y sugerencias a las diferentes propuestas que hayan surgido durante el desarrollo del proyecto.
+  #. Las intervenciones de los diferentes miembros del equipo son breves, concisas y precisas.
+  #. Todos los miembros del equipo de trabajo interactúan, en mayor o menor grado, con el *Product Owner*.
+  #. El equipo de trabajo es capaz de transmitir con claridad y precisión, sin entrar en detalles técnicos innecesarios, cuestiones relativas al funcionamiento de la aplicación, incidencias surgidas o decisiones adoptadas durante el desarrollo de la aplicación, entre otros elementos.
+  #. Los miembros del equipo de desarrollo intervienen en la actividad respetando los turnos de palabra y sin interrumpirse.
 
-La falta de respeto al *Product Owner* supondrá automáticamente una calificación de cero en este apartado, pudiendo además acarrear una penalización extra adicional.
+.. note::
+   Mientras dure la crisis sanitaria asociada a la Covid-19, se valorará porque el equipo de trabajo se esfuerce por mantener un entorno seguro desde el punto de vista sanitario que minimice el riesgo de contagio del *Product Owner*.
+
+.. danger::
+   La falta de respeto al *Product Owner* supondrá automáticamente una calificación de cero en este apartado, pudiendo además acarrear una penalización extra adicional.
+
+.. note::
+   Recordad que el *Product Owner* no tiene por qué tener conocimientos técnicos de las tecnologías que estáis usando para desarrollar el producto. Por tanto, es mejor evitar nombres técnicos que podría desconocer, como *toast* o *spinner*.
+
 
 Capacidad de Planificación
 ---------------------------
 
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | Initial Product Backlog Refinement |
-+              +------------------------------------+
-|              | Sprint Planning Meeting I          |
-+              +------------------------------------+
-|              | Daily Scrum Meeting                |
-+              +------------------------------------+
-|              | Product Backlog Refinement         |
-+              +------------------------------------+
-|              | Product Review                     |
-+--------------+------------------------------------+
++--------------+---------------------------------------+
+| Calificación | Común al grupo                        |
++--------------+---------------------------------------+
+| Actividades  | `Initial Product Backlog Refinement`_ |
++              +---------------------------------------+
+|              | `Sprint Planning Meeting I`_          |
++              +---------------------------------------+
+|              | `Product Backlog Refinement`_         |
++              +---------------------------------------+
+|              | `Product Review`_                     |
++--------------+---------------------------------------+
 
-En este apartado se evaluará que las actividades a realizar estén debidamente planificadas y lideradas. Para ello se verificarán que:
+Este ítem mide la capacidad del equipo de desarrollo para organizar de manera adecuada las actividades que impliquen la participación del *Product Owner*, de manera que esas actividades se puedan ejecutar de manera efectiva, es decir, que resulten breves y productivas. Para ello, se verificará más concretamente que:
 
-  * La actividad haya sido previamente planificada por el equipo de trabajo.
-  * Exista una planificación o agenda de la actividad.
-  * La planificación es adecuada al objetivo de la actividad.
-  * No haya sido necesario improvisar durante el desarrollo de la actividad.
-  * El *Scrum Team* haya coordinado y dirigido la actividad.
-  * La planificación haya permitido que la actividad se realice de forma efectiva y productiva.
-  * Los participantes en la actividad intervienen respetando los turnos de palabra y sin interrumpirse.
-  * El moderador o coordinador de la actividad haya velado porque las intervenciones de los diferentes miembros del equipo sean breves, concisas y precisas.
-  * En el caso de que la actividad se realice con el *Product Owner*, se valorará que *Product Owner* no haya estado ocioso o desocupado durante el desarrollo de la actividad.
+  #. Cada actividad ejecutada que precise la participación del *Product Owner* haya sido previamente planificada por el equipo de trabajo.
+  #. La planificación realizada sea adecuada para el objetivo de la actividad.
+  #. La planificación de la actividad sólo incluye actividades que sean pertinentes para esa actividad.
+  #. La agenda de la actividad se haya dado a conocer al *Product Owner*.
+  #. No haya sido necesario improvisar durante el desarrollo de la actividad como consecuencia de una mala planificación.
+  #. El *Scrum Team* sea quien haya coordinado y dirigido la actividad desde el inicio, evitando así que el *Product Owner* se haya visto forzado a asumir esta responsabilidad.
+  #. El *Product Owner* no haya estado ocioso o desocupado durante el desarrollo de la actividad.
+  #. La planificación haya permitido ejecutar la actividad de manera breve y productiva.
+  #. El coordinador de la actividad haya velado porque las intervenciones de los diferentes miembros del equipo sean breves.
 
-El incumplimiento del primer punto supondrá automáticamente una calificación de cero puntos en este apartado; mientras que el incumplimiento del cuarto punto impedirá obtener más de la mitad de los puntos asignados a este elemento.
-
-Capacidad de Comunicación
---------------------------
-
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | Initial Product Backlog Refinement |
-+              +------------------------------------+
-|              | Sprint Planning Meeting I          |
-+              +------------------------------------+
-|              | Product Backlog Refinement         |
-+              +------------------------------------+
-|              | Product Review                     |
-+--------------+------------------------------------+
-
-En este apartado se evaluará si el equipo es capaz de explicar al *Product Owner* con claridad y efectividad diferentes cuestiones técnicas que puedan surgir durante la interacción entre el *Product Owner* y el *Scrum Team*. Ejemplos de tales cuestiones técnicas podrían ser:
-
-  * Elementos relacionados como el funcionamiento de la aplicación.
-  * Incidencias surgidas durante el desarrollo de la aplicación.
-  * Decisiones tomadas durante el desarrollo del sprint y su justificación.
-  * Elementos relacionadas con la metodología Scrum.
-  * Soluciones alternativas planteadas durante la negociación de las historias de usuario.
-
-Además, se valorará que las intervenciones de los diferentes miembros del equipo sean breves, concisas y precisas.
+El incumplimiento del primer punto supondrá automáticamente una calificación de cero puntos en este apartado. El incumplimiento de los puntos tercero, cuarto, quinto, sexto y séptimo impedirá obtener más de la mitad de los puntos asignados a este elemento. En concreto, se penalizará especialmente el incumplimiento del tercer punto.
 
 Ortografía, Gramática y Maquetación
 ------------------------------------
 
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | Initial Product Backlog Refinement |
-+              +------------------------------------+
-|              | Sprint Planning Meeting I          |
-+              +------------------------------------+
-|              | Product Backlog Refinement         |
-+              +------------------------------------+
-|              | Product Review                     |
-+              +------------------------------------+
-|              | Ejecución de la Retrospectiva      |
-+--------------+------------------------------------+
++--------------+---------------------------------------+
+| Calificación | Común al grupo                        |
++--------------+---------------------------------------+
+| Actividades  | `Initial Product Backlog Refinement`_ |
++              +---------------------------------------+
+|              | `Sprint Planning Meeting I`_          |
++              +---------------------------------------+
+|              | `Product Backlog Refinement`_         |
++              +---------------------------------------+
+|              | `Product Review`_                     |
++              +---------------------------------------+
+|              | `Sprint Retrospective`_               |
++--------------+---------------------------------------+
 
 Para la evaluación de este elementos se comprobará que los diferentes artefactos entregados, como por ejemplo, las *especificaciones de historias de usuario*, estén libres de errores ortográficos, gramaticales, tipográficos o de formato. Por errores de formato se entienden cuestiones como párrafos con distinto tipo de letra o márgenes diferentes.
 
-Para poder obtener al menos la mitad de los puntos de este elemento, no deben existir más de 3 errores ortográficos, gramaticales, tipográficos o de formato en los artefactos entregados.
-
-Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
+Con carácter general, se restarán 10 puntos por cada error ortográfico, gramatical o tipográfico encontrado. Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
 
 Completitud del Product Backlog
 --------------------------------
 
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | Initial Product Backlog Refinement |
-+              +------------------------------------+
-|              | Sprint Planning Meeting I          |
-+              +------------------------------------+
-|              | Product Backlog Refinement         |
-+              +------------------------------------+
-|              | Product Review                     |
-+--------------+------------------------------------+
++--------------+---------------------------------------+
+| Calificación | Común al grupo                        |
++--------------+---------------------------------------+
+| Actividades  | `Sprint Planning Meeting I`_          |
++              +---------------------------------------+
+|              | `Product Backlog Refinement`_         |
++              +---------------------------------------+
+|              | `Product Review`_                     |
++--------------+---------------------------------------+
 
-Tras realizar cualquier actividad que implique la modificación del *Product Backlog*, se comprobará que el *Product Owner* no eche en falta ningún elemento dentro del mismo, así como que los elementos incluidos sean conformes a la descripción proporcionada por el *Product Owner*. Para realizar esta tarea se verificarán los siguientes puntos en concreto:
+Tras realizar cualquier actividad que implique la modificación del *Product Backlog*, se comprobará que el *Product Owner* no eche en falta ningún elemento dentro del mismo, así como que los elementos incluidos sean conformes a la indicado por el *Product Owner*. Para ello, más concretamente, verificará que:
 
-  * El *Product Owner* no echa en falta ninguna historia de usuario de las comentadas con el equipo dentro del *Product Backlog*.
-  * El *Product Owner* considera adecuado el *valor de negocio* asignado de cada historia de usuario.
-  * La descripción de cada historia de usuario es conforme a lo pactado con el *Product Owner*.
-  * El *Product Owner* no echa en falta ningún criterio de confirmación para las historias de usuario que han sido negociadas.
-  * El criterio de confirmación de cada historia de usuario negociada incluye tanto un criterio de confirmación para el escenario de éxito como para escenarios alternativos y escenarios excepcionales habituales.
+  * El *Product Owner* no echa en falta dentro del *Product Backlog* ninguna *historia de usuario* o *ticket de cambio* que éste haya solicitado incluir.
+  * El *Product Backlog* no contiene ninguna *historia de usuario* o *ticket de cambio* que el *Product Owner* haya solicitado incluir.
+  * El *Product Owner* considera adecuado el *valor de negocio* asignado de cada *historia de usuario* o *ticket de cambio*.
+  * La descripción de cada *historia de usuario* o *ticket de cambio* es conforme a lo especificado por el *Product Owner*.
+  * El *Product Owner* no echa en falta ningún criterio de confirmación para los elementos del *Product Backlog* que hayan sido negociados para su inclusión en un determinado *sprint*.
+  * No exista ningún elemento dentro de la descripción de los elementos del *Product Backlog* que sea decisión propia del equipo de trabajo y no hayan sido consensuados con el *Product Owner*.
 
-  Se deberán crear al menos escenarios excepcionales para los siguientes supuestos:
-
-      * entradas no válidas;
-      * pérdidas de conexión de red;
-      * bases de datos no operativas.
-
-Además, qué se entiende por entrada inválida debe estar perfectamente detallado, ya sea en la propia historia de usuario o en un documento adjunto.
-
-Por cada violación de la lista de comprobación anterior se disminuirán los puntos otogardos a cada equipos. Además, si seel *Product Owner* echase en falta dentro del *Product Backlog* es esencial para el desarrollo del producto, no se podrán obtener más de la mitad de los puntos asignados a este elemento. Historias de usuario consideradas como básicas serían, por ejemplo, en el caso del desarrollo de una aplicación como *Spotify*, elementos como *Reproducir Música* o *Buscar Artista*.
+Por cada violación de la lista de comprobación anterior se disminuirán en 10 los puntos otorgados a cada equipo. Además, si el *Product Owner* considerase que la violación se produce sobre un elemento esencial para el desarrollo del producto, y de cuya esencialidad se ha advertido explícitamente al grupo, no se podrán obtener más de la mitad de los puntos asignados a este apartado.
 
 Negociación de las Historias de Usuario
 -----------------------------------------
@@ -147,22 +130,17 @@ Negociación de las Historias de Usuario
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting I          |
+| Actividades  | `Sprint Planning Meeting I`_       |
 +--------------+------------------------------------+
 
-En este ítem se evaluará que las historias de usuario hayan sido especificadas y escritas en colaboración  con el *Product Owner*.
+En este ítem se evaluará que las *historias de usuario* y los *tickets de cambio* a desarrollar en un *sprint* hayan sido adecuadamente especificados antes del inicio de cada *sprint* con la colaboración del *Product Owner*. Para ello, más concretamente, se verificará que:
 
-En concreto, se verificará que:
-
-  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de dicha historia de usuario.
-  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* los criterios de confirmación de cada historia de usuario.
-  #. El *Scrum Team* equipo de trabajo haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que al *Product Owner* pudiese inicialmente haber obviado.
-  #. No exista ningún elemento dentro de la descripción de la historia de usuario que sean decisión propia del equipo de trabajo y no hayan sido consultados con el *Product Owner*.
-  #. El *Product Owner* esté conforme con los diferentes elementos anotados en la historia de usuario.
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de cada elemento del *Product Backlog* seleccionado para ser desarrollado dentro de un *sprint* determinado.
+  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* el comportamiento de los criterios de confirmación de cada elemento del *Product Backlog* seleccionado para ser desarrollado dentro de un *sprint* determinado.
+  #. El *Scrum Team* haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que el *Product Owner* pudiese inicialmente haber obviado.
+  #. El *Product Owner* ha tenido fácil acceso a medios y materiales adecuados para describir el comportamiento de los diferentes elementos del *Product Backlog* seleccionados para ser desarrollados dentro del *sprint*.
 
 El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
-
-En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
 
 Especificación de las Historias de Usuario
 --------------------------------------------
@@ -170,9 +148,7 @@ Especificación de las Historias de Usuario
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Initial Product Backlog Refinement |
-+              +------------------------------------+
-|              | Sprint Planning Meeting I          |
+| Actividades  | Sprint Planning Meeting I          |
 +              +------------------------------------+
 |              | Product Backlog Refinement         |
 +--------------+------------------------------------+
@@ -217,6 +193,20 @@ Completitud de los Test de Aceptación
 +--------------+------------------------------------+
 | Actividades  | Sprint Planning Meeting I          |
 +--------------+------------------------------------+
+
+En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
+
+
+* El criterio de confirmación de cada  negociada incluye tanto un caso de prueba para el escenario de éxito como para escenarios alternativos y escenarios excepcionales habituales.
+
+Se deberán crear al menos escenarios excepcionales para los siguientes supuestos:
+
+    * entradas no válidas;
+    * pérdidas de conexión de red;
+    * bases de datos no operativas.
+
+Además, qué se entiende por entrada inválida debe estar perfectamente detallado, ya sea en la propia historia de usuario o en un documento adjunto.
+
 
 Especificación de los Tickets de Cambio
 ----------------------------------------

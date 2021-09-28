@@ -35,7 +35,7 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+------------------------------------------------+------------+
 | 03 | `Completitud del Product Backlog`_             |         40 |
 +----+------------------------------------------------+------------+
-| 04 | `Negociación de las Historias de Usuario`_     |         40 |
+| 04 | `Negociación de las Historias de Usuario`_     |         20 |
 +----+------------------------------------------------+------------+
 | 05 | `Especificación de las Historias de Usuario`_  |         20 |
 +----+------------------------------------------------+------------+
