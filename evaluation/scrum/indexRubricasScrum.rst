@@ -19,7 +19,7 @@ Para verificar que cada alumno ha estado participando activamente dentro su corr
 
 Destacar también que se velará porque cada miembro del equipo mantenga una actitud de colaboración y respeto con el resto de sus compañeros. **La falta de respeto por parte de un miembro del equipo, durante el desarrollo de una actividad supondrá automáticamente una calificación de cero puntos en todos los elementos evaluables asociados a dicha actividad.**
 
-En el siguiente apartado se listan todos los *elementos evaluables* que se considerarán durante el desarrollo del proyecto integrado en lo concerniente a la asignatura de *Métodos de Desarrollo*, así como su valor en puntos. La suma de los puntos correspondientes a todas las actividades evaluables es de 960. La calificación final del alumno se obtendrá dividiendo los puntos obtenidos por el alumno por 90. Es decir, si un alumno obtiene una calificación final de 900 puntos, su calificación en el proyecto integrado será de 10. Cada *elemento evaluable* está enlazado con una descripción individual del mismo donde se detalla su criterio de evaluación concreto, si su calificación es individual o de grupo y las actividades del proyecto donde se llevará a cabo su evaluación.
+En el siguiente apartado se listan todos los *elementos evaluables* que se considerarán durante el desarrollo del proyecto integrado en lo concerniente a la asignatura de *Métodos de Desarrollo*, así como su valor en puntos. La suma de los puntos correspondientes a todas las actividades evaluables es de 970. La calificación final del alumno se obtendrá dividiendo los puntos obtenidos por el alumno por 90. Es decir, si un alumno obtiene una calificación final de 900 puntos, su calificación en el proyecto integrado será de 10. Cada *elemento evaluable* está enlazado con una descripción individual del mismo donde se detalla su criterio de evaluación concreto, si su calificación es individual o de grupo y las actividades del proyecto donde se llevará a cabo su evaluación.
 
 Elementos Evaluables de Métodos de Desarrollo
 ===============================================
@@ -59,11 +59,13 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+------------------------------------------------+------------+
 | 15 | `Satisfacción del Product Owner`_              |         90 |
 +----+------------------------------------------------+------------+
-| 16 | `Análisis de la Retrospectiva`_                |         60 |
+| 16 | `Ejecución de la Retrospectiva`_               |         30 |
 +----+------------------------------------------------+------------+
-| 17 | `Manual de Usuario`_                           |         20 |
+| 17 | `Resultados de la Retrospectiva`_              |         40 |
 +----+------------------------------------------------+------------+
-| 18 | `Test sobre Metodologías Ágiles`_              |         60 |
+| 18 | `Manual de Usuario`_                           |         20 |
++----+------------------------------------------------+------------+
+| 19 | `Test sobre Metodologías Ágiles`_              |         60 |
 +----+------------------------------------------------+------------+
 
 .. include:: rubricasScrum.rst
