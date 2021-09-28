@@ -115,32 +115,14 @@ Completitud del Product Backlog
 
 Tras realizar cualquier actividad que implique la modificación del *Product Backlog*, se comprobará que el *Product Owner* no eche en falta ningún elemento dentro del mismo, así como que los elementos incluidos sean conformes a la indicado por el *Product Owner*. Para ello, más concretamente, verificará que:
 
-  * El *Product Owner* no echa en falta dentro del *Product Backlog* ninguna *historia de usuario* o *ticket de cambio* que éste haya solicitado incluir.
-  * El *Product Backlog* no contiene ninguna *historia de usuario* o *ticket de cambio* que el *Product Owner* haya solicitado incluir.
-  * El *Product Owner* considera adecuado el *valor de negocio* asignado de cada *historia de usuario* o *ticket de cambio*.
-  * La descripción de cada *historia de usuario* o *ticket de cambio* es conforme a lo especificado por el *Product Owner*.
-  * El *Product Owner* no echa en falta ningún criterio de confirmación para los elementos del *Product Backlog* que hayan sido negociados para su inclusión en un determinado *sprint*.
-  * No exista ningún elemento dentro de la descripción de los elementos del *Product Backlog* que sea decisión propia del equipo de trabajo y no hayan sido consensuados con el *Product Owner*.
+  #. El *Product Owner* no echa en falta dentro del *Product Backlog* ninguna *historia de usuario* o *ticket de cambio* que éste haya solicitado incluir.
+  #. El *Product Backlog* no contiene ninguna *historia de usuario* o *ticket de cambio* que el *Product Owner* haya solicitado incluir.
+  #. El *Product Owner* considera adecuado el *valor de negocio* asignado de cada *historia de usuario* o *ticket de cambio*.
+  #. La descripción de cada *historia de usuario* o *ticket de cambio* es conforme a lo especificado por el *Product Owner*.
+  #. El *Product Owner* no echa en falta ningún criterio de confirmación para los elementos del *Product Backlog* que hayan sido negociados para su inclusión en un determinado *sprint*.
+  #. No exista ningún elemento dentro de la descripción de los elementos del *Product Backlog* que sea decisión propia del equipo de trabajo y no hayan sido consensuados con el *Product Owner*.
 
 Por cada violación de la lista de comprobación anterior se disminuirán en 10 los puntos otorgados a cada equipo. Además, si el *Product Owner* considerase que la violación se produce sobre un elemento esencial para el desarrollo del producto, y de cuya esencialidad se ha advertido explícitamente al grupo, no se podrán obtener más de la mitad de los puntos asignados a este apartado.
-
-Negociación de las Historias de Usuario
------------------------------------------
-
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | `Sprint Planning Meeting I`_       |
-+--------------+------------------------------------+
-
-En este ítem se evaluará que las *historias de usuario* y los *tickets de cambio* a desarrollar en un *sprint* hayan sido adecuadamente especificados antes del inicio de cada *sprint* con la colaboración del *Product Owner*. Para ello, más concretamente, se verificará que:
-
-  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* cómo ha de ser el funcionamiento concreto de cada elemento del *Product Backlog* seleccionado para ser desarrollado dentro de un *sprint* determinado.
-  #. El *Scrum Team* haya debatido de manera detallada con el *Product Owner* el comportamiento de los criterios de confirmación de cada elemento del *Product Backlog* seleccionado para ser desarrollado dentro de un *sprint* determinado.
-  #. El *Scrum Team* haya sugerido al *Product Owner* criterios de confirmación para casos tanto alternativos como excepcionales que el *Product Owner* pudiese inicialmente haber obviado.
-  #. El *Product Owner* ha tenido fácil acceso a medios y materiales adecuados para describir el comportamiento de los diferentes elementos del *Product Backlog* seleccionados para ser desarrollados dentro del *sprint*.
-
-El incumplimiento de cualquiera de los puntos anteriores supondrá la obtención de menos de la mitad de los puntos asignados a este elemento evaluable.
 
 Especificación de las Historias de Usuario
 --------------------------------------------
@@ -148,42 +130,42 @@ Especificación de las Historias de Usuario
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting I          |
+| Actividades  | `Sprint Planning Meeting I`_       |
 +              +------------------------------------+
-|              | Product Backlog Refinement         |
+|              | `Product Backlog Refinement`_      |
 +--------------+------------------------------------+
 
-En este apartado se evaluará que las historias de usuario creadas dentro del *Product Backlog* estén especificadas de manera correcta, tanto a nivel sintáctico como semánticos.
-A nivel sintáctico se verificará que cada historia de usuario contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A nivel semántico se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
+En este apartado se evaluará que las historias de usuario existentes dentro del *Product Backlog* estén especificadas de manera correcta. Para no tener que evaluar el *Product Backlog* completo, que sería una tarea excesiva, se utilizarán para esta evaluación las *historias de usuario* seleccionadas para ser desarrolladas en un *sprint* durante los `Sprint Planning Meeting I`_ y las *historias de usuario* que se incorporen como nuevas al *Product Backlog* como resultado de un `Product Backlog Refinement`_.
 
-Para la verificación de los **aspectos sintácticos** se comprobará que:
+La corrección de las *historias de usuario* se verificará tanto a nivel sintáctico como a nivel semántico. A *nivel sintáctico* se verificará que cada historia de usuario contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A *nivel semántico* se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
 
-  * Cada historia de usuario tiene un nombre.
-  * El nombre de cada historia de usuario comienza por un verbo o contiene un verbo.
-  * Cada historia de usuario tiene asignada una descripción.
-  * La descripción de cada historia de usuario sigue el formato Yo, como <rol>, quiero <requisito> de manera que <objetivo>.
-  * Cada historia de usuario tiene asignado su valor de negocio.
-  * Cada historia de usuario tiene estimado su esfuerzo en puntos.
-  * Si la historia de usuario ha sido incluida en un sprints, ésta tiene definidos uno o más test de aceptación.
-  * Los criterios de confirmación están estructurados de manera que se facilite su lectura.
+Para la verificación de los aspectos sintácticos se comprobará que:
 
-Para la verificación de los **aspectos semánticos** se comprobará que:
+  #. Cada historia de usuario tiene un nombre.
+  #. El nombre de cada historia de usuario comienza por un verbo.
+  #. Cada historia de usuario tiene asignada una descripción.
+  #. La descripción de cada historia de usuario sigue el formato Yo, como <rol>, quiero <requisito> de manera que <objetivo>.
+  #. Cada historia de usuario tiene asignado su *bussines value*.
+  #. Cada historia de usuario tiene estimado su esfuerzo en puntos.
 
-  * Cada historia de usuario es realizable dentro de un sprint, es decir, no es *épica*.
-  * Cada historia de usuario no contiene dependencias innecesarias con otras historias de usuario.
-  * Cada historia de usuario es realizable dentro de un sprint.
-  * Cada historia de usuario no se puede descomponer con facilidad en historias de usuario de menor tamaño.
-  * El nombre de cada historia de usuario es coherente con su descripción.
-  * Los puntos de esfuerzo asociados a cada historia de usuario son coherentes con la escala establecida y con los valores asignados a otras historias de usuario.
-  * La descripción de cada historia de usuario es breve y concisa.
-  * La descripción de cada historia de usuario no es compleja de entender.
-  * El rol de cada historia de usuario está correctamente identificado.
-  * El objetivo de la descripción de cada historia de usuario no es una simple consecuencia de su acción.
-  * El objetivo de la descripción representa con claridad qué espera obtener el usuario al ejecutar dicha acción.
+Para la verificación de los *aspectos semánticos* se comprobará que:
 
-Para poder obtener al menos la mitad de los puntos de este elemento, no debe existir ningún error de tipo sintáctico en las historias de usuario creadas, y no más de un error semántico por cada historia de usuario.
+  #. El nombre de cada historia de usuario es coherente con su descripción.
+  #. El nombre de cada historia de usuario describe adecuadamente su comportamiento.
+  #. Cada historia de usuario describe una funcionalidad atómica de la aplicación, es decir, no se puede descomponer con facilidad en historias de usuario de menor tamaño.
+  #. Cada historia de usuario no contiene dependencias innecesarias con otras historias de usuario.
+  #. Los puntos de esfuerzo asociados a cada historia de usuario son coherentes con la escala establecida y con los valores asignados a otras historias de usuario.
+  #. La descripción de cada historia de usuario es breve y concisa.
+  #. La descripción de cada historia de usuario no es compleja de entender.
+  #. El rol de cada historia de usuario está correctamente identificado.
+  #. El objetivo de la descripción de cada historia de usuario no es una simple consecuencia de su acción.
+  #. El objetivo de la descripción representa con claridad qué espera obtener el usuario al ejecutar dicha acción.
+  #. Los *mock-ups*, bocetos o diagramas de cualquier clase generados durante la negociación de una historia de usuario con el *Product Owner*  se hayan añadido como elementos adjunto a la tarjeta de la correspondiente historia de usuario.
 
-Además, se valorará positivamente que cada historia de usuario tenga asignado su valor para el `modelo de Kano <https://www.scrumdesk.com/how-to-kano-model-helps-in-agile-product-backlog-prioritization/>`_.
+Para poder obtener al menos la mitad de los puntos de este elemento, no debe existir ningún error de tipo sintáctico en las historias de usuario evaluadas y menos de un error semántico por cada historia de usuario.
+
+.. note::
+   Se valorará positivamente que cada historia de usuario tenga asignado su valor para el `modelo de Kano <https://www.scrumdesk.com/how-to-kano-model-helps-in-agile-product-backlog-prioritization/>`_.
 
 Completitud de los Test de Aceptación
 --------------------------------------
@@ -191,22 +173,23 @@ Completitud de los Test de Aceptación
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting I          |
+| Actividades  | `Sprint Planning Meeting I`_       |
 +--------------+------------------------------------+
 
-En el caso de que durante la fase de negociación con el *Product Owner* se genere algún tipo de *mock-up*, boceto o diagrama de cualquier otra clase, se valorará que dicho artefacto se haya añadido como fichero adjunto a la tarjeta del correspondiente elemento del backlog.
+En este apartado se valorará la completitud de los criterios de confirmación especificados durante la negociación de las historias de usuario dentro de la actividad de `Sprint Planning Meeting I`_. Más concretamente, se verificará que:
 
+  #. Exista un criterio de confirmación para el caso de éxito consensuado con el *Product Owner*.
+  #. Existan criterios de confirmación consensuados con el *Product Owner* para tratar las posible entradas de datos no válidos.
+  #. Existan criterios de confirmación consensuados con el *Product Owner* para tratar posibles pérdidas de conexión a red.
+  #. Existan criterios de confirmación consensuados con el *Product Owner* para tratar posibles errores en el acceso servicio de datos.
+  #. Existan criterios de confirmación consensuados con el *Product Owner* para tratar posibles errores en el acceso a los sistemas de persistencia de datos.
+  #. Existan criterios de confirmación consensuados con el *Product Owner* para tratar resultados de operaciones que puedan considerarse anómalos, como filtrados de elementos que retornen listas vacías.
+  #. Existan criterios de confirmación consensuados con el *Product Owner* para tratar situaciones que puedan considerarse anómalas, como la ausencia de fecha en ciertos elementos de una colección a la hora de ordenar dicha colección por fecha.
 
-* El criterio de confirmación de cada  negociada incluye tanto un caso de prueba para el escenario de éxito como para escenarios alternativos y escenarios excepcionales habituales.
+Para poder obtener al menos la mitad de los puntos de este apartado, no se deberá violar ninguno de los cinco primeros puntos. Se considera importante aclarar que cualquier criterio de confirmación no consensuado con el *Product Owner* se considerará como no especificado. Es decir, es lo mismo que si no estuviese.
 
-Se deberán crear al menos escenarios excepcionales para los siguientes supuestos:
-
-    * entradas no válidas;
-    * pérdidas de conexión de red;
-    * bases de datos no operativas.
-
-Además, qué se entiende por entrada inválida debe estar perfectamente detallado, ya sea en la propia historia de usuario o en un documento adjunto.
-
+.. note::
+   Qué se considera exactamente una entrada inválida debe estar especificado en algún sitio dentro de la tarjeta de la *historia de usuario*. Puede estar  bien dentro del propio criterio de confirmación o bien como una nota adjunta.
 
 Especificación de los Tickets de Cambio
 ----------------------------------------
@@ -214,8 +197,31 @@ Especificación de los Tickets de Cambio
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting I          |
+| Actividades  | `Product Review`_                  |
 +--------------+------------------------------------+
+
+En este apartado se evaluará que los *tickets de cambio* que se incorporen al *Product Backlog* tras una `Product Review`_  estén correctamente especificados. La corrección de las *tickets de cambio* se verificará tanto a nivel sintáctico como a nivel semántico. A *nivel sintáctico* se verificará que cada *ticket de cambio* contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A *nivel semántico* se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
+
+Para la verificación de los aspectos sintácticos se comprobará que:
+
+  #. Cada ticket de cambio tiene un nombre.
+  #. Cada ticket de cambio tiene asignada una descripción.
+  #. La descripción de cada ticket de cambio describe en sus primeros párrafos el problema concreto a resolver.
+  #. La descripción de cada ticket de cambio describe tras el problema a resolver la solución a adoptar, en un párrafo o párrafos separados.
+  #. Cada ticket de cambio tiene asignado su *bussines value*.
+  #. Cada ticket de cambio tiene estimado su esfuerzo en puntos.
+
+Para la verificación de los *aspectos semánticos* se comprobará que:
+
+  #. El nombre de cada ticket de cambio es coherente con su descripción.
+  #. El nombre de cada ticket de cambio describe adecuadamente su contenido.
+  #. El nombre de cada ticket de cambio es breve.
+  #. Cada ticket de cambio describe una modificación atómica que no se puede descomponer con facilidad en tickets de menor tamaño.
+  #. Los puntos de esfuerzo asociados a cada ticket de cambio son coherentes con la escala establecida y con los valores asignados a otras elementos del *Product Backlog*.
+  #. La descripción de cada ticket de cambio es breve, concisa y precisa.
+  #. La descripción de cada ticket de cambio no es compleja de entender.
+
+Para poder obtener al menos la mitad de los puntos de este elemento, no debe existir ningún error de tipo sintáctico en los *tickets de cambio* evaluados y menos de un error semántico por cada *ticket de cambio*.
 
 Creación del Sprint Backlog
 ----------------------------

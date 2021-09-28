@@ -35,37 +35,35 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+------------------------------------------------+------------+
 | 03 | `Completitud del Product Backlog`_             |         40 |
 +----+------------------------------------------------+------------+
-| 04 | `Negociación de las Historias de Usuario`_     |         20 |
+| 04 | `Especificación de las Historias de Usuario`_  |         20 |
 +----+------------------------------------------------+------------+
-| 05 | `Especificación de las Historias de Usuario`_  |         20 |
+| 05 | `Completitud de los Test de Aceptación`_       |         20 |
 +----+------------------------------------------------+------------+
-| 06 | `Completitud de los Test de Aceptación`_       |         20 |
+| 06 | `Especificación de los Tickets de Cambio`_     |         20 |
 +----+------------------------------------------------+------------+
-| 07 | `Especificación de los Tickets de Cambio`_     |         20 |
+| 07 | `Creación del Sprint Backlog`_                 |         20 |
 +----+------------------------------------------------+------------+
-| 08 | `Creación del Sprint Backlog`_                 |         20 |
+| 08 | `Planificación de Tareas`_                     |         40 |
 +----+------------------------------------------------+------------+
-| 09 | `Planificación de Tareas`_                     |         40 |
+| 09 | `Ejecución del Planning Poker`_                |         60 |
 +----+------------------------------------------------+------------+
-| 10 | `Ejecución del Planning Poker`_                |         60 |
+| 10 | `Ejecución de los Daily Scrum Meeting`_        |         60 |
 +----+------------------------------------------------+------------+
-| 11 | `Ejecución de los Daily Scrum Meeting`_        |         60 |
+| 11 | `Gestión de las Tareas y del Tablero Kanban`_  |         40 |
 +----+------------------------------------------------+------------+
-| 12 | `Gestión de las Tareas y del Tablero Kanban`_  |         40 |
+| 12 | `Interpretación del Sprint Burndown Chart`_    |         40 |
 +----+------------------------------------------------+------------+
-| 13 | `Interpretación del Sprint Burndown Chart`_    |         40 |
+| 13 | `Cumplimiento de la Definición de Completado`_ |         60 |
 +----+------------------------------------------------+------------+
-| 14 | `Cumplimiento de la Definición de Completado`_ |         60 |
+| 14 | `Gestión de la Configuración`_                 |         60 |
 +----+------------------------------------------------+------------+
-| 15 | `Gestión de la Configuración`_                 |         60 |
+| 15 | `Satisfacción del Product Owner`_              |         90 |
 +----+------------------------------------------------+------------+
-| 16 | `Satisfacción del Product Owner`_              |         90 |
+| 16 | `Análisis de la Retrospectiva`_                |         60 |
 +----+------------------------------------------------+------------+
-| 17 | `Análisis de la Retrospectiva`_                |         60 |
+| 17 | `Manual de Usuario`_                           |         20 |
 +----+------------------------------------------------+------------+
-| 18 | `Manual de Usuario`_                           |         20 |
-+----+------------------------------------------------+------------+
-| 19 | `Test sobre Metodologías Ágiles`_              |         60 |
+| 18 | `Test sobre Metodologías Ágiles`_              |         60 |
 +----+------------------------------------------------+------------+
 
 .. include:: rubricasScrum.rst
