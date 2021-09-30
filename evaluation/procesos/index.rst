@@ -5,7 +5,7 @@
 Procedimiento de Evaluación
 ===========================
 
-La calificación del proyecto integrado en cuando a la asignatura de Procesos de Ingeniería Software se refiere, se calcula del siguiente modo: 
+La calificación del proyecto integrado en cuanto a la asignatura de Procesos de Ingeniería Software se refiere, se calcula del siguiente modo: 
 
 * Un 30% corresponde al trabajo del grupo en su conjunto. En este apartado se valoran cuatro aspectos: 
 
