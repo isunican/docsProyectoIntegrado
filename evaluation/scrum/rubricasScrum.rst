@@ -9,6 +9,10 @@ Criterios de Evaluación Individualizados
 .. _Product Backlog Refinement: ../../scrum/actividadesScrum.html#product-backlog-refinement
 .. _Product Review: ../../scrum/actividadesScrum.html#product-review
 .. _Sprint Retrospective: ../../scrum/actividadesScrum.html#sprint-retrospective
+.. _velocidad de equipo: ../../scrum/calculoCargaTrabajo.html#velocidad-de-equipo
+.. _definición de completado: ../../scrum/definicionCompletado.html
+.. _integración de una feature branch en develop: ../../cfgMng/politicaCfg.html#integracion-de-una-feature-branch-en-develop
+.. _normas para calcular cargas de trabajo: ../../scrum/calculoCargaTrabajo.html#como-calcular-la-carga-de-trabajo-de-un-equipo
 
 Relación con el Product Owner
 -------------------------------
@@ -125,7 +129,7 @@ Tras realizar cualquier actividad que implique la modificación del *Product Bac
 Por cada violación de la lista de comprobación anterior se disminuirán en 10 los puntos otorgados a cada equipo. Además, si el *Product Owner* considerase que la violación se produce sobre un elemento esencial para el desarrollo del producto, y de cuya esencialidad se ha advertido explícitamente al grupo, no se podrán obtener más de la mitad de los puntos asignados a este apartado.
 
 Especificación de las Historias de Usuario
---------------------------------------------
+-------------------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
@@ -144,7 +148,7 @@ Para la verificación de los aspectos sintácticos se comprobará que:
   #. Cada historia de usuario tiene un nombre.
   #. El nombre de cada historia de usuario comienza por un verbo.
   #. Cada historia de usuario tiene asignada una descripción.
-  #. La descripción de cada historia de usuario sigue el formato Yo, como <rol>, quiero <requisito> de manera que <objetivo>.
+  #. La descripción de cada historia de usuario sigue el formato *Yo, como <rol>, quiero <requisito> de manera que <objetivo>*.
   #. Cada historia de usuario tiene asignado su *bussines value*.
   #. Cada historia de usuario tiene estimado su esfuerzo en puntos.
 
@@ -229,16 +233,15 @@ Creación del Sprint Backlog
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting I          |
+| Actividades  | `Sprint Planning Meeting I`_       |
 +--------------+------------------------------------+
 
-Los puntos asociados a este ítem se otorgarán en función del grado de cumplimiento de los siguientes elementos:
+En este ítem se valorará que la selección de elementos del *Product Backlog* para ser desarrollados dentro de un *sprint* concreto se haya realizado de manera correcta. Para verificar la corrección de esta selección, se verificarán los siguientes elementos:
+  #. La selección realizada cuenta con la aprobación y conformidad del *Product Owner*.
+  #. La suma de los valores de esfuerzo de los elementos del *Product Backlog* seleccionados se ajusta de manera adecuada a la `velocidad de equipo`_.
+  #. No existe una selección alternativa de elementos del *Product Backlog* que, ajustándose a la velocidad del equipo, permita obtener un mayor *bussines value* para el producto.
 
-  * La selección de elementos realizada cuenta con la aprobación y conformidad del *Product Owner*.
-  * La suma de los elementos seleccionados se ajusta a la *velocidad del equipo*.
-  * No existe una selección de elementos alternativa que, ajustándose a la velocidad del equipo, permita obtener una suma mayor para el valor de negocio.
-
-El incumplimiento de cualquiera de los dos primeros puntos supondrá una calificación de cero puntos. En caso de que se viole el tercer punto de forma clara, el equipo obtendrá una calificación inferior a un tercio de los puntos asignados a este ítem.
+El incumplimiento de uno de los dos primeros puntos, o el incumplimiento de manera obvia del tercer punto, supondrá una calificación de cero puntos en este apartado.
 
 Planificación de Tareas
 ------------------------
@@ -246,66 +249,78 @@ Planificación de Tareas
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting II         |
+| Actividades  | `Sprint Planning Meeting II`_      |
 +--------------+------------------------------------+
 
-Para evaluar este ítem se evaluarán tres aspectos del mismo por separado:
+En este apartado se evaluará la corrección de la descomposición de tareas creada para desarrollar cada elemento del *Product Backlog* seleccionado.  Para ello, se verificarán que:
 
-  #. Corrección de la descomposición en tareas realizada.
-  #. Corrección sintáctica y semántica de las tareas creadas.
-  #. Equilibro de la carga de trabajo entre los diferentes miembros del equipo.
-  #. Productividad de la asignación de tareas.
+  #. cada descomposición de un elemento del *Product Backlog* sea correcta;
+  #. las tareas creadas en cada descomposición estén correctamente especificadas;
+  #. la carga de trabajo asignada a cada miembro del equipo de trabajo está equilibrada con respecto a sus compañeros;
+  #. la asignación de tareas permita un ritmo de trabajo constante y sostenible para cada miembro del equipo a lo largo del *sprint*.
 
-Para evaluar la *corrección de la descomposición en tareas realizada* se verificará que:
+Para evaluar la *corrección de la descomposición en tareas* realizada se verificará que:
 
-  a. Cada elemento de la *definición de completado* tiene al menos una tarea asociada.
-  b. Ninguna tarea puede ser descompuesta fácilmente en subtareas independientes.
+  1.a Cada elemento de la `definición de completado`_ tiene al menos una tarea que implica su ejecución.
+  1.b Ninguna tarea pueda ser descompuesta fácilmente en subtareas independientes.
 
-Para evaluar la *corrección sintáctica y semántica* de las tareas creadas se verificará que:
+Para evaluar la *corrección sintáctica* de las tareas creadas se verificará que:
 
-  a. Cada tarea tiene un nombre.
-  b. El nombre sea significativo.
-  c. Cada tarea tiene una estimación asociada.
-  d. Cada tarea está asignada a un miembro del equipo.
-  e. Cuando la tarea no es repetitiva y bien conocida [#f0]_, la tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma.
-  f. En el caso de las tareas con descripción, dicha descripción es correcta desde un punto de vista técnico.
+  2.a.1 Cada tarea tiene un nombre.
+  2.a.2 Cada tarea tiene especificado una estimación de su esfuerzo en horas.
+  2.a.3 Cada tarea está asignada a un miembro del equipo.
+  2.a.4 Cada tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma. Una excepción a este punto son las tareas repetivas y bien conocidas [#f0]_.
 
-Para evaluar el *equilibrio de la carga de trabajo* simplemente se verificará que la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros.
+Para evaluar la *corrección semántica* de las tareas creadas se verificará que:
 
-Por último, para evaluar la *productividad de la asignación de tareas* se verificará que dicha asignación permita a los miembros del equipo trabajar de manera concurrente sin mayores problemas. Se deberán evitar en espacil dos tipos de situaciones:
+  2.b.1 El nombre de cada tarea es significativo.
+  2.b.2 La descripción de cada tarea es correcta desde un punto de vista técnico.
+  2.b.3 La descripción de la tarea permite entender con facilidad su objetivo, los pasos a realizar y los resultados a generar.
 
-  a. Que existan miembros ociosos en determinadas fases del desarrollo del sprint. Por ejemplo, que alguien no tenga apenas tareas que realizar en la segunda semana de un sprint.
-  b. Que se generen cuellos de botella innecesarios. Es decir, que la mayor parte de los miembros del equipo estén esperando a la finalización de una determinada tarea.
+Para evaluar el *equilibrio de la carga de trabajo* se verificará que, dentro del *sprint* que se esté evaluando, la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros en proporción de lo que le corresponda en función de las `normas para calcular cargas de trabajo`_. Es decir, si hay miembros del equipo con una capacidad máxima de 36 horas de trabajo cada uno, y tareas asignadas a cada uno con un valor total en torno a las 30 horas de trabajo, lo que representaría aproximadamente un 80% de la capacidad total de trabajo de estos mimebros, entonces un miembro con 16 horas como capacidad máxima de trabajo debería tener asociadas en ese sprint tareas por valor total de aproximadamente 13 horas de trabajo, lo que representaríaº alrededor del 80% de la capacidad máxima de trabajo de esta persona.
 
-Para asignar puntos a este elemento se valorarán principalmente los tres primeros apartados, siendo la *productividad de la asignación de tareas* sólo necesaria para obtener sumas de puntos cercanas al total de los asignados a este ítem.
+Por último, para evaluar que la *asignación de tareas permita un ritmo de trabajo constante y sostenible* se verificará que miembros del equipo puedan trabajar en paralelo sin mayores problemas. Para ello, se comprobará principalmente que no existan miembros del equipo trabajo que estén ociosos en determinadas fases del desarrollo del sprint. Un *trabajador temporalmente ocioso* sería alguien no tenga apenas tareas que realizar en la segunda semana de un sprint.
 
-Además, la creación de una descomposición de tareas que no permita satisfacer la *definición de completado* supondrá la obtención de cero puntos en este apartado. Igualmente, la creación de una carga de trabajo muy desequilibrada entre los miembros de un equipo, o la existencia de errores sintácticos en la especificación de tareas, impedirá la obtención de más de un tercio de los puntos asignados a este ítem.
+En el caso de que no se satisfaga el punto 1.a, la calificación de este elemento evaluable será de cero puntos. Si el punto 1.b se viola un número de veces igual o superior al número de elementos del *Product Backlog* seleccionado, la calificación de este apartado será inferior a la mitad de los puntos que tenga asignados.
 
-.. [#f0] Un ejemplo de tarea repetitiva y bien conocida sería *integrar feature branch en master*, que es una tarea cuyo objetivo y procedimiento está ya perfectamente definido en las normas de la gestión de la configuración.
+La violación en cualquiera de los puntos 2.a.1 a 2.a.3 supondrá una supondrá una penalización de la mitad de los puntos asignados a este elemento evaluable. La violación del punto 2.a.4 supondrá una supondrá una penalización de un cuarto de los puntos asignados a este elemento evaluable.
+
+La violación de los puntos 2.b.3 sólo podrá suponer una pérdida de puntos superior a la mitad de los puntos asignados a este elemento cuando se perciba una manifiesta dejadez en la redacción de las descripciones y en la asignación de los nombres.
+
+La violación del punto 3 supondrá una penalización de aproximadamente 1/3 de los puntos asignados a este elemento evaluable. Finalmente, cada violación del punto 4 supondrá una penalización de aproximadamente 1/4 de los puntos asignados a este elemento evaluable.
+
+.. [#f0] Un ejemplo de tarea repetitiva y bien conocida sería `integración de una feature branch en develop`_. Esta tarea es una tarea cuyo objetivo y procedimiento está ya perfectamente definido en las normas de la gestión de la configuración, por lo que necesario necesario volver a describirlo en la tarjeta asociada a dicha tarea. En estos casos, bastaría con poner un enlace a las normas de gestión de la configuración.
 
 Ejecución del Planning Poker
-------------------------------
+-----------------------------
 
-+--------------+------------------------------------+
-| Calificación | Común al grupo                     |
-+--------------+------------------------------------+
-| Actividades  | Sprint Planning Meeting II         |
-|              | Product Backlog Refinement         |
-|              | Product Review                     |
-+--------------+------------------------------------+
++--------------+---------------------------------------+
+| Calificación | Común al grupo                        |
++--------------+---------------------------------------+
++ Actividades  | `Sprint Planning Meeting I`_          |
++              +---------------------------------------+
+|              | `Product Backlog Refinement`_         |
++              +---------------------------------------+
+|              | `Product Review`_                     |
++--------------+---------------------------------------+
 
-Para evaluar este ítem, se verificarán los siguientes puntos:
+En este apartado se evaluará que cada *Scrum Team* sea capaz de ejecutar un *Planning Poker* con corrección. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
 
-  #.  El equipo está en posesión el material necesario para poder ejecutar la técnica correctamente, es decir de una *baraja de planning poker*.
-  #. La actividad se desarrolla de acuerdo a las normas de la técnica de Planning Poker.
-  #. Los desacuerdos en las estimaciones se discuten brevemente entre los responsables de las estimaciones dispares.
-  #. Tanto las presentaciones de elementos como las discusiones de estimaciones dispares son breves y concisas, sin entrar en detalles irrelevantes.
+  #. Cada miembro equipo tiene una *baraja de cartas para planning poker*.
+  #. La sesión de *Planning Poker* está moderada.
+  #. Las barajas utilizadas por los diferentes miembros del *Scrum Team* son homogéneas.
+  #. El escenario utilizado para la ejecución del *Planning Poker* facilita la ejecución de la actividad.
+  #. En caso de votaciones dispares, el *Scrum Team* procede siempre a debatir las estimaciones dispares.
+  #. Los debates de las estimaciones dispares siempre incluyen al menos un representante de las opciones más dispares. Por ejemplo, en el caso de estimaciones con valor 2, 5, 5, 5 y 8, deberán intervenir, al menos, los responsables de las estimaciones con valor 2 y 8.
+  #. Se vuelva a votar de nuevo siempre que se debatan estimaciones.
+  #. Todas las intervenciones se hacen previa concesión del turno de palabra por parte del moderador, sin interrumpir a otros compañeros.
+  #. Las justificaciones de cada estimación no hacen referencia a intervenciones de otros miembros.
+  #. La moderación de la sesión es adecuada.
+  #. Todas las intervenciones de los miembros del *Scrum Team* tratarán de ser breves y precisas.
   #. Los diferentes miembros del equipo mantiene una actitud negociadora y no se enrocan en opiniones particulares.
-  #. En general, la actividad se realiza de forma eficiente y productiva.
-  #. Las estimaciones realizadas poseen valores razonables. Para definir el margen de lo razonable se tendrá en cuenta tanto que son estimaciones como que han sido realizadas por alumnos con una limitada experiencia en desarrollo sw de estas características.
 
-El incumplimiento del primer punto por parte de algún miembro del grupo supondrá automáticamente una calificación de cero puntos en este ítem para todo el equipo.
-El incumplimiento claro del punto 2 también conllevará una calificación de cero puntos en este elemento evaluable.
+El incumplimiento de los puntos 1 ó 2 supondrá una calificación de cero puntos en este apartado. Los incumplimientos de los puntos 3 ó 4 supondrán una penalización de 2/3 de los puntos asignados a este apartado. Cada violación de los puntos 5, 6 ó 7 se penalizarán con 1/3 de los puntos asignados a este apartado. Cada violación de los puntos 8 ó 9 se penalizarán con 1/4 de los puntos asignados a este apartado. Finalmente, las penalizaciones asociadas a los puntos 10, 11 y 12 no podrán suponer más de la mitad de los puntos asignados a este apartado.
+
 
 Ejecución de los Daily Scrum Meeting
 -------------------------------------

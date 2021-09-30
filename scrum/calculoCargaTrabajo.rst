@@ -12,8 +12,8 @@ Por ejemplo, si hubiese que realizar un alta de un conjunto de datos muy extenso
 
 Merece la pena recordar que si el *Scrum Team* no tiene los conocimientos técnicos necesarios para realizar una historia de usuario, o no tiene la información suficiente para estimarla, debe asignarse a dicha historia un valor de esfuerzo de infinito. Por ejemplo, si hubiese una historia de usario que fuese *trazar una ruta en Google Maps* y el *Scrum Team* nunca ha trabajado con dicha *Google Maps*, dicha historia de usuario debe tener como valor de esfuerzo infinito.
 
-Velocidad inicial de los *Scrum Team*
-======================================
+Velocidad de Equipo 
+====================
 
 La velocidad de los equipos, para el desarrollo del proyecto integrado, se establecerá inicialmente en 12 puntos, y se ajustará para las siguientes iteraciones en función de los resultados de cada *sprint*. Merece la pena recordar que esta velocidad es un límite máximo de la capacidad de trabajo que puede aceptar un equipo, no siendo necesario saturarla. Es decir, un equipo podría, en un determinado sprint, realizar trabajo por valor de 10 puntos, sin suponer eso problema alguno.
 
