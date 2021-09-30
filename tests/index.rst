@@ -13,7 +13,7 @@ Los niveles de prueba a aplicar son los siguientes:
 
 * Pruebas de interfaz de usuario (UI Tests): Estas pruebas se pueden ver cómo el nivel más avanzado de las pruebas de integración, cuando se prueban todos los componentes de la aplicación de manera conjunta. Se llevarán a cabo usando el framework Espresso y JUnit.
 
-* Pruebas de aceptación: Son las pruebas llevadas a cabo por los Product Owners durante el Sprint Review para comprobar si las historias de usuario elegidas para el Sprint se han realizado correctamente. Se ejecutarán de forma manual en el propio dispositivo del Product Owner u otro que se le proporcione. Las pruebas a realizar deberán definirse durante el Spring Initial Meeting.
+* Pruebas de aceptación: Son las pruebas llevadas a cabo por los Product Owners durante el Sprint Review para comprobar si las historias de usuario elegidas para el Sprint se han realizado correctamente. Se ejecutarán de forma manual en el propio dispositivo del Product Owner u otro que se le proporcione. Las pruebas a realizar deberán definirse durante el Sprint Meeting.
 
 
 Nomenclatura y organización de las clases de prueba
