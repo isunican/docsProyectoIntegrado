@@ -1,9 +1,9 @@
 ﻿=======================================================================================
- Normas y Criterios de Evaluación para la asignatura de Procesos de Ingeniería Software
+ Normas de Evaluación para Procesos de Ingeniería Software
 =======================================================================================
 
-Procedimiento de evaluación
-================
+Procedimiento de Evaluación
+===========================
 
 La calificación del proyecto integrado en cuando a la asignatura de Procesos de Ingeniería Software se refiere, se calcula del siguiente modo: 
 
@@ -39,9 +39,10 @@ Cada Historia de Usuario ha de contar con un Plan de Pruebas, que incluirá:
  #. La especificación de las pruebas unitarias y/o de integración definidas para las clases/métodos involucrados (al menos dos). 
  #. Un reporte final que describa el resultado de la ejecución de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas) y el número de fallos encontrados por cada prueba. 
 
-Este documento se complementa, y por tanto, debe ser totalmente coherente con los modelos arquitectónico y de dominio entregados en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
+Este documento se complementa, y por tanto, debe ser totalmente coherente con el modelo de diseño entregado en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
 
 Una versión inicial de este documento deberá validarse con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias y/o de integración pueden no estar totalmente definidas, pues puede no conocerse todavía la arquitectura a utilizar para implementar la historia de usuario. La versión final, con el plan de pruebas completo, se entrega al final de cada sprint. 
+
 
 Implementación y ejecución de las pruebas
 ==========================================
