@@ -2,17 +2,20 @@
  Normas y Criterios de Evaluación para la asignatura de Procesos de Ingeniería Software
 =======================================================================================
 
-La evaluación del proyecto integrado, en cuanto a la asignatura de Procesos de Ingeniería Software se refiere, comprende dos partes: 
+Procedimiento de evaluación
+================
 
-* Un 30% corresponde al trabajo del grupo en su conjunto. En este apartado se valoran tres aspectos: 
+La calificación del proyecto integrado en cuando a la asignatura de Procesos de Ingeniería Software se refiere, se calcula del siguiente modo: 
 
-  - La completitud de las historias seleccionadas para el Sprint desde el punto de vista de las pruebas (y la calidad global de las mismas).
+* Un 30% corresponde al trabajo del grupo en su conjunto. En este apartado se valoran cuatro aspectos: 
+
+  - La completitud de las historias de usuario seleccionadas para el Sprint desde el punto de vista de las pruebas (ver `Planes de Prueba`_).
   
   - La organización y nomeclatura de las clases de prueba dentro del proyecto Android.
 
-  - La coherencia del modelo de arquitectura con los cambios realizados durante el Sprint.
+  - La coherencia del modelo de diseño (MagicDraw) con el código y con el plan de pruebas.
 
-  - La validación del plan de pruebas con el profesor durante la primera semana del Sprint (se explica debajo).
+  - La validación del plan de pruebas con el profesor durante la primera semana del Sprint (ver `Planes de Prueba`_).
 
 * Un 70% refleja el esfuerzo personal de cada alumno. Para la evaluación personal de cada alumno, al terminar todos los sprints cada uno deberá haberse hecho cargo de, al menos:
   
