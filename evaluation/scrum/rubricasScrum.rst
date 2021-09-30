@@ -330,14 +330,17 @@ Ejecución de los Daily Scrum Meeting
 | Actividades  | `Daily Scrum Meeting`_             |
 +--------------+------------------------------------+
 
-En este apartado se evaluará que cada *Scrum Team* sea capaz de ejecutar un *Daily Scrum Meeting* con corrección. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
+En este apartado se evaluará que cada *Scrum Team* sea capaz de ejecutar un *Daily Scrum Meeting* con corrección. Para ello, se verificará que el grado de cumplimiento de los siguientes elementos:
 
   #. El *Daily Scrum Meeting* ha estado coordinado.
-  #. En primer lugar, ha intervenido cada miembro del *Scrum Team*.
-  #. Cada intervención ha seguido el formato *qué hice ayer, qué voy a hacer hoy, qué problemas he encontrado o qué necesidades de coordinación tengo*.
-  #. Las posibles soluciones a los problemas comunes se han debatido al final de las intervenciones individuales.
-  #. Por cada problema o necesidad de coordinación reportado, se ha elaborado una plan de acción para resolverlo[#f1]_.
+  #. La dinámica de los *Daily Scrum Meeting* está interiorizada por cada miembro del equipo y no hace falta explicarla al inicio de cada reunión.
+  #. Cada intervención de un miembro del equipo ha seguido el formato *qué hice ayer, qué voy a hacer hoy, qué problemas he encontrado o qué necesidades de coordinación tengo*.
+  #. Las posibles soluciones a los problemas comunes se han debatido al final de las intervenciones individuales, y no durante las mismas.
+  #. Por cada problema o necesidad de coordinación reportado, se ha elaborado una plan de acción para resolverlo [#f1]_.
+  #. En caso de que un miembro del equipo no haya encontrado problemas, lo hace saber explícitamente durante su intervención.
   #. Cada intervención se ha desarrollado de manera precisa y sintética.
+
+El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Las violación del punto 2 supondrá una penalización de 2/3 de los puntos asignados a este apartado. Cada violación de los puntos 3, 4 ó 5 se penalizará con 1/3 de los puntos asignados a este apartado. Cada violación del punto 6 se penalizará con 1/4 de los puntos asignados a este apartado. Finalmente, cada violación del punto 6 se penalizará con entre 5 y 10 puntos, hasta un máximo de la mitad de los puntos asignados a este apartado. 
 
 .. [#f1] Este plan de acción puede consistir simplemente en concertar una reunión durante el día en la cual los implicados en un determinado problema se traten de poner solución al mismo.
 
@@ -350,9 +353,9 @@ Gestión de las Tareas y del Tablero Kanban
 | Actividades  | `Gestión y Seguimiento del Sprint`_ |
 +--------------+-------------------------------------+
 
-En este apartado se evaluará que cada miembro de un *Scrum Team* sea capaz de gestionar las tareas existentes dentro del *tablero Kanban* existente en *Scrumdesk*, así como ser capsz de interpretar el estado de dicho *tablero Kanban* correctamente. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
+En este apartado se evaluará que cada miembro de un *Scrum Team* sea capaz tanto de gestionar correctamente las tareas definidas dentro del *tablero Kanban* del equipo como de interpretar de manera adecuada el estado de dicho *tablero Kanban*. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
 
-  #. El alumno es capaz de mover sus tarjetas dentro de Scrumdesk de acuerdo con las normas de gestión del Tablero Kanban.
+  #. El alumno es capaz de mover las tarjetas dentro de Scrumdesk de acuerdo con las normas de gestión del Tablero Kanban.
   #. El alumno es capaz de modificar correctamente los valores de *estimated*, *spent* y *remanining* de sus tareas.
   #. El alumno es capaz de interpretar correctamente los valores de *estimated*, *spent* y *remanining* correctamente.
   #. El alumno es capaz de explicar correctamente los valores de *estimated*, *spent* y *remanining* asignados a sus tareas.
