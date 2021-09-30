@@ -321,23 +321,25 @@ En este apartado se evaluará que cada *Scrum Team* sea capaz de ejecutar un *Pl
 
 El incumplimiento de los puntos 1 ó 2 supondrá una calificación de cero puntos en este apartado. Los incumplimientos de los puntos 3 ó 4 supondrán una penalización de 2/3 de los puntos asignados a este apartado. Cada violación de los puntos 5, 6 ó 7 se penalizarán con 1/3 de los puntos asignados a este apartado. Cada violación de los puntos 8 ó 9 se penalizarán con 1/4 de los puntos asignados a este apartado. Finalmente, las penalizaciones asociadas a los puntos 10, 11 y 12 no podrán suponer más de la mitad de los puntos asignados a este apartado.
 
-
 Ejecución de los Daily Scrum Meeting
 -------------------------------------
 
 +--------------+------------------------------------+
 | Calificación | Común al grupo                     |
 +--------------+------------------------------------+
-| Actividades  | Daily Scrum Meeting                |
+| Actividades  | `Daily Scrum Meeting`_             |
 +--------------+------------------------------------+
 
-La calificación de esta actividad vendrá determinada por el grado de satisfacción de los siguientes puntos:
+En este apartado se evaluará que cada *Scrum Team* sea capaz de ejecutar un *Daily Scrum Meeting* con corrección. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
 
-  #. La actividad se ha desarrollado conforme al formato propuesto.
-  #. La actividad ha permitido obtener una visión global del estado actual del proyecto.
-  #. La actividad ha permitido identificar los obstáculos y riesgos actuales que puedan dificultar la finalización del sprint.
-  #. Se ha ideado o esbozado algún plan tanto para solventar los obstáculos encontrados como para mitigar los riesgos identificados.
-  #. La actividad se ha desarrollado de manera breve y sintética.
+  #. El *Daily Scrum Meeting* ha estado coordinado.
+  #. En primer lugar, ha intervenido cada miembro del *Scrum Team*.
+  #. Cada intervención ha seguido el formato *qué hice ayer, qué voy a hacer hoy, qué problemas he encontrado o qué necesidades de coordinación tengo*.
+  #. Las posibles soluciones a los problemas comunes se han debatido al final de las intervenciones individuales.
+  #. Por cada problema o necesidad de coordinación reportado, se ha elaborado una plan de acción para resolverlo[#f1]_.
+  #. Cada intervención se ha desarrollado de manera precisa y sintética.
+
+.. [#f1] Este plan de acción puede consistir simplemente en concertar una reunión durante el día en la cual los implicados en un determinado problema se traten de poner solución al mismo.
 
 Gestión de las Tareas y del Tablero Kanban
 -------------------------------------------
@@ -345,13 +347,16 @@ Gestión de las Tareas y del Tablero Kanban
 +--------------+-------------------------------------+
 | Calificación | Individual                          |
 +--------------+-------------------------------------+
-| Actividades  | Desarrollo y Seguimiento del Sprint |
+| Actividades  | `Gestión y Seguimiento del Sprint`_ |
 +--------------+-------------------------------------+
 
-La calificación de esta actividad vendrá determinada por el grado de satisfacción de los siguientes puntos:
+En este apartado se evaluará que cada miembro de un *Scrum Team* sea capaz de gestionar las tareas existentes dentro del *tablero Kanban* existente en *Scrumdesk*, así como ser capsz de interpretar el estado de dicho *tablero Kanban* correctamente. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
 
   #. El alumno es capaz de mover sus tarjetas dentro de Scrumdesk de acuerdo con las normas de gestión del Tablero Kanban.
-  #. El alumno es capaz de interpretar el estado actual del tablero Kanban.
+  #. El alumno es capaz de modificar correctamente los valores de *estimated*, *spent* y *remanining* de sus tareas.
+  #. El alumno es capaz de interpretar correctamente los valores de *estimated*, *spent* y *remanining* correctamente.
+  #. El alumno es capaz de explicar correctamente los valores de *estimated*, *spent* y *remanining* asignados a sus tareas.
+  #. El alumno conoce las reglas de gestión de tablero *Kanban*.
 
 Interpretación del Sprint Burndown Chart
 -----------------------------------------
