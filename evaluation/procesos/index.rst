@@ -11,7 +11,7 @@ La calificación del proyecto integrado en cuando a la asignatura de Procesos de
 
   - La completitud de las historias de usuario seleccionadas para el Sprint desde el punto de vista de las pruebas (ver `Planes de Prueba`_).
   
-  - La organización y nomeclatura de las clases de prueba dentro del proyecto Android.
+  - La organización y nomenclatura de las clases de prueba dentro del proyecto Android.
 
   - La coherencia del modelo de diseño (MagicDraw) con el código y con el plan de pruebas.
 
