@@ -53,9 +53,9 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+------------------------------------------------+------------+
 | 12 | `Interpretación del Sprint Burndown Chart`_    |         40 |
 +----+------------------------------------------------+------------+
-| 13 | `Cumplimiento de la Definición de Completado`_ |         60 |
+| 13 | `Gestión de la Configuración`_                 |         60 |
 +----+------------------------------------------------+------------+
-| 14 | `Gestión de la Configuración`_                 |         60 |
+| 14 | `Cumplimiento de la Definición de Completado`_ |         60 |
 +----+------------------------------------------------+------------+
 | 15 | `Satisfacción del Product Owner`_              |         90 |
 +----+------------------------------------------------+------------+

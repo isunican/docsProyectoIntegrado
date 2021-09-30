@@ -13,6 +13,8 @@ Criterios de Evaluación Individualizados
 .. _definición de completado: ../../scrum/definicionCompletado.html
 .. _integración de una feature branch en develop: ../../cfgMng/politicaCfg.html#integracion-de-una-feature-branch-en-develop
 .. _normas para calcular cargas de trabajo: ../../scrum/calculoCargaTrabajo.html#como-calcular-la-carga-de-trabajo-de-un-equipo
+.. _política de gestión de la configuración: ../../cfgMng/politicaCfg.html#politica-de-gestion-de-la-configuracion
+.. _estructura de los repositorios: ../../cfgMng/cfgMng/estructuraRepositorios.html
 
 Relación con el Product Owner
 -------------------------------
@@ -340,7 +342,7 @@ En este apartado se evaluará que cada *Scrum Team* sea capaz de ejecutar un *Da
   #. En caso de que un miembro del equipo no haya encontrado problemas, lo hace saber explícitamente durante su intervención.
   #. Cada intervención se ha desarrollado de manera precisa y sintética.
 
-El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Las violación del punto 2 supondrá una penalización de 2/3 de los puntos asignados a este apartado. Cada violación de los puntos 3, 4 ó 5 se penalizará con 1/3 de los puntos asignados a este apartado. Cada violación del punto 6 se penalizará con 1/4 de los puntos asignados a este apartado. Finalmente, cada violación del punto 6 se penalizará con entre 5 y 10 puntos, hasta un máximo de la mitad de los puntos asignados a este apartado. 
+El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Las violación del punto 2 supondrá una penalización de 2/3 de los puntos asignados a este apartado. Cada violación de los puntos 3, 4 ó 5 se penalizará con 1/3 de los puntos asignados a este apartado. Cada violación del punto 6 se penalizará con 1/4 de los puntos asignados a este apartado. Finalmente, cada violación del punto 6 se penalizará con entre 5 y 10 puntos, hasta un máximo de la mitad de los puntos asignados a este apartado.
 
 .. [#f1] Este plan de acción puede consistir simplemente en concertar una reunión durante el día en la cual los implicados en un determinado problema se traten de poner solución al mismo.
 
@@ -355,11 +357,14 @@ Gestión de las Tareas y del Tablero Kanban
 
 En este apartado se evaluará que cada miembro de un *Scrum Team* sea capaz tanto de gestionar correctamente las tareas definidas dentro del *tablero Kanban* del equipo como de interpretar de manera adecuada el estado de dicho *tablero Kanban*. Para ello, se verificará el grado de cumplimiento de los siguientes elementos:
 
-  #. El alumno es capaz de mover las tarjetas dentro de Scrumdesk de acuerdo con las normas de gestión del Tablero Kanban.
-  #. El alumno es capaz de modificar correctamente los valores de *estimated*, *spent* y *remanining* de sus tareas.
-  #. El alumno es capaz de interpretar correctamente los valores de *estimated*, *spent* y *remanining* correctamente.
-  #. El alumno es capaz de explicar correctamente los valores de *estimated*, *spent* y *remanining* asignados a sus tareas.
   #. El alumno conoce las reglas de gestión de tablero *Kanban*.
+  #. El alumno es capaz de mover las tarjetas dentro de *Scrumdesk* de acuerdo con las normas de gestión del tablero *Kanban*.
+  #. El alumno es capaz de modificar correctamente los valores de *estimated*, *spent* y *remanining* de sus tareas.
+  #. El alumno es capaz de interpretar correctamente los valores de *estimated*, *spent* y *remanining* de cualquier tarea del *sprint*.
+  #. El alumno es capaz de explicar correctamente el por qué de los valores de *estimated*, *spent* y *remanining* asignados a sus tareas.
+
+
+El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Cada violación de los puntos 2, 3 y 4 supondrá una penalización de 1/3 de los puntos asignados a este apartado. Cada violación del punto 5 se penalizará con 1/4 de los puntos asignados a este apartado.
 
 Interpretación del Sprint Burndown Chart
 -----------------------------------------
@@ -367,25 +372,20 @@ Interpretación del Sprint Burndown Chart
 +--------------+-------------------------------------+
 | Calificación | Individual                          |
 +--------------+-------------------------------------+
-| Actividades  | Desarrollo y Seguimiento del Sprint |
+| Actividades  | `Gestión y Seguimiento del Sprint`_ |
 +--------------+-------------------------------------+
 
-La calificación de esta actividad vendrá determinada por la capacidad del alumno de saber interpretar adecuadamente un *Sprint Burndown Chart* como herramienta de monitorización del estado de desarrollo del proyecto. El alumno deberá demostrar que sabe utilizar las facilidades que *ScrumDesk* proporciona para la generación de *Sprint Burndown Charts*, así como que es capaz de interpretar adecuadamente la evolución de las gráficas y sus valores.
+En este apartado se evaluará que cada miembro de un *Scrum Team* sea capaz, mediante la utilización del *Sprint Burndown Chart*, tanto de argumentar cómo ha sido la evolución del *sprint* hasta la fecha, como de predecir cómo será el esfuerzo a realizar para poder terminar el sprint a tiempo. Para ello, se verificará que:
 
-Cumplimiento de la Definición de Completado
---------------------------------------------
+ #. El alumno sea capaz de abrir el *Sprint Burndown Chart*.
+ #. El alumno sea capaz de utilizar la escala adecuada para razonar sobre la evolución del sprint.
+ #. El alumno sea capaz de estimar cuál sería la fecha de finalización prevista para cualquier día del *sprint*.
+ #. El alumno sea capaz de distinguir entre *progreso efectivo* y *horas trabajadas*
+ #. El alumno sea capaz de explicar el por qué de la pendiente de la gráfica entre dos días concretos del *sprint*.
+ #. El alumno sea capaz de razonar si el *sprint* se podrá terminar en fecha bien o es necesario hacer un esfuerzo extra.
+ #. El alumno sea capaz de decir cuántas horas de trabajo restan para la finalización del *sprint*.
 
-+--------------+-------------------------------------+
-| Calificación | Común al grupo                      |
-+--------------+-------------------------------------+
-| Actividades  | Product Review                      |
-+--------------+-------------------------------------+
-
-En este ítem se evaluará en primer lugar que todos los elementos incluidos en el *Sprint Backlog* hayan sido desarrollados de algún modo. En segundo lugar se analizará el grado de satisfacción de la *Definición de Completado* por cada uno de estos elementos.
-
-Si un elemento incluido en el *Sprint Backlog* hubiese sido completamente ignorado, la calificación de este apartado será automáticamente de cero puntos, salvo excepciones muy puntuales debidamente justificadas.
-
-El incumplimiento de la definición de completado de, por al menos, un elemento del *Sprint Backlog* supondrá una calificación de menos de la mitad de los puntos otorgados a este ítem.
+El incumplimiento de los puntos 1 ó 2 supondrá una calificación de cero puntos en este apartado. Cada violación de los puntos 2, 3, 4, 5, 6 ó 7 supondrá una penalización de 1/3 de los puntos asignados a este apartado.
 
 Gestión de la Configuración
 ----------------------------
@@ -393,12 +393,27 @@ Gestión de la Configuración
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
 +--------------+-------------------------------------+
-| Actividades  | Desarrollo y Seguimiento del Sprint |
+| Actividades  | `Gestión y Seguimiento del Sprint`_ |
 +--------------+-------------------------------------+
 
-Para evaluar este ítem, se verificará que el grupo no haya violado ninguna de las normas para la gestión de la configuración proporcionadas para el desarrollo del proyecto integrado. El incumplimiento de una única norma podrá suponer una penalización sustancial de puntos, en espeecial cuando sean normas de fácil cumplimiento.
+En este apartado se evaluará que el equipo respete tanto la `política de gestión de la configuración`_ como la `estructura de los repositorios`_. Para ello se verificará que el grupo no haya violado ninguna de las normas proporcionadas para estos dos elementos.
 
-*Norma de fácil cumplimiento* es por ejemplo que un determinado archivo tenga que tener un nombre específico. El incumplimiento de una norma de este estilo impedirá al grupo obtener más de un tercio de los puntos asignados a este ítem, mientras que la violación de dos normas de este tipo supondrá la obtención de cero puntos en este ítem.
+Cada incumplimiento de de una de estas normas supondrá una penalización de 1/3 de los puntos asignados a este apartado.
+
+Cumplimiento de la Definición de Completado
+--------------------------------------------
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Actividades  | `Product Review`_                   |
++--------------+-------------------------------------+
+
+En este ítem se evaluará que el desarrollo de cada elemento del *Product Backlog* incluido dentro de un *sprint* determinado satisfaga la `definición de completado`_.
+
+Cada incumplimiento de un punto entero de la definición de completado supondrá una penalización de 2/3 de los puntos asignados a este apartado. Este sería el caso, por ejemplo, en el que una *historia de usuario* desarrollada carezca de su correspondiente informe de calidad.
+
+Cada incumplimiento parcial de un punto de la definición de completado supondrá una penalización de 1/3 de los puntos asignados a este apartado. Este sería el caso, por ejemplo, en el que faltase implementar una prueba de las definidas para una *historia de usuario* a desarrollar.
 
 Satisfacción del Product Owner
 -------------------------------
