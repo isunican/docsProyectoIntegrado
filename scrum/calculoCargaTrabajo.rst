@@ -11,8 +11,8 @@ Tomando ese valor de referencia, el resto de *historias de usuario* se estimará
 
 Merece la pena recordar que si el *Scrum Team* no tiene los conocimientos técnicos necesarios para realizar una historia de usuario, o no tiene la información suficiente para estimarla, debe asignarse a dicha historia un valor de esfuerzo de infinito. Por ejemplo, si hubiese una historia de usuario que fuese *trazar una ruta en Google Maps* y el *Scrum Team* nunca ha trabajado con *Google Maps*, dicha historia de usuario debe tener como valor de esfuerzo infinito. La creación de una historia de usuario con esfuerzo infinito implica automáticamente la creación de una *tarjeta de research* asociada con esfuerzo a decidir por el *Scrum Team* y el mismo *business value* que la historia de usuario que la genera.
 
-Velocidad de Equipo
-====================
+Cálculo de la Velocidad de Equipo
+==================================
 
 La velocidad de los equipos para el desarrollo del proyecto integrado se establecerá inicialmente en 12 puntos. Esta velocidad se ajustará en cada *sprint* en función del rendimiento de cada grupo hasta ese momento. En el caso de que haya días festivos durante la realización de un sprint, deberá descontarse la parte correspondiente a ese día festivo de la velocidad de equipo para ese sprint en concreto; ya que los festivos, al igual que los fines de semana, son para descansar y no para trabajar. Dado que los *sprints* son de 10 días laborales, por cada día festivo dentro de un *sprint*, deberá restarse un 10% a la velocidad de equipo. En caso de que el resultado tenga decimales, se redondeará siempre hacia abajo. Los festivos se descuentan de la velocidad de equipo con independencia del día en que caiga el festivo, es decir, con independencia de que ese día haya o no haya clases presenciales de proyecto integrado.
 
