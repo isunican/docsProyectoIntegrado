@@ -421,10 +421,14 @@ Satisfacción del Product Owner
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
 +--------------+-------------------------------------+
-| Actividades  | Product Review                      |
+| Actividades  | `Product Review`_                   |
 +--------------+-------------------------------------+
 
-En este apartado se evaluará la adecuación del producto realizado a las expectativas y deseos iniciales del *Product Owner*. Se valorará también el esfuerzo realizado por el equipo de trabajo para adecuar el producto a las preferencias del *Product Owner* en base a los comentarios recibidos en los sprints anteriores.
+En este apartado se evaluará tanto la adecuación del producto desarrollado a las expectativas y deseos iniciales del *Product Owner* como la confianza y seguridad que el *equipo de desarrollo* sea capaz de transmitir al *Product Owner* durante el desarrollo del *sprint*. Se trata de una calificación en gran parte subjetiva que dependerá de las sensaciones que el equipo de desarrollo haya transmitido al *Product Owner* durante el desarrollo del *sprint*. La calificación representa, en cierta forma, la percepción que tenga en *Product Owner* del equipo de dearrollo como un grupo de profesionales cualificados que son capaces de crear un producto en tiempo y forma acorde a sus necesidades reales.
+
+Si el *Product Owner* se considera *muy satisfecho*, la calificación en este apartado será siempre superior a los 3/4 de los puntos asignados a este apartado. Si el *Product Owner* se considera *satisfecho*, la calificación en este apartado será siempre superior a 1/2 de los puntos asignados a este apartado, e inferior a los 3/4. Si el *Product Owner* se considera *algo insatisfecho*, la calificación en este apartado será siempre inferior a 1/2 de los puntos asignados a este apartado, pero superior a 1/4. Por último, si el *Product Owner* se considera *muy insatisfecho*, la calificación en este apartado será inferior a 1/4 de los puntos asignados a este apartado.
+
+En el último *sprint, la calificación de este ítem vendrá determinada fundamentalmente por la capacidad del equipo de atender las sugerencias de mejora realizadas por el *Product Owner* en los *sprints* anteriores.
 
 Análisis de la Retrospectiva
 ------------------------------
