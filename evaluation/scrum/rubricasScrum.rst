@@ -206,7 +206,7 @@ Especificación de los Tickets de Cambio
 | Actividades  | `Product Review`_                  |
 +--------------+------------------------------------+
 
-En este apartado se evaluará que los *tickets de cambio* que se incorporen al *Product Backlog* tras una `Product Review`_  estén correctamente especificados. La corrección de las *tickets de cambio* se verificará tanto a nivel sintáctico como a nivel semántico. A *nivel sintáctico* se verificará que cada *ticket de cambio* contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A *nivel semántico* se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
+En este apartado se evaluará que los *tickets de cambio* que se incorporen al *Product Backlog* tras una *Product Review*  estén correctamente especificados. La corrección de las *tickets de cambio* se verificará tanto a nivel sintáctico como a nivel semántico. A *nivel sintáctico* se verificará que cada *ticket de cambio* contenga los elementos que deba contener y que estos elementos estén en el formato correcto. A *nivel semántico* se comprobará que el valor de esos elementos tenga sentido dentro del proyecto que se está desarrollando.
 
 Para la verificación de los aspectos sintácticos se comprobará que:
 
@@ -271,7 +271,7 @@ Para evaluar la *corrección sintáctica* de las tareas creadas se verificará q
   2.a.1 Cada tarea tiene un nombre.
   2.a.2 Cada tarea tiene especificado una estimación de su esfuerzo en horas.
   2.a.3 Cada tarea está asignada a un miembro del equipo.
-  2.a.4 Cada tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma. Una excepción a este punto son las tareas repetivas y bien conocidas [#f0]_.
+  2.a.4 Cada tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma. Una excepción a este punto son las tareas repetitivas y bien conocidas [#f0]_.
 
 Para evaluar la *corrección semántica* de las tareas creadas se verificará que:
 
@@ -279,9 +279,9 @@ Para evaluar la *corrección semántica* de las tareas creadas se verificará qu
   2.b.2 La descripción de cada tarea es correcta desde un punto de vista técnico.
   2.b.3 La descripción de la tarea permite entender con facilidad su objetivo, los pasos a realizar y los resultados a generar.
 
-Para evaluar el *equilibrio de la carga de trabajo* se verificará que, dentro del *sprint* que se esté evaluando, la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros en proporción de lo que le corresponda en función de las `normas para calcular cargas de trabajo`_. Es decir, si hay miembros del equipo con una capacidad máxima de 36 horas de trabajo cada uno, y tareas asignadas a cada uno con un valor total en torno a las 30 horas de trabajo, lo que representaría aproximadamente un 80% de la capacidad total de trabajo de estos mimebros, entonces un miembro con 16 horas como capacidad máxima de trabajo debería tener asociadas en ese sprint tareas por valor total de aproximadamente 13 horas de trabajo, lo que representaríaº alrededor del 80% de la capacidad máxima de trabajo de esta persona.
+Para evaluar el *equilibrio de la carga de trabajo* se verificará que, dentro del *sprint* que se esté evaluando, la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros en proporción de lo que le corresponda en función de las `normas para calcular cargas de trabajo`_. Es decir, si hay miembros del equipo con una capacidad máxima de 36 horas de trabajo cada uno, y tareas asignadas a cada uno con un valor total en torno a las 30 horas de trabajo, lo que representaría aproximadamente un 80% de la capacidad total de trabajo de estos miembros, entonces un miembro con 16 horas como capacidad máxima de trabajo debería tener asociadas en ese *sprint* tareas por valor total de aproximadamente 13 horas de trabajo, lo que representaría alrededor del 80% de la capacidad máxima de trabajo de esta persona.
 
-Por último, para evaluar que la *asignación de tareas permita un ritmo de trabajo constante y sostenible* se verificará que miembros del equipo puedan trabajar en paralelo sin mayores problemas. Para ello, se comprobará principalmente que no existan miembros del equipo trabajo que estén ociosos en determinadas fases del desarrollo del sprint. Un *trabajador temporalmente ocioso* sería alguien no tenga apenas tareas que realizar en la segunda semana de un sprint.
+Por último, para evaluar que la *asignación de tareas permita un ritmo de trabajo constante y sostenible* se verificará que miembros del equipo puedan trabajar en paralelo sin mayores problemas. Para ello, se comprobará principalmente que no existan miembros del equipo trabajo que estén ociosos en determinadas fases del desarrollo del *sprint*. Un *trabajador temporalmente ocioso* sería alguien no tenga apenas tareas que realizar en la segunda semana de un *sprint*.
 
 En el caso de que no se satisfaga el punto 1.a, la calificación de este elemento evaluable será de cero puntos. Si el punto 1.b se viola un número de veces igual o superior al número de elementos del *Product Backlog* seleccionado, la calificación de este apartado será inferior a la mitad de los puntos que tenga asignados.
 
@@ -378,7 +378,7 @@ Interpretación del Sprint Burndown Chart
 En este apartado se evaluará que cada miembro de un *Scrum Team* sea capaz, mediante la utilización del *Sprint Burndown Chart*, tanto de argumentar cómo ha sido la evolución del *sprint* hasta la fecha, como de predecir cómo será el esfuerzo a realizar para poder terminar el sprint a tiempo. Para ello, se verificará que:
 
  #. El alumno sea capaz de abrir el *Sprint Burndown Chart*.
- #. El alumno sea capaz de utilizar la escala adecuada para razonar sobre la evolución del sprint.
+ #. El alumno sea capaz de utilizar la escala adecuada para razonar sobre la evolución del *sprint*.
  #. El alumno sea capaz de estimar cuál sería la fecha de finalización prevista para cualquier día del *sprint*.
  #. El alumno sea capaz de distinguir entre *progreso efectivo* y *horas trabajadas*
  #. El alumno sea capaz de explicar el por qué de la pendiente de la gráfica entre dos días concretos del *sprint*.
@@ -424,7 +424,7 @@ Satisfacción del Product Owner
 | Actividades  | `Product Review`_                   |
 +--------------+-------------------------------------+
 
-En este apartado se evaluará tanto la adecuación del producto desarrollado a las expectativas y deseos iniciales del *Product Owner* como la confianza y seguridad que el *equipo de desarrollo* sea capaz de transmitir al *Product Owner* durante el desarrollo del *sprint*. Se trata de una calificación en gran parte subjetiva que dependerá de las sensaciones que el equipo de desarrollo haya transmitido al *Product Owner* durante el desarrollo del *sprint*. La calificación representa, en cierta forma, la percepción que tenga en *Product Owner* del equipo de dearrollo como un grupo de profesionales cualificados que son capaces de crear un producto en tiempo y forma acorde a sus necesidades reales.
+En este apartado se evaluará tanto la adecuación del producto desarrollado a las expectativas y deseos iniciales del *Product Owner* como la confianza y seguridad que el *equipo de desarrollo* sea capaz de transmitir al *Product Owner* durante el desarrollo del *sprint*. Se trata de una calificación en gran parte subjetiva que dependerá de las sensaciones que el equipo de desarrollo haya transmitido al *Product Owner* durante el desarrollo del *sprint*. La calificación representa, en cierta forma, la percepción que tenga en *Product Owner* del equipo de desarrollo como un grupo de profesionales cualificados que son capaces de crear un producto en tiempo y forma acorde a sus necesidades reales.
 
 Si el *Product Owner* se considera *muy satisfecho*, la calificación en este apartado será siempre superior a los 3/4 de los puntos asignados a este apartado. Si el *Product Owner* se considera *satisfecho*, la calificación en este apartado será siempre superior a 1/2 de los puntos asignados a este apartado, e inferior a los 3/4. Si el *Product Owner* se considera *algo insatisfecho*, la calificación en este apartado será siempre inferior a 1/2 de los puntos asignados a este apartado, pero superior a 1/4. Por último, si el *Product Owner* se considera *muy insatisfecho*, la calificación en este apartado será inferior a 1/4 de los puntos asignados a este apartado.
 
@@ -459,10 +459,10 @@ Resultados de la Retrospectiva
 | Actividades  | `Sprint Retrospective`_             |
 +--------------+-------------------------------------+
 
-En este ítem se evaluará que, como resultado de ejecutar cada *retrospectiva* se generen planes de acciones adecuados para un número adecuado de aspectos tanto positivos como negativos a potenciar o mitigar durante el siguente *sprint*. Para ello, se prestará especial atención a que:
+En este ítem se evaluará que, como resultado de ejecutar cada *retrospectiva* se generen planes de acciones adecuados para un número adecuado de aspectos tanto positivos como negativos a potenciar o mitigar durante el siguiente *sprint*. Para ello, se prestará especial atención a que:
 
   #. Los resultados de la retrospectiva sean conformes a la plantilla proporcionada.
-  #. Los aspectos positivos y negativos identificados durante las *retrospectivas* contegan elementos que durante el desarrollo del *sprint* haya resultado obvio[#f2]_ que eran beneficiosos o perjudiciales.
+  #. Los aspectos positivos y negativos identificados durante las *retrospectivas* contengan elementos que durante el desarrollo del *sprint* haya resultado obvio[#f2]_ que eran beneficiosos o perjudiciales.
   #. El número de aspectos tanto positivos como negativos identificados es amplio. Con carácter general, se considerará un número *suficientemente amplio* cuando haya al menos un aspecto positivo y un aspecto negativo identificado por cada miembro de un equipo; y un *número adecuadamente amplio* cuando haya al menos un aspecto positivo o un aspecto negativo por cada miembro del grupo.
   #. Los planes de acción tanto para los aspectos positivos como negativos contienen acciones concretas a realizar en el siguiente *sprint* y no se quedan en simples *propósitos de año nuevo*.
   #. El plan de acción cada aspecto positivo o negativo contiene una solución coherente que permite potenciar o mitigar, respectivamente, dicho aspecto.
@@ -471,7 +471,7 @@ En este ítem se evaluará que, como resultado de ejecutar cada *retrospectiva* 
 
 El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Cada violación del punto 2 supondrá una penalización de 1/2 de los puntos asignados a este apartado. Respecto al punto 3, cuando el número de aspectos identificados se considere *suficientemente amplio* no se aplicará penalización alguna. Cuando el número de aspectos identificados sea simplemente *adecuadamente amplio* se aplicará una penalización de 1/3 de los puntos asignados a este apartado. Cuando el número de aspectos identificados no se pueda considerar *adecuadamente amplio*, se aplicará una penalización de 3/4 de los puntos asignados a este apartado.
 
-Cada violación del punto 4 ó 5 supondrá una penalización de 1/8 de los puntos asignados a este apartado. Finalmente, cada violación de los puntos 6 ó 7 supondrá una penalización de 1/10 de los puntos asignados a este apartado, no puediendo exceder el total de estas penalizaciones 1/2 de los puntos asignados a este apartado.
+Cada violación del punto 4 ó 5 supondrá una penalización de 1/8 de los puntos asignados a este apartado. Finalmente, cada violación de los puntos 6 ó 7 supondrá una penalización de 1/10 de los puntos asignados a este apartado, no pudiendo exceder el total de estas penalizaciones 1/2 de los puntos asignados a este apartado.
 
 .. [#f2] Por ejemplo, si prácticamente todas las estimaciones realizadas se hubiesen quedado demasiado cortas, entonces un aspecto obvio a mejorar sería la precisión u optimismo de las estimaciones.
 
@@ -484,7 +484,7 @@ Manual de Usuario
 | Actividades  | `Product Review`_                   |
 +--------------+-------------------------------------+
 
-Este ítem evalua la claridad y corrección del manual de usuario creado para *historia de usuario* desarrollada. Para ello, se verificará que:
+Este ítem evalúa la claridad y corrección del manual de usuario creado para *historia de usuario* desarrollada. Para ello, se verificará que:
 
   #. Por cada *historia de usuario* exista una entrada adecuada en el manual de usuario donde se explique el funcionamiento de dicha historia de usuario.
   #. En el caso de manuales escritos, las capturas de pantalla indican claramente, de manera resaltada, los lugares referenciados desde el texto.
