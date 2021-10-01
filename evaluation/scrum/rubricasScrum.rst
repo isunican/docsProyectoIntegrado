@@ -430,20 +430,50 @@ Si el *Product Owner* se considera *muy satisfecho*, la calificación en este ap
 
 En el último *sprint, la calificación de este ítem vendrá determinada fundamentalmente por la capacidad del equipo de atender las sugerencias de mejora realizadas por el *Product Owner* en los *sprints* anteriores.
 
-Análisis de la Retrospectiva
+Ejecución de la Retrospectiva
 ------------------------------
 
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
 +--------------+-------------------------------------+
-| Actividades  | Sprint Retrospective                |
+| Actividades  | `Sprint Retrospective`_             |
 +--------------+-------------------------------------+
 
-En este ítem se evaluará, en primer lugar, que la restrospectiva haya estado correctamente organizada y ejecutada. Para ello, el grupo deberá haber seleccionado una dinámica de grupo orientada a la generación de ideas y haber ejecutado correctamente dicha dinámica con relación a las reglas definidas por dicha dinámica. En segundo lugar, se evaluará que, como resultado de la dinámicas ejecutada, se haya generado un número razonable de aspectos tanto positivos como negativos relacionados con los métodos de trabajo utilizados en ese sprint por el correspondiente *Scrum Team*.
+En este ítem se evaluará que la *retrospectiva* de un determinado *sprint* haya estado correctamente organizada y ejecutada. Para ello, el grupo deberá haber seleccionado una dinámica de grupo orientada a la generación de ideas y haber ejecutado dicha dinámica correctamente de acuerdo con sus  reglas. Para ello, se prestará especial atención a que:
 
-Si los resultados de dichas dinámicas de grupo no contuviesen elementos que puedan ser considerados como evidentes, la calificación de este elemento será automáticamente de suspenso. Por ejemplo, en caso de que las estimaciones realizadas se hubiesen quedado todas demasiado cortas, un elemento obvio que debería ser generado tras el análisis de la retrospectiva debería ser que las estimaciones realizadas son demasiado cortas.
+  #. La *retrospectiva* haya estado planificada.
+  #. La *retrospectiva* haya estado coordinada.
+  #. La dinámica seleccionada para ejecutar la *retrospectiva* sea adecuada.
+  #. La dinámica se haya desarrollado conforme sus reglas.
+  #. Los miembros del equipo hayan mostrado una actitud profesional durante toda la dinámica que favorezca la productividad y efectividad de la actividad.
+  #. Los miembros del equipo se hayan esforzado por realizar intervenciones precisas y sintéticas.
 
-A continuación, se evaluará que por cada elemento identificado como positivo o negativo, exista un plan de acción que permita eliminar o minimizar los aspectos negativos identificados, así como potenciar o consolidar los positivos. Se valorará además también la efectividad de cada plan de acción creado.
+El incumplimiento de los puntos 1 ó 2 supondrá una calificación de cero puntos en este apartado. El incumplimiento del punto 3 supondrá una penalización de hasta 2/3 de los puntos asignados a este apartado. Cada violación del punto 4 supondrá una penalización de 1/4 de los puntos asignados a este apartado. Las violaciones del punto 5 podrán suponer, como máximo, una penalización global de hasta 1/3 de los puntos asignados a este apartado.
+
+Resultados de la Retrospectiva
+-------------------------------
+
++--------------+-------------------------------------+
+| Calificación | Común al grupo                      |
++--------------+-------------------------------------+
+| Actividades  | `Sprint Retrospective`_             |
++--------------+-------------------------------------+
+
+En este ítem se evaluará que, como resultado de ejecutar cada *retrospectiva* se generen planes de acciones adecuados para un número adecuado de aspectos tanto positivos como negativos a potenciar o mitigar durante el siguente *sprint*. Para ello, se prestará especial atención a que:
+
+  #. Los resultados de la retrospectiva sean conformes a la plantilla proporcionada.
+  #. Los aspectos positivos y negativos identificados durante las *retrospectivas* contegan elementos que durante el desarrollo del *sprint* haya resultado obvio[#f2]_ que eran beneficiosos o perjudiciales.
+  #. El número de aspectos tanto positivos como negativos identificados es amplio. Con carácter general, se considerará un número *suficientemente amplio* cuando haya al menos un aspecto positivo y un aspecto negativo identificado por cada miembro de un equipo; y un *número adecuadamente amplio* cuando haya al menos un aspecto positivo o un aspecto negativo por cada miembro del grupo.
+  #. Los planes de acción tanto para los aspectos positivos como negativos contienen acciones concretas a realizar en el siguiente *sprint* y no se quedan en simples *propósitos de año nuevo*.
+  #. El plan de acción cada aspecto positivo o negativo contiene una solución coherente que permite potenciar o mitigar, respectivamente, dicho aspecto.
+  #. La descripción de cada aspecto positivo o negativo sea correcta y fácil de entender.
+  #. La descripción de cada aspecto positivo o negativo es precisa y sintética.
+
+El incumplimiento de los puntos 1 supondrá una calificación de cero puntos en este apartado. Cada violación del punto 2 supondrá una penalización de 1/2 de los puntos asignados a este apartado. Respecto al punto 3, cuando el número de aspectos identificados se considere *suficientemente amplio* no se aplicará penalización alguna. Cuando el número de aspectos identificados sea simplemente *adecuadamente amplio* se aplicará una penalización de 1/3 de los puntos asignados a este apartado. Cuando el número de aspectos identificados no se pueda considerar *adecuadamente amplio*, se aplicará una penalización de 3/4 de los puntos asignados a este apartado.
+
+Cada violación del punto 4 ó 5 supondrá una penalización de 1/8 de los puntos asignados a este apartado. Finalmente, cada violación de los puntos 6 ó 7 supondrá una penalización de 1/10 de los puntos asignados a este apartado, no puediendo exceder el total de estas penalizaciones 1/2 de los puntos asignados a este apartado.
+
+.. [#f2] Por ejemplo, si prácticamente todas las estimaciones realizadas se hubiesen quedado demasiado cortas, entonces un aspecto obvio a mejorar sería la precisión u optimismo de las estimaciones.
 
 Manual de Usuario
 ------------------
