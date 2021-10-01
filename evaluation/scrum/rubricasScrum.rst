@@ -469,7 +469,7 @@ En este ítem se evaluará que, como resultado de ejecutar cada *retrospectiva* 
   #. La descripción de cada aspecto positivo o negativo sea correcta y fácil de entender.
   #. La descripción de cada aspecto positivo o negativo es precisa y sintética.
 
-El incumplimiento de los puntos 1 supondrá una calificación de cero puntos en este apartado. Cada violación del punto 2 supondrá una penalización de 1/2 de los puntos asignados a este apartado. Respecto al punto 3, cuando el número de aspectos identificados se considere *suficientemente amplio* no se aplicará penalización alguna. Cuando el número de aspectos identificados sea simplemente *adecuadamente amplio* se aplicará una penalización de 1/3 de los puntos asignados a este apartado. Cuando el número de aspectos identificados no se pueda considerar *adecuadamente amplio*, se aplicará una penalización de 3/4 de los puntos asignados a este apartado.
+El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Cada violación del punto 2 supondrá una penalización de 1/2 de los puntos asignados a este apartado. Respecto al punto 3, cuando el número de aspectos identificados se considere *suficientemente amplio* no se aplicará penalización alguna. Cuando el número de aspectos identificados sea simplemente *adecuadamente amplio* se aplicará una penalización de 1/3 de los puntos asignados a este apartado. Cuando el número de aspectos identificados no se pueda considerar *adecuadamente amplio*, se aplicará una penalización de 3/4 de los puntos asignados a este apartado.
 
 Cada violación del punto 4 ó 5 supondrá una penalización de 1/8 de los puntos asignados a este apartado. Finalmente, cada violación de los puntos 6 ó 7 supondrá una penalización de 1/10 de los puntos asignados a este apartado, no puediendo exceder el total de estas penalizaciones 1/2 de los puntos asignados a este apartado.
 
@@ -481,10 +481,19 @@ Manual de Usuario
 +--------------+-------------------------------------+
 | Calificación | Común al grupo                      |
 +--------------+-------------------------------------+
-| Actividades  | Product Review                      |
+| Actividades  | `Product Review`_                   |
 +--------------+-------------------------------------+
 
-Para calificar este ítem se verificará que cada historia de usuario implementada tenga su correspondiente entrada en el manual de usuario. Se evaluará que cada entrada se entienda con facilidad y resulte realmente de ayuda al usuario no experto en la aplicación, además de la calidad estética del manual creado.
+Este ítem evalua la claridad y corrección del manual de usuario creado para *historia de usuario* desarrollada. Para ello, se verificará que:
+
+  #. Por cada *historia de usuario* exista una entrada adecuada en el manual de usuario donde se explique el funcionamiento de dicha historia de usuario.
+  #. En el caso de manuales escritos, las capturas de pantalla indican claramente, de manera resaltada, los lugares referenciados desde el texto.
+  #. En el caso de manuales en formato vídeo, se puede ver con precisión qué acciones hay que realizar.
+  #. La calidad de las imágenes es adecuada y favorece su legibilidad.
+  #. Las descripciones proporcionadas son fáciles de seguir y entender.
+  #. Las descripciones proporcionadas son precisas y sintéticas.
+
+El incumplimiento del punto 1 supondrá una calificación de cero puntos en este apartado. Cada violación de los puntos 2, 3 ó 4 supondrá una penalización de 1/3 de los puntos asignados a este apartado. Cada tres violaciones de los puntos 5 ó 6 supondrán una penalización de 1/3 de los puntos asignados a este apartado.
 
 Test sobre Metodologías Ágiles
 -------------------------------
@@ -495,6 +504,6 @@ Test sobre Metodologías Ágiles
 | Actividades  | Prueba Escrita                      |
 +--------------+-------------------------------------+
 
-Una vez finalizado los sprints, se realizará una pequeña prueba escrita con dos objetivos separados: (1) confirmar que cada alumno ha participado de manera activa en el desarrollo del proyecto integrado y no se ha limitado a vivir del trabajo de sus compañeros de equipo; y, (2) verificar que el alumno entiende ciertos principios de las técnicas ágiles. Para verificar estos dos objetivos, el alumno deberá responder a 6 preguntas cortas elaborando para ello un cierto razonamiento. Algunas de estas preguntas se podrán responder fácilmente a partir de la experiencia adquirida durante el desarrollo del proyecto integrado ya que se referirán a acciones que el alumno, en caso de que haya participado activamente en el proyecto, deberá haber ejecutado en diversas ocasiones. Otras preguntas cuestionarán el porqué de ciertas prácticas ágiles, debiendo demostrar el alumno en su respuesta que entiende y comprende el fundamento de las actividades que ha realizado, no habiéndose limitado simplemente a seguir órdenes como si de un autómata se tratase.
+Una vez finalizado los *sprints*, se realizará una pequeña prueba escrita con dos objetivos separados: (1) confirmar que cada alumno ha participado de manera activa en el desarrollo del proyecto integrado y no se ha limitado a vivir del trabajo de sus compañeros de equipo; y, (2) verificar que el alumno entiende ciertos principios de las técnicas ágiles. Para verificar estos dos objetivos, el alumno deberá responder a 6 preguntas cortas elaborando para ello un cierto razonamiento. Algunas de estas preguntas se podrán responder fácilmente a partir de la experiencia adquirida durante el desarrollo del proyecto integrado ya que se referirán a acciones que el alumno, en caso de que haya participado activamente en el proyecto, deberá haber ejecutado en diversas ocasiones. Otras preguntas cuestionarán el porqué de ciertas prácticas ágiles, debiendo demostrar el alumno en su respuesta que entiende y comprende el fundamento de las actividades que ha realizado, no habiéndose limitado simplemente a seguir órdenes como si de un autómata se tratase.
 
 Una calificación inferior a 3 en esta prueba indicaría que el alumno o bien no ha participado activamente en el proyecto integrado, habiéndose simplemente beneficiado del trabajo de sus compañeros, o bien ha adquirido un muy escaso conocimiento de las técnicas de desarrollo ágil, o ambas cosas. En cualquier caso, si se diese esta situación, el alumno tendría el proyecto integrado temporalmente suspenso, hasta que el equipo docente analice en detalle la situación y decida sobre la solución más adecuada para dicho caso.
