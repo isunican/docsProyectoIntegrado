@@ -263,31 +263,31 @@ En este apartado se evaluará la corrección de la descomposición de tareas cre
 
 Para evaluar la *corrección de la descomposición en tareas* realizada se verificará que:
 
-  1.a Cada elemento de la `definición de completado`_ tiene al menos una tarea que implica su ejecución.
-  1.b Ninguna tarea pueda ser descompuesta fácilmente en subtareas independientes.
+  a. Cada elemento de la `definición de completado`_ tiene al menos una tarea que implica su ejecución.
+  b. Ninguna tarea pueda ser descompuesta fácilmente en subtareas independientes.
 
 Para evaluar la *corrección sintáctica* de las tareas creadas se verificará que:
 
-  2.a.1 Cada tarea tiene un nombre.
-  2.a.2 Cada tarea tiene especificado una estimación de su esfuerzo en horas.
-  2.a.3 Cada tarea está asignada a un miembro del equipo.
-  2.a.4 Cada tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma. Una excepción a este punto son las tareas repetitivas y bien conocidas [#f0]_.
+  c. Cada tarea tiene un nombre.
+  d. Cada tarea tiene especificado una estimación de su esfuerzo en horas.
+  e. Cada tarea está asignada a un miembro del equipo.
+  f. Cada tarea tiene asociada una breve descripción que especifica tanto el objetivo de la tarea como toda aquella información que se considere relevante para la realización de la misma. Una excepción a este punto son las tareas repetitivas y bien conocidas [#f0]_.
 
 Para evaluar la *corrección semántica* de las tareas creadas se verificará que:
 
-  2.b.1 El nombre de cada tarea es significativo.
-  2.b.2 La descripción de cada tarea es correcta desde un punto de vista técnico.
-  2.b.3 La descripción de la tarea permite entender con facilidad su objetivo, los pasos a realizar y los resultados a generar.
+  g. El nombre de cada tarea es significativo.
+  h. La descripción de cada tarea es correcta desde un punto de vista técnico.
+  i. La descripción de la tarea permite entender con facilidad su objetivo, los pasos a realizar y los resultados a generar.
 
 Para evaluar el *equilibrio de la carga de trabajo* se verificará que, dentro del *sprint* que se esté evaluando, la carga de trabajo de cada miembro del equipo sea similar a la de sus compañeros en proporción de lo que le corresponda en función de las `normas para calcular cargas de trabajo`_. Es decir, si hay miembros del equipo con una capacidad máxima de 36 horas de trabajo cada uno, y tareas asignadas a cada uno con un valor total en torno a las 30 horas de trabajo, lo que representaría aproximadamente un 80% de la capacidad total de trabajo de estos miembros, entonces un miembro con 16 horas como capacidad máxima de trabajo debería tener asociadas en ese *sprint* tareas por valor total de aproximadamente 13 horas de trabajo, lo que representaría alrededor del 80% de la capacidad máxima de trabajo de esta persona.
 
 Por último, para evaluar que la *asignación de tareas permita un ritmo de trabajo constante y sostenible* se verificará que miembros del equipo puedan trabajar en paralelo sin mayores problemas. Para ello, se comprobará principalmente que no existan miembros del equipo trabajo que estén ociosos en determinadas fases del desarrollo del *sprint*. Un *trabajador temporalmente ocioso* sería alguien no tenga apenas tareas que realizar en la segunda semana de un *sprint*.
 
-En el caso de que no se satisfaga el punto 1.a, la calificación de este elemento evaluable será de cero puntos. Si el punto 1.b se viola un número de veces igual o superior al número de elementos del *Product Backlog* seleccionado, la calificación de este apartado será inferior a la mitad de los puntos que tenga asignados.
+Cada violación del punto a, se penalizará con 1/2 de asignados a este elemento evaluable. Si el punto b se viola un número de veces igual o superior al número de elementos del *Product Backlog* seleccionado, la calificación de este apartado será inferior a la mitad de los puntos que tenga asignados.
 
-La violación en cualquiera de los puntos 2.a.1 a 2.a.3 supondrá una supondrá una penalización de la mitad de los puntos asignados a este elemento evaluable. La violación del punto 2.a.4 supondrá una supondrá una penalización de un cuarto de los puntos asignados a este elemento evaluable.
+La violación en cualquiera de los puntos c a e supondrá una supondrá una penalización de la mitad de los puntos asignados a este elemento evaluable. La violación del punto f una supondrá una penalización de un cuarto de los puntos asignados a este elemento evaluable.
 
-La violación de los puntos 2.b.3 sólo podrá suponer una pérdida de puntos superior a la mitad de los puntos asignados a este elemento cuando se perciba una manifiesta dejadez en la redacción de las descripciones y en la asignación de los nombres.
+La violación de los puntos g a i sólo podrá suponer una pérdida de puntos superior a la mitad de los puntos asignados a este elemento cuando se perciba una manifiesta dejadez en la redacción de las descripciones y en la asignación de los nombres.
 
 La violación del punto 3 supondrá una penalización de aproximadamente 1/3 de los puntos asignados a este elemento evaluable. Finalmente, cada violación del punto 4 supondrá una penalización de aproximadamente 1/4 de los puntos asignados a este elemento evaluable.
 
