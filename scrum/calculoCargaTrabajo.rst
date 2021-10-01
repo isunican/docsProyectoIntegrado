@@ -1,6 +1,6 @@
-=============
- Miscelánea
-=============
+=============================================
+ Estimaciones y Cálculos de Carga de Trabajo
+=============================================
 
 Cómo estimar una *historia de usuario* en puntos
 =================================================

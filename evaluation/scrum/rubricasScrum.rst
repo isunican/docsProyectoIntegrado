@@ -106,7 +106,7 @@ Para la evaluación de este elementos se comprobará que los diferentes artefact
 
 Con carácter general, se restarán 10 puntos por cada error ortográfico, gramatical o tipográfico encontrado. Errores ortográficos de gravedad, como escribir ``envase a`` en lugar de ``en base a`` podrán computarse como fallos dobles, triples o incluso suponer directamente una calificación de cero puntos para este elemento, en función de gravedad y frecuencia de los fallos detectados.
 
-Completitud del Product Backlog
+Conformidad del Product Backlog
 --------------------------------
 
 +--------------+---------------------------------------+
