@@ -4,9 +4,10 @@
 
 .. toctree::
    :caption: Actividades y Elementos Scrum
-   :maxdepth: 3
+   :maxdepth: 2
 
    self
+   Actividades Previas a los Sprints <actividadesPrevias>
    Actividades Scrum <actividadesScrum>
    definicionCompletado
    calculoCargaTrabajo
