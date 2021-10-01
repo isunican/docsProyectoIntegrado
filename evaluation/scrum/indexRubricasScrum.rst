@@ -33,11 +33,11 @@ Elementos Evaluables de Métodos de Desarrollo
 +----+------------------------------------------------+------------+
 | 02 | `Ortografía, Gramática y Maquetación`_         |         60 |
 +----+------------------------------------------------+------------+
-| 03 | `Completitud del Product Backlog`_             |         40 |
+| 03 | `Conformidad del Product Backlog`_             |         40 |
 +----+------------------------------------------------+------------+
 | 04 | `Especificación de las Historias de Usuario`_  |         20 |
 +----+------------------------------------------------+------------+
-| 05 | `Conformidad de los Test de Aceptación`_       |         20 |
+| 05 | `Completitud de los Test de Aceptación`_       |         20 |
 +----+------------------------------------------------+------------+
 | 06 | `Especificación de los Tickets de Cambio`_     |         20 |
 +----+------------------------------------------------+------------+
