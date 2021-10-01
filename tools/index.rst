@@ -77,11 +77,10 @@ Cada alumno deberá disponer de una cuenta en GitHub y proporcionar su nombre de
 Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican`_.
 El propio equipo docente añadirá a cada repositorio como colaboradores a los miembros del correspondiente *Scrum Team*, siendo por tanto la única responsabilidad de los alumnos  comprobar que son capaces de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
-Travis
+GitHub Actions
 =======
 
-`Travis <https://travis-ci.org/>`_ es un entorno de integración continua muy popular dentro la comunidad de desarrollo de software libre. Travis se integra con GitHub y
-permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, es necesario contratar algún plan de pago. No obstante, aquellos alumnos que estén registrados en el programa `Student Pack <https://education.github.com/pack>`_ de GitHub tienen la posibilidad de utilizar GitHub sobre repositorios privados.
+`GitHub Actions <https://docs.github.com/en/actions>`_ es un entorno de integración continua proporcionado por GitHub, que permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, hay un límite de minutos que se pueden utilizar de forma gratuita. A partir de ese límite, es necesario contratar algún plan de pago.
 
 Acciones Requeridas
 --------------------
