@@ -16,9 +16,9 @@ En primer lugar, se constituirán los equipos de desarrollo. La formación de ca
 
 .. todo: Poner enlace a lo que es un pacto de equipo.
 
-Una vez constituido, cada equipo de desarrollo deberá elegir un nombre, consensuar un `Pacto de Equipo <../misc/pactoEquipo.html>`_ y firmarlo. Tras la firma de dicho pacto, todos los miembros del equipo se obligan a su cumplimiento. Su incumplimiento significará la expulsión automática del grupo; y, como consecuencia, el suspenso del proyecto integrado [#f1]_.
+Una vez constituido, cada equipo de desarrollo deberá elegir un nombre, consensuar un `Pacto de Equipo <../misc/pactosDeEquipo.html>`_ y firmarlo. Tras la firma de dicho pacto, todos los miembros del equipo se obligan a su cumplimiento. Su incumplimiento significará la expulsión automática del grupo; y, como consecuencia, el suspenso del proyecto integrado [#f1]_.
 
-.. [#f1] En caso de llegar a esta desgradable situación, en cada caso particular se pactarán unas condiciones específicas de recuperación del proyecto integrado de manera que se puedan tanto alcanzar los objetivos de aprendizaje de la asignatura como reutilizar parte del trabajo que se hubiese realizado.
+.. [#f1] En caso de llegar a esta desagradable situación, en cada caso particular se pactarán unas condiciones específicas de recuperación del proyecto integrado de manera que se puedan tanto alcanzar los objetivos de aprendizaje de la asignatura como reutilizar parte del trabajo que se hubiese realizado.
 
 A continuación, cada equipo deberá preparar la infraestructura necesaria para el desarrollo del proyecto. Dicha infraestructura comprende tanto una serie de herramientas que deberán estar instaladas en los equipos de los alumnos, como una serie de herramientas en la nube en las cuales los alumnos deberán abrir la correspondiente cuenta. En la sección de `Herramientas <../tools/index.html>`_ del presente documento se describen todas las herramientas necesarias para el desarrollo del proyecto, qué debe hacer el alumno para instalarlas y cómo debe configurarlas.
 
@@ -27,7 +27,7 @@ Además, la herramienta `ScrumDesk <../tools/index.html#scrumdesk>`_ deberá est
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad, cada equipo deberá entregar su correspondiente *Pacto de Equipo* a través de la actividad porporcionada en moodle para ello. Además el equipo docente verificará que ciertos elementos de la infraestructura de desarrollo están adecuadamente creados.
+Como resultado de esta actividad, cada equipo deberá entregar su correspondiente *Pacto de Equipo* a través de la actividad proporcionada en moodle para ello. Además el equipo docente verificará que ciertos elementos de la infraestructura de desarrollo están adecuadamente creados.
 
 **Procedimiento de Evaluación**
 
@@ -47,7 +47,7 @@ Como resultado de esta actividad se deberá generar un *Product Backlog* inicial
 
 **Procedimiento de Evaluación**
 
-La no realización de esta actividad por parte de un equipo supone el suspenso automático del proyecto. Dentro de esta actividad se evaluarán y calificaran los siguientes ítems:
+La no realización de esta actividad por parte de un equipo supone el suspenso automático del proyecto. Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
   * Relación con el Product Owner.
   * Capacidad de Liderazgo.
@@ -64,11 +64,11 @@ Actividades dentro de un sprint Scrum
 Sprint Planning Meeting I
 --------------------------
 
-:Fecha y Hora: Primer Lunes del Sprint, de 9.30 a 10.30.
+:Fecha y Hora: Primer Lunes de cada Sprint, de 14.30 a 16.00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
-Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* a desarrollar en dicho sprint. Esta selección deberá ser aquella que, ajustándose a la *velocidad de equipo*, aporte mayor valor al nuevo producto generado. .
+Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* a desarrollar en dicho sprint. Esta selección deberá ser aquella que, ajustándose a la *velocidad de equipo*, aporte mayor valor al nuevo producto generado.
 
 Una vez realizada la selección de elementos que conformarán el *Sprint Backlog*, el *Scrum Team* deberá conversar con el *Product Owner* para saber con todo detalle cómo han de desarrollar cada uno de los elementos seleccionados. Para que el desarrollo de los sprints sea sostenible, la metodología *Scrum* no permite ni modificar el contenido del *Sprint Backlog* durante el desarrollo de un sprint, ni que sus elementos se renegocien. Por tanto, en esta actividad deben quedar perfectamente definidos todos los elementos que sean necesarios para un correcto desarrollo de los elementos seleccionados.
 
@@ -89,19 +89,19 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Ortografía, Gramática y Maquetación.
   * Conformidad del Product Backlog.
   * Especificación de las Historias de Usuario.
-  * Creación del Sprint Backlog
-  * Negociación de Historias de Usuario
+  * Creación del Sprint Backlog.
+  * Negociación de Historias de Usuario.
 
 Si un *Scrum Team* no realizara esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implica que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a ese sprint.
 
 Sprint Planning Meeting II
 ---------------------------
 
-:Fecha y Hora: Primer Lunes del sprint, de 10:30 a 11:30
+:Fecha y Hora: Primer Lunes de cada Sprint, tras el Sprint Planning Meeting I.
 
 **Descripción de la Actividad**
 
-Una vez definido el *Sprint Backlog* cada equipo descompondrá sus elementos en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado <definicionCompletado.html>`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
+Una vez definido el *Sprint Backlog* cada equipo descompondrá sus elementos en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
 
   * se satisfagan las restricciones impuestas por el proyecto integrado;
   * la carga de trabajo de cada uno de los miembros del equipo resulte lo más equilibrada posible;
@@ -117,34 +117,32 @@ Como resultado de esta actividad cada equipo deberá producir un conjunto de tar
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Capacidad de Liderazgo.
   * Ortografía, Gramática y Maquetación.
   * Planificación de Tareas.
   * Ejecución del Planning Poker.
 
 Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables que reste realizar dentro de ese sprint.
 
-Desarrollo, Gestión y Seguimiento del Sprint
+Gestión y Seguimiento del Sprint
 ---------------------------------------------
 
 :Fecha y Hora: Diario.
 
 **Descripción de la Actividad**
 
-Tras concluir la planificación del sprint, cada miembro del equipo podrá comenzar a trabajar en el desarrollo de dicho sprint. Durante el desarrollo del sprint, el equipo deberá desarollar diferentes actividades, tales como actualización del diseño arquitectónico de la aplicación, la creación o modificación de tablas de base de datos o el diseño, desarrollo y ejecución de pruebas, entre otros. Dentro de la asignatura de *Métodos de Desarrollo*, se prestará especial atención a
-a tres actividades concretas, las cuales se especifican a continuación, y que se deberán realizar de manea continua durante el desarrollo de cada sprint.
+Tras concluir la planificación del sprint, cada miembro del equipo podrá comenzar a trabajar en las tareas que tenga asignadas. Durante el desarrollo de estas tareas, el alumno deberá prestar atención a tres actividades concretas de interés para la asignatura de *Métodos de Desarrollo*:
 
-  #. Gestión del tablero *Kanban* asociado al sprint.
-  #. Monitorización del estado de evolución del sprint.
+  #. Gestión del tablero *Kanban*.
+  #. Monitorización de la evolución del sprint.
   #. Gestión de la Configuración.
 
-Para la *gestión del tablero Kanban asociado al sprint* cada miembro del equipo deberá actualizar de manera continua el estado de sus tareas, moviendo las tareas de manera adecuada a través del tablero Kanban.
+Para la *gestión del tablero Kanban*, cada miembro del equipo deberá actualizar regularmente el estado de sus tareas. Para ello deberá tanto mover de manera adecuada las tarjetas asociadas a sus tareas y actualizar correctamente y de manera regular sus valores de *spent* y *remaining*.
 
-Para la *monitorización del estado de evolución del sprint*, el equipo deberá revisar al menos una vez al día el *sprint burndown chart* para, en función de su evolución, decidir si es necesario adoptar algún tipo de acción correctora de cara a la finalización del sprint.
+Para la *monitorización de la evolución del sprint*, el equipo deberá revisar, al menos una vez al día, el *sprint burndown chart* para, en función de su estado, decidir si es necesario adoptar algún tipo de acción correctora o no.
 
-Para la *gestión de la configuración* cada miembro del equipo deberá observar escrupulosamente las reglas de gestión de la configuración especificadas para el desarrollo del proyecto integrado.
+Para la *gestión de la configuración*, cada miembro del equipo deberá observar escrupulosamente las `reglas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#reglas-de-gestion-de-la-configuracion>`_ especificadas para el desarrollo del proyecto integrado.
 
-Además, merece la pena destacar que, idealmente, cada miembro del equipo debería trabajar individualmente, en silencio e interaccionando lo mínimo posible con sus compañeros. No obstante, siempre que se trabaja en equipo es necesario llevar a cabo ciertas acciones de coordinación. Estas acciones de coordinación deberán realizarse principalmente dentro de los *Daily Scrum Meeting*. Para la coordinación remota se aconseja utilizar una herramienta de comunicación tipo *Slack* o similar.
+Además, merece la pena destacar que, idealmente, cada miembro del equipo debería trabajar individualmente, en silencio e interaccionando lo mínimo posible con sus compañeros. No obstante, siempre que se trabaja en equipo es necesario llevar a cabo ciertas acciones de coordinación. Estas acciones de coordinación deberán realizarse principalmente dentro de los *Daily Scrum Meeting*. Para la coordinación remota, se aconseja utilizar una herramienta de comunicación asíncrona y/o remota tipo *Slack* o similar.
 
 **Elementos a Entregar**
 
@@ -158,36 +156,36 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Gestión de tareas y tablero Kanban.
   * Interpretación Sprint Burndown Chart.
 
-La evaluación de los dos primeros ítems se realizará de manera indiviudual a lo largo del desarrollo del proyecto, mientras que el tercer ítem se evaluará de manera global para cada equipo, atendidendo a la evolución del repositorio Git conforme a las normas de gestión de la configuración durante el desarrollo del sprint.
+La evaluación de los dos primeros ítems se realizará de manera individual a lo largo del desarrollo del proyecto, mediante pequeñas pruebas orales en el aula.
+El tercer ítem se evaluará de manera global para cada equipo, atendiendo a la evolución del repositorio Git conforme a las normas de gestión de la configuración durante el desarrollo del sprint.
 
 Daily Scrum Meeting
 ---------------------
 
-:Fecha y Hora: Diario (salvo inicio y fin de cada sprint), 8:30 – 8:45
+:Fecha y Hora: Lunes, Miércoles y Viernes (salvo inicio y fin de cada sprint), de 14:30 a 14:45.
 
-Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin del sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
+Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin de dicho sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
 
-El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior; qué va a hacer hoy; y qué dificultades está atravesando actualmente. Además, el equipo deberá idear un plan para solventar dichas dificultades.
+El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior, qué va a hacer hoy, y, qué dificultades está atravesando actualmente. En caso de encontrar dificultades, el equipo deberá idear un plan para solventar dichas dificultades.
 
-Para realizar correctamente un *Daily Scrum Meeting*, a petición del moderador, primero interviene cada miembro del equipo. Durante cada intervención, el correspondiente miembro describe brevemente primero qué hizo ayer; luego qué piensa hacer hoy; y por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar estos obstáculos y minimizar los riesgos detectados.
+Para realizar correctamente un *Daily Scrum Meeting*, bajo la dirección del moderador, primero interviene cada miembro del equipo. Cada mimebro del equipo, durante su intervención, deberá describir brevemente primero qué hizo ayer, luego qué piensa hacer hoy, y, por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar o inimizar los obstáculos y riesgos detectados.
 
 Se recomienda, de acuerdo con las directrices de Scrum, que los *Daily Scrum Meeting* se celebren fuera del aula y con todos los miembros del equipo de pie.
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad no se debe entregar nada. Serán los miembros del equipo docente lo que acudan periódicamente a la ejecución de esta actividad para evaluarla.
+Como resultado de esta actividad no se deberá entregar nada. Serán los miembros del equipo docente lo que acudan periódicamente a la ejecución de esta actividad para evaluarla.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Capacidad de Liderazgo.
   * Ejecución de los Daily Scrum Meeting
 
 Product Backlog Refinement
 ----------------------------
 
-:Fecha y Hora: Segundo Lunes del sprint, 8:30 - 9:30
+:Fecha y Hora: Segundo Lunes de cada Sprint, 14:30 - 16:00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
@@ -197,7 +195,7 @@ Durante el desarrollo de cada sprint, y de cara a preparar el *Product Backlog* 
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad cada equipo deberá producir un *Product Backlog* revisado que pueda ser utilizado para el siguiente *Sprint Planning Meeting I*. Dicho *Product Backlog* tendrá que estar alamacenado en la herramienta *ScrumDesk* y listo para su evaluación a las 14:00 horas del mismo día en el que se realice esta actividad.
+Como resultado de esta actividad cada equipo deberá producir un *Product Backlog* revisado que pueda ser utilizado para el siguiente *Sprint Planning Meeting I*. Dicho *Product Backlog* tendrá que estar alamacenado en la herramienta *ScrumDesk* y listo para su evaluación a las 00:00 horas del mismo día en el que se realice esta actividad.
 
 **Procedimiento de Evaluación**
 
@@ -209,23 +207,28 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Ortografía, Gramática y Maquetación.
   * Conformidad del Product Backlog.
   * Especificación de las Historias de Usuario.
+  * Planning Poker (opcional).
 
-Sprint Review
+Product Review
 --------------
 
-:Fecha y Hora: Segundo Jueves del Sprint, 8:30-9:30
+:Fecha y Hora: Segundo Viernes de cada Sprint, 14:30-16:30. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
 
 **Descripción de la Actividad**
 
-Durante la *Product Review* cada *Scrum Team* mostrará el trabajo realizado en ese sprint al *Product Owner*, con el objetivo de conocer si el nuevo producto creado realmente se adecúa a las necesidades de éste último, por el contrario, es necesario realizar ciertas modificaciones.  Más concretamente, el *Scrum Team* deberá mostrar cada una de las funcionalidades desarrolladas al *Product Owner* y verificar delante suya su correcto funcionamiento. Además, el *Scrum Team* deberá permitir al *Product Owner* instalar en su propio terminal el producto desarrollado, de manera que pueda experimentar con él, en caso de que así lo desease.
+Durante la *Product Review* cada *Scrum Team* mostrará el trabajo realizado en ese sprint a su correspondiente *Product Owner*. El objetivo debe ser conocer si el producto creado se adecúa realmente a lo esperado por el *Product Owner*, o, por el contrario, es necesario realizar algunas modificaciones.
+
+Para ello, el *Scrum Team* deberá mostrar cada una de las funcionalidades desarrolladas al *Product Owner* y verificar delante suya su correcto funcionamiento. Además, el *Scrum Team* deberá permitir al *Product Owner* instalar en su propio terminal el producto desarrollado, de manera que pueda probar el producto por sí mismo si así lo desease.
 
 Durante la revisión del producto, el *Product Owner* podrá solicitar todas las explicaciones, tanto técnicas como no técnicas, que considere necesarias sobre el desarrollo del producto. Una vez revisado el producto y aclaradas las dudas que puedan surgir, el *Product Owner* podrá sugerir cambios, que serán debatidos con el *Scrum Team*. Si finalmente el *Product Owner* estima necesario incorporar ciertos cambios,  éstos deberán ser incorporados al *Product Backlog* como *tickets de mantemiento*
 
-Finalmente, hay que tener en cuenta que el *Product Owner*, al final de la *Product Review*, podría decidir poner el producto en funcionamiento real. Por tanto, cada equipo de desarrollo debe estar preparado para liberar el producto tan pronto como el *Product Owner* lo requiera.
+.. Finalmente, hay que tener en cuenta que el *Product Owner*, al final de la *Product Review*, podría decidir poner el producto en funcionamiento real. Por tanto, cada equipo de desarrollo debe estar preparado para liberar el producto tan pronto como el *Product Owner* lo requiera.
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad deberá existir una nueva versión operativa del producto software desarollado. Esta versión operativa incluirá todos los artefactos requeridos en la definición de completado. Esta versión operativa estará alojada en el repositorio *Git* de cada equipo,  y será conforme a las normas d gestión de la configuración para el desarrollo del proyecto integrado.
+Como resultado de esta actividad deberá existir una nueva versión operativa del producto software desarrollado. Esta versión operativa incluirá todos los artefactos requeridos por la  `definición de completado <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/scrum/definicionCompletado.html>`_, y estará alojada en el repositorio *Git* de cada equipo, el cual deberá ser conforme a las `normas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#politica-de-gestion-de-la-configuracion>`_ para el desarrollo del proyecto integrado.
+
+Además, se deberán incluir en el *Product Backlog* todos los tickets de mantenimiento que hayan podido surgir durante la *Product Review*.
 
 **Procedimiento de Evaluación**
 
@@ -236,34 +239,33 @@ Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
   * Capacidad de Comunicación.
   * Ortografía, Gramática y Maquetación.
   * Conformidad del Product Backlog.
-  * Cumplimiento de Definición de Completado
-  * Satisfacción del Product Owner
-  * Manual de Usuario
+  * Cumplimiento de Definición de Completado.
+  * Satisfacción del Product Owner.
+  * Manual de Usuario.
+  * Planning Poker (opcional).
 
 .. warning:: La no realización de esta actividad supondrá una calificación de 0 en el correspondiente sprint.
 
 Sprint Retrospective
 ---------------------
 
-:Fecha y Hora: Segundo Jueves del Sprint, 8:30-9:30
+:Fecha y Hora: Segundo Viernes de cada sprint, tras finalizar la *Product Review*.
 
 **Descripción de la Actividad**
 
-Tras las *Product Review*, cada equipo reflexionará sobre sus métodos de trabajo con el objetivo de identificar qué se ha hecho bien y qué se ha hecho mal durante el desarrollo del sprint. Tras esta reflexión se deberán adoptar medidas que permitan tanto   potenciar los aciertos como corregir los errores. La reflexión deberá estar organizado en torno a alguna dinámica de grupo tipo *brainstorming*. A este respecto se recomienda revisar las dinámicas de grupo existentes dentro del libro Gamestorming_.
+Tras las *Product Review*, cada equipo reflexionará sobre sus métodos de trabajo con el objetivo de identificar qué ha hecho bien y qué ha hecho mal durante el desarrollo del sprint. Tras esta reflexión, se deberán adoptar medidas que permitan tanto potenciar los aspectos positivos como corregir los errores. La reflexión deberá estar organizado en torno a alguna dinámica de grupo tipo *brainstorming*. A este respecto se recomienda revisar las dinámicas de grupo existentes dentro del libro Gamestorming_.
 
 .. _Gamestorming: https://gamestorming.com/
 
-Tras la realización de esta actividad se puede dar el sprint por concluido. Se recomienda, y en especial cuando los resultados obtenidos hayan sido satisfactorios, al final de la mañana de este Jueves para realizar alguna actividad lúdica que resulte de su agrado, como tomarse una simple cerveza con un pincho de tortilla, y así celebrar el logro de un nuevo sprint.
+Tras la realización de esta actividad se puede dar el sprint por concluido. Se recomienda realizar alguna actividad lúdica que resulte del agrado del equipo, tal como tomarse una simple bebida con un pincho de tortilla, como recompensa al trabajo realizado. Esta actividad debe hacerse fuera del horario lectivo.
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad cada *Scrum Team* entregará un *plan de mejora continua* con medidas a adoptar durante el desarrollo del próximo sprint. Este *plan de mejora continua* se entregará a través de una actividad de moodle habilitada a tal efecto. Las entregas de este plan de acción se realizarán antes de las 14:00 del Viernes siguiente a la celebración de la *Sprint Retrospective*.
+Como resultado de esta actividad cada *Scrum Team* entregará un *plan de mejora continua* con las medidas a adoptar durante el desarrollo del próximo sprint. Este plan, tal como se comentó anteriormente, debe tener acciones tanto para potenciar los aspectos positivos identificados como para mitigar o erradicar los negativos detectados. Este *plan de mejora continua* se entregará a través de una actividad de moodle habilitada a tal efecto.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Capacidad de Liderazgo.
   * Ortografía, Gramática y Maquetación.
-  * Completitud del Análisis de la Retrospectiva
-  * Plan de Mejora Continua
+  * Ejecución de la Retrospectiva.

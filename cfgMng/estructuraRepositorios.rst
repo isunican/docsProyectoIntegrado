@@ -93,7 +93,7 @@ Esta carpeta contendrá toda la documentación relacionada con las pruebas asoci
 Carpeta ``Quality Reports``
 ----------------------------
 
-Esta carpeta alojará los informes de calidad generados para cada historia de usuario desarrollada. Los informes de calidad deberán estar en formato ``pdf``, y nombrados conformes al patrón ``US<id>-<Name>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado por *ScrumDesk* a dicha historia de usuario  y ``name`` es un nombre que permita identificar dicha historia de usuario de manera más cómoda.
+Esta carpeta alojará los informes de calidad generados para cada Sprint. Los informes de calidad deberán estar en formato ``pdf``, y nombrados conformes al patrón ``Sprint<id>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado a dicho Sprint.
 
 Carpeta ``Releases``
 =====================

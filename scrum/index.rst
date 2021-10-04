@@ -4,9 +4,10 @@
 
 .. toctree::
    :caption: Actividades y Elementos Scrum
-   :maxdepth: 3
+   :maxdepth: 2
 
    self
+   Actividades Previas a los Sprints <actividadesPrevias>
    Actividades Scrum <actividadesScrum>
    definicionCompletado
    calculoCargaTrabajo
@@ -50,7 +51,7 @@ como la Ingeniería Civil o la Naval, no están diseñadas para soportar esta
 flexibilidad en el desarrollo de un producto software. Dichas metodologías se
 centran la definición detallada de un conjunto de requisitos fijos e
 inamovibles a partir de los cuales sea posible elaborar un plan de desarrollo
-lo más detallado y precioso posible, con unas fechas de entrega fijos y
+lo más detallado y preciso posible, con unas fechas de entrega fijas y
 claramente determinadas, así como un presupuesto bien definido y cerrado. Por
 tanto, estas metodologías no son propicias o favorables a los cambios durante
 el desarrollo del proyecto.
@@ -59,10 +60,10 @@ Con el objetivo de solventar estas deficiencias, en el año 2001 una serie de
 personalidades relevantes dentro del mundo del desarrollo software firmaron
 el manifiesto ágil. Este manifiesto pretendía ser la base sobre la cual
 desarrollar un nuevo tipo de metodologías de desarrollo, denominadas ágiles,
-que se adaptasen a los que pudiesen surgir durante el desarrollo de un
+que se adaptasen a los cambios que pudiesen surgir durante el desarrollo de un
 producto software y que poco a poco fuesen reemplazando a las metodologías
 tradicionales. Merece la pena destacar que, en este caso, el adjetivo ágil,
-del inglés agile, se refiere la acepción del término relativa a ligero y con
+del inglés agile, se refiere a la acepción del término relativa a ligero y con
 facilidad de movimiento más que a la más comúnmente utilizada de rápido o veloz.
 El objetivo general de este proyecto es que el alumno aprenda a trabajar dentro
 de un equipo de desarrollo software conforme a una metodología de desarrollo

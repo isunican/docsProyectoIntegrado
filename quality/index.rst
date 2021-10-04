@@ -7,12 +7,15 @@ Introducción
 
 La aplicación Android desarrollada como proyecto integrado de las asignaturas de intensificación de Ingeniería del Software, ha de satisfacer unos umbrales de calidad mínimos. Por lo tanto, dentro de las tareas a realizar habrá que analizar la calidad de producto y llevar a cabo las correcciones necesarias para que cumpla los criterios de calidad.
 
-La manera de proceder será por historia de usuario, de modo que para cada una se designará un responsable de calidad. Dicho responsable deberá tomar el código implementado para dicha historia, realizar el análisis de calidad, interpretarlo y en caso de no cumplir los criterios de calidad exigidos, realizar las correcciones necesarias y volver a realizar el análisis.
-
 Como herramienta utilizaremos SonarQube, que realiza análisis estático del código fuente detectando aspectos como código clonado, concordancia con estándares de programación, búsqueda de bugs o cobertura de pruebas. A cada uno de estos aspectos detectados, le asigna un valor de tiempo llamado “deuda técnica”, que podríamos definir como el coste y los intereses a pagar por hacer mal las cosas (el sobre esfuerzo a pagar por mantener un software mal hecho). Hay que tener en cuenta que sólo una parte de esta deuda es intrínseca al código y podemos medirla mediante analizadores, y que también puede venir asociada a aspectos relacionados con el proceso, arquitectura, diseño, tecnologías, etc.
 
-Dispondremos de un servidor donde alojar los informes de los análisis de nuestro proyecto. Este servidor corresponde a la organización isuc de  `SonarCloud <https://sonarcloud.io/organizations/isuc/projects>`_ y en él están configurados los umbrales de calidad y el conjunto de reglas a usar en nuestros proyectos Android.
+Dispondremos de un servidor donde alojar los informes de los análisis de nuestro proyecto. Este servidor corresponde a la `organización isuc de  SonarCloud <https://sonarcloud.io/organizations/isuc/projects>`_ y en él están configurados los umbrales de calidad y el conjunto de reglas a usar en nuestros proyectos Android.
 Por otro lado, en el cliente podremos lanzar el análisis de SonarQube mediante línea de comandos o de forma automatizada dentro del proceso de integración contínua. Además, dispondremos del complemento SonarLint para Android Studio que permitirá enlazar con la configuración de nuestro servidor y así gestionar las incidencias de forma cómoda desde nuestro IDE.
+
+
+La manera de proceder será por sprint, de modo que para cada uno se designará una pareja de responsables de calidad. Dichos responsables deberán observar los análisis que aparecen en SonarCloud tras cada integración y observar si se cumplen o no los criterios de calidad exigidos.
+
+Por cada análisis observado (cada integración), deberán analizar los datos y definir un plan de acciones que deberán realizar los desarrolladores para mejorar la calidad del código. Si el análisis indicaba que no se cumplen los criterios de calidad, el plan deberán incluir las acciones necesarias para pasarlo. Y en caso de que directamente se cumplan los criterios, el plan deberá incluir acciones preventivas para corregir los errores más importantes.
 
 
 Configuración del servidor
@@ -76,25 +79,43 @@ Tras la configuración, podremos ejecutar análisis para un único fichero o el 
 Análisis de la calidad de producto
 ========================================
 
-Durante el desarrollo del proyecto integrado se realizarán Sprints en los que se desarrollarán historias de usuario. Para cada historia de usuario se nombrará un responsable de calidad que deberá realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales establecidos, es decir, que pase de forma satisfactoria el quality gate.
+Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollarán varias historias de usuario. Para cada Sprint se nombrarán dos responsables de calidad que deberán realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales de calidad establecidos, es decir, que pase de forma satisfactoria el *quality gate*.
 
-Por lo tanto, los pasos que deberá realizar son:
+El proceso que han de seguir los **responsables de calidad** de un *Sprint* será el siguiente:
 
-*	Tomar el código desarrollado y subir el análisis al servidor SonarCloud, dentro de la organización isuc, con el id de su proyecto y su clave.
+* Dentro del trabajo de cada *Sprint*, los desarrolladores desarrollarán varias historias de usuario que irán implementando en una determinada rama y realizando integraciones con la rama ``develop``. Al realizar cada integración en ``develop``, GitHub Actions lanzará un análisis de sonar cuyo resultado se alojará en el servidor de *SonarCloud* de *isuc*.
 
-*	Observar los resultados del análisis, comprobando si ha pasado o no el quality gate establecido y que además, en la medida de lo posible, obtenga clasificación A en los 3 apartados: reliability (bugs), security (vulnerabilities) y maintainability (code smells).
+* Los responsables de la calidad del *Sprint* deberán observar el ``resultado del análisis`` para detectar si pasa o no las normas de calidad de la organización. Posteriormente, definirán un ``plan de acción`` a llevar a cabo (la serie de issues que deberán corregirse) para que el proyecto pase las normas de calidad de la organización. En caso de pasar las normas de calidad, los responsables de calidad decidirán si hay aspectos que desean mejorar de forma preventiva.
 
-*	Tras el análisis deberá decidir qué incidencias arreglar y hacerlo en el código. El complemento SonarLint facilita esta tarea. Tras hacer las mejoras se resubirá el análisis a SonarCloud para observar la situación actual, realizando este proceso hasta alcanzar la calidad exigida.
+* Los responsables de calidad comunicarán a los desarrolladores el plan de acción a realizar y ellos deberán solventarlos.
+
+* En siguientes integraciones con la rama develop se procederá de igual forma, vigilando siempre que se satisfagan los criterios de calidad de la organización.
+
 
 Informe de Calidad
 ===================
 
-El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y además ser entregado en Moodle. Este informe incluirá:
+El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará los autores del mismo y el Sprint al que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
 
-*	Los resultados del análisis inicial, indicando la situación actual y dónde están los principales problemas de calidad.
+El informe indicará cómo ha sido la evolución de la calidad en el desarrollo del Sprint. Es decir, cada vez que se integre la rama en develop, GitHub Actions lanzará sonar y los responsables de calidad deberán indicar en el informe qué observaron y qué plan de acciones correctivas establecieron.
 
-*	Las acciones que se han decidido llevar a cabo para mejorar la calidad y el motivo razonado de su elección.
+A continuación puede observarse un ejemplo de informe de calidad:
 
-*	Los resultados del análisis final, indicando la situación actual la cuál ha de cumplir los criterios de calidad exigidos.
+.. image:: EjemploInformeCalidad.png
 
-El informe indicará el autor del mismo y la historia de usuario a la que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
+
+
+Análisis de la calidad de proceso
+========================================
+
+La forma en la que se ha realizado el producto (el proceso) representa otra dimensión de la calidad del software que debe ser analizada. La calidad de proceso está relacionada con la forma en la que se ha realizado, incluyendo especialmente aspectos metodológicos como la realización de diagramas, aplicación de técnicas, etc.
+
+Existe cierta controversia en cuanto a si una buena calidad de proceso influye favorablemente en la obtención de una buena calidad de producto. Pensemos por ejemplo en la realización de un diagrama de clases (proceso) y si esto va a suponer que tengamos menos errores, vulnerabilidades, etc. en el código (producto interna). Existen defensores de ambas posiciones.
+
+Dentro del proyecto integrado, se ha seguido una metodología concreta que abarca gestión de la configuración (ramas, integración, etc.), pruebas (plan, unitarias, integración. etc.), calidad de producto (proceso seguido, informes, etc.), documentación (diagramas, manuales, etc.), etc.
+
+Una vez finalizados los sprints del proyecto integrado se precederá a un análisis de calidad del proceso seguido. Para ello distinguiremos dos etapas:
+
+- Creación de una lista de comprobación. En esta fase, cada grupo deberá analizar la metodología seguida y pensar qué aspectos deberían comprobarse para saber si se ha aplicado correctamente el proceso solicitado. Con estos elementos confeccionará una lista de comprobación que servirá para auditar proyectos de este tipo.
+
+- Auditorías cruzadas. Utilizando la lista de comprobación definida en la fase anterior, cada grupo realizará una auditoría del proceso seguido por otro grupo distinto.

@@ -39,7 +39,7 @@ Reglas de Gestión de la Configuración
 .. note::
     Estas reglas asumen que las ramas ``master`` y ``develop`` existen en el repositorio centralizado del equipo.
 
-#. Cada elemento de un *Product Backlog* deberá desarrollarse en una ``feature branch`` independiente. Por tanto, al comienzo de cada sprint, se deberá crear una ``feature branch`` por cada elemento a desarrollar dentro de ese sprint, es decir, por cada elemento contenido dentro del *Sprint Backlog*. Además, Cada ``feature branch`` deberá tener como nombre ``feature/featureID-featureName``, donde ``featureID`` es el identificador numérico adjudicado por *ScrumDesk* al correspondiente ítem del *Sprint Backlog*; y, ``featureName`` es un nombre corto que se le dará a la rama para que su identificación sea menos críptica.
+#. Cada elemento de un *Product Backlog* deberá desarrollarse en una ``feature branch`` independiente. Por tanto, al comienzo de cada sprint, se deberá crear una ``feature branch`` por cada elemento a desarrollar dentro de ese sprint, es decir, por cada elemento contenido dentro del *Sprint Backlog*. Además, cada ``feature branch`` deberá tener como nombre ``feature/featureID-featureName``, donde ``featureID`` es el identificador numérico adjudicado por *ScrumDesk* al correspondiente ítem del *Sprint Backlog*; y, ``featureName`` es un nombre corto que se le dará a la rama para que su identificación sea menos críptica.
 #. Los trabajos correspondientes a cada elemento del *Sprint Backlog* se realizarán en su correspondiente ``feature branch``. Una ``feature branch`` podrá ser subramificada tanto como se desee a criterio de cada *Scrum Team*.
 #. De acuerdo con los *esquemas de integración continua*, cada ``feature branch`` deberá ser integrada en ``develop`` periódicamente. Por ello, se establece como norma, que ninguna ``feature branch`` que esté recibiendo trabajo puede estar más de dos días sin que haya sido integrada en ``develop``. Este proceso de integración se realizará siguiendo el procedimiento para la `integración de una feature branch en develop`_.
 #. Cuando un elemento del *Sprint Backlog* esté completo, se creará un *Pull Request* para solicitar formalmente la  integración de su correspondiente *feature branch* en ``develop``. Este *Pull Request* se procesará siguiendo el procedimiento para la `integración de un Pull Request en develop`_.
@@ -53,14 +53,14 @@ Integración de una ``feature branch`` en ``develop``
 
 Las integraciones de una ``feature branch`` en ``develop`` se realizarán de acuerdo al siguiente procedimiento:
 
-#. Antes de realizar una integración de una ``feature branch`` en ``develop``, se deberá verificar que el último commit de ``develop`` esté marcado como ``Success`` por el entorno de integración continua *Travis*. En caso de no estarlo, habrá que esperar a que lo esté.
+#. Antes de realizar una integración de una ``feature branch`` en ``develop``, se deberá verificar que el último commit de ``develop`` esté marcado como ``Success`` por el entorno de integración continua *GitHub Actions*. En caso de no estarlo, habrá que esperar a que lo esté.
 #. A continuación, se verificará que la versión local de la rama ``develop`` esté complementamente actualizada.
 #. Tras realizar las comprobaciones anteriores, se deberá integrar, de manera local, la ``feature branch`` que corresponda dentro de ``develop``. Esta fusión deberá ser siempre recursiva, es decir, generar un nuevo *commit de merge* [#f1]_.
 #. Si la fusión generase conflictos, estos deberán resolverse de manera consensuada con el resto del equipo.
-#. La nueva rama ``develop``, con la ``feature branch`` integrada, deberá subirse al repositorio remoto. Al detectarse un nuevo *commit* en ``develop``, se ejecutará automáticamente el entorno de integración continua *Travis*. Al final de su ejecución, *Travis* marcará el correspondiente *commit* como ``Success`` o ``Failure``.
+#. La nueva rama ``develop``, con la ``feature branch`` integrada, deberá subirse al repositorio remoto. Al detectarse un nuevo *commit* en ``develop``, se ejecutará automáticamente el entorno de integración continua *GitHub Actions*. Al final de su ejecución, *GitHub Actions* marcará el correspondiente *commit* como ``Success`` o ``Failure``.
 
    a. Si el resultado es ``Success``, todo el trabajo existente en ``develop`` está libre de problemas de integración y este proceso se da por terminado.
-   b. Si el resultado es ``Failure``, es porque existen problemas de integración. En este caso, la rama ``develop`` queda bloqueada, no pudiendo recibir nuevas integraciones hasta que se solucionen dichos problemas de integración. Por tanto, se deberá trabajar en la solución de estos problemas con la mayor protitud posible.
+   b. Si el resultado es ``Failure``, es porque existen problemas de integración. En este caso, la rama ``develop`` queda bloqueada, no pudiendo recibir nuevas integraciones hasta que se solucionen dichos problemas de integración. Por tanto, se deberá trabajar en la solución de estos problemas con la mayor prontitud posible.
 
    Para resolver dichos problemas de integración, los responsables de la ``feature branch`` que haya generado el conflicto deberán realizar los cambios que sean necesarios en dicha ``feature branch``. Una vez realizados esos cambios, volverán a repetir este procedimiento desde el punto 3.
 
@@ -84,7 +84,7 @@ Trabajos en la ``release branch``
 #. Generar las versiones ``.pdf`` de todos los informes solicitados.
 #. Generar las imágenes ``.png`` de todos los modelos solicitados.
 #. Generar las imágenes ``.png`` correspondientes a los *mock-ups* elaborados, si los hubiere.
-#. Generar el correspondiente fichero *apk*.
+#. Generar el correspondiente fichero *apk*. Cada fichero *apk* deberá nombrarse conforme al patrón ``<nombreApp>-<GG>-<XX.YY.ZZ>``, donde ``nombreApp`` es el nombre que cada equipo quiera darle a su aplicación; ``GG`` será el número asignado al equipo de trabajo; y, ``XX.YY.ZZ`` es el correspondiente número de versión, que deberá ser conforme al `esquema de versionado`_ del proyecto integrado.
 #. Instalar el producto en diferentes terminales y verificar su correcto funcionamiento.
 
 Esquema de Versionado
