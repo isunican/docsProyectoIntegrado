@@ -15,7 +15,7 @@ Por otro lado, en el cliente podremos lanzar el análisis de SonarQube mediante 
 
 La manera de proceder será por sprint, de modo que para cada uno se designará una pareja de responsables de calidad. Dichos responsables deberán observar los análisis que aparecen en SonarCloud tras cada integración y observar si se cumplen o no los criterios de calidad exigidos.
 
-Por cada análisis observado (cada integración), deberán analizar los datos y definir un plan de acciones que deberán realizar los desarrolladores para mejorar la calidad del código. Si el análisis indicaba que no se cumplen los criterios de calidad, el plan deberán incluir las acciones necesarias para pasarlo. Y en caso de que directamente se cumplan los criterios, el plan deberá inclir acciones preventivas para corregir los errores más importantes. 
+Por cada análisis observado (cada integración), deberán analizar los datos y definir un plan de acciones que deberán realizar los desarrolladores para mejorar la calidad del código. Si el análisis indicaba que no se cumplen los criterios de calidad, el plan deberán incluir las acciones necesarias para pasarlo. Y en caso de que directamente se cumplan los criterios, el plan deberá incluir acciones preventivas para corregir los errores más importantes. 
 
 
 Configuración del servidor
@@ -83,7 +83,7 @@ Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollar
 
 El proceso que han de seguir los **responsables de calidad** de un *Sprint* será el siguiente:
 
-* Dentro del trabajo de cada *Sprint*, los desarrolladores desarrollarán varias historias de usuario que irán implementando en una determinada rama y realizando integraciones con la rama ``develop``. Al realizar cada integración en ``develop``, travis lanzará un análisis de sonar cuyo resultado se alojará en el servidor de *SonarCloud* de *isuc*.
+* Dentro del trabajo de cada *Sprint*, los desarrolladores desarrollarán varias historias de usuario que irán implementando en una determinada rama y realizando integraciones con la rama ``develop``. Al realizar cada integración en ``develop``, GitHub Actions lanzará un análisis de sonar cuyo resultado se alojará en el servidor de *SonarCloud* de *isuc*.
 
 * Los responsables de la calidad del *Sprint* deberán observar el ``resultado del análisis`` para detectar si pasa o no las normas de calidad de la organización. Posteriormente, definirán un ``plan de acción`` a llevar a cabo (la serie de issues que deberán corregirse) para que el proyecto pase las normas de calidad de la organización. En caso de pasar las normas de calidad, los responsables de calidad decidirán si hay aspectos que desean mejorar de forma preventiva.
 
@@ -97,7 +97,7 @@ Informe de Calidad
 
 El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará los autores del mismo y el Sprint al que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
 
-El informe indicará cómo ha sido la evolución de la calidad en el desarrollo del Sprint. Es decir, cada vez que se integre la rama en develop, travis lanzará sonar y los responsables de calidad deberán indicar en el informe qué observaron y qué plan de acciones correctivas establecieron.
+El informe indicará cómo ha sido la evolución de la calidad en el desarrollo del Sprint. Es decir, cada vez que se integre la rama en develop, GitHub Actions lanzará sonar y los responsables de calidad deberán indicar en el informe qué observaron y qué plan de acciones correctivas establecieron.
 
 A continuación puede observarse un ejemplo de informe de calidad:
 

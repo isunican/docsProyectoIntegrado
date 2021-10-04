@@ -8,29 +8,14 @@ La presentación de cada grupo deberá incluir los siguientes puntos:
 
 - Requisitos
 
-  - Requisitos del cliente
   - Requisitos que fueron implementados
 
 - Diseño
 
   - Arquitectura de la aplicación
   - Modelo de datos
-  - Interfaz gráfica de usuario
-
-- Implementación
-
-  - Tecnologías utilizadas (SQLite, librerías, etc.)
-  - Otros detalles que se quiera destacar
-
-- Proceso
-
-  - Pruebas (plan, unitarias e integración)
-  - Calidad de producto (análisis realizados y evolución)
+  - Pantallazos de la interfaz gráfica de usuario
 
 - Problemas encontrados y solución
 
-- Razonamiento sobre cómo abordar los requisitos que han quedado sin implementar
-
-- Conclusiones
-
-Finalizada la presentación de un grupo se pasará a un turno de preguntas en el que cada uno de los grupos restantes deberán realizarles un mínimo de 3 preguntas. Es importante que todos los miembros de los grupos realicen al menos 1 pregunta y contesten al menos a 1 pregunta.
+Finalizada la presentación de un grupo se pasará a un turno de preguntas en el que tanto profesores como el resto de grupos realizarán preguntas. Es importante que todos los miembros de los grupos contesten al menos a 1 pregunta.

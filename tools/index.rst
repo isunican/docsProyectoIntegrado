@@ -7,10 +7,10 @@ Esta página contiene una lista de las herramientas que se utilizarán para el d
 ScrumDesk
 ==========
 
-`Scrumdesk <https://www.scrumdesk.com/>`_ es una herramienta para la gestión de proyectos Scrum. ScrumDesk ofrece las siguiente facilidades:
+`Scrumdesk <https://www.scrumdesk.com/>`_ es una herramienta para la gestión de proyectos Scrum. ScrumDesk ofrece las siguientes facilidades:
 
   * Especificación y seguimiento de *Historias de Usuario*.
-  * Definición y gestión de *products backlogs* y *sprint backlogs*.
+  * Definición y gestión de *Products Backlogs* y *Sprint Backlogs*.
   * Definición y gestión de tareas.
   * Monitorización de las tareas mediante tablero *Kanban*.
   * Visualización del estado actual de un proyecto mediante *Burndown Chart*.
@@ -39,7 +39,9 @@ Recursos
 Slack/Discord
 ==============
 
-`Slack <https://slack.com/>`_ y `Discord <https://discord.com/>`_ son  herramientas para la facilitar la comunicación asíncrona dentro de un equipo de trabajo. Ambas herramientas siguen un estilo de comunicación parecido al de los chats, favoreciendo la comunicación remota, distribuida y asíncrona. Slack es ampliamente utilizado a nivel profesional, ofrece la posibilidad de integración con múltiples herramientas comúnmente utilizadas dentro del mundo del desarrollo software (e.g., Slack, Travis o Trello, entre otros). Discord está más orientada al mundo de los videojuegos, que es donde nace, pero tiene cada vez más aceptación a nivel profesional. Slack proporciona algunas funciones que permiten ordenar mejor las comunicaciones dentro de un canal de texto, haciendo que canales con muchas personas sean más fácilmente gestionables. Por otro lado, Discord ofrece canales de voz para comunicación síncrona, característica que no está incluida de manera nativa en Slack, mucho más orientado a la comunicación asíncrona.
+`Slack <https://slack.com/>`_ y `Discord <https://discord.com/>`_ son  herramientas para facilitar la comunicación asíncrona dentro de un equipo de trabajo. Ambas herramientas siguen un estilo de comunicación parecido al de los chats, favoreciendo la comunicación remota, distribuida y asíncrona. 
+
+Slack es ampliamente utilizado a nivel profesional, ofrece la posibilidad de integración con múltiples herramientas comúnmente utilizadas dentro del mundo del desarrollo software (e.g. Travis o Trello, entre otros). Discord está más orientada al mundo de los videojuegos, que es donde nace, pero tiene cada vez más aceptación a nivel profesional. Slack proporciona algunas funciones que permiten ordenar mejor las comunicaciones dentro de un canal de texto, haciendo que canales con muchas personas sean más fácilmente gestionables. Por otro lado, Discord ofrece canales de voz para comunicación síncrona, característica que no está incluida de manera nativa en Slack, mucho más orientado a la comunicación asíncrona.
 
 Acciones Requeridas
 --------------------
@@ -57,7 +59,7 @@ Git
 Acciones Requeridas
 --------------------
 
-Cada alumno deberá instalar Git en su computadora personal y comprobar que éste funciona correctamente. Además se recomienda encarecidamente que haya realizado los tutoriales impartidos en la asignatura de Métodos de Desarrollo.
+Cada alumno deberá instalar Git en su computadora personal y comprobar que éste funciona correctamente. Además se recomienda encarecidamente que haya realizado los tutoriales impartidos en la asignatura Métodos de Desarrollo.
 
 GitHub
 =======
@@ -75,18 +77,17 @@ Cada alumno deberá disponer de una cuenta en GitHub y proporcionar su nombre de
 Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican`_.
 El propio equipo docente añadirá a cada repositorio como colaboradores a los miembros del correspondiente *Scrum Team*, siendo por tanto la única responsabilidad de los alumnos  comprobar que son capaces de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
-Travis
+GitHub Actions
 =======
 
-`Travis <https://travis-ci.org/>`_ es un entorno de integración continua muy popular dentro la comunidad de desarrollo de software libre. Travis se integra con GitHub y
-permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, es necesario contratar algún plan de pago. No obstante, aquellos alumnos que estén registrados en el programa `Student Pack <https://education.github.com/pack>`_ de GitHub tienen la posibilidad de utilizar GitHub sobre repositorios privados.
+`GitHub Actions <https://docs.github.com/en/actions>`_ es un entorno de integración continua proporcionado por GitHub, que permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, hay un límite de minutos que se pueden utilizar de forma gratuita. A partir de ese límite, es necesario contratar algún plan de pago.
 
 Acciones Requeridas
 --------------------
 
-Los docentes proporcionarán la configuración necesaria para realizar la integración contínua del repositorio inicial. Esto incluye la parte de configuración del servidor y el fichero local de configuración ``.travis.yml``.
+Los docentes proporcionarán la configuración necesaria para realizar la integración continua del repositorio inicial. Esto incluye la parte de configuración del servidor y el fichero local de configuración ``.travis.yml``.
 
-Los alumnos deberán comprobar que se realiza la integración contínua de su proyecto inical de forma satisfactoria. Para ello deberán subir algún cambio al repositorio github (en la rama ``master`` o ``develop``) y comprobar la integración en la organiación de Travis `isunican <https://travis-ci.org/isunican>`_.
+Los alumnos deberán comprobar que se realiza la integración continua de su proyecto inical de forma satisfactoria. Para ello deberán subir algún cambio al repositorio github (en la rama ``master`` o ``develop``) y comprobar el resultado de la integración en la organización de Travis `isunican <https://travis-ci.org/isunican>`_.
 
 SourceTree/GitKraken/SmartGit
 ==============================
@@ -94,7 +95,7 @@ SourceTree/GitKraken/SmartGit
 .. note:: La utilización de estas herramientas es opcional, no siendo estrictamente necesarias para el desarrollo del proyecto. No obstante, se recomienda su instalación y utilización ya que facilitan enormemente ciertas tareas relacionadas con la gestión de repositorios Git, como la visualización de su estructura de ramificación.
 
 `SourceTree <https://www.sourcetreeapp.com/>`_,
-`GitKraken <https://www.gitkraken.com/>`_
+`GitKraken <https://www.gitkraken.com/>`_y
 `SmartGit <https://www.syntevo.com/smartgit/>`_ son tres clientes gráficos bastante populares para la gestión de repositorios Git. Todos estos clientes ofrecen versiones gratuitas cuyas funcionalidades son suficientes para el desarrollo del proyecto.
 
 SourceTree es la opción preferida de muchos desarrolladores por su simpleza y facilidad de uso. SourceTree ofrece versiones para Windows y Mac, pero no para Linux. Para aquellos alumnos que quieran trabajar desde Linux, la opción recomendada inicial sería GitKraken. No obstante, GitKraken, en su versión gratuita, no permite trabajar con repositorios privados, por lo que si algún grupo optase por utilizar dicha opción, la opción recomendada para los alumnos que trabajen desde Linux sería SmartGit en lugar de GitKraken.
@@ -107,7 +108,7 @@ SourceTree es la opción preferida de muchos desarrolladores por su simpleza y f
 Android Studio
 ===============
 
-`Android Studio <https://developer.android.com/studio/>`_ es un entorno de desarrollo integrado (IDE) más comúnmente utilizado para el desarrollo de aplicaciones Android. Incluye funcionalidades específicas para el desarrollo de este tipo de aplicaciones tales como diseñadores de interfaces gráficas móviles o ejecución de las aplicaciones en  emuladores.
+`Android Studio <https://developer.android.com/studio/>`_ es el entorno de desarrollo integrado (IDE) más comúnmente utilizado para el desarrollo de aplicaciones Android. Incluye funcionalidades específicas para el desarrollo de este tipo de aplicaciones tales como diseñadores de interfaces gráficas móviles o ejecución de las aplicaciones en  emuladores.
 
 Acción Requerida
 -----------------
@@ -119,7 +120,7 @@ SonarQube para proyectos Android
 
 Herramienta para el análisis de calidad de producto software de proyectos Android. Cuenta con una parte servidor alojada en `sonarcloud <https://sonarcloud.io>`_  donde consultar el resultado de los informes y con una parte cliente donde podremos lanzar el análisis de nuestro proyecto subiendo el resultado al servidor. Además existen complementos como SonarLint que permiten integrar en nuestro IDE el análisis y gestión de las incidencias de calidad, pudiendo además sincronizar dicho complemento con nuestro servidor de modo que se utilicen las reglas definidas en nuestra organización.
 
-.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el alumno lance el analizador desde terminal, ya que en el proceso de integración contínua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
+.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el alumno lance el analizador desde terminal, ya que en el proceso de integración continua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
 
 Acciones Requeridas
 --------------------
@@ -155,7 +156,7 @@ Acciones Requeridas
 Magic Draw
 ============
 
-`Magic Draw <https://www.nomagic.com/products/magicdraw>`_ es una herramienta para la creación de modelos UML. En comparación con otras herramientas es bastante ligera, cómoda y fácil de utilizar. MagicDraw e suna herramienta de pago para la que disponemos de licencia académica, la cual estará disponible a través de los cursos de Moodle de cada una de las asignaturas que conforman el proyecto integrado.
+`Magic Draw <https://www.nomagic.com/products/magicdraw>`_ es una herramienta para la creación de modelos UML. En comparación con otras herramientas es bastante ligera, cómoda y fácil de utilizar. MagicDraw es una herramienta de pago para la que disponemos de licencia académica, la cual estará disponible a través de los cursos de Moodle de cada una de las asignaturas que conforman el proyecto integrado.
 
 Acción Requerida
 -----------------
