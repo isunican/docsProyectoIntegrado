@@ -39,7 +39,7 @@ Recursos
 Slack/Discord
 ==============
 
-`Slack <https://slack.com/>`_ y `Discord <https://discord.com/>`_ son  herramientas para facilitar la comunicación asíncrona dentro de un equipo de trabajo. Ambas herramientas siguen un estilo de comunicación parecido al de los chats, favoreciendo la comunicación remota, distribuida y asíncrona. 
+`Slack <https://slack.com/>`_ y `Discord <https://discord.com/>`_ son  herramientas para facilitar la comunicación asíncrona dentro de un equipo de trabajo. Ambas herramientas siguen un estilo de comunicación parecido al de los chats, favoreciendo la comunicación remota, distribuida y asíncrona.
 
 Slack es ampliamente utilizado a nivel profesional, ofrece la posibilidad de integración con múltiples herramientas comúnmente utilizadas dentro del mundo del desarrollo software (e.g. Travis o Trello, entre otros). Discord está más orientada al mundo de los videojuegos, que es donde nace, pero tiene cada vez más aceptación a nivel profesional. Slack proporciona algunas funciones que permiten ordenar mejor las comunicaciones dentro de un canal de texto, haciendo que canales con muchas personas sean más fácilmente gestionables. Por otro lado, Discord ofrece canales de voz para comunicación síncrona, característica que no está incluida de manera nativa en Slack, mucho más orientado a la comunicación asíncrona.
 
@@ -78,7 +78,7 @@ Antes del inicio del proyecto, el equipo docente creará un repositorio inicial 
 El propio equipo docente añadirá a cada repositorio como colaboradores a los miembros del correspondiente *Scrum Team*, siendo por tanto la única responsabilidad de los alumnos  comprobar que son capaces de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
 GitHub Actions
-=======
+===============
 
 `GitHub Actions <https://docs.github.com/en/actions>`_ es un entorno de integración continua proporcionado por GitHub, que permite su utilización gratuita y sin restricciones sobre repositorios públicos de GitHub. Si se desea trabajar sobre repositorios privados, hay un límite de minutos que se pueden utilizar de forma gratuita. A partir de ese límite, es necesario contratar algún plan de pago.
 
