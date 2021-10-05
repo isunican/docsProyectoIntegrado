@@ -5,7 +5,7 @@
 Para favorecer la gestión de los diferentes artefactos creados durante la ejecución del proyecto integrado, los repositorios asociados a cada proyecto deberán seguir la estructura que se muestra en la Figura 1. De acuerdo con dicha figura, cada repositorio  contendrá tres carpetas o directorios principales: ``Docs``, ``Releases`` y ``AndroidProject``. Cada carpeta tendrá el propósito y estructura que se indica en las siguientes secciones.
 
 
-.. figure:: img/estructuraRepositorios.svg
+.. figure:: img/estructuraRepositorios.png
    :align: center
    :alt: Estructura de los repositorios
 
@@ -71,7 +71,7 @@ Esta carpeta alojará los informes de calidad generados para cada *sprint*. Los 
 Carpeta ``Releases``
 =====================
 
-Esta carpeta contendrá los archivos binarios necesarios para instalar la versión del producto generada al final de cada *sprint*. En el caso concreto, dicho archivo será un fichero ``apk``. Cada fichero ``apk`` generado al final de un *sprint* se nombrará con acuerdo al patrón ``<AppName><XX.YY.ZZ>.yy-mm-dd.apk``, donde ``AppName`` es el nombre de la aplicación desarrollada, ``XX.YY.ZZ`` el número de versión de acuerdo con el esquema de versionado del proyecto integrado, e ``yy-mm-dd`` la fecha, en formato anglosajón, correspondiente a la *Product Review* del *sprint* donde se generó dicho ``apk``.
+Esta carpeta contendrá los archivos binarios necesarios para instalar la versión del producto generada al final de cada *sprint*. En el caso concreto, dicho archivo será un fichero ``apk``. Cada fichero ``apk`` generado al final de un *sprint* se nombrará con acuerdo al patrón ``<AppName>-<XX.YY.ZZ>.yy-mm-dd.apk``, donde ``AppName`` es el nombre de la aplicación desarrollada, ``XX.YY.ZZ`` el número de versión de acuerdo con el esquema de versionado del proyecto integrado, e ``yy-mm-dd`` la fecha, en formato anglosajón, correspondiente a la *Product Review* del *sprint* donde se generó dicho ``apk``.
 
 Carpeta ``AndroidProject``
 ===========================
