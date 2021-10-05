@@ -66,17 +66,17 @@ Las integraciones de una ``feature branch`` en ``develop`` se realizarán de acu
 
 .. [#f2] Para obtener un único fichero de una versión determinada se puede utilizar el comando ``git checkout version fichero`` o realizar un *cherry pick*.
 
-Integración de un Pull Request en ``develop``
-----------------------------------------------
+Integración de una *Pull Request* en ``develop``
+-------------------------------------------------
 
-Antes de integrar un *Pull Request* en en ``develop``, la persona encargada de realizar la integración de la rama deberá comprobar que la correspondiente ``feature branch`` tiene todo el trabajo requerido para cumplir con la `definición de completado <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/scrum/definicionCompletado.html>`_. Si faltasen elementos para cumplir con dicha definición, deberá comentarlo en el *Pull Request* y esperar a que los elementos faltantes se completen o modifiquen.
+Las *Pull Request* se crean cuando el trabajo de una ``feature branch`` está completamente terminado con el propósito de indicar que es conveniente realizar una revisión detallada de ese trabajo antes de integrarlo por última vez en ``develop``. En esta revisión detallada, la persona encargada de procesar la *Pull Request* deberá comprobar, por ejemplo, que la correspondiente ``feature branch`` tiene todo el trabajo requerido para cumplir con la `definición de completado`_. Si faltasen elementos para cumplir con dicha definición, o se detectasen otros elementos a subsanar, se comentarán estas incidencias en la propia *Pull Request* y se esperará a que los elementos faltantes se completen o modifiquen antes de proceder a su integración. Obviamente, una vez que se subsanen las incidencias reportadas, hay que volver a verificar que dichas incidencias realmente hayan sido subsanadas.
 
-Una vez verificado que están todo los elementos requeridos para cumplir con la definición de completado, la integración del *Pull Request*  se realizará siguiendo el procedimiento general para la `integración de una feature branch en develop`_.
-
- .. pero antes de proceder a dicha integración sobre la rama ``develop``, un miembro del equipo que no haya participado en el desarrollo de esa ``feature branch`` revisará, con la ayuda de *Sonar*, que el trabajo realizado se ajuste a las normas de calidad de la empresa.
+Una vez verificado que la ``feature branch`` está libre de incidencias, y por tanto lista para ser integrada de manera definitiva en ``develop``, esta integración se realizará siguiendo el procedimiento general para la `integración de una feature branch en develop`_.
 
 Trabajos en la ``release branch``
 ----------------------------------
+
+Los trabajos que se recomiendan realizar en la *release branch* son:
 
 #. Revisar ortografía de todos los documentos creados así como de la interfaz gráfica del producto.
 #. Generar las versiones ``.pdf`` de todos los informes solicitados.
@@ -91,18 +91,14 @@ Esquema de Versionado
 Toda versión se identificará con tres números separados por puntos, conforme al patrón ``XX.YY.ZZ``, donde cada número posee el siguiente significado:
 
 XX
-  Un producto cambiará de versión principal cuando el conjunto de cambios que aporta con respecto a la versión principal anterior es bastante significativo desde el punto de vista del cliente.
-
-  Por ejemplo, un cambio estético completo en la interfaz del producto podría implicar un cambio de versión principal.
-
-  Los cambios de versiones principales suelen requerir un número de *sprints* considerable y una cuidadosa planificación a largo plazo.
+  Un producto cambiará de versión principal cuando el conjunto de cambios que aporta con respecto a la versión principal anterior es bastante significativo desde el punto de vista del cliente. Por ejemplo, un cambio estético completo en la interfaz del producto podría implicar un cambio de versión principal. Los cambios de versiones principales suelen requerir un número de *sprints* considerable y una cuidadosa planificación a largo plazo. No se cambiará de versión principal a lo largo del proyecto integrado.
 
 YY
-  Representa el número de *versión secundaria* o subversión de un producto. Una *versión secundaria* dentro de una versión principal difiere de la versión secundaria anterior, dentro de esa misma versión principal, en un número de funcionalidades pequeño.
+  Representa el número de *versión secundaria* o subversión de un producto. Una *versión secundaria* dentro de una versión principal difiere de la versión secundaria anterior, dentro de esa misma versión principal, en un número de funcionalidades pequeño. Éste será el número de versión que se incremente al final de cada *sprint* durante el desarrollo del proyecto integrado.
 
 ZZ
  Representa una actualización de una versión concreta ``XX.YY`` del producto software con un conjunto determinado de parches que solucionan una serie de *bugs* identificados en esa versión tras haber sido puesta en funcionamiento.
 
-Dentro del proyecto integrado se comenzará con la versión ``00.00`` del producto y al finalizar cada sprint se deberá incrementar el número de versión secundaria del producto.
+Dentro del proyecto integrado se comenzará con la versión ``00.00`` del producto y al finalizar cada *sprint* se deberá incrementar el número de versión secundaria del producto.
 
 .. [#f1] Para forzar a que una fusión sea siempre recursiva, se debe especificar el parámetro ``--no-ff`` a la hora de ejecutar el comando de ``merge``, de manera que aunque sea posible realizar la fusión por *fast-forward*, ésta se realice de manera recursiva. Todos los clientes gráficos de Git tienen una opción para forzar la fusión no recursiva. En caso de duda, se aconseja preguntar al profesor.
