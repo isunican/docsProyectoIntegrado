@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generado por Microsoft Visio, SVG Export EstructuraRepositorio.svg Página-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		width="6.60491in" height="6.40805in" viewBox="0 0 475.553 461.38" xml:space="preserve" color-interpolation-filters="sRGB"
+		class="st8">
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st4 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:none;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {stroke:#000000;stroke-dasharray:0.75,1.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st7 {fill:#ffffff;stroke:#000000;stroke-dasharray:0.75,1.5;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st8 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g>
+		<title>Página-1</title>
+		<g id="shape113-1" transform="translate(0.375,-0.375)">
+			<title>Hoja.113</title>
+			<rect x="0" y="0.749988" width="474.803" height="460.63" class="st1"/>
+		</g>
+		<g id="shape1-3" transform="translate(7.46161,-432.658)">
+			<title>Hoja.1</title>
+			<desc>Repositorio</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="17.97" y="454.35" class="st3">Repositorio</text>		</g>
+		<g id="shape2-6" transform="translate(28.7215,-397.225)">
+			<title>Hoja.2</title>
+			<desc>Docs</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="34.32" y="454.35" class="st3">Docs</text>		</g>
+		<g id="shape7-9" transform="translate(49.9813,-368.879)">
+			<title>Hoja.7</title>
+			<desc>Models</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="27.91" y="454.35" class="st3">Models</text>		</g>
+		<g id="group11-12" transform="translate(71.2411,-347.619)">
+			<title>Hoja.11</title>
+			<g id="shape8-13" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.8</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape9-16">
+				<title>Hoja.9</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape10-19" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.10</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape12-22" transform="translate(87.5404,-347.619)">
+			<title>Hoja.12</title>
+			<desc>EntitiesModel.png</desc>
+			<rect x="0" y="447.207" width="111.26" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">EntitiesModel.png</text>		</g>
+		<g id="group13-25" transform="translate(71.2411,-326.359)">
+			<title>Hoja.13</title>
+			<g id="shape14-26" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.14</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape15-29">
+				<title>Hoja.15</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape16-32" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.16</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape18-35" transform="translate(49.9813,-298.013)">
+			<title>Hoja.18</title>
+			<desc>Tutorials</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="24.75" y="454.35" class="st3">Tutorials</text>		</g>
+		<g id="group19-38" transform="translate(71.2411,-276.753)">
+			<title>Hoja.19</title>
+			<g id="shape20-39" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.20</title>
+				<path d="M0 461.38 L14.17 461.38" class="st6"/>
+			</g>
+			<g id="shape21-42">
+				<title>Hoja.21</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st6"/>
+			</g>
+			<g id="shape22-45" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.22</title>
+				<path d="M0 461.38 L6.91 461.38" class="st6"/>
+			</g>
+		</g>
+		<g id="shape23-48" transform="translate(87.5404,-276.753)">
+			<title>Hoja.23</title>
+			<desc>userManual.pdf</desc>
+			<rect x="0" y="447.207" width="106.299" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">userManual.pdf</text>		</g>
+		<g id="shape24-51" transform="translate(71.2411,-227.147)">
+			<title>Hoja.24</title>
+			<desc>US001-&#60;Name&#62;</desc>
+			<path d="M0 461.38 L92.13 461.38 L92.13 440.12 L0 440.12 L0 461.38 Z" class="st7"/>
+			<text x="7.99" y="454.35" class="st3">US001-&#60;Name&#62;</text>		</g>
+		<g id="shape25-54" transform="translate(71.2411,-198.8)">
+			<title>Hoja.25</title>
+			<desc>US002-&#60;Name&#62;</desc>
+			<path d="M0 461.38 L92.13 461.38 L92.13 440.12 L0 440.12 L0 461.38 Z" class="st7"/>
+			<text x="7.99" y="454.35" class="st3">US002-&#60;Name&#62;</text>		</g>
+		<g id="shape26-57" transform="translate(71.2411,-170.454)">
+			<title>Hoja.26</title>
+			<desc>….</desc>
+			<path d="M0 461.38 L92.13 461.38 L92.13 440.12 L0 440.12 L0 461.38 Z" class="st7"/>
+			<text x="40.41" y="454.35" class="st3">….</text>		</g>
+		<g id="shape27-60" transform="translate(49.9813,-142.107)">
+			<title>Hoja.27</title>
+			<desc>Test Plans</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="21.59" y="454.35" class="st3">Test Plans</text>		</g>
+		<g id="group43-63" transform="translate(71.2411,-120.847)">
+			<title>Hoja.43</title>
+			<g id="shape44-64" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.44</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape45-67">
+				<title>Hoja.45</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape46-70" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.46</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape47-73" transform="translate(87.5404,-120.847)">
+			<title>Hoja.47</title>
+			<desc>US001-&#60;Name&#62;-TestPlan.pdf</desc>
+			<rect x="0" y="447.207" width="149.528" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">US001-&#60;Name&#62;-TestPlan.pdf</text>		</g>
+		<g id="group28-76" transform="translate(71.2411,-99.5876)">
+			<title>Hoja.28</title>
+			<g id="shape29-77" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.29</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape30-80">
+				<title>Hoja.30</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape48-83" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.48</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape56-86" transform="translate(14.5482,-408.564)">
+			<title>Hoja.56</title>
+			<path d="M14.17 461.38 L0 461.38 L0 437.29" class="st4"/>
+		</g>
+		<g id="shape57-89" transform="translate(35.8081,-81.1624)">
+			<title>Hoja.57</title>
+			<path d="M0 145.32 L0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape59-92" transform="translate(518.448,92.5009) rotate(90)">
+			<title>Hoja.59</title>
+			<path d="M0 461.38 L35.43 461.38" class="st4"/>
+		</g>
+		<g id="shape60-95" transform="translate(518.448,163.367) rotate(90)">
+			<title>Hoja.60</title>
+			<path d="M0 461.38 L116.22 461.38" class="st6"/>
+		</g>
+		<g id="shape61-98" transform="translate(57.0679,-283.84)">
+			<title>Hoja.61</title>
+			<path d="M0 461.38 L14.17 461.38" class="st6"/>
+		</g>
+		<g id="shape62-101" transform="translate(57.0679,-181.792)">
+			<title>Hoja.62</title>
+			<path d="M0 461.38 L14.17 461.38" class="st6"/>
+		</g>
+		<g id="shape63-104" transform="translate(57.0679,-333.446)">
+			<title>Hoja.63</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape64-107" transform="translate(57.0679,-354.706)">
+			<title>Hoja.64</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape66-110" transform="translate(57.0679,-106.674)">
+			<title>Hoja.66</title>
+			<path d="M0 425.95 L0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape68-113" transform="translate(57.0679,-127.934)">
+			<title>Hoja.68</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape71-116" transform="translate(14.5482,-425.572)">
+			<title>Hoja.71</title>
+			<path d="M0 461.38 L191.34 461.38" class="st4"/>
+		</g>
+		<g id="shape72-119" transform="translate(49.9813,542.542) rotate(180)">
+			<title>Hoja.72</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape75-122" transform="translate(71.2411,685.692) rotate(180)">
+			<title>Hoja.75</title>
+			<path d="M0 461.38 L14.17 461.38" class="st6"/>
+		</g>
+		<g id="shape76-125" transform="translate(71.2411,714.038) rotate(180)">
+			<title>Hoja.76</title>
+			<path d="M0 461.38 L14.17 461.38" class="st6"/>
+		</g>
+		<g id="shape98-128" transform="translate(205.887,-418.485)">
+			<title>Hoja.98</title>
+			<path d="M0 454.29 L35.43 454.29 L35.43 461.38" class="st4"/>
+		</g>
+		<g id="shape115-131" transform="translate(49.2726,-71.2411)">
+			<title>Hoja.115</title>
+			<desc>Quality Report</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="10.5" y="454.35" class="st3">Quality Report</text>		</g>
+		<g id="group116-134" transform="translate(70.5325,-49.9813)">
+			<title>Hoja.116</title>
+			<g id="shape117-135" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.117</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape118-138">
+				<title>Hoja.118</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape119-141" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.119</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape120-144" transform="translate(86.8317,-49.9813)">
+			<title>Hoja.120</title>
+			<desc>SP01-QAReport.pdf</desc>
+			<rect x="0" y="447.207" width="165.118" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">SP01-QAReport.pdf</text>		</g>
+		<g id="group121-147" transform="translate(70.5325,-28.7215)">
+			<title>Hoja.121</title>
+			<g id="shape122-148" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.122</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape123-151">
+				<title>Hoja.123</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape124-154" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.124</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape125-157" transform="translate(86.8317,-28.7215)">
+			<title>Hoja.125</title>
+			<desc>SP02-QAReport.pdf</desc>
+			<rect x="0" y="447.207" width="145.276" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">SP02-QAReport.pdf</text>		</g>
+		<g id="group126-160" transform="translate(70.5325,-7.46161)">
+			<title>Hoja.126</title>
+			<g id="shape127-161" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.127</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+			<g id="shape128-164">
+				<title>Hoja.128</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+			</g>
+			<g id="shape129-167" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.129</title>
+				<path d="M0 461.38 L6.91 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape130-170" transform="translate(86.8317,-7.46161)">
+			<title>Hoja.130</title>
+			<desc>...</desc>
+			<rect x="0" y="447.207" width="139.606" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">...</text>		</g>
+		<g id="shape131-173" transform="translate(56.3593,-14.5482)">
+			<title>Hoja.131</title>
+			<path d="M0 404.69 L0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape132-176" transform="translate(56.3593,-35.8081)">
+			<title>Hoja.132</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape133-179" transform="translate(56.3593,-57.0679)">
+			<title>Hoja.133</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape135-182" transform="translate(49.9813,613.408) rotate(180)">
+			<title>Hoja.135</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape136-185" transform="translate(35.8081,-153.446)">
+			<title>Hoja.136</title>
+			<path d="M0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape147-188" transform="translate(87.5404,-326.359)">
+			<title>Hoja.147</title>
+			<desc>AppArchitecture.png</desc>
+			<rect x="0" y="447.207" width="111.26" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">AppArchitecture.png</text>		</g>
+		<g id="shape152-191" transform="translate(87.5404,-99.5876)">
+			<title>Hoja.152</title>
+			<desc>US002-&#60;Name&#62;-TestPlan.pdf</desc>
+			<rect x="0" y="447.207" width="150.945" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">US002-&#60;Name&#62;-TestPlan.pdf</text>		</g>
+		<g id="group188-194" transform="translate(241.32,-332.029)">
+			<title>Hoja.188</title>
+			<g id="group165-195" transform="translate(-7.99361E-14,-21.2598)">
+				<title>Hoja.165</title>
+				<g id="shape166-196" transform="translate(14.1732,-42.5197)">
+					<title>Hoja.166</title>
+					<desc>Releases</desc>
+					<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+					<text x="24.9" y="454.35" class="st3">Releases</text>				</g>
+				<g id="group167-199" transform="translate(35.4331,-21.2598)">
+					<title>Hoja.167</title>
+					<g id="shape168-200" transform="translate(461.38,447.207) rotate(90)">
+						<title>Hoja.168</title>
+						<path d="M0 461.38 L14.17 461.38" class="st4"/>
+					</g>
+					<g id="shape169-203">
+						<title>Hoja.169</title>
+						<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+					</g>
+					<g id="shape170-206" transform="translate(-301.383,788.525) rotate(-136.848)">
+						<title>Hoja.170</title>
+						<path d="M0 461.38 L6.91 461.38" class="st4"/>
+					</g>
+				</g>
+				<g id="shape171-209" transform="translate(52.7953,-21.2598)">
+					<title>Hoja.171</title>
+					<desc>BusFinder-00.00.01-20211005.apk</desc>
+					<rect x="0" y="447.207" width="181.063" height="14.1732" class="st5"/>
+					<text x="4" y="457.89" class="st3">BusFinder-00.00.01-20211005.apk</text>				</g>
+				<g id="group172-212" transform="translate(35.4331,5.68434E-14)">
+					<title>Hoja.172</title>
+					<g id="shape173-213" transform="translate(461.38,447.207) rotate(90)">
+						<title>Hoja.173</title>
+						<path d="M0 461.38 L14.17 461.38" class="st4"/>
+					</g>
+					<g id="shape174-216">
+						<title>Hoja.174</title>
+						<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+					</g>
+					<g id="shape175-219" transform="translate(-301.383,788.525) rotate(-136.848)">
+						<title>Hoja.175</title>
+						<path d="M0 461.38 L6.91 461.38" class="st4"/>
+					</g>
+				</g>
+				<g id="shape176-222" transform="translate(52.7953,5.68434E-14)">
+					<title>Hoja.176</title>
+					<desc>BusFinder-00.00.02-20211020.apk</desc>
+					<rect x="0" y="447.207" width="176.811" height="14.1732" class="st5"/>
+					<text x="4" y="457.89" class="st3">BusFinder-00.00.02-20211020.apk</text>				</g>
+				<g id="shape177-225" transform="translate(-7.99361E-15,-52.4409)">
+					<title>Hoja.177</title>
+					<path d="M0 461.38 L14.17 461.38" class="st4"/>
+				</g>
+				<g id="shape178-228" transform="translate(21.2598,-7.08661)">
+					<title>Hoja.178</title>
+					<path d="M0 425.95 L0 461.38 L14.17 461.38" class="st4"/>
+				</g>
+				<g id="shape179-231" transform="translate(21.2598,-28.3465)">
+					<title>Hoja.179</title>
+					<path d="M0 461.38 L14.17 461.38" class="st4"/>
+				</g>
+			</g>
+			<g id="group180-234" transform="translate(35.4331,1.13687E-13)">
+				<title>Hoja.180</title>
+				<g id="shape181-235" transform="translate(461.38,447.207) rotate(90)">
+					<title>Hoja.181</title>
+					<path d="M0 461.38 L14.17 461.38" class="st4"/>
+				</g>
+				<g id="shape182-238">
+					<title>Hoja.182</title>
+					<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st4"/>
+				</g>
+				<g id="shape183-241" transform="translate(-301.383,788.525) rotate(-136.848)">
+					<title>Hoja.183</title>
+					<path d="M0 461.38 L6.91 461.38" class="st4"/>
+				</g>
+			</g>
+			<g id="shape184-244" transform="translate(51.7323,-1.13687E-13)">
+				<title>Hoja.184</title>
+				<desc>...</desc>
+				<rect x="0" y="447.207" width="139.606" height="14.1732" class="st5"/>
+				<text x="4" y="457.89" class="st3">...</text>			</g>
+			<g id="shape185-247" transform="translate(482.64,433.033) rotate(90)">
+				<title>Hoja.185</title>
+				<path d="M0 461.38 L21.26 461.38" class="st4"/>
+			</g>
+			<g id="shape186-250" transform="translate(21.2598,-7.08662)">
+				<title>Hoja.186</title>
+				<path d="M0 461.38 L14.17 461.38" class="st4"/>
+			</g>
+		</g>
+		<g id="shape189-253" transform="translate(-220.06,55.6506) rotate(-90)">
+			<title>Hoja.189</title>
+			<path d="M0 461.38 L12.76 461.38" class="st4"/>
+		</g>
+		<g id="shape190-256" transform="translate(241.32,-315.021)">
+			<title>Hoja.190</title>
+			<path d="M0 370.67 L0 461.38 L14.17 461.38" class="st4"/>
+		</g>
+		<g id="shape191-259" transform="translate(255.493,-305.099)">
+			<title>Hoja.191</title>
+			<desc>AndroidProject</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="9.18" y="454.35" class="st3">AndroidProject</text>		</g>
+		<g id="shape192-262" transform="translate(263.997,-279.588)">
+			<title>Hoja.192</title>
+			<desc>App/src</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="26.99" y="454.35" class="st3">App/src</text>		</g>
+		<g id="shape193-265" transform="translate(258.328,-289.509)">
+			<title>Hoja.193</title>
+			<path d="M0 445.79 L0 461.38 L5.67 461.38" class="st4"/>
+		</g>
+		<g id="shape194-268" transform="translate(272.501,-254.076)">
+			<title>Hoja.194</title>
+			<desc>main</desc>
+			<rect x="0" y="440.12" width="113.386" height="21.2598" class="st2"/>
+			<text x="44.5" y="454.35" class="st3">main</text>		</g>
+		<g id="shape195-271" transform="translate(272.501,-152.737)">
+			<title>Hoja.195</title>
+			<desc>AndroidTest</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="16.24" y="454.35" class="st3">AndroidTest</text>		</g>
+		<g id="shape196-274" transform="translate(272.501,-177.54)">
+			<title>Hoja.196</title>
+			<desc>test</desc>
+			<rect x="0" y="440.12" width="92.126" height="21.2598" class="st2"/>
+			<text x="36.71" y="454.35" class="st3">test</text>		</g>
+		<g id="group199-277" transform="translate(281.005,-235.651)">
+			<title>Hoja.199</title>
+			<g id="shape197-278">
+				<title>Hoja.197</title>
+				<rect x="0" y="450.041" width="17.0079" height="11.3386" class="st2"/>
+			</g>
+			<g id="shape198-280" transform="translate(3.2474E-14,-11.3386)">
+				<title>Hoja.198</title>
+				<rect x="0" y="458.545" width="8.50394" height="2.83465" class="st2"/>
+			</g>
+		</g>
+		<g id="group200-282" transform="translate(281.005,-218.643)">
+			<title>Hoja.200</title>
+			<g id="shape201-283">
+				<title>Hoja.201</title>
+				<rect x="0" y="450.041" width="17.0079" height="11.3386" class="st2"/>
+			</g>
+			<g id="shape202-285" transform="translate(3.2474E-14,-11.3386)">
+				<title>Hoja.202</title>
+				<rect x="0" y="458.545" width="8.50394" height="2.83465" class="st2"/>
+			</g>
+		</g>
+		<g id="shape203-287" transform="translate(300.847,-235.651)">
+			<title>Hoja.203</title>
+			<desc>Model</desc>
+			<rect x="0" y="447.207" width="62.3622" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">Model</text>		</g>
+		<g id="shape204-290" transform="translate(300.847,-218.643)">
+			<title>Hoja.204</title>
+			<desc>View</desc>
+			<rect x="0" y="447.207" width="62.3622" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">View</text>		</g>
+		<g id="group205-293" transform="translate(281.005,-201.635)">
+			<title>Hoja.205</title>
+			<g id="shape206-294">
+				<title>Hoja.206</title>
+				<rect x="0" y="450.041" width="17.0079" height="11.3386" class="st2"/>
+			</g>
+			<g id="shape207-296" transform="translate(3.2474E-14,-11.3386)">
+				<title>Hoja.207</title>
+				<rect x="0" y="458.545" width="8.50394" height="2.83465" class="st2"/>
+			</g>
+		</g>
+		<g id="shape208-298" transform="translate(300.847,-201.635)">
+			<title>Hoja.208</title>
+			<desc>Presenter</desc>
+			<rect x="0" y="447.207" width="62.3622" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">Presenter</text>		</g>
+		<g id="shape209-301" transform="translate(266.832,-265.414)">
+			<title>Hoja.209</title>
+			<path d="M0 447.21 L0 461.38 L5.67 461.38" class="st4"/>
+		</g>
+		<g id="shape210-304" transform="translate(266.832,-187.462)">
+			<title>Hoja.210</title>
+			<path d="M0 383.43 L0 461.38 L5.67 461.38" class="st4"/>
+		</g>
+		<g id="shape211-307" transform="translate(266.832,-163.367)">
+			<title>Hoja.211</title>
+			<path d="M0 437.29 L0 461.38 L5.67 461.38" class="st4"/>
+		</g>
+		<g id="shape212-310" transform="translate(275.336,-207.304)">
+			<title>Hoja.212</title>
+			<path d="M5.67 461.38 L0 461.38 L0 414.61" class="st4"/>
+		</g>
+		<g id="shape213-313" transform="translate(275.336,-241.32)">
+			<title>Hoja.213</title>
+			<path d="M0 461.38 L5.67 461.38" class="st4"/>
+		</g>
+		<g id="shape214-316" transform="translate(275.336,-224.312)">
+			<title>Hoja.214</title>
+			<path d="M0 461.38 L5.67 461.38" class="st4"/>
+		</g>
+		<g id="group215-319" transform="translate(70.8868,-255.493)">
+			<title>Hoja.215</title>
+			<g id="shape216-320" transform="translate(461.38,447.207) rotate(90)">
+				<title>Hoja.216</title>
+				<path d="M0 461.38 L14.17 461.38" class="st6"/>
+			</g>
+			<g id="shape217-323">
+				<title>Hoja.217</title>
+				<path d="M0 461.38 L14.17 461.38 L14.17 451.93 L9.13 451.93 L9.13 447.21 L0 447.21" class="st6"/>
+			</g>
+			<g id="shape218-326" transform="translate(-301.383,788.525) rotate(-136.848)">
+				<title>Hoja.218</title>
+				<path d="M0 461.38 L6.91 461.38" class="st6"/>
+			</g>
+		</g>
+		<g id="shape219-329" transform="translate(87.186,-255.493)">
+			<title>Hoja.219</title>
+			<desc>videotutoriales.txt</desc>
+			<rect x="0" y="447.207" width="106.299" height="14.1732" class="st5"/>
+			<text x="4" y="457.89" class="st3">videotutoriales.txt</text>		</g>
+		<g id="shape220-332" transform="translate(56.7136,-262.58)">
+			<title>Hoja.220</title>
+			<path d="M0 461.38 L14.17 461.38" class="st6"/>
+		</g>
+	</g>
+</svg>
