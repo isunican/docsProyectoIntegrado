@@ -7,7 +7,7 @@ Estructura de Ramas
 
 .. _gitflow: https://nvie.com/posts/a-successful-git-branching-model/
 .. _definición de completado: ../scrum/definicionCompletado.html#definicion-de-completado
-.. https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#integracion-de-una-feature-branch-en-develop
+.. _normas establecidas para nombrar fichero apk: estructuraRepositorios.html#carpeta-releases
 
 La política de *Gestión de la Configuración* que se utilizará durante el desarrollo del proyecto integrado estará basada en el esquema de ramificación  GitFlow_. De acuerdo con dicho esquema, en el repositorio de cada equipo de trabajo deberán existir las ramas que se describen a continuación.
 
@@ -41,7 +41,7 @@ Reglas de Gestión de la Configuración
 #. Cada elemento del *Product Backlog* a desarrollar deberá desarrollarse en una ``feature branch`` independiente. Por tanto, al comienzo de cada sprint, se deberá crear una ``feature branch`` por cada elemento seleccionado para su desarrollo en ese *sprint*. Además, cada ``feature branch`` deberá tener como nombre ``feature/featureID-featureName``, donde ``featureID`` es el identificador numérico adjudicado por *ScrumDesk* al elemento del *Product Backlog* que corresponda; y, ``featureName`` es un nombre corto que se le dará a la rama para que su identificación sea menos críptica.
 #. Los trabajos correspondientes a cada elemento del *Product Backlog* se realizarán en su correspondiente ``feature branch``. Una ``feature branch`` podrá ser subramificada tanto como se desee a criterio de cada *Scrum Team*.
 #. De acuerdo con los *esquemas de integración continua*, cada ``feature branch`` deberá ser integrada en ``develop`` periódicamente. Por ello, se establece como norma, que ninguna ``feature branch`` que esté recibiendo trabajo puede estar más de dos días sin que haya sido integrada en ``develop``. Este proceso  se realizará siguiendo el procedimiento para la `integración de una feature branch en develop`_.
-#. Cuando el desarrollo de un elemento del *Product Backlog* esté completo, se creará una *Pull Request* para solicitar formalmente la integración de su correspondiente *feature branch* en ``develop``. Este proceso se ejecutará siguiendo el procedimiento para la `integración de un Pull Request en develop`_.
+#. Cuando el desarrollo de un elemento del *Product Backlog* esté completo, se creará una *Pull Request* para solicitar formalmente la integración de su correspondiente *feature branch* en ``develop``. Este proceso se ejecutará siguiendo el procedimiento para la `integración de una Pull Request en develop`_.
 #. Cuando el trabajo contenido en ``develop`` esté listo para crear una nueva versión operativa del producto, se procederá a crear una ``release branch``. Dicha rama tendrá como nombre ``release/SR<id>``, donde ``id`` es el número del sprint para el cual se produce la *release*. En esta rama se realizarán todos los trabajos finales que sean necesarios para crear una nueva versión operativa del software. Estos trabajos se detallan en la sección `trabajos en la release branch`_.git tag c
 #. Cuando el trabajo contenido en la rama ``release`` esté terminado, dicha rama se fusionará con las ramas ``master`` y ``develop``. En ambos casos la fusión debe hacerse siempre de forma recursiva [#f1]_, por lo que deberá aparecer un único *commit* nuevo en la rama destino como resultado de la fusión.
 #. Tras integrar la ``release branch`` en ``master``, el *commit* generado en la rama *master* deberá etiquetarse como ``vXX.YY.ZZ``, donde ``XX.YY.ZZ`` es el correspondiente número de versión. Este número de versión deberá ser conforme al `esquema de versionado`_ del proyecto integrado.
@@ -82,7 +82,7 @@ Los trabajos que se recomiendan realizar en la *release branch* son:
 #. Generar las versiones ``.pdf`` de todos los informes solicitados.
 #. Generar las imágenes ``.png`` de todos los modelos solicitados.
 #. Generar las imágenes ``.png`` correspondientes a los *mock-ups* elaborados, si los hubiere.
-#. Generar el correspondiente fichero *apk*. Cada fichero *apk* deberá nombrarse conforme al patrón ``<nombreApp>-<GG>-<XX.YY.ZZ>``, donde ``nombreApp`` es el nombre que cada equipo quiera darle a su aplicación; ``GG`` será el número asignado al equipo de trabajo; y, ``XX.YY.ZZ`` es el correspondiente número de versión, que deberá ser conforme al `esquema de versionado`_ del proyecto integrado.
+#. Generar el correspondiente fichero *apk*. Cada fichero *apk* deberá nombrarse de acuerdo a las `normas establecidas para nombrar fichero apk`_ .
 #. Instalar el producto en diferentes terminales y verificar su correcto funcionamiento.
 
 Esquema de Versionado
