@@ -13,7 +13,7 @@ El desarrollo de una *historia de usuario*, u otro elemento del *Product Backlog
 #. La implementación creada supera satisfactoriamente al menos dos de las pruebas unitarias contempladas en el `plan de pruebas`_ de dicho elemento del *Product Backlog*.
 #. La implementación creada supera satisfactoriamente al menos una de las pruebas de interfaz de usuario contempladas en el `plan de pruebas`_ de dicho elemento del *Product Backlog*.
 #. La implementación creada supera satisfactoriamente las pruebas de aceptación contempladas en el `plan de pruebas`_ de dicho elemento del *Product Backlog*.
-#. Si la implementación de dicho elemento del *Product Backlog* ha requerido de algún cambio en el modelo de datos de la aplicación, los cambios están reflejados en el modelo conceptual de datos.
+#. Si la implementación de dicho elemento del *Product Backlog* ha requerido de algún cambio en las clases que conforman el modelo de datos de la aplicación, los cambios están reflejados en el modelo UML asociado.
 #. Si la implementación de dicho elemento del *Product Backlog* ha requerido cambios a nivel arquitectónico, estos cambios se han reflejado en el modelo que describe la arquitectura del sistema.
 #. La rama correspondiente al elemento del *Product Backlog* implementado se ha integrado en la rama ``develop``.
 #. Se ha comprobado que, tras integrar la historia de usuario en la rama ``develop``, que el producto completo sigue superando todos los tests previamente definidos.
