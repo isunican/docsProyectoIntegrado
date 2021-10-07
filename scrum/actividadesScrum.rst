@@ -20,6 +20,8 @@ Actividades de un Sprint Scrum
 .. _Ejecución de la Retrospectiva: ../evaluation/scrum/indexRubricasScrum.html#ejecucion-de-la-retrospectiva
 .. _Resultados de la Retrospectiva:	../evaluation/scrum/indexRubricasScrum.html#resultados-de-la-retrospectiva
 .. _Manual de Usuario: ../evaluation/scrum/indexRubricasScrum.html#manual-de-usuario
+.. _definición de completado: definicionCompletado.html
+.. _reglas de gestión de la configuración: ../politicaCfg.html#reglas-de-gestion-de-la-configuracion
 
 Sprint Planning Meeting I
 --------------------------
@@ -60,27 +62,23 @@ Sprint Planning Meeting II
 
 **Descripción de la Actividad**
 
-Una vez definido el *Sprint Backlog*, cada equipo descompondrá los elementos seleccionados para su desarrollo en el *sprint* en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
+Una vez definido el *Sprint Backlog*, cada equipo descompondrá los elementos seleccionados para su desarrollo en ese *sprint* en tareas. Por cada elemento a desarrollar, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que se satisfagan las restricciones impuestas por el proyecto integrado; se equilibren las cargas de trabajo de cada miembro del equipo; y se facilite el trabajo concurrente y la productividad durante el desarrollo del *sprint*.
 
-  * se satisfagan las restricciones impuestas por el proyecto integrado;
-  * la carga de trabajo de cada uno de los miembros del equipo resulte lo más equilibrada posible;
-  * se facilite el trabajo concurrente durante el desarrollo del sprint.
-
-.. warning:: La estimación de las tareas en horas debe realizarse utilizando una escala discreta de espacio creciente, tal como la escala de fibonacci modificada [0, 0.5, 1, 2, 3, 5, 8, 13, 20, 50, 100].
+.. warning:: La estimación de las tareas en horas debe realizarse utilizando la escala discreta de espacio creciente [0, 0.5, 1, 2, 3, 5, 8, 13, 20, 50, 100].
 
 **Elementos a Entregar**
 
-Como resultado de esta actividad cada equipo deberá producir un conjunto de tareas a realizar, las cuales constituirán la planificación del sprint. Dicho descomposición en tareas tendrá que estar incluida en la herramienta *ScrumDesk* y lista para su evaluación a las 14:00 horas del día siguiente al de la realización de la actividad.
+Como resultado de esta actividad cada equipo deberá producir un conjunto de tareas a realizar, las cuales constituirán la planificación del *sprint*. Dicho descomposición en tareas tendrá que estar incluida en la herramienta *ScrumDesk* y lista para su evaluación a las 23:59 horas del día siguiente al de la realización de la actividad.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Ortografía, Gramática y Maquetación.
-  * Planificación de Tareas.
-  * Ejecución del Planning Poker.
+  * `Ortografía, Gramática y Maquetación`_.
+  * `Planificación de Tareas`_.
+  * `Ejecución del Planning Poker`_.
 
-Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables que reste realizar dentro de ese sprint.
+Si un *Scrum Team* no realizase esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implicaría que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables que estén por realizar dentro de ese *sprint*.
 
 Gestión y Seguimiento del Sprint
 ---------------------------------------------
@@ -95,41 +93,40 @@ Tras concluir la planificación del sprint, cada miembro del equipo podrá comen
   #. Monitorización de la evolución del sprint.
   #. Gestión de la Configuración.
 
-Para la *gestión del tablero Kanban*, cada miembro del equipo deberá actualizar regularmente el estado de sus tareas. Para ello deberá tanto mover de manera adecuada las tarjetas asociadas a sus tareas y actualizar correctamente y de manera regular sus valores de *spent* y *remaining*.
+Con respecto a la *gestión del tablero Kanban*, cada miembro del equipo será responsable de actualizar regularmente el estado de sus tareas. Para ello deberá tanto mover de manera adecuada las tarjetas correspondientes a sus tareas y actualizar correctamente sus valores de *spent* y *remaining*.
 
 Para la *monitorización de la evolución del sprint*, el equipo deberá revisar, al menos una vez al día, el *sprint burndown chart* para, en función de su estado, decidir si es necesario adoptar algún tipo de acción correctora o no.
 
-Para la *gestión de la configuración*, cada miembro del equipo deberá observar escrupulosamente las `reglas de gestión de la configuración <https://proyecto-integrado-ingenieria-del-sw.readthedocs.io/es/latest/cfgMng/politicaCfg.html#reglas-de-gestion-de-la-configuracion>`_ especificadas para el desarrollo del proyecto integrado.
+Para la *gestión de la configuración*, cada miembro del equipo deberá observar escrupulosamente las `reglas de gestión de la configuración`_ especificadas para el desarrollo del proyecto integrado.
 
-Además, merece la pena destacar que, idealmente, cada miembro del equipo debería trabajar individualmente, en silencio e interaccionando lo mínimo posible con sus compañeros. No obstante, siempre que se trabaja en equipo es necesario llevar a cabo ciertas acciones de coordinación. Estas acciones de coordinación deberán realizarse principalmente dentro de los *Daily Scrum Meeting*. Para la coordinación remota, se aconseja utilizar una herramienta de comunicación asíncrona y/o remota tipo *Slack* o similar.
+Además, merece la pena destacar que, idealmente, cada miembro del equipo debería trabajar individualmente, en silencio e interaccionando lo mínimo posible con sus compañeros. No obstante, siempre que se trabaja en equipo es necesario llevar a cabo ciertas acciones de coordinación. Estas acciones de coordinación deberán realizarse principalmente dentro de los *Daily Scrum Meeting*. Para la coordinación remota, se aconseja utilizar una herramienta de comunicación asíncrona y remota tipo *Discord*.
 
 **Elementos a Entregar**
 
-Como consecuencia de la realización de esta actividad, la herramienta utilizada para la gestión del proyecto deberá reflejar fielmente el estado de ejecución actual del sprint. La veracidad de la información contenida dentro de la herramienta de gestión de proyectos podrá ser contrastada por el equipo docente en cualquier momento durante el desarrollo de un sprint. Además, el repositorio Git utilizado para el desarrollo del proyecto debe ser conforme a las normas de la gestión de la configuración.
+Como consecuencia de la realización de esta actividad, la herramienta utilizada para la gestión del proyecto, *Scrumdesk*, deberá reflejar en todo momento y con fiabilidad el estado de ejecución actual del *sprint*.  Además, el repositorio *Git* utilizado para el desarrollo del proyecto deberá ser conforme a las normas de la gestión de la configuración.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Gestión de la Configuración.
-  * Gestión de tareas y tablero Kanban.
-  * Interpretación Sprint Burndown Chart.
+  * `Gestión de las Tareas y del Tablero Kanban`_.
+  * `Interpretación del Sprint Burndown Chart`_.
+  * `Gestión de la Configuración`_.
 
-La evaluación de los dos primeros ítems se realizará de manera individual a lo largo del desarrollo del proyecto, mediante pequeñas pruebas orales en el aula.
-El tercer ítem se evaluará de manera global para cada equipo, atendiendo a la evolución del repositorio Git conforme a las normas de gestión de la configuración durante el desarrollo del sprint.
+La evaluación de los dos primeros ítems se realizará de manera individual a lo largo del desarrollo del proyecto, mediante pequeñas pruebas orales tanto presenciales como remotas. El tercer ítem se evaluará de manera global para cada equipo, atendiendo a la evolución del repositorio *Git* conforme a las `reglas de gestión de la configuración`_ durante el desarrollo del *sprint*.
 
 Daily Scrum Meeting
 ---------------------
 
-:Fecha y Hora: Lunes, Miércoles y Viernes (salvo inicio y fin de cada sprint), de 14:30 a 14:45.
+:Fecha y Hora: Diario, en horario a definir por cada equipo.
 
-Al comienzo de cada día de un sprint, a excepción de los días de comienzo y fin de dicho sprint, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la presencia de todos sus miembros durante su celebración.
+Al comienzo de cada día de un *sprint*, a excepción de los días de comienzo y fin de dicho *sprint*, cada equipo deberá realizar un *Daily Scrum Meeting*. Se recomienda que esta reunión se haga a primera hora de cada jornada, aunque esto puede ajustarse en función de las necesidades de cada equipo, ya que es importante la participación de todos sus miembros en esta actividad.
 
-El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior, qué va a hacer hoy, y, qué dificultades está atravesando actualmente. En caso de encontrar dificultades, el equipo deberá idear un plan para solventar dichas dificultades.
+El objetivo final de esta actividad es que cada miembro del grupo conozca qué hizo el equipo el día anterior, qué va a hacer hoy, y qué dificultades está atravesando actualmente. En caso de encontrar dificultades, el equipo deberá idear un plan para solventar dichas dificultades.
 
-Para realizar correctamente un *Daily Scrum Meeting*, bajo la dirección del moderador, primero interviene cada miembro del equipo. Cada mimebro del equipo, durante su intervención, deberá describir brevemente primero qué hizo ayer, luego qué piensa hacer hoy, y, por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar o inimizar los obstáculos y riesgos detectados.
+Para realizar correctamente un *Daily Scrum Meeting*, este deberá estar moderado. Bajo la dirección de este moderador, primero intervendrá cada miembro del equipo individualmente y sin interrupciones. En cada intervención, el correspondiente miembro deberá describir brevemente primero qué hizo ayer, luego qué piensa hacer hoy, y, por último, qué obstáculos y riesgos ha identificado hasta el momento. Tras estas intervenciones iniciales, se deberá esbozar, de manera breve y efectiva, un plan de acción para eliminar o minimizar los obstáculos y riesgos detectados.
 
-Se recomienda, de acuerdo con las directrices de Scrum, que los *Daily Scrum Meeting* se celebren fuera del aula y con todos los miembros del equipo de pie.
+Se recomienda, de acuerdo con las directrices de *Scrum*, que los *Daily Scrum Meeting* se celebren con todos los miembros del equipo de pie o en una posición incómoda, y fuera de sus puestos habituales de trabajo.
 
 **Elementos a Entregar**
 
@@ -137,9 +134,9 @@ Como resultado de esta actividad no se deberá entregar nada. Serán los miembro
 
 **Procedimiento de Evaluación**
 
-Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
+Dentro de esta actividad se evaluarán y calificarán el siguiente ítems:
 
-  * Ejecución de los Daily Scrum Meeting
+  * `Ejecución de los Daily Scrum Meeting`_.
 
 Product Backlog Refinement
 ----------------------------
