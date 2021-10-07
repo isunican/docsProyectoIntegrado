@@ -1,107 +1,66 @@
-====================
- Actividades Scrum
-====================
+Actividades de un Sprint Scrum
+===============================
 
-Esta sección describe las actividades que se deberán realizar para el desarrollo del proyecto integrado de acuerdo con la metodología de desarrollo Scrum. Estas actividades se descomponen en dos conjuntos diferenciados, que son *actividades de preparación de los sprints* y *actividades para el desarrollo de un sprint*. A continuación se describen ambos conjuntos de actividades.
-
-Actividades de preparación de los sprints
-=============================================
-
-Constitución de los equipos
---------------------------------
-
-**Descripción de la Actividad**
-
-En primer lugar, se constituirán los equipos de desarrollo. La formación de cada equipo la decidirá el equipo docente asociado al proyecto integrado y tan pronto como se tenga confeccionada se notificará a través de la plataforma moodle. La única resposabilidad del alumno a este respecto es estar pendiente de las notificaciones de moodle para ponerse en contacto con sus compañeros una vez que haya recibido dicha notificación.
-
-.. todo: Poner enlace a lo que es un pacto de equipo.
-
-Una vez constituido, cada equipo de desarrollo deberá elegir un nombre, consensuar un `Pacto de Equipo <../misc/pactosDeEquipo.html>`_ y firmarlo. Tras la firma de dicho pacto, todos los miembros del equipo se obligan a su cumplimiento. Su incumplimiento significará la expulsión automática del grupo; y, como consecuencia, el suspenso del proyecto integrado [#f1]_.
-
-.. [#f1] En caso de llegar a esta desagradable situación, en cada caso particular se pactarán unas condiciones específicas de recuperación del proyecto integrado de manera que se puedan tanto alcanzar los objetivos de aprendizaje de la asignatura como reutilizar parte del trabajo que se hubiese realizado.
-
-A continuación, cada equipo deberá preparar la infraestructura necesaria para el desarrollo del proyecto. Dicha infraestructura comprende tanto una serie de herramientas que deberán estar instaladas en los equipos de los alumnos, como una serie de herramientas en la nube en las cuales los alumnos deberán abrir la correspondiente cuenta. En la sección de `Herramientas <../tools/index.html>`_ del presente documento se describen todas las herramientas necesarias para el desarrollo del proyecto, qué debe hacer el alumno para instalarlas y cómo debe configurarlas.
-
-Esta infraestructura deberá estar completamente operativa antes del inicio del proyecto.
-Además, la herramienta `ScrumDesk <../tools/index.html#scrumdesk>`_ deberá estar funcionando antes de la actividad `Initial Product Backlog Refinement <actividadesScrum.html#initial-product-backlog-refinement>`_
-
-**Elementos a Entregar**
-
-Como resultado de esta actividad, cada equipo deberá entregar su correspondiente *Pacto de Equipo* a través de la actividad proporcionada en moodle para ello. Además el equipo docente verificará que ciertos elementos de la infraestructura de desarrollo están adecuadamente creados.
-
-**Procedimiento de Evaluación**
-
-Esta actividad se evaluará como realizada o no realizada. La evaluación como no realizada conlleva una penalización de 100 puntos en la calificación final del proyecto.
-
-Initial Product Backlog Refinement
----------------------------------------
-
-**Descripción de la Actividad**
-
-Antes del comienzo de los sprints, cada equipo, junto con su *Product Owner*, deberá crear un *Product Backlog* inicial. Para ello, cada *Scrum Team*, junto con su correspondiente *Product Owner*, deberá refinar la visión del sistema, que será proporcionada por el *Product Owner*, hasta
-descomponerla en un conjunto de historias de usuario sencillas. Se consideran historias de usuario sencillas aquellas que no sean `épicas <https://www.agilealliance.org/glossary/epic/>`_, es decir, que estén al `nivel del mar <https://wiki.nci.nih.gov/display/seminfra/Use+Case+Leveling+Definitions>`_. Una vez descompuesta la visión del sistema en historias de usuario, éstas deberán ser valoradas por el *Product Owner*, con la ayuda del *Scrum Team*, para poder obtener así su *valor de negocio*. Por último, el equipo deberá estimar, en puntos, el `esfuerzo asociado al desarrollo de cada historia de usuario <calculoCargaTrabajo.html#como-estimar-una-historia-de-usuario-en-puntos>`_.
-
-**Elementos a Entregar**
-
-Como resultado de esta actividad se deberá generar un *Product Backlog* inicial sobre el cual se pueda empezar a realizar los sprints. Dicho *Product Backlog* deberá estar cargado en el proyecto ScrumDesk de cada equipo y listo para su calificación en la fecha que se indique en la correspondiente actividad de Moodle. Además, se recomienda elaborar como salida de esta actividad un diagrama de objetivos, aunque este paso es opcional.
-
-**Procedimiento de Evaluación**
-
-La no realización de esta actividad por parte de un equipo supone el suspenso automático del proyecto. Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
-
-  * Relación con el Product Owner.
-  * Capacidad de Liderazgo.
-  * Capacidad de Comunicación.
-  * Ortografía, Gramática y Maquetación.
-  * Conformidad del Product Backlog.
-  * Especificación de las Historias de Usuario.
-
-Además, aquellos equipos que elaboren un diagrama de objetivos podrán obtener una bonificación extra en la calificación de la asignatura de hasta 15 puntos, en función de la calidad del diagrama de objetivos entregado.
-
-Actividades dentro de un sprint Scrum
-======================================
+.. _Relación con el Product Owner: ../evaluation/scrum/indexRubricasScrum.html#relacion-con-el-product-owner
+.. _Capacidad de Planificación:	../evaluation/scrum/indexRubricasScrum.html#capacidad-de-planificacion
+.. _Ortografía, Gramática y Maquetación: ../evaluation/scrum/indexRubricasScrum.html#ortografia-gramatica-y-maquetacion
+.. _Conformidad del Product Backlog: ../evaluation/scrum/indexRubricasScrum.html#conformidad-del-product-backlog
+.. _Especificación de las Historias de Usuario:	../evaluation/scrum/indexRubricasScrum.html#especificacion-de-las-historias-de-usuario
+.. _Completitud de los Tests de Aceptación: ../evaluation/scrum/indexRubricasScrum.html#completitud-de-los-test-de-aceptacion
+.. _Especificación de los Tickets de Cambio: ../evaluation/scrum/indexRubricasScrum.html#especificacion-de-los-tickets-de-cambio
+.. _Creación del Sprint Backlog: ../evaluation/scrum/indexRubricasScrum.html#creacion-del-sprint-backlog
+.. _Planificación de Tareas: ../evaluation/scrum/indexRubricasScrum.html#planificacion-de-tareas
+.. _Ejecución del Planning Poker: ../evaluation/scrum/indexRubricasScrum.html#ejecucion-del-planning-poker
+.. _Ejecución de los Daily Scrum Meeting: ../evaluation/scrum/indexRubricasScrum.html#ejecucion-de-los-daily-scrum-meeting
+.. _Gestión de las Tareas y del Tablero Kanban: ../evaluation/scrum/indexRubricasScrum.html#gestion-de-las-tareas-y-del-tablero-kanban
+.. _Interpretación del Sprint Burndown Chart: ../evaluation/scrum/indexRubricasScrum.html#interpretacion-del-sprint-burndown-chart
+.. _Gestión de la Configuración: ../evaluation/scrum/indexRubricasScrum.html#gestion-de-la-configuracion
+.. _Cumplimiento de la Definición de Completado: ../evaluation/scrum/indexRubricasScrum.html#cumplimiento-de-la-definicion-de-completado
+.. _Satisfacción del Product Owner: ../evaluation/scrum/indexRubricasScrum.html#satisfaccion-del-product-owner
+.. _Ejecución de la Retrospectiva: ../evaluation/scrum/indexRubricasScrum.html#ejecucion-de-la-retrospectiva
+.. _Resultados de la Retrospectiva:	../evaluation/scrum/indexRubricasScrum.html#resultados-de-la-retrospectiva
+.. _Manual de Usuario: ../evaluation/scrum/indexRubricasScrum.html#manual-de-usuario
 
 Sprint Planning Meeting I
 --------------------------
 
-:Fecha y Hora: Primer Lunes de cada Sprint, de 14.30 a 16.00. Cada grupo tendrá asignada una hora concreta de convocatoria dentro de dicha franja horaria.
+:Fecha y Hora: Primer lunes de cada *sprint*, de 15:00 a 15:30.
 
 **Descripción de la Actividad**
 
-Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* a desarrollar en dicho sprint. Esta selección deberá ser aquella que, ajustándose a la *velocidad de equipo*, aporte mayor valor al nuevo producto generado.
+Al inicio de cada sprint, cada *Scrum Team* realizará, con la colaboración de su respectivo *Product Owner*, la selección de los elementos del *Product Backlog* a desarrollar en ese *sprint*. Esta selección deberá ser aquella que, ajustándose a la *velocidad de equipo*, aporte mayor valor al nuevo producto generado, es decir, posean un mayor *business value*.
 
-Una vez realizada la selección de elementos que conformarán el *Sprint Backlog*, el *Scrum Team* deberá conversar con el *Product Owner* para saber con todo detalle cómo han de desarrollar cada uno de los elementos seleccionados. Para que el desarrollo de los sprints sea sostenible, la metodología *Scrum* no permite ni modificar el contenido del *Sprint Backlog* durante el desarrollo de un sprint, ni que sus elementos se renegocien. Por tanto, en esta actividad deben quedar perfectamente definidos todos los elementos que sean necesarios para un correcto desarrollo de los elementos seleccionados.
+Una vez realizada la selección de elementos que conformarán el *Sprint Backlog*, el *Scrum Team* deberá conversar con el *Product Owner* para saber con todo detalle cómo han de desarrollar cada uno de los elementos seleccionados. Para que el desarrollo de los *sprints* sea sostenible, la metodología *Scrum* no permite ni modificar el contenido del *Sprint Backlog* durante el desarrollo de un sprint, ni que sus elementos se renegocien. Por tanto, en esta actividad deben quedar perfectamente definidos todos los elementos que sean necesarios para un correcto desarrollo de los elementos seleccionados.
 
-.. warning:: Se recomienda prestar especial atención en esta actividad a la definición de los test de aceptación de cada una de las historias de usuario seleccionadas. Estos tests deben incluir escenarios tanto de éxito como alternativos, excepcionales y de no éxito.
+.. warning:: Se recomienda prestar especial atención en esta actividad a la definición y `completitud de los test de aceptación`_ de cada una de las historias de usuario seleccionadas. Estos *tests* deben incluir escenarios tanto de éxito como alternativos y excepcionales.
 
 **Elementos a Entregar**
 
 Como resultado de esta actividad cada equipo deberá producir un *Sprint Backlog* para el desarrollo del correspondiente sprint.
-Dicho *Sprint Backlog* tendrá que estar en la herramienta *ScrumDesk* y listo para su evaluación a las 14:00 horas del día siguiente al que se realice la actividad. Las historias de usuario incluidas en ese *Sprint Backlog* deben estar completamente especificadas, incluyendo obligatoriamente todos los tests de aceptación que sean necesarios; y, opcionalmente, toda la información recogida durante la negociación con el *Product Owner*  y qeu se considere relevante, como, por ejemplo, los *mock-ups* creados.
+Dicho *Sprint Backlog* tendrá que estar en la herramienta *ScrumDesk* y listo para su evaluación a las 23:59 horas del día siguiente al que se realice la actividad. Las historias de usuario incluidas en ese *Sprint Backlog* deben estar completamente especificadas, incluyendo obligatoriamente todos los tests de aceptación que sean necesarios; y toda la información recogida durante la negociación con el *Product Owner* y que se considere relevante, como, por ejemplo, los *mock-ups* creados durante dicha negociación.
 
 **Procedimiento de Evaluación**
 
 Dentro de esta actividad se evaluarán y calificarán los siguientes ítems:
 
-  * Relación con el Product Owner.
-  * Capacidad de Liderazgo.
-  * Capacidad de Comunicación.
-  * Ortografía, Gramática y Maquetación.
-  * Conformidad del Product Backlog.
-  * Especificación de las Historias de Usuario.
-  * Creación del Sprint Backlog.
-  * Negociación de Historias de Usuario.
+  * `Relación con el Product Owner`_.
+  * `Capacidad de Planificación`_.
+  * `Ortografía, Gramática y Maquetación`_.
+  * `Conformidad del Product Backlog`_.
+  * `Especificación de las Historias de Usuario`_.
+  * `Completitud de los Tests de Aceptación`_.
+  * `Creación del Sprint Backlog`_.
 
-Si un *Scrum Team* no realizara esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implica que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a ese sprint.
+.. warning:: Si un *Scrum Team* no realizara esta actividad, no tendría material para poder continuar desarrollando el *sprint*. Por tanto, la no realización de esta actividad implica que el equipo completo obtendría una calificación de 0 puntos en todos los elementos evaluables asociados a ese *sprint*.
 
 Sprint Planning Meeting II
 ---------------------------
 
-:Fecha y Hora: Primer Lunes de cada Sprint, tras el Sprint Planning Meeting I.
+:Fecha y Hora: Primer lunes de cada *sprint*, tras el *Sprint Planning Meeting I*.
 
 **Descripción de la Actividad**
 
-Una vez definido el *Sprint Backlog* cada equipo descompondrá sus elementos en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
+Una vez definido el *Sprint Backlog*, cada equipo descompondrá los elementos seleccionados para su desarrollo en el *sprint* en tareas. Por cada elemento, se deberán incluir todas las tareas necesarias para que se pueda alcanzar la `definición de completado`_. A continuación, se estimará el esfuerzo de cada tarea en horas utilizando la técnica de *Planning Poker*. Finalmente, se distribuirán las tareas entre los diferentes miembros del *Scrum Team* de manera que:
 
   * se satisfagan las restricciones impuestas por el proyecto integrado;
   * la carga de trabajo de cada uno de los miembros del equipo resulte lo más equilibrada posible;
