@@ -213,7 +213,7 @@ Tras la realización de esta actividad, se puede dar el *sprint* por concluido. 
 
 Como resultado de esta actividad cada *Scrum Team* entregará un *plan de mejora continua* con las medidas a adoptar durante el desarrollo del próximo *sprint*. Este plan, tal como se comentó anteriormente, debe tener acciones tanto para potenciar los aspectos positivos identificados como para mitigar o erradicar los negativos detectados. Este *plan de mejora continua* se entregará a través de una actividad de *moodle* habilitada a tal efecto, siguiendo la plantilla abajo proporcionada.
 
-:download: `Plantilla para en Análisis de la Restrospectiva <src/PlantillaRetrospectiva.txt>`
+:download:`Plantilla para en Análisis de la Restrospectiva <src/PlantillaRetrospectiva.txt>`
 
 **Procedimiento de Evaluación**
 
