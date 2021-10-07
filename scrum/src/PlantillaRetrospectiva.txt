@@ -1,0 +1,37 @@
+ Elementos Positivos
+=====================
+
+ 1. Actas de las Reuniones
+---------------------------
+
+Descripción:
+
+Durante las reuniones tanto con el Product Owner como internas se han elaborados unas pequeñsa actas 
+donde se han registrado las decisiones relevantes tomadas en dichas reuniones. Ello ha permitido revisar
+el por qué de ciertas decisiones, las cuales, transcurridos unos días, se habían olvidado.	
+
+Plan de Acción: 
+
+* Establecer la realización de actas como norma de trabajo del equipo.
+* Especificar claramente en un documento qué actividades requieren de la elaboración de un acta. 
+* Guardar una o más actas modelo para que nuevos miembros que se incoporen al equipo sepan como desarrollar las actas.  	 
+
+ Elementos Negativos
+=====================
+
+ 1. Tareas novedosas subestimadas
+------------------------------------
+
+Descripción: 
+
+Las tareas que requerían la implementación de elementos novedosos no realizados con anterioridad, como acceso al GPS, han requerido un tiempo de desarollo muy superior al estipulado. Esto se ha debido a que conforme se ha ido avanzando en la tarea, han ido surgiendo
+pequeños detalles que no habían sido previstos, en parte por el desconomicimiento del trabajo a realizar. 
+
+Plan de Acción:
+
+Evitar comprometerse a la realización de historias de usuario que contengan elementos novedosos que no sepamos estimar con certeza. 
+Revisar el Product Backlog de manera que se introduzcan una serie de elementos tipo *Spike* que permitan adquirir familiaridad con estas tareas, confirmar que dichas tareas son realizables desde un punto de vista técnico, descubrir riesgos y problemas asociados y estimar mejor la historia de usuario. 
+
+Mientras no se realice el elemento previo de preparación, el valor de esfuerzo de la tarea se pondrá a infinito, para impedir que el Product Owner pueda seleccionarla. 
+
+Además, esta filosofía de trabajo se explicará al Product Owner, dejando claro que no es que no se quiera realizar dicha tarea, sino que lo que se pretende evitar es adquirir compromisos que no estemos seguros que no podemos cumplir. Ante todo, somos gente seria y formal.
