@@ -38,13 +38,18 @@ De manera más concreta, los puntos de este ítem se otorgarán en función del 
   #. El equipo de trabajo ha tratado al *Product Owner* con educación y respeto.
   #. El equipo de trabajo ha sido puntual y el *Product Owner* no ha tenido que esperar al equipo de trabajo.
   #. El *Product Owner* ha tenido facilidades para poder trabajar con el  *Scrum Team*, como acceso adecuado a algún material donde poder escribir y elaborar bocetos.
-  #. El *Product Owner* se ha sentido cómodo y adecuadamente atendido durante la realización de las diferentes actividades donde se precisa su participación.
   #. El equipo de trabajo ha atendido de buen grado, o ha procurado atender, todas las ideas y sugerencias del *Product Owner*.
   #. El equipo de trabajo ha planteado al *Product Owner* alternativas y sugerencias a las diferentes propuestas que hayan surgido durante el desarrollo del proyecto.
-  #. Las intervenciones de los diferentes miembros del equipo son breves, concisas y precisas.
-  #. Todos los miembros del equipo de trabajo interactúan, en mayor o menor grado, con el *Product Owner*.
-  #. El equipo de trabajo es capaz de transmitir con claridad y precisión, sin entrar en detalles técnicos innecesarios, cuestiones relativas al funcionamiento de la aplicación, incidencias surgidas o decisiones adoptadas durante el desarrollo de la aplicación, entre otros elementos.
   #. Los miembros del equipo de desarrollo intervienen en la actividad respetando los turnos de palabra y sin interrumpirse.
+  #. El *Product Owner* se ha sentido cómodo y adecuadamente atendido durante la realización de las diferentes actividades donde se precisa su participación.
+  #. Todos los miembros del equipo de trabajo interactúan, en mayor o menor grado, con el *Product Owner*.
+  #. Las intervenciones de los diferentes miembros del equipo son breves, concisas y precisas.
+  #. El equipo de trabajo es capaz de transmitir con claridad y precisión, sin entrar en detalles técnicos innecesarios, cuestiones relativas al funcionamiento de la aplicación, incidencias surgidas o decisiones adoptadas durante el desarrollo de la aplicación, entre otros elementos.
+
+El incumplimiento del punto 1 podrá suponer automáticamente una calificación de cero puntos en este apartado. El incumplimiento del punto 2 supondrá una penalización de 1/4 de los puntos asignados a este elemento. Cada incumplimiento de los puntos 3, 4, 5 ó 6 supondrá una penalización de hasta 3/4 de los puntos asignados a este elemento. Cada incumplimiento de los puntos 7, 8, 9 ó 10 supondrá una penalización de hasta 1/4 de los puntos asignados a este elemento, sin que se pueda acumular por cada punto una penalización superior a 1/2 de los puntos asignados a este apartado.
+
+El incumplimiento de los puntos tercero, cuarto, quinto, sexto y séptimo impedirá obtener más de la mitad de los puntos asignados a este elemento. En concreto, se penalizará especialmente el incumplimiento del tercer punto.
+
 
 .. note::
    Mientras dure la crisis sanitaria asociada a la Covid-19, se valorará porque el equipo de trabajo se esfuerce por mantener un entorno seguro desde el punto de vista sanitario que minimice el riesgo de contagio del *Product Owner*.
