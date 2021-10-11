@@ -48,9 +48,6 @@ De manera más concreta, los puntos de este ítem se otorgarán en función del 
 
 El incumplimiento del punto 1 podrá suponer automáticamente una calificación de cero puntos en este apartado. El incumplimiento del punto 2 supondrá una penalización de 1/4 de los puntos asignados a este elemento. Cada incumplimiento de los puntos 3, 4, 5 ó 6 supondrá una penalización de hasta 3/4 de los puntos asignados a este elemento. Cada incumplimiento de los puntos 7, 8, 9 ó 10 supondrá una penalización de hasta 1/4 de los puntos asignados a este elemento, sin que se pueda acumular por cada punto una penalización superior a 1/2 de los puntos asignados a este apartado.
 
-El incumplimiento de los puntos tercero, cuarto, quinto, sexto y séptimo impedirá obtener más de la mitad de los puntos asignados a este elemento. En concreto, se penalizará especialmente el incumplimiento del tercer punto.
-
-
 .. note::
    Mientras dure la crisis sanitaria asociada a la Covid-19, se valorará porque el equipo de trabajo se esfuerce por mantener un entorno seguro desde el punto de vista sanitario que minimice el riesgo de contagio del *Product Owner*.
 
@@ -244,6 +241,7 @@ Creación del Sprint Backlog
 +--------------+------------------------------------+
 
 En este ítem se valorará que la selección de elementos del *Product Backlog* para ser desarrollados dentro de un *sprint* concreto se haya realizado de manera correcta. Para verificar la corrección de esta selección, se verificarán los siguientes elementos:
+
   #. La selección realizada cuenta con la aprobación y conformidad del *Product Owner*.
   #. La suma de los valores de esfuerzo de los elementos del *Product Backlog* seleccionados se ajusta de manera adecuada a la `velocidad de equipo`_.
   #. No existe una selección alternativa de elementos del *Product Backlog* que, ajustándose a la velocidad del equipo, permita obtener un mayor *bussines value* para el producto.
