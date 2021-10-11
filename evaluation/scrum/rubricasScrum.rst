@@ -244,6 +244,7 @@ Creación del Sprint Backlog
 +--------------+------------------------------------+
 
 En este ítem se valorará que la selección de elementos del *Product Backlog* para ser desarrollados dentro de un *sprint* concreto se haya realizado de manera correcta. Para verificar la corrección de esta selección, se verificarán los siguientes elementos:
+
   #. La selección realizada cuenta con la aprobación y conformidad del *Product Owner*.
   #. La suma de los valores de esfuerzo de los elementos del *Product Backlog* seleccionados se ajusta de manera adecuada a la `velocidad de equipo`_.
   #. No existe una selección alternativa de elementos del *Product Backlog* que, ajustándose a la velocidad del equipo, permita obtener un mayor *bussines value* para el producto.
