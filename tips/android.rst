@@ -1,0 +1,9 @@
+Android
+=========
+
+  * `Obtener localización actual <https://developer.android.com/training/location/retrieve-current>`_
+  * Cargar una imagen a partir de su URL en un ImageView: ``Picasso.get().load("URL de la imagen").into(imageView);``
+  * Acceso al sistema de ficheros para leer/escribir ficheros: cada app en Android tiene asignada una región privada en la que puede crear ficheros. La `documentación oficial <https://developer.android.com/training/data-storage/app-specific#internal-access-files>`_ incluye información sobre cómo acceder a estos ficheros.
+  * Ventanas emergentes flotantes: básicamente tenéis que crear un objeto ``AlertDialog.Builder``, y llamar a sus métodos para incluir botones, título, *checkboxes*, etc. Por último, el diálogo se crea con el método ``create()``, y se lanza con ``show()``. Podéis ampliar información en la `entrada correspondiente de la guía oficial de Android <https://developer.android.com/guide/topics/ui/dialogs>`_ o en este `tutorial alternativo <https://www.tutorialspoint.com/android/android_alert_dialoges.htm>`_.
+  * Menu deslizante (*DrawerLayout*): `Ejemplo sencillo incluyendo Espresso <https://github.com/rivasjm/DrawerLayoutExample>`_, `guía oficial <https://developer.android.com/guide/navigation/navigation-ui#add_a_navigation_drawer>`_, y un `tutorial en castellano <https://danielme.com/2018/12/19/diseno-android-menu-lateral-con-navigation-drawer/>`_
+  * *SharedPreferences*: `guardar/leer preferencias de la aplicación (key-value) <https://developer.android.com/training/data-storage/shared-preferences>`_.

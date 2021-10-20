@@ -3,6 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
 Este documento contiene diferentes tipos de materiales relacionados con el
 proyecto integrado que actualmente se desarrolla entre las asignaturas de
 *Métodos de Desarrollo*, *Calidad y Auditoría* y *Procesos de Ingeniería del Sofware*,
@@ -19,12 +20,11 @@ Grado en Ingeniería Informática de la Universidad de Cantabria.
    tests/index
    evaluation/index
    tools/index
-   faqs/index
+   tips/index
    misc/index
 
-..
-  Sobre el Proyecto
-  ===================
+.. Sobre el Proyecto
+.. ===================
 
 .. todo:: Escribir una mini intro que justifique por qué se hace el proyecto integrado.
 
@@ -36,3 +36,4 @@ Autores
 | Patricia López Martínez
 | Julio Medina Pasaje
 | Alejandro Pérez Ruiz
+| Juan María Rivas Concepción
