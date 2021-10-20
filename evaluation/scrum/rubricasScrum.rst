@@ -88,7 +88,7 @@ Este ítem mide la capacidad del equipo de desarrollo para organizar de manera a
   #. La planificación haya permitido ejecutar la actividad de manera breve y productiva.
   #. El coordinador de la actividad haya velado porque las intervenciones de los diferentes miembros del equipo sean breves.
 
-El incumplimiento del primer punto supondrá automáticamente una calificación de cero puntos en este apartado. El incumplimiento de los puntos tercero, cuarto, quinto, sexto y séptimo impedirá obtener más de la mitad de los puntos asignados a este elemento. En concreto, se penalizará especialmente el incumplimiento del tercer punto.
+El incumplimiento del primer punto supondrá automáticamente una calificación de cero puntos en este apartado. El incumplimiento del segundo punto supondrá una penalización de hasta 3/4 de los puntos asignados a este apartado. El incumplimiento de los puntos tercero, cuarto, quinto, sexto y séptimo impedirá obtener más de la mitad de los puntos asignados a este elemento. En concreto, se penalizará especialmente el incumplimiento del tercer punto.
 
 Ortografía, Gramática y Maquetación
 ------------------------------------
