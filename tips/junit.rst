@@ -1,27 +1,31 @@
 JUnit
 ======
 
-* Si el código de alguna clase a probar hace uso de alguna librería de Android no se permite guardar la clase de prueba en el directorio test (aunque no sea necesario un emulador para su ejecución). Para evitar esto, se hace uso de Robolectric.
+* Si el código de una clase hace uso de librerías Android no se permite la ejecución de su correspondiente clase de prueba desde el directorio test (aunque no sea necesario un emulador para su ejecución). Para evitar esto, se hace uso de Robolectric. 
+  
   Modo de uso de Robolectric:
+
   - Añadir las siguientes anotaciones a la clase de prueba:
-::
 
-@RunWith(RobolectricTestRunner.class)
-@Config(sdk = {Build.VERSION_CODES.O_MR1})
-public class ExampleUnitTestWithRobolectric { . . . }
+    .. code-block:: java
 
-   - Añadir lo siguiente al build.gradle
+        @RunWith(RobolectricTestRunner.class)
+        @Config(sdk = {Build.VERSION_CODES.O_MR1})
+        public class ExampleUnitTestWithRobolectric { . . . }
 
-::
 
-android  {
-   testOptions {
-      unitTests {
-         includeAndroidResources = true
+  - Añadir la siguiente configuración al build.gradle
+
+    ::
+
+      android  {
+         testOptions {
+            unitTests {
+               includeAndroidResources = true
+            }
+         }
       }
-   }
-}
 
-testImplementation 'org.robolectric:robolectric:4.6'
+      testImplementation 'org.robolectric:robolectric:4.6'
 
 

@@ -6,4 +6,4 @@
 
    android
    junit
-   expresso
+   espresso

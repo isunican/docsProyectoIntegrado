@@ -3,31 +3,38 @@ Espresso
 
 * En la versión actual de Espresso NO se puede desactivar programáticamente la wifi ni los datos
 
-* Comprobar si un intent se abre con la info adecuada
-``intended(IntentMatchers.hasData(Uri.parse(uri)));``
 
-* Abrir el menú de opciones
-``openActionBarOverflowOrOptionsMenu(InstrumentationRegistry.getInstrumentation().getContext());``
+* Comprobar si un intent se abre con la info adecuada 
 
-* Acceder al elemento i-ésimo de un listView
-``onData(anything()).inAdapterView(withId(R.id.listViewXX)).atPosition(i);``
+  ``intended(IntentMatchers.hasData(Uri.parse(uri)));``
 
-* Acceder a un elemento gráfico dentro de un elemento de una listView
 
-::
+* Abrir el menú de opciones 
 
-  DataInteraction elementoLista = onData(anything()).inAdapterView(withId(R.id.listViewXX)).atPosition(i);
-  elementoLista.onChildView(withId(R.id.idElementoHijo));
+  ``openActionBarOverflowOrOptionsMenu(InstrumentationRegistry.getInstrumentation().getContext());``
 
-* Volver a la pantalla anterior
-``Espresso.pressBack();``
 
-* Seleccionar una opción de un spinner
-::
+* Acceder al elemento i-ésimo de un listView 
 
-onView(withId(R.id.spinner)).perform(click());
-onView(withId(R.id.textview_in_custom_spinner)).perform(click());
+  ``onData(anything()).inAdapterView(withId(R.id.listViewXX)).atPosition(i);``
 
-* Activar permisos de la aplicación
-``@Rule public GrantPermissionRule permissionRule = GrantPermissionRule.grant(android.Manifest.permission.ACCESS_FINE_LOCATION);``
+
+* Acceder a un elemento gráfico dentro de un elemento de una listView 
+
+  ``elementoLista = onData(anything()).inAdapterView(withId(R.id.listViewXX)).atPosition(i); 
+  elementoLista.onChildView(withId(R.id.idElementoHijo));``
+
+* Volver a la pantalla anterior 
+
+  ``Espresso.pressBack();``
+
+
+* Seleccionar una opción de un spinner 
+
+  ``onView(withId(R.id.spinner)).perform(click());
+  onView(withId(R.id.textview_in_custom_spinner)).perform(click());``
+
+* Activar permisos de la aplicación 
+
+  ``@Rule public GrantPermissionRule permissionRule = GrantPermissionRule.grant(android.Manifest.permission.ACCESS_FINE_LOCATION);``
 
