@@ -467,7 +467,7 @@ Resultados de la Retrospectiva
 En este ítem se evaluará que, como resultado de ejecutar cada *retrospectiva* se generen planes de acciones adecuados para un número adecuado de aspectos tanto positivos como negativos a potenciar o mitigar durante el siguiente *sprint*. Para ello, se prestará especial atención a que:
 
   #. Los resultados de la retrospectiva sean conformes a la plantilla proporcionada.
-  #. Los aspectos positivos y negativos identificados durante las *retrospectivas* contengan elementos que durante el desarrollo del *sprint* haya resultado obvio[#f2]_ que eran beneficiosos o perjudiciales.
+  #. Los aspectos positivos y negativos identificados durante las *retrospectivas* contengan elementos que durante el desarrollo del *sprint* haya resultado obvio [#f3]_ que eran beneficiosos o perjudiciales.
   #. El número de aspectos tanto positivos como negativos identificados es amplio. Con carácter general, se considerará un número *suficientemente amplio* cuando haya al menos un aspecto positivo y un aspecto negativo identificado por cada miembro de un equipo; y un *número adecuadamente amplio* cuando haya al menos un aspecto positivo o un aspecto negativo por cada miembro del grupo.
   #. Los planes de acción tanto para los aspectos positivos como negativos contienen acciones concretas a realizar en el siguiente *sprint* y no se quedan en simples *propósitos de año nuevo*.
   #. El plan de acción cada aspecto positivo o negativo contiene una solución coherente que permite potenciar o mitigar, respectivamente, dicho aspecto.
@@ -478,7 +478,7 @@ El incumplimiento del punto 1 supondrá una calificación de cero puntos en este
 
 Cada violación del punto 4 ó 5 supondrá una penalización de 1/8 de los puntos asignados a este apartado. Finalmente, cada violación de los puntos 6 ó 7 supondrá una penalización de 1/10 de los puntos asignados a este apartado, no pudiendo exceder el total de estas penalizaciones 1/2 de los puntos asignados a este apartado.
 
-.. [#f2] Por ejemplo, si prácticamente todas las estimaciones realizadas se hubiesen quedado demasiado cortas, entonces un aspecto obvio a mejorar sería la precisión u optimismo de las estimaciones.
+.. [#f3] Por ejemplo, si prácticamente todas las estimaciones realizadas se hubiesen quedado demasiado cortas, entonces un aspecto obvio a mejorar sería la precisión u optimismo de las estimaciones.
 
 Manual de Usuario
 ------------------
