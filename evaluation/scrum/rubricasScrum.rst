@@ -14,7 +14,7 @@ Criterios de Evaluación Individualizados
 .. _integración de una feature branch en develop: ../../cfgMng/politicaCfg.html#integracion-de-una-feature-branch-en-develop
 .. _normas para calcular cargas de trabajo: ../../scrum/calculoCargaTrabajo.html#como-calcular-la-carga-de-trabajo-de-un-equipo
 .. _política de gestión de la configuración: ../../cfgMng/politicaCfg.html#politica-de-gestion-de-la-configuracion
-.. _estructura de los repositorios: ../../cfgMng/cfgMng/estructuraRepositorios.html
+.. _estructura de los repositorios: ../../cfgMng/estructuraRepositorios.html
 
 Relación con el Product Owner
 -------------------------------
