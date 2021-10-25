@@ -76,8 +76,10 @@ Esta carpeta contendrá los archivos binarios necesarios para instalar la versi�
 Carpeta ``AndroidProject``
 ===========================
 
+.. _nomenclatura y organizacion de las clases de prueba: ../tests/index.html#nomenclatura-y-organizacion-de-las-clases-de-prueba
+
 Este directorio contendrá el código fuente de la aplicación, incluyendo también el código correspondiente a los casos de prueba.
 
 Esta carpeta se organizará en subcarpetas y paquetes de acuerdo a los convenios habituales de Java y Android. En cualquier caso, cada elemento del patrón *Modelo-Vista-Presentador (MVP)* se alojará en un paquete separado.
 
-Igualmente, los paquetes destinados a alojar los test deberán seguir una estructura de subpaquetes y clases lógica. En el caso de los test unitarios, se debe seguir la misma estructura de paquetes que existe en el código fuente. Para el caso de los test de integración, se deberá crear un paquete por cada historia de usuario, y alojar todos los test asociados a dicha historia de usuario en ese paquete. Cada clase y método de prueba deberá tener una referencia clara al escenario que se prueba. La relación entre la implementación de cada prueba y su definición debe ser lo más clara y unívoca posible.
+Igualmente, los paquetes destinados a alojar los test deberán seguir una estructura de subpaquetes y clases lógica. Esta estructura de describe en el apartado `nomenclatura y organizacion de las clases de prueba`_
