@@ -28,7 +28,7 @@ Como mínimo, esta carpeta deberá contener:
   #. Un modelo de clases UML con las entidades que constituyen el *modelo* de la aplicación.
   #. Un modelo que describa la arquitectura de la aplicación, resaltando las conexiones entre las clases de la *vista*, el *modelo*, y el *presentador*; mediante un diagrama de clases UML.
 
-Ambos modelos se almacenarán como imágenes en formato ``.png``. El fichero correspondiente a las clases del modelo deberá llamarse ``EntitiesModel.png``, mientras que el modelo arquitectónico tendrá como nombre ``AppArchitecture.png``.
+Ambos modelos se almacenarán en forma de modelo MagicDraw.
 
 Carpeta ``Tutorials``
 ----------------------
