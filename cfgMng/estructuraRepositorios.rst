@@ -82,4 +82,4 @@ Este directorio contendrá el código fuente de la aplicación, incluyendo tambi
 
 Esta carpeta se organizará en subcarpetas y paquetes de acuerdo a los convenios habituales de Java y Android. En cualquier caso, cada elemento del patrón *Modelo-Vista-Presentador (MVP)* se alojará en un paquete separado.
 
-Igualmente, los paquetes destinados a alojar los test deberán seguir una estructura de subpaquetes y clases lógica. Esta estructura de describe en el apartado `nomenclatura y organizacion de las clases de prueba`_
+Igualmente, los paquetes destinados a alojar los test deberán seguir una estructura de subpaquetes y clases lógica. Esta estructura se describe en el apartado `nomenclatura y organizacion de las clases de prueba`_
