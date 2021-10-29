@@ -12,3 +12,5 @@ Android
   * `Autenticación (con Firebase) <https://firebase.google.com/docs/auth/?utm_source=studio>`_
   * `Asegurar comunicaciones de datos en red (https) <https://www.raywenderlich.com/5634-securing-network-data-tutorial-for-android>`_
   * `Varios tutoriales en castellano: <http://www.sgoliver.net/blog/curso-de-programacion-android/indice-de-contenidos/>`_
+  * `Ideas para usar SharedPreferences manteniendo el Presenter independiente de la interfaz de Android
+<https://stackoverflow.com/questions/52367436/android-mvp-share-preference>`_
