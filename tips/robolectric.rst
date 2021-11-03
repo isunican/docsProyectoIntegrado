@@ -32,6 +32,6 @@ Robolectric
 
 * Obtener una referencia al Context desde una clase de prueba Robolectric:
 
-  - En el código: ``Context context  = ApplicationProvider.getApplicationContext();``
+  - En el código: Context context  = ApplicationProvider.getApplicationContext();
 
-  - Añadir la siguiente dependencia a build.gradle: ``testImplementation 'androidx.test:core:1.0.0'``
+  - Añadir la siguiente dependencia a build.gradle: testImplementation 'androidx.test:core:1.0.0'
