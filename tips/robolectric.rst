@@ -1,7 +1,7 @@
 Robolectric
 ===========
 
-- Si el código de una clase hace uso de librerías Android no se permite la ejecución de su correspondiente clase de prueba desde el directorio test (aunque no sea necesario un emulador para su ejecución). Para evitar esto, se hace uso de Robolectric. 
+1. Si el código de una clase hace uso de librerías Android no se permite la ejecución de su correspondiente clase de prueba desde el directorio test (aunque no sea necesario un emulador para su ejecución). Para evitar esto, se hace uso de Robolectric. 
   
   Modo de uso de Robolectric:
 
@@ -30,7 +30,7 @@ Robolectric
 
 
 
-- Obtener una referencia al Context desde una clase de prueba Robolectric:
+2. Obtener una referencia al Context desde una clase de prueba Robolectric:
 
   - En el código: Context context  = ApplicationProvider.getApplicationContext();
 
