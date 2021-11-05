@@ -1,6 +1,20 @@
 Robolectric
-============
+===========
 
-* Si el código de una clase hace uso de librerías Android no se permite la ejecución de su correspondiente clase de prueba desde el directorio test (aunque no sea necesario un emulador para su ejecución). Para evitar esto, se hace uso de Robolectric.
+  * Modo de uso de Robolectric:
 
-Texto de prueba
+    - Añadir la siguiente configuración al build.gradle
+
+    ::
+
+      android  {
+         testOptions {
+            unitTests {
+               includeAndroidResources = true
+            }
+         }
+      }
+
+      testImplementation 'org.robolectric:robolectric:4.6'
+
+Texto de prueba para intentar averiguar cuál es el problema.
