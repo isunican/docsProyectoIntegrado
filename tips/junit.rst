@@ -1,5 +1,4 @@
 Robolectric
 ============
 
-
 Texto de prueba
