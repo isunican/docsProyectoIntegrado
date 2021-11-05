@@ -11,19 +11,4 @@ Robolectric
         @Config(sdk = {Build.VERSION_CODES.O_MR1})
         public class ExampleUnitTestWithRobolectric { . . . }
 
-
-  - Añadir la siguiente configuración al build.gradle
-
-    ::
-
-      android  {
-         testOptions {
-            unitTests {
-               includeAndroidResources = true
-            }
-         }
-      }
-
-      testImplementation 'org.robolectric:robolectric:4.6'
-
 Texto de prueba para intentar averiguar cuál es el problema.
