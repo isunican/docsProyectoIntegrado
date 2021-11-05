@@ -17,7 +17,7 @@ Para evitar esto, se hace uso de *Robolectric*. Para incorporar *Robolectric* a 
 
   2. Añadir la siguiente configuración al build.gradle
 
-    .. code-block:: gradle
+    ::
 
       android  {
          testOptions {
