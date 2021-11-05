@@ -33,14 +33,4 @@ Espresso
 
   ``@Rule public GrantPermissionRule permissionRule = GrantPermissionRule.grant(android.Manifest.permission.ACCESS_FINE_LOCATION);``
 
-* Desactivar acceso a internet
-
-  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc wifi disable");
-  InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc data disable");``
-    
-  Para volver a activar internet:
-  
-  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc wifi enable");
-  InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc data enable");``
-  
 
