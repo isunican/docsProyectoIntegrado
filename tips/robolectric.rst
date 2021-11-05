@@ -1,9 +1,9 @@
 Robolectric
 ===========
 
-* Modo de uso de Robolectric:
+  * Modo de uso de Robolectric:
 
-  - Añadir la siguiente configuración al build.gradle
+    - Añadir la siguiente configuración al build.gradle
 
     ::
 
