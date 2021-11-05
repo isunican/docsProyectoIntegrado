@@ -5,5 +5,5 @@
 .. toctree::
 
    android
-   robolectric(2)
+   robolectric
    espresso
