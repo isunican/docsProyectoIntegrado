@@ -25,5 +25,3 @@ Robolectric
       }
 
       testImplementation 'org.robolectric:robolectric:4.6'
-
-Texto de prueba para intentar averiguar cuál es el problema.
