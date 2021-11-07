@@ -10,4 +10,4 @@ Al finalizar el proyecto integrado, cada alumno habrá participado como responsa
 
 Auditoría
 ==================================================
-Al finalizar el proyecto integrado, se realizarán auditorías sobre el mismo. En una primera fase se establecerán los aspectos a auditar y en una segunda fase se realizará la audotoría de forma cruzada (cada grupo a uno distinto). La evaluación de esta parte corresponde con la de calidad de proceso dentro de la asignatura.
+Al finalizar el proyecto integrado, se realizarán auditorías sobre el mismo. En una primera fase se establecerán los aspectos a auditar y en una segunda fase se realizará la auditoría de forma cruzada (cada grupo a uno distinto). La evaluación de esta parte corresponde con la de calidad de proceso dentro de la asignatura.

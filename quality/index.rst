@@ -7,13 +7,12 @@ Introducción
 
 La aplicación Android desarrollada como proyecto integrado de las asignaturas de intensificación de Ingeniería del Software, ha de satisfacer unos umbrales de calidad mínimos. Por lo tanto, dentro de las tareas a realizar habrá que analizar la calidad de producto y llevar a cabo las correcciones necesarias para que cumpla los criterios de calidad.
 
-Como herramienta utilizaremos SonarQube, que realiza análisis estático del código fuente detectando aspectos como código clonado, concordancia con estándares de programación, búsqueda de bugs o cobertura de pruebas. A cada uno de estos aspectos detectados, le asigna un valor de tiempo llamado “deuda técnica”, que podríamos definir como el coste y los intereses a pagar por hacer mal las cosas (el sobre esfuerzo a pagar por mantener un software mal hecho). Hay que tener en cuenta que sólo una parte de esta deuda es intrínseca al código y podemos medirla mediante analizadores, y que también puede venir asociada a aspectos relacionados con el proceso, arquitectura, diseño, tecnologías, etc.
+Como herramienta utilizaremos SonarQube, que realiza análisis estático del código fuente detectando aspectos como código clonado, concordancia con estándares de programación, búsqueda de bugs o cobertura de pruebas. A cada uno de estos aspectos detectados, le asigna un valor de tiempo llamado “deuda técnica”, que podríamos definir como el coste y los intereses a pagar por hacer las cosas funcionales pero con poca calidad (el sobre esfuerzo a pagar por mantener un software mal hecho). Hay que tener en cuenta que sólo una parte de esta deuda es intrínseca al código y podemos medirla mediante analizadores, y que también puede venir asociada a aspectos relacionados con el proceso, arquitectura, diseño, tecnologías, etc.
 
 Dispondremos de un servidor donde alojar los informes de los análisis de nuestro proyecto. Este servidor corresponde a la `organización isuc de  SonarCloud <https://sonarcloud.io/organizations/isuc/projects>`_ y en él están configurados los umbrales de calidad y el conjunto de reglas a usar en nuestros proyectos Android.
 Por otro lado, en el cliente podremos lanzar el análisis de SonarQube mediante línea de comandos o de forma automatizada dentro del proceso de integración contínua. Además, dispondremos del complemento SonarLint para Android Studio que permitirá enlazar con la configuración de nuestro servidor y así gestionar las incidencias de forma cómoda desde nuestro IDE.
 
-
-La manera de proceder será por sprint, de modo que para cada uno se designará una pareja de responsables de calidad. Dichos responsables deberán observar los análisis que aparecen en SonarCloud tras cada integración y observar si se cumplen o no los criterios de calidad exigidos.
+La manera de proceder será por sprint, de modo que para cada uno se designará una pareja de responsables de calidad. Dichos responsables deberán observar los análisis que aparecen en SonarCloud tras cada integración en la rama develop y observar si se cumplen o no los criterios de calidad exigidos. Si hay demasiadas integraciones en develop se podrá realizar un análisis de calidad cada 2 o 3 días.
 
 Por cada análisis observado (cada integración), deberán analizar los datos y definir un plan de acciones que deberán realizar los desarrolladores para mejorar la calidad del código. Si el análisis indicaba que no se cumplen los criterios de calidad, el plan deberán incluir las acciones necesarias para pasarlo. Y en caso de que directamente se cumplan los criterios, el plan deberá incluir acciones preventivas para corregir los errores más importantes.
 
@@ -35,29 +34,54 @@ El analizador desde el cliente puede lanzarse desde línea de comandos o como pa
 Tal y como puede observarse en el fichero de configuración ``gradle.build``, se hace uso del `complemento oficial de SonarQube para gradle <https://plugins.gradle.org/plugin/org.sonarqube>`_ y de una serie de propiedades que establecen datos como la url del servidor, la organización, en nombre y clave del proyecto y un token de autorización.
 
 
-build.gradle
+build.gradle (root)
 -------------
 
 ::
 
-  plugins {
-      id "org.sonarqube" version "2.6.2" }
-
-  apply plugin: "jacoco"
-
-  sonarqube {
-      properties {
-          property "sonar.host.url", "https://sonarcloud.io"
-          property "sonar.organization", "isuc"
-          property "sonar.login", "120537998e2c122476f30cade8d4a25865210fa6"
-          property "sonar.projectKey", "CalculadoraTest"
-          property "sonar.projectName", "CalculadoraTest"
-          property "sonar.jacoco.reportPaths", "${project.buildDir}/jacoco/testDebugUnitTest.exec"
-      }
-  }
+    dependencies {
+        classpath "com.android.tools.build:gradle:7.0.2"
+        classpath "com.vanniktech:gradle-android-junit-jacoco-plugin:0.16.0"
 
 
-.. note:: Para hacer que el informe de sonar incluya la cobertura de pruebas se utilizará el complemento ``jacoco``. Habrá que lanzar ``gradlew.bat test`` antes que ``gradlew.bat sonarqube`` para que genere los ficheros correspondientes a los informes de cobertura, que mediante un parámetro de configuración indicamos para que se transmitan al servidor.
+
+build.gradle (app)
+-------------
+
+::
+
+    plugins {
+        id 'com.android.application'
+        id "org.sonarqube" version "3.0"
+    }
+
+    apply plugin: "com.vanniktech.android.junit.jacoco"
+
+    junitJacoco {
+        jacocoVersion = '0.8.6' // type String
+        ignoreProjects = [] // type String array
+        excludes // type String List
+        includeNoLocationClasses = false // type boolean
+        includeInstrumentationCoverageInMergedReport = false // type boolean
+    }
+
+    sonarqube {
+        properties {
+            property "sonar.host.url", "https://sonarcloud.io"
+            property "sonar.organization", "isuc"
+            property "sonar.login", "120537998e2c122476f30cade8d4a25865210fa6"
+
+            property "sonar.projectKey", "Calculadora-Carlos"
+            property "sonar.projectName", "Calculadora-Carlos"
+
+            // I need this property to avoid the error where sonarqube 
+            // does not close some files and prevents a clean afterwards
+            property "sonar.scm.disabled", true
+
+            property "sonar.coverage.jacoco.xmlReportPaths", "${project.buildDir}/reports/jacoco/debug/jacoco.xml"
+        }
+    }
+
 
 Complemento SonarLint para Android Studio
 -----------------------------------------
@@ -112,9 +136,9 @@ La forma en la que se ha realizado el producto (el proceso) representa otra dime
 
 Existe cierta controversia en cuanto a si una buena calidad de proceso influye favorablemente en la obtención de una buena calidad de producto. Pensemos por ejemplo en la realización de un diagrama de clases (proceso) y si esto va a suponer que tengamos menos errores, vulnerabilidades, etc. en el código (producto interna). Existen defensores de ambas posiciones.
 
-Dentro del proyecto integrado, se ha seguido una metodología concreta que abarca gestión de la configuración (ramas, integración, etc.), pruebas (plan, unitarias, integración. etc.), calidad de producto (proceso seguido, informes, etc.), documentación (diagramas, manuales, etc.), etc.
+Dentro del proyecto integrado, se ha seguido una metodología concreta que abarca gestión de la configuración (ramas, integración continua, etc.), pruebas (plan, unitarias, integración. etc.), calidad de producto (proceso seguido, informes, etc.), documentación (diagramas, manuales, etc.), etc.
 
-Una vez finalizados los sprints del proyecto integrado se precederá a un análisis de calidad del proceso seguido. Para ello distinguiremos dos etapas:
+Una vez finalizados los sprints del proyecto integrado se procederá a un análisis de calidad del proceso seguido. Para ello distinguiremos dos etapas:
 
 - Creación de una lista de comprobación. En esta fase, cada grupo deberá analizar la metodología seguida y pensar qué aspectos deberían comprobarse para saber si se ha aplicado correctamente el proceso solicitado. Con estos elementos confeccionará una lista de comprobación que servirá para auditar proyectos de este tipo.
 
