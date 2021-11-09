@@ -49,7 +49,7 @@ Espresso
   
   Para rotar: 
   
-  ```
-  UiDevice device = UiDevice.getInstance(getInstrumentation());
-  device.setOrientationLeft();
-  ```
+  .. code-block:: java
+     UiDevice device = UiDevice.getInstance(getInstrumentation());
+     device.setOrientationLeft();
+
