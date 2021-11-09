@@ -49,6 +49,6 @@ Espresso
   
   Para rotar: 
   
-  ``UiDevice device = UiDevice.getInstance(getInstrumentation())``
+  ``UiDevice device = UiDevice.getInstance(getInstrumentation());``
   ``device.setOrientationLeft();``
 
