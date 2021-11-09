@@ -35,12 +35,21 @@ Espresso
 
 * Desactivar acceso a internet
 
-  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc wifi disable");
-  InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc data disable");``
+  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc wifi disable");``
+  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc data disable");``
 
   Para volver a activar internet:
 
-  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc wifi enable");
-  InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc data enable");``
+  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc wifi enable");``
+  ``InstrumentationRegistry.getInstrumentation().getUiAutomation().executeShellCommand("svc data enable");``
 
-
+* Para rotar la pantalla
+  
+  Añadir la dependencia a UIAutomator: ``androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'``
+  
+  Para rotar: 
+  
+  ```
+  UiDevice device = UiDevice.getInstance(getInstrumentation());
+  device.setOrientationLeft();
+  ```
