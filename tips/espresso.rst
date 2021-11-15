@@ -52,3 +52,11 @@ Espresso
   ``UiDevice device = UiDevice.getInstance(getInstrumentation());``
   ``device.setOrientationLeft();``
 
+* Comprobar que un Toast se ha mostrado correctamente
+
+  ``onView(withText("String del toast")).inRoot(RootMatchers.withDecorView(not(decorView))).check(matches(isDisplayed()));``
+
+  Para obtener el objeto decorView, añadir lo siguiente al método @Before
+
+  ``activityRule.getScenario().onActivity(activity -> decorView = activity.getWindow().getDecorView());``
+
