@@ -9,7 +9,7 @@ Espresso
 
 * Abrir el menú de opciones 
 
-  ``openActionBarOverflowOrOptionsMenu(InstrumentationRegistry.getInstrumentation().getContext());``
+  ``openActionBarOverflowOrOptionsMenu(ApplicationProvider.getApplicationContext());``
 
 * Acceder al elemento i-ésimo de un listView 
 
