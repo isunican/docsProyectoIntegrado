@@ -41,7 +41,7 @@ Cada Historia de Usuario ha de contar con un Plan de Pruebas, que incluirá:
 
 Este documento se complementa, y por tanto, debe ser totalmente coherente con el modelo de diseño entregado en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
 
-Una versión inicial de este documento deberá validarse con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias y/o de integración pueden no estar totalmente definidas, pues puede no conocerse todavía la arquitectura a utilizar para implementar la historia de usuario. La versión final, con el plan de pruebas completo, se entrega al final de cada sprint. 
+Una versión inicial de este documento, junto con el modelo de arquitectura, deberá validarse con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias y/o de integración pueden no estar totalmente definidas, pues puede no conocerse todavía la arquitectura a utilizar para implementar la historia de usuario. La versión final, con el plan de pruebas completo, se entrega al final de cada sprint. 
 
 
 Implementación y ejecución de las pruebas
