@@ -35,7 +35,10 @@ Initial Product Backlog Refinement
 
 **Descripción de la Actividad**
 
-Antes del comienzo de los *sprints*, cada equipo, junto con su *Product Owner*, deberá refinar el *Product Backlog* creado en la asignatura de *Ingeniería de Requisitos*. En especial, cada *Scrum Team*, con la colaboración del *Product Owner*, deberá valorar o priorizar las historias de usuario existentes en el *Product Backlog* con el objetivo de definir su *valor de negocio*. Además, el equipo deberá estimar, en puntos, el esfuerzo asociado al desarrollo de cada historia de usuario. Para ello se aconseja revisar la sección sobre `cómo estimar una historia de usuario en puntos <calculoCargaTrabajo.html#como-estimar-una-historia-de-usuario-en-puntos>`_.
+Antes del comienzo de los *sprints*, cada equipo, junto con su *Product Owner*, deberá refinar el *Product Backlog* creado en la asignatura de *Ingeniería de Requisitos*. En especial, cada *Scrum Team*, con la colaboración del *Product Owner*, deberá valorar o priorizar las historias de usuario existentes en el *Product Backlog* con el objetivo de definir su *valor de negocio*. Además, conforme a lo transmitido por el *Product Owner* durante esa reunión, se podrá modificar el *Product Backlog* heredado del curso anterior para añadir nuevas historias de usuario y eliminar o modificar algunas de las actualmente existentes. 
+
+Finalmente, el equipo deberá estimar, en puntos, el esfuerzo asociado al desarrollo de cada historia de usuario. Para ello se aconseja revisar la sección sobre `cómo estimar una historia de usuario en puntos <calculoCargaTrabajo.html#como-estimar-una-historia-de-usuario-en-puntos>`_.
+
 
 **Elementos a Entregar**
 
