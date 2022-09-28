@@ -1,6 +1,8 @@
 Espresso
 =========
 
+* `Hoja de referencia Espresso (Espresso Cheat Sheet) <https://developer.android.com/training/testing/espresso/cheat-sheet>`_
+
 * En la versión actual de Espresso NO se puede desactivar programáticamente la wifi ni los datos
 
 * Comprobar si un intent se abre con la info adecuada 

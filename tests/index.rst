@@ -7,13 +7,13 @@ Niveles de prueba
 
 Los niveles de prueba a aplicar son los siguientes:
 
-* Pruebas unitarias. Estas pruebas verifican el comportamiento de clases de manera aislada, usando para ello el framework JUnit y, en caso de ser necesario, las librerías Mockito o Robolectric. 
+* Pruebas unitarias. Estas pruebas verifican el comportamiento de clases de manera aislada, usando para ello el framework JUnit y, en caso de ser necesario, las librerías Mockito, PowerMock o Robolectric. 
 
-* Pruebas de integración: Estas pruebas verifican la interacción entre clases. Se llevarán a cabo usando el framework JUnit y las librerías Mockito y Espresso si fuesen necesarias. 
+* Pruebas de integración. Estas pruebas verifican la interacción entre clases. Se llevarán a cabo usando el framework JUnit y las librerías Mockito y Espresso si fuesen necesarias. 
 
-* Pruebas de interfaz de usuario (UI Tests): Estas pruebas se pueden ver cómo el nivel más avanzado de las pruebas de integración, cuando se prueban todos los componentes de la aplicación de manera conjunta. Se llevarán a cabo usando el framework Espresso y JUnit.
+* Pruebas de interfaz de usuario (UI Tests). Estas pruebas se pueden ver cómo el nivel más avanzado de las pruebas de integración, cuando se prueba la funcionalidad de todos los componentes de la aplicación de manera conjunta. Se llevarán a cabo usando el framework Espresso y JUnit.
 
-* Pruebas de aceptación: Son las pruebas llevadas a cabo por los Product Owners durante el Sprint Review para comprobar si las historias de usuario elegidas para el Sprint se han realizado correctamente. Se ejecutarán de forma manual en el propio dispositivo del Product Owner u otro que se le proporcione. Las pruebas a realizar deberán definirse durante el Sprint Meeting.
+* Pruebas de aceptación. Son las pruebas llevadas a cabo por el Product Owner durante el Sprint Review para comprobar si las historias de usuario elegidas para el Sprint se han realizado correctamente. Se ejecutarán de forma manual en el propio dispositivo del Product Owner u otro que se le proporcione. Las pruebas a realizar deberán definirse durante el Sprint Meeting.
 
 
 Nomenclatura y organización de las clases de prueba
@@ -21,9 +21,9 @@ Nomenclatura y organización de las clases de prueba
 
 Las clases de prueba correspondientes a pruebas unitarias:
 
-* Se almacenan en el directorio test dentro del mismo paquete que la clase bajo prueba.
+* Se almacenan en el directorio test.
 
-* Se denominan <NombreClase>Test.java donde <NombreClase> es el nombre de la clase bajo prueba.
+* Se denominan <NombreClase>Test.java donde <NombreClase> es el nombre de la clase bajo prueba y se definen en el mismo paquete que la clase bajo prueba.
 
 Las clases de prueba correspondientes a pruebas de integración:
 
@@ -31,7 +31,7 @@ Las clases de prueba correspondientes a pruebas de integración:
 
 * El nombre de la clase de prueba será:
 
-  - <NombreClase>ITest.java si se trata de la prueba de una clase completa (se aplica estrategia de integración incremental). En este caso se almacenará en el mismo paquete que la clase de prueba.
+  - <NombreClase>ITest.java si se trata de la prueba de una clase completa (se aplica estrategia de integración incremental). En este caso se definirá en el mismo paquete que la clase de prueba.
 
   - <NombreEscenario>ITest.java si se trata de la prueba un determinado escenario de ejecución de una historia de usuario (se aplica estrategia de integración funcional). En este caso se almacenará en el mismo paquete dónde esté almacenada la vista que lanza el escenario.
 

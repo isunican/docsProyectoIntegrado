@@ -15,10 +15,10 @@ Constitución de los equipos
 
 En primer lugar, se constituirán los equipos de desarrollo. La formación de cada equipo la decidirá el equipo docente asociado al proyecto integrado. Una vez decidido la formación de cada *Scrum Team*, cada equipo de desarrollo deberá elegir un nombre, consensuar un `Pacto de Equipo <../misc/pactosDeEquipo.html>`_ y firmarlo.
 
-A continuación, cada equipo deberá preparar la infraestructura necesaria para el desarrollo del proyecto. Dicha infraestructura comprende tanto una serie de herramientas que deberán estar instaladas en los equipos de los alumnos como una serie de herramientas en la nube para las cuales los alumnos deberán disponer de la correspondiente cuenta. En la sección `Herramientas <../tools/index.html>`_ se describen todas las herramientas necesarias para el desarrollo del proyecto, qué debe hacer el alumno para instalarlas y cómo debe configurarlas
+A continuación, cada equipo deberá preparar la infraestructura necesaria para el desarrollo del proyecto. Dicha infraestructura comprende tanto una serie de herramientas que deberán estar instaladas en los equipos de los alumnos como una serie de herramientas en la nube para las cuales los alumnos deberán disponer de la correspondiente cuenta. En la sección `Herramientas <../tools/index.html>`_ se describen todas las herramientas necesarias para el desarrollo del proyecto, qué debe hacer el alumno para instalarlas y cómo debe configurarlas.
 
 Esta infraestructura deberá estar completamente operativa antes del inicio del proyecto.
-Además, la herramienta `ScrumDesk <../tools/index.html#scrumdesk>`_ deberá estar funcionando antes de la actividad `Initial Product Backlog Refinement <actividadesScrum.html#initial-product-backlog-refinement>`_
+Además, la herramienta `ScrumDesk <../tools/index.html#scrumdesk>`_ deberá estar funcionando antes de la actividad `Initial Product Backlog Refinement <actividadesScrum.html#initial-product-backlog-refinement>`_.
 
 **Elementos a Entregar**
 
