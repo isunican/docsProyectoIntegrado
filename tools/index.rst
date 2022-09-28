@@ -170,12 +170,14 @@ MagicDraw deberá estar instalado y funcionando correctamente en la computadora 
 
 ..  * `Cómo descargar la versión correcta de MagicDraw <../misc/notAvailable.html>`_
 
-Advanced Rest Client
-=====================
+Acceder a servicio REST
+=======================
 
 .. note:: La utilización de esta herramienta es opcional, aunque la utilización de una herramienta de este tipo puede ayudar a reducir la carga de trabajo asociada al desarrollo del proyecto.
 
-`Advanced Rest Client <https://install.advancedrestclient.com/#/install>`_ es una sencilla app para Chrome que permite generar de forma cómoda e intuitiva peticiones HTTP y observar sus resultados. Puede resultar de utilidad para ver qué está retornando la fuente externa de datos con la que se trabajará durante el proyecto.
+`Reqbin <https://reqbin.com/>`_ es una aplicación web sencilla que permite generar de forma cómoda e intuitiva peticiones HTTP para acceder a servicios REST, y observar sus resultados. Puede resultar de utilidad para ver qué está retornando la fuente externa de datos con la que se trabajará durante el proyecto.
+
+Otra herramienta similar es `Postman <https://go.postman.co/home/>`_
 
 Acción Requerida
 -----------------
