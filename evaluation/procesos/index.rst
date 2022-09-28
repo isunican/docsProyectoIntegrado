@@ -60,9 +60,9 @@ Para mejorar la calificación individual obtenida en un sprint existen dos opcio
 * La opción prioritaria consiste en encargarse en otro sprint, y por tanto en otra historia de usuario, de las tareas que hayan obtenido una mala calificación. Es decir, si en un sprint se tiene mala nota en una prueba unitaria, en el siguiente sprint esa persona volvería a encargarse de realizar pruebas unitarias, que serían obviamente distintas, aunque podría darse el caso de volver a encargarse de la mismas pruebas si en la nueva historia de usuario se usa también el mismo código.
 * Si no hubiese suficientes historias de usuario para hacer esto (será lo habitual), la segunda opción consiste en solucionar los problemas detectados en las tareas con baja calificación. Esta opción debería llevarse a cabo sin contar como esfuerzo de los siguientes sprints. Para ello, el modo de proceder será el siguiente:
 
-  - Creáis un nuevo elemento en el Backlog de tipo "Technical" y denominado, por ejemplo, "Mejora pruebas unitarias historia XXX" con effort 0 y business value alto, de manera que la podáis elegir en el siguiente sprint.
-  - Su implementación la llevaréis a cabo en la feature branch correspondiente a la historia de usuario a la que pertenecían las pruebas a mejorar (será una historia de usuario de un sprint anterior).
-  - Esa rama, una vez resueltos los errores, la fusionaréis con la rama develop en el sprint en el que os encontréis.
+  - Crear un nuevo elemento en el Backlog de tipo "Technical" denominado, por ejemplo, "Mejora pruebas unitarias historia XXX" con effort 0 y business value alto, de manera que sea elegible en el siguiente sprint.
+  - Su implementación se llevará a cabo en la feature branch correspondiente a la historia de usuario a la que pertenecían las pruebas a mejorar (será una historia de usuario de un sprint anterior).
+  - Esa rama, una vez resueltos los errores, se fusionará con la rama develop en el sprint actual.
 
 
 

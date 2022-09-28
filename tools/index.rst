@@ -85,9 +85,9 @@ GitHub Actions
 Acciones Requeridas
 --------------------
 
-Los docentes proporcionarán la configuración necesaria para realizar la integración continua del repositorio inicial. Esto incluye la parte de configuración del servidor y el fichero local de configuración ``.travis.yml``.
+Los docentes proporcionarán la configuración necesaria para realizar la integración continua del repositorio inicial, esto es, el fichero de configuración ``test.yml``.
 
-Los alumnos deberán comprobar que se realiza la integración continua de su proyecto inical de forma satisfactoria. Para ello deberán subir algún cambio al repositorio github (en la rama ``master`` o ``develop``) y comprobar el resultado de la integración en la organización de Travis `isunican <https://travis-ci.org/isunican>`_.
+Los alumnos deberán comprobar que se realiza la integración continua de su proyecto inicial de forma satisfactoria. Para ello deberán subir algún cambio al repositorio github (en la rama ``master`` o ``develop``) y comprobar el resultado de la integración en la interfaz de GitHub.
 
 SourceTree/GitKraken/SmartGit
 ==============================
@@ -120,7 +120,7 @@ SonarQube para proyectos Android
 
 Herramienta para el análisis de calidad de producto software de proyectos Android. Cuenta con una parte servidor alojada en `sonarcloud <https://sonarcloud.io>`_  donde consultar el resultado de los informes y con una parte cliente donde podremos lanzar el análisis de nuestro proyecto subiendo el resultado al servidor. Además existen complementos como SonarLint que permiten integrar en nuestro IDE el análisis y gestión de las incidencias de calidad, pudiendo además sincronizar dicho complemento con nuestro servidor de modo que se utilicen las reglas definidas en nuestra organización.
 
-.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el alumno lance el analizador desde terminal, ya que en el proceso de integración continua se realiza automáticamente, tal y como está configurado en el fichero ``.travis.yml`` proporcionado en el proyecto inicial.
+.. note:: Durante el desarrollo del proyecto integrado, no será necesario que el alumno lance el analizador desde terminal, ya que en el proceso de integración continua se realiza automáticamente, tal y como está configurado en el fichero ``test.yml`` proporcionado en el proyecto inicial.
 
 Acciones Requeridas
 --------------------
