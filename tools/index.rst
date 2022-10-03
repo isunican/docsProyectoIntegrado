@@ -125,7 +125,7 @@ Herramienta para el análisis de calidad de producto software de proyectos Andro
 Acciones Requeridas
 --------------------
 
-* Los alumnos deberán ser capaces de lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud. Para ello, en el proyecto inicial se les propocionará el fichero ``gradle.build`` con la configuración necesaria, de modo que únicamente deberán ejecutar el comando ``gradlew.bat sonarqube`` o ``./gradlew sonarqube`` en la raíz del proyecto.
+* Los alumnos deberán ser capaces de lanzar un análisis desde línea de comandos y subirlo al servidor SonarCloud. Para ello, en el proyecto inicial se les propocionará el fichero ``gradle.build`` con la configuración necesaria, de modo que únicamente deberán ejecutar el comando ``gradlew.bat clean jacocoTestReport sonarqube`` o ``./gradlew clean jacocoTestReport sonarqube`` en la raíz del proyecto.
 
 .. note:: Para hacer que el informe de sonar incluya la cobertura de pruebas habrá que lanzar antes ``gradlew.bat test`` para que genere los ficheros correspondientes. El resto de parámetros de configuración necesarios ya estan incluidos en el fichero ``gradle.build``.
 

@@ -90,7 +90,7 @@ build.gradle (app)
         properties {
             property "sonar.host.url", "https://sonarcloud.io"
             property "sonar.organization", "isuc"
-            property "sonar.login", "120537998e2c122476f30cade8d4a25865210fa6"
+            property "sonar.login", "<token>"
             property "sonar.projectKey", "App-Gasolineras-2022"
             property "sonar.projectName", "App-Gasolineras-2022"
 
