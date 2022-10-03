@@ -3,6 +3,8 @@
 ===============================
 
 .. _gestion de la configuracion: ../cfgMng/estructuraRepositorios.html
+.. _calidad de producto: ../evaluation/calidad/index.html#id1
+
 
 Introducción
 ===================
@@ -145,9 +147,9 @@ El informe indicará el estado de la calidad del producto según los resultados 
 
 Los informes de calidad deberán guardarse en el repositorio del grupo, en el directorio y con el nombre de fichero determinados por la `gestion de la configuracion`_ . El informe debe indicar el autor del mismo (el **responsable**), el *Sprint* en el que se realizó, y el número de informe dentro de dicho Sprint (número 1, 2, etc.). 
 
-El informe formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto. Esta nota es individual. En caso de que algún integrante haya sido responsable de más de un informe de calidad, de cara a su evaluación sólo se tendrá en cuenta el último informe.
+El informe formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de `calidad de producto`_.
 
-A continuación puede observarse un ejemplo de informe de calidad:
+A continuación puede observarse un ejemplo de informe de calidad (faltaría incluir el número de informe dentro del *Sprint*):
 
 .. image:: EjemploInformeCalidad.png
 
