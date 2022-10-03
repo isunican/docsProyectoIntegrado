@@ -18,7 +18,7 @@ El desarrollo de una *historia de usuario*, u otro elemento del *Product Backlog
 #. La rama correspondiente al elemento del *Product Backlog* implementado se ha integrado en la rama ``develop``.
 #. Se ha comprobado que, tras integrar la historia de usuario en la rama ``develop``, el producto completo sigue superando todos los tests previamente definidos.
 #. Se ha verificado que la implementación creada, una vez unida al resto del producto, satisface los criterios de calidad de producto definidos por la organización.
-#. Se ha generado el correspondiente `informe de calidad`_ para ese *sprint*.
+#. Se han generado los correspondientes `informe de calidad`_ para ese *sprint*. Se piden **al menos** 2 informes de calidad por *sprint*.
 #. Se ha actualizado el *manual de usuario* de la aplicación para que refleje el nuevo elemento del *Product Backlog* implementado.
 #. Se ha generado un fichero *.apk*  que contiene el producto completo desarrollado hasta el momento más el nuevo elemento del *Product Backlog* implementado.
 #. La nueva versión del producto está integrada en la rama ``master`` y convenientemente etiquetada.

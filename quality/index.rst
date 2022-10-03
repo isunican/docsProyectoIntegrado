@@ -40,8 +40,8 @@ build.gradle (root)
 ::
 
     dependencies {
-        classpath "com.android.tools.build:gradle:7.0.2"
-        classpath "com.vanniktech:gradle-android-junit-jacoco-plugin:0.16.0"
+        classpath "com.android.tools.build:gradle:7.2.2"
+        classpath "org.jacoco:org.jacoco.core:0.8.7"
 
 
 
@@ -55,14 +55,31 @@ build.gradle (app)
         id "org.sonarqube" version "3.0"
     }
 
-    apply plugin: "com.vanniktech.android.junit.jacoco"
+    apply plugin: "jacoco"
 
-    junitJacoco {
-        jacocoVersion = '0.8.6' // type String
-        ignoreProjects = [] // type String array
-        excludes // type String List
-        includeNoLocationClasses = false // type boolean
-        includeInstrumentationCoverageInMergedReport = false // type boolean
+    jacoco {
+        toolVersion = '0.8.7'
+    }
+
+    tasks.withType(Test) {
+        jacoco.includeNoLocationClasses = true
+        jacoco.excludes = ['jdk.internal.*'] // needed to support roboelectric with jacoco
+    }
+
+    task jacocoTestReport(type: JacocoReport, dependsOn: ['testDebugUnitTest']) {
+
+        reports {
+            xml.enabled = true
+            html.enabled = true
+        }
+
+        def fileFilter = ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*', '**/*Test*.*', 'android/**/*.*']
+        def mainSrc = "$project.projectDir/src/main/java"
+        def javaTree = fileTree(dir: "$project.buildDir/intermediates/javac/debug/classes", excludes: fileFilter)
+
+        sourceDirectories.setFrom(files([mainSrc]))
+        classDirectories.setFrom(files([javaTree]))
+        executionData.setFrom(fileTree(dir: project.buildDir, includes: ['jacoco/testDebugUnitTest.exec', 'outputs/code-coverage/connected/*coverage.ec']))
     }
 
     sonarqube {
@@ -70,15 +87,16 @@ build.gradle (app)
             property "sonar.host.url", "https://sonarcloud.io"
             property "sonar.organization", "isuc"
             property "sonar.login", "120537998e2c122476f30cade8d4a25865210fa6"
+            property "sonar.projectKey", "App-Gasolineras-2022"
+            property "sonar.projectName", "App-Gasolineras-2022"
 
-            property "sonar.projectKey", "Calculadora-Carlos"
-            property "sonar.projectName", "Calculadora-Carlos"
-
-            // I need this property to avoid the error where sonarqube 
-            // does not close some files and prevents a clean afterwards
+            // I need this property to avoid the error where sonarqube does not close some files and
+            // prevents a clean afterwards
             property "sonar.scm.disabled", true
 
-            property "sonar.coverage.jacoco.xmlReportPaths", "${project.buildDir}/reports/jacoco/debug/jacoco.xml"
+            // this property is deprecated, now I use the xml file defined below it
+            // property "sonar.jacoco.reportPaths", "${project.buildDir}/jacoco/testDebugUnitTest.exec"
+            property "sonar.coverage.jacoco.xmlReportPaths", "${project.buildDir}/reports/jacoco/jacocoTestReport/jacocoTestReport.xml"
         }
     }
 
@@ -103,15 +121,17 @@ Tras la configuración, podremos ejecutar análisis para un único fichero o el 
 Análisis de la calidad de producto
 ========================================
 
-Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollarán varias historias de usuario. Para cada Sprint se nombrarán dos responsables de calidad que deberán realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales de calidad establecidos, es decir, que pase de forma satisfactoria el *quality gate*.
+Durante el proyecto integrado se realizarán *Sprints* en los que se desarrollarán varias historias de usuario. En cada Sprint se deberán realizar al menos 2 informes de calidad. Cada informe de calidad debe tener un responsable, que se encargará de realizarlo. Durante el transcurso del proyecto integrado, todos los integrantes deben haber sido responsables de al menos un informe.
 
-El proceso que han de seguir los **responsables de calidad** de un *Sprint* será el siguiente:
+Este responsable deberá realizar las acciones necesarias para que la codificación realizada cumpla con los umbrales de calidad establecidos, es decir, que pase de forma satisfactoria el *quality gate*.
 
-* Dentro del trabajo de cada *Sprint*, los desarrolladores desarrollarán varias historias de usuario que irán implementando en una determinada rama y realizando integraciones con la rama ``develop``. Al realizar cada integración en ``develop``, GitHub Actions lanzará un análisis de sonar cuyo resultado se alojará en el servidor de *SonarCloud* de *isuc*.
+El proceso que han de seguir los **responsables de realizar los informes** será el siguiente:
 
-* Los responsables de la calidad del *Sprint* deberán observar el ``resultado del análisis`` para detectar si pasa o no las normas de calidad de la organización. Posteriormente, definirán un ``plan de acción`` a llevar a cabo (la serie de issues que deberán corregirse) para que el proyecto pase las normas de calidad de la organización. En caso de pasar las normas de calidad, los responsables de calidad decidirán si hay aspectos que desean mejorar de forma preventiva.
+* Dentro del trabajo de cada *Sprint*, los desarrolladores trabajarán en varias historias de usuario que irán implementando en una determinada rama, realizando de forma periódica integraciones con la rama ``develop``. Al realizar cada integración en ``develop``, GitHub Actions lanzará un análisis de sonar cuyo resultado se alojará en el servidor de *SonarCloud* de *isuc*.
 
-* Los responsables de calidad comunicarán a los desarrolladores el plan de acción a realizar y ellos deberán solventarlos.
+* El **responsable del informe** deberá observar el ``resultado del análisis`` para detectar si pasa o no las normas de calidad de la organización. Posteriormente, definirá un ``plan de acción`` a llevar a cabo (la serie de issues que deberán corregirse) para que el proyecto pase las normas de calidad de la organización. En caso de pasar las normas de calidad, el responsable del informe decidirá si hay aspectos que desean mejorar de forma preventiva.
+
+* El responsable del informe de calidad comunicará a los desarrolladores el plan de acción a realizar y ellos deberán solventarlos. Idealmente, el siguiente informe deberá ver reflejado esta mejora en la calidad.
 
 * En siguientes integraciones con la rama develop se procederá de igual forma, vigilando siempre que se satisfagan los criterios de calidad de la organización.
 
@@ -119,9 +139,11 @@ El proceso que han de seguir los **responsables de calidad** de un *Sprint* ser�
 Informe de Calidad
 ===================
 
-El proceso anterior se documentará en un informe que deberá estar en el repositorio del grupo y que indicará los autores del mismo y el Sprint al que se refiere. Formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto.
+El informe indicará el estado de la calidad del producto según los resultados obtenidos por sonarcloud, y el plan de acción correspondiente.
 
-El informe indicará cómo ha sido la evolución de la calidad en el desarrollo del Sprint. Es decir, cada vez que se integre la rama en develop, GitHub Actions lanzará sonar y los responsables de calidad deberán indicar en el informe qué observaron y qué plan de acciones correctivas establecieron.
+Los informes de calidad deberán guardarse en el repositorio del grupo, en el directorio y el nombre determinados por la gestión de la configutración. El informe debe indicar el autor del mismo (el responsable), el Sprint en el que se realizó, y el número de informe dentro de dicho Sprint. 
+
+El informe formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto. Esta nota es individual. En caso de que algún integrante haya sido responsable de más de un informe de calidad, de cara a su evaluación sólo se tendrá en cuenta el último informe.
 
 A continuación puede observarse un ejemplo de informe de calidad:
 
