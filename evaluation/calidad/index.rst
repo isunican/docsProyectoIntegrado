@@ -2,7 +2,7 @@
  Normas para la Evaluación de Calidad y Auditoría
 ==================================================
 
-.. _informe de calidad: ../quality/index.html#analisis-de-la-calidad-de-producto
+.. _informe de calidad: ../../quality/index.html#analisis-de-la-calidad-de-producto
 
 Algunas tareas realizadas en el proyecto integrado serán evaluadas como parte de la asignatura de *Calidad y Auditoría*.
 
