@@ -66,7 +66,7 @@ Esta carpeta contendrá toda la documentación relacionada con las pruebas asoci
 Carpeta ``Quality Reports``
 ----------------------------
 
-Esta carpeta alojará los informes de calidad generados para cada *sprint*. Los informes de calidad deberán estar en formato ``pdf``, y nombrados conformes al patrón ``SP<id>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado a dicho *sprint*.
+Esta carpeta alojará los informes de calidad generados para cada *sprint*. Los informes de calidad deberán estar en formato ``pdf``, y nombrados conformes al patrón ``SP<id>-<n>-QAReport.pdf``, donde ``id`` es el identificador numérico asignado a dicho *sprint*, y ``n`` el número del informe dentro del *sprint* (1, 2, 3, etc.).
 
 Carpeta ``Releases``
 =====================
