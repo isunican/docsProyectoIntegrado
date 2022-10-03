@@ -2,7 +2,7 @@
   Gestión de la Calidad
 ===============================
 
-.. _gestion de la configuración: ../cfgMng/estructuraRepositorios.html/index.html
+.. _gestion de la configuracion: ../cfgMng/estructuraRepositorios.html/index.html
 
 Introducción
 ===================
@@ -143,7 +143,7 @@ Informe de Calidad
 
 El informe indicará el estado de la calidad del producto según los resultados obtenidos por sonarcloud, y el plan de acción correspondiente.
 
-Los informes de calidad deberán guardarse en el repositorio del grupo, en el directorio y con el nombre de fichero determinados por la `gestión de la configuración`_. El informe debe indicar el autor del mismo (el **responsable**), el *Sprint* en el que se realizó, y el número de informe dentro de dicho Sprint (número 1, 2, etc.). 
+Los informes de calidad deberán guardarse en el repositorio del grupo, en el directorio y con el nombre de fichero determinados por la `gestión de la configuracion`_ . El informe debe indicar el autor del mismo (el **responsable**), el *Sprint* en el que se realizó, y el número de informe dentro de dicho Sprint (número 1, 2, etc.). 
 
 El informe formará parte de la evaluación de la asignatura Calidad y Auditoría, correspondiendo a la parte de calidad de producto. Esta nota es individual. En caso de que algún integrante haya sido responsable de más de un informe de calidad, de cara a su evaluación sólo se tendrá en cuenta el último informe.
 
