@@ -2,7 +2,7 @@
   Gestión de la Calidad
 ===============================
 
-.. _gestion de la configuracion: ../cfgMng/estructuraRepositorios.html/index.html
+.. _gestion de la configuracion: ../cfgMng/estructuraRepositorios.html
 
 Introducción
 ===================
