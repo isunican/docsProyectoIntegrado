@@ -21,7 +21,7 @@ La calificación del proyecto integrado en cuanto a la asignatura de Procesos de
   
   - La especificación del plan de pruebas de una historia de usuario.
 
-  - La codificación y ejecución de dos pruebas unitarias, o una unitaria y una de integración, o dos de integración.
+  - La codificación y ejecución de dos pruebas unitarias, o una unitaria y una de integración, o dos de integración. En las pruebas unitarias, al menos una, debería incluir el uso de Mocks.
 
   - La codificación y ejecución de una prueba de interfaz de usuario (con Espresso).
 
