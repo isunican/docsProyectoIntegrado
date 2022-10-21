@@ -31,6 +31,10 @@ Espresso
   ``onView(withId(R.id.spinner)).perform(click());
   onView(withId(R.id.textview_in_custom_spinner)).perform(click());``
 
+  Si el Spinner está dentro de un Dialog:
+  ``onView(withId(R.id.spinner)).perform(click());
+  onView(withId(R.id.textview_in_custom_spinner)).inRoot(isPlatformPopup()).perform(click());``
+
 * Activar permisos de la aplicación 
 
   ``@Rule public GrantPermissionRule permissionRule = GrantPermissionRule.grant(android.Manifest.permission.ACCESS_FINE_LOCATION);``
