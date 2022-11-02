@@ -38,6 +38,10 @@ Espresso
 * Activar permisos de la aplicación 
 
   ``@Rule public GrantPermissionRule permissionRule = GrantPermissionRule.grant(android.Manifest.permission.ACCESS_FINE_LOCATION);``
+  
+  Es necesario añadir la siguiente dependencia en el build.gradle:
+  
+  ``androidTestImplementation 'androidx.test:rules:1.2.0'``
 
 * Desactivar acceso a internet
 
