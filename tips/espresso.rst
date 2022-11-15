@@ -70,3 +70,11 @@ Espresso
 
   ``activityRule.getScenario().onActivity(activity -> decorView = activity.getWindow().getDecorView());``
 
+* Cerrar y volver a abrir la aplicación
+
+  ``pressBackUnconditionally();``
+  ``activityRule.getScenario().close();``
+  ``ActivityScenario.launch(MainView.class);``
+
+  donde activityRule es el objeto de tipo ActivityScenarioRule creada al inicio del test.
+
