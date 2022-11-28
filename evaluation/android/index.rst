@@ -18,4 +18,4 @@ La presentación de cada grupo deberá incluir los siguientes puntos:
 
 - Problemas encontrados y solución
 
-Finalizada la presentación de un grupo se pasará a un turno de preguntas en el que tanto profesores como el resto de grupos realizarán preguntas. Es importante que todos los miembros de los grupos contesten al menos a 1 pregunta.
+Finalizada la presentación de un grupo se pasará a un turno de preguntas en el que tanto profesores como el resto de grupos realizarán preguntas.
