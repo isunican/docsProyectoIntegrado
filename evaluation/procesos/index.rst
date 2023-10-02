@@ -5,9 +5,9 @@
 Procedimiento de Evaluación
 ===========================
 
-La calificación del proyecto integrado en cuanto a la asignatura de Procesos de Ingeniería Software se refiere, se calcula del siguiente modo: 
+La calificación del proyecto integrado en la asignatura de Procesos de Ingeniería Software se calcula del siguiente modo:
 
-* Un 30% corresponde al trabajo del grupo en su conjunto. En este apartado se valoran cuatro aspectos: 
+* Un 20% corresponde al trabajo del grupo en su conjunto. En este apartado se valoran cuatro aspectos: 
 
   - La completitud de las historias de usuario seleccionadas para el Sprint desde el punto de vista de las pruebas (ver `Planes de Prueba`_).
   
@@ -17,13 +17,13 @@ La calificación del proyecto integrado en cuanto a la asignatura de Procesos de
 
   - La validación del plan de pruebas con el profesor durante la primera semana del Sprint (ver `Planes de Prueba`_).
 
-* Un 70% refleja el esfuerzo personal de cada alumno. Para la evaluación personal de cada alumno, al terminar todos los sprints cada uno deberá haberse hecho cargo de, al menos:
+* Un 80% refleja el esfuerzo personal de cada alumno. Para la evaluación personal, al terminar el proyecto cada alumno deberá haberse hecho cargo de, al menos:
   
-  - La especificación del plan de pruebas de una historia de usuario.
+  - La especificación del plan de pruebas de UNA historia de usuario.
 
-  - La codificación y ejecución de dos pruebas unitarias, o una unitaria y una de integración, o dos de integración. En las pruebas unitarias, al menos una, debería incluir el uso de Mocks.
+  - La codificación y ejecución de DOS pruebas unitarias, o UNA unitaria y UNA de integración. En las pruebas unitarias, al menos una, debería incluir el uso de Mocks.
 
-  - La codificación y ejecución de una prueba de interfaz de usuario (con Espresso).
+  - La codificación y ejecución de una prueba de interfaz de usuario utilizando Espresso.
 
 A lo largo del desarrollo de cada sprint el grupo puede pedir asesoría al profesor para mejorar su trabajo y al terminar recibirá indicadores cualitativos a considerar así como una calificación global. Esta calificación final será un indicador de la calidad del trabajo en los sprints y la evolución del grupo a lo largo del desarrollo del proyecto. 
 
@@ -31,15 +31,15 @@ A lo largo del desarrollo de cada sprint el grupo puede pedir asesoría al profe
 Planes de Prueba
 ================
 
-Cada Historia de Usuario ha de contar con un Plan de Pruebas, que incluirá:
+Cada historia de usuario ha de contar con un plan de pruebas, que incluirá:
 
  #. La especificación de las pruebas de aceptación acordadas con el *Product Owner*.
- #. Los casos de prueba concretos que se derivan del mismo (etiquetados convenientemente).
  #. La especificación de las pruebas de interfaz de usuario.
- #. La especificación de las pruebas unitarias y/o de integración definidas para las clases/métodos involucrados (al menos dos). 
- #. Un reporte final que describa el resultado de la ejecución de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas) y el número de fallos encontrados por cada prueba. 
+ #. La enumeración de aquellos métodos que sean susceptibles de prueba unitaria (o de integración) a consecuencia de la implementación de la historia de usuario, bien por ser nuevos o por ser necesario modificar su comportamiento.
+ #. De los métodos enumerados en el apartado anterior, la especificación de los casos de prueba unitarios o de integración de DOS métodos (no puede ser la misma prueba a nivel unitaria y de integración, pues los casos de prueba serían los mismos).
+ #. Un reporte final que describa el resultado de la ejecución de las pruebas para la historia de usuario, indicando los responsables (autores y/o ejecutores) de cada artefacto (si no son el mismo que el autor del plan de pruebas) y una pequeña explicación de los fallos detectados gracias a la prueba. 
 
-Este documento se complementa, y por tanto, debe ser totalmente coherente con el modelo de diseño entregado en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
+Este documento se complementa, y por tanto, debe ser totalmente coherente con el modelo de diseño disponible en la carpeta Docs/Models, pues las pruebas se definen para las unidades funcionales (componentes/clases/métodos) allí descritas.
 
 Una versión inicial de este documento, junto con el modelo de arquitectura, deberá validarse con el profesor durante la primera semana de cada sprint. En ella, las pruebas unitarias y/o de integración pueden no estar totalmente definidas, pues puede no conocerse todavía la arquitectura a utilizar para implementar la historia de usuario. La versión final, con el plan de pruebas completo, se entrega al final de cada sprint. 
 

@@ -29,11 +29,12 @@ Espresso
 * Seleccionar una opción de un spinner 
 
   ``onView(withId(R.id.spinner)).perform(click());
-  onView(withId(R.id.textview_in_custom_spinner)).perform(click());``
+  onData(allOf(is(instanceOf(String.class),is(“opción”))).perform(click());``
 
   Si el Spinner está dentro de un Dialog:
+
   ``onView(withId(R.id.spinner)).perform(click());
-  onView(withId(R.id.textview_in_custom_spinner)).inRoot(isPlatformPopup()).perform(click());``
+  onData(allOf(is(instanceOf(String.class),is(“opción”))).inRoot(isPlatformPopup()).perform(click());``
 
 * Activar permisos de la aplicación 
 

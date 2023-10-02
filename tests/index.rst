@@ -9,9 +9,9 @@ Los niveles de prueba a aplicar son los siguientes:
 
 * Pruebas unitarias. Estas pruebas verifican el comportamiento de clases de manera aislada, usando para ello el framework JUnit y, en caso de ser necesario, las librerías Mockito, PowerMock o Robolectric. 
 
-* Pruebas de integración. Estas pruebas verifican la interacción entre clases. Se llevarán a cabo usando el framework JUnit y las librerías Mockito y Espresso si fuesen necesarias. 
+* Pruebas de integración. Estas pruebas verifican la interacción entre clases. Se llevarán a cabo usando el framework JUnit y las librerías Mockito, PowerMock o Robolectric si fuesen necesarias. 
 
-* Pruebas de interfaz de usuario (UI Tests). Estas pruebas se pueden ver cómo el nivel más avanzado de las pruebas de integración, cuando se prueba la funcionalidad de todos los componentes de la aplicación de manera conjunta. Se llevarán a cabo usando el framework Espresso y JUnit.
+* Pruebas de interfaz de usuario (UI Tests). Estas pruebas se pueden ver cómo el nivel más avanzado de las pruebas de integración, cuando se prueba la funcionalidad de todos los componentes de la aplicación de manera conjunta. Se llevarán a cabo usando el framework Espresso sobre JUnit.
 
 * Pruebas de aceptación. Son las pruebas llevadas a cabo por el Product Owner durante el Sprint Review para comprobar si las historias de usuario elegidas para el Sprint se han realizado correctamente. Se ejecutarán de forma manual en el propio dispositivo del Product Owner u otro que se le proporcione. Las pruebas a realizar deberán definirse durante el Sprint Meeting.
 
@@ -27,13 +27,9 @@ Las clases de prueba correspondientes a pruebas unitarias:
 
 Las clases de prueba correspondientes a pruebas de integración:
 
-* Se almacenan en el directorio test si no requieren la ejecución del emulador o en el directorio androidTest en caso contrario. 
+* Se almacenan en el directorio test. 
 
-* El nombre de la clase de prueba será:
-
-  - <NombreClase>ITest.java si se trata de la prueba de una clase completa (se aplica estrategia de integración incremental). En este caso se definirá en el mismo paquete que la clase de prueba.
-
-  - <NombreEscenario>ITest.java si se trata de la prueba un determinado escenario de ejecución de una historia de usuario (se aplica estrategia de integración funcional). En este caso se almacenará en el mismo paquete dónde esté almacenada la vista que lanza el escenario.
+* El nombre de la clase de prueba será <NombreClase>ITest.java donde <NombreClase> es el nombre de la clase bajo prueba principal (en el sentido que es ella quién usa al resto de clases de la prueba, por ejemplo, si se prueba la interaccción entre una clase de negocio y una clase DAO, la clase principal sería la de negocio, pues serían sus métodos los que se probarían de manera directa). En este caso se definirá en el mismo paquete que la clase de prueba principal.
 
 Las clases de prueba correspondientes a pruebas de interfaz de usuario:
 
