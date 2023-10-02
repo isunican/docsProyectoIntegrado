@@ -17,11 +17,12 @@ La calificación del proyecto integrado en la asignatura de Procesos de Ingenier
 
   - La validación del plan de pruebas con el profesor durante la primera semana del Sprint (ver `Planes de Prueba`_).
 
+
 * Un 80% refleja el esfuerzo personal de cada alumno. Para la evaluación personal, al terminar el proyecto cada alumno deberá haberse hecho cargo de, al menos:
   
   - La especificación del plan de pruebas de UNA historia de usuario.
 
-  - La codificación y ejecución de DOS pruebas unitarias, o UNA unitaria y UNA de integración. En las pruebas unitarias, al menos una, debería incluir el uso de Mocks.
+  - La codificación y ejecución de DOS pruebas unitarias, o UNA unitaria y UNA de integración (incluso del mismo método). En las pruebas unitarias, al menos una, debería incluir el uso de Mocks.
 
   - La codificación y ejecución de una prueba de interfaz de usuario utilizando Espresso.
 
@@ -50,7 +51,6 @@ Implementación y ejecución de las pruebas
 Es responsabilidad de cada grupo seguir los criterios indicados para la organización del código correspondiente a pruebas, siendo muy importante que sean fácilmente identificables el/los caso/s de prueba que cada test implementa.
 
 Se exige que cada historia de usuario tenga codificados y ejecutados al menos dos tests unitarios o de integración y uno de interfaz de usuario.
-
 
 Mecanismo para mejorar la calificación individual obtenida en un sprint
 =======================================================================
