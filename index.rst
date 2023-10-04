@@ -3,6 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. danger::
+   La documentación del Proyecto Integrado se ha movido al siguiente link: 
 
 Este documento contiene diferentes tipos de materiales relacionados con el
 proyecto integrado que actualmente se desarrolla entre las asignaturas de
