@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-La documentación del Proyecto Integrado se ha movido al siguiente link: <https://github.com/isunican/docsProyectoIntegrado/wiki>
+La documentación del Proyecto Integrado se ha movido al siguiente `link <https://github.com/isunican/docsProyectoIntegrado/wiki>`_
 
 Este documento contiene diferentes tipos de materiales relacionados con el
 proyecto integrado que actualmente se desarrolla entre las asignaturas de
