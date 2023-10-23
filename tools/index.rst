@@ -74,7 +74,7 @@ Acciones Requeridas
 
 Cada alumno deberá disponer de una cuenta en GitHub y proporcionar su nombre de usuario a los docentes.
 
-Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican`_.
+Antes del inicio del proyecto, el equipo docente creará un repositorio inicial para cada equipo de trabajo dentro de la organización `isunican`.
 El propio equipo docente añadirá a cada repositorio como colaboradores a los miembros del correspondiente *Scrum Team*, siendo por tanto la única responsabilidad de los alumnos  comprobar que son capaces de acceder desde su computadora personal a dicho repositorio tanto para lectura como para escritura.
 
 GitHub Actions

@@ -39,7 +39,7 @@ Tal y como puede observarse en el fichero de configuración ``gradle.build``, se
 
 
 build.gradle (root)
--------------
+---------------------
 
 ::
 
@@ -50,7 +50,7 @@ build.gradle (root)
 
 
 build.gradle (app)
--------------
+-------------------
 
 ::
 
@@ -106,7 +106,7 @@ build.gradle (app)
 
 
 Complemento SonarLint para Android Studio
------------------------------------------
+-------------------------------------------
 
 Existe un complemento que podemos instalar en Android Studio para analizar la calidad del código, mostrándonos las incidencias con su clasificación (tipo, severidad, etc.), descripción de la regla que la ha activado, etc. Es bastante útil ya que nos permite seleccionar una incidencia e ir directamente a la parte del código donde se encuentra. Otra ventaja importante es que además de poder trabajar con una configuración por defecto, permite conectarnos a un servidor (propio o SonarCloud) y usar las reglas y quality gate configuradas para tu organización.
 
