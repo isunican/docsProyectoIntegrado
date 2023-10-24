@@ -3,7 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-La documentación del Proyecto Integrado se ha movido al siguiente `link <https://github.com/isunican/docsProyectoIntegrado/wiki>`_
+.. 
+
+.. warning:: La documentación del proyecto integrado se ha movido a un nuevo `sitio <https://github.com/isunican/docsProyectoIntegrado/wiki>`_
 
 Este documento contiene diferentes tipos de materiales relacionados con el
 proyecto integrado que actualmente se desarrolla entre las asignaturas de
@@ -33,8 +35,9 @@ Autores
 =========
 
 | Pablo Sánchez Barreiro
-| Carlos Blanco Bueno
 | Patricia López Martínez
-| Julio Medina Pasaje
-| Alejandro Pérez Ruiz
 | Juan María Rivas Concepción
+| Alfonso de la Vega Ruiz
+| Alejandro Pérez Ruiz
+| Julio Medina Pasaje
+| Carlos Blanco Bueno
