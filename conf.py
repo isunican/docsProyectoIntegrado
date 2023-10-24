@@ -20,13 +20,13 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Proyecto Integrado de Ingeniería del Sw'
-copyright = u'2018, Pablo Sánchez, Carlos Blanco, y Patricia López'
-author = u'Pablo Sánchez, Carlos Blanco, y Patricia López'
+copyright = u'2018, Pablo Sánchez, Juan María Rivas, Patricia López y Alfonso de la Vega'
+author = u'Pablo Sánchez, Juan María Rivas, Patricia López, Alfonso de la Vega y Carlos Blancoi'
 
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = u'0.1'
+release = u'0.2'
 
 
 # -- General configuration ---------------------------------------------------
