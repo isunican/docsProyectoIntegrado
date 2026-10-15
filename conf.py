@@ -18,7 +18,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'Proyecto Integrado de Ingeniería del Sw'
+project = u'Proyecto Integrado (deprecated)'
 copyright = u'2018, Pablo Sánchez, Juan María Rivas, Patricia López y Alfonso de la Vega'
 author = u'Pablo Sánchez, Juan María Rivas, Patricia López, Alfonso de la Vega y Carlos Blancoi'
 
@@ -79,6 +79,8 @@ pygments_style = None
 #
 # html_theme = 'alabaster'
 html_theme = "sphinx_rtd_theme"
+html_title = u'Proyecto Integrado (deprecated)'
+html_short_title = u'Proyecto Integrado (deprecated)'
 
 html_theme_path = ["_themes", ]
 
