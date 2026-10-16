@@ -20,7 +20,7 @@
 
 project = u'Proyecto Integrado (deprecated)'
 copyright = u'2018, Pablo Sánchez, Juan María Rivas, Patricia López y Alfonso de la Vega'
-author = u'Pablo Sánchez, Juan María Rivas, Patricia López, Alfonso de la Vega y Carlos Blancoi'
+author = u'Pablo Sánchez, Juan María Rivas, Patricia López, Alfonso de la Vega y Carlos Blanco'
 
 # The short X.Y version
 version = u''
